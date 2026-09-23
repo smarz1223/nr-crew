@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-09-23 17:44 UTC",
+ "updated": "2026-09-23 18:28 UTC",
  "weeks_entered": 2,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -3758,7 +3758,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "New England",
+   "player": "Patriots",
    "nfl": "NE",
    "pos": "DEF",
    "gp": 2,
@@ -4282,7 +4282,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Jacksonville",
+   "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
@@ -4304,7 +4304,7 @@
   },
   {
    "owner": "FREEMAN",
-   "player": "Baltimore",
+   "player": "Ravens",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -4658,7 +4658,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tampa Bay",
+   "player": "Buccaneers",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
