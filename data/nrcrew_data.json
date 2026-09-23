@@ -1,0 +1,10542 @@
+{
+ "season": 2026,
+ "updated": "2026-09-23 17:28 UTC",
+ "weeks_entered": 2,
+ "reg_season_weeks": 14,
+ "playoff_weeks": [
+  15,
+  16,
+  17
+ ],
+ "owners": [
+  "MARZ",
+  "FREEMAN",
+  "DREXELLO",
+  "FIG",
+  "KEV",
+  "KARDIAN",
+  "MCFADDEN",
+  "MEANY",
+  "GENTILE",
+  "RUSSO"
+ ],
+ "recon_status": "PASS",
+ "recon": [
+  {
+   "team": "MARZ",
+   "weekly_total": 303.04,
+   "calculated": 298.04,
+   "dst_pts_allowed": 5,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "FREEMAN",
+   "weekly_total": 349.2,
+   "calculated": 349.2,
+   "dst_pts_allowed": 0,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "DREXELLO",
+   "weekly_total": 260.08,
+   "calculated": 245.08,
+   "dst_pts_allowed": 15,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "FIG",
+   "weekly_total": 313.46,
+   "calculated": 303.46,
+   "dst_pts_allowed": 10,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "KEV",
+   "weekly_total": 306.66,
+   "calculated": 304.66,
+   "dst_pts_allowed": 2,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "KARDIAN",
+   "weekly_total": 296.72,
+   "calculated": 289.72,
+   "dst_pts_allowed": 7,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "MCFADDEN",
+   "weekly_total": 219.12,
+   "calculated": 222.12,
+   "dst_pts_allowed": -3,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "MEANY",
+   "weekly_total": 334.62,
+   "calculated": 324.62,
+   "dst_pts_allowed": 10,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "GENTILE",
+   "weekly_total": 368.54,
+   "calculated": 363.54,
+   "dst_pts_allowed": 5,
+   "dst_games": 2,
+   "check": "PASS"
+  },
+  {
+   "team": "RUSSO",
+   "weekly_total": 330.62,
+   "calculated": 320.62,
+   "dst_pts_allowed": 10,
+   "dst_games": 2,
+   "check": "PASS"
+  }
+ ],
+ "flags": [],
+ "standings": [
+  {
+   "team": "GENTILE",
+   "W": 4,
+   "L": 0,
+   "T": 0,
+   "win_pct": 1.0,
+   "h2h": "2-0-0",
+   "median": "2-0-0",
+   "allplay": "14-4-0",
+   "allplay_pct": 0.7778,
+   "exp_h2h_wins": 1.56,
+   "luck": 61.1,
+   "perf_rating": 76.5,
+   "PF": 368.54,
+   "PA": 308.44,
+   "PPG": 184.27,
+   "G": 2,
+   "seed": 1,
+   "status": "bye"
+  },
+  {
+   "team": "FREEMAN",
+   "W": 4,
+   "L": 0,
+   "T": 0,
+   "win_pct": 1.0,
+   "h2h": "2-0-0",
+   "median": "2-0-0",
+   "allplay": "16-2-0",
+   "allplay_pct": 0.8889,
+   "exp_h2h_wins": 1.78,
+   "luck": 55.6,
+   "perf_rating": 81.3,
+   "PF": 349.2,
+   "PA": 290.74,
+   "PPG": 174.6,
+   "G": 2,
+   "seed": 2,
+   "status": "bye"
+  },
+  {
+   "team": "MEANY",
+   "W": 4,
+   "L": 0,
+   "T": 0,
+   "win_pct": 1.0,
+   "h2h": "2-0-0",
+   "median": "2-0-0",
+   "allplay": "12-6-0",
+   "allplay_pct": 0.6667,
+   "exp_h2h_wins": 1.33,
+   "luck": 66.7,
+   "perf_rating": 72.4,
+   "PF": 334.62,
+   "PA": 233.16,
+   "PPG": 167.31,
+   "G": 2,
+   "seed": 3,
+   "status": "playoff"
+  },
+  {
+   "team": "RUSSO",
+   "W": 2,
+   "L": 2,
+   "T": 0,
+   "win_pct": 0.5,
+   "h2h": "0-2-0",
+   "median": "2-0-0",
+   "allplay": "12-6-0",
+   "allplay_pct": 0.6667,
+   "exp_h2h_wins": 1.33,
+   "luck": 16.7,
+   "perf_rating": 67.8,
+   "PF": 330.62,
+   "PA": 340.76,
+   "PPG": 165.31,
+   "G": 2,
+   "seed": 4,
+   "status": "playoff"
+  },
+  {
+   "team": "KEV",
+   "W": 2,
+   "L": 2,
+   "T": 0,
+   "win_pct": 0.5,
+   "h2h": "1-1-0",
+   "median": "1-1-0",
+   "allplay": "10-8-0",
+   "allplay_pct": 0.5556,
+   "exp_h2h_wins": 1.11,
+   "luck": 47.2,
+   "perf_rating": 56.6,
+   "PF": 306.66,
+   "PA": 318.56,
+   "PPG": 153.33,
+   "G": 2,
+   "seed": 5,
+   "status": "playoff"
+  },
+  {
+   "team": "MARZ",
+   "W": 2,
+   "L": 2,
+   "T": 0,
+   "win_pct": 0.5,
+   "h2h": "1-1-0",
+   "median": "1-1-0",
+   "allplay": "8-10-0",
+   "allplay_pct": 0.4444,
+   "exp_h2h_wins": 0.89,
+   "luck": 52.8,
+   "perf_rating": 40.4,
+   "PF": 303.04,
+   "PA": 284.66,
+   "PPG": 151.52,
+   "G": 2,
+   "seed": 6,
+   "status": "playoff"
+  },
+  {
+   "team": "FIG",
+   "W": 1,
+   "L": 3,
+   "T": 0,
+   "win_pct": 0.25,
+   "h2h": "1-1-0",
+   "median": "0-2-0",
+   "allplay": "8-10-0",
+   "allplay_pct": 0.4444,
+   "exp_h2h_wins": 0.89,
+   "luck": 52.8,
+   "perf_rating": 55.0,
+   "PF": 313.46,
+   "PA": 295.4,
+   "PPG": 156.73,
+   "G": 2,
+   "seed": 7,
+   "status": "out"
+  },
+  {
+   "team": "DREXELLO",
+   "W": 1,
+   "L": 3,
+   "T": 0,
+   "win_pct": 0.25,
+   "h2h": "1-1-0",
+   "median": "0-2-0",
+   "allplay": "4-14-0",
+   "allplay_pct": 0.2222,
+   "exp_h2h_wins": 0.44,
+   "luck": 63.9,
+   "perf_rating": 27.1,
+   "PF": 260.08,
+   "PA": 312.06,
+   "PPG": 130.04,
+   "G": 2,
+   "seed": 8,
+   "status": "out"
+  },
+  {
+   "team": "KARDIAN",
+   "W": 0,
+   "L": 4,
+   "T": 0,
+   "win_pct": 0.0,
+   "h2h": "0-2-0",
+   "median": "0-2-0",
+   "allplay": "5-13-0",
+   "allplay_pct": 0.2778,
+   "exp_h2h_wins": 0.56,
+   "luck": 36.1,
+   "perf_rating": 38.1,
+   "PF": 296.72,
+   "PA": 379.1,
+   "PPG": 148.36,
+   "G": 2,
+   "seed": 9,
+   "status": "out"
+  },
+  {
+   "team": "MCFADDEN",
+   "W": 0,
+   "L": 4,
+   "T": 0,
+   "win_pct": 0.0,
+   "h2h": "0-2-0",
+   "median": "0-2-0",
+   "allplay": "1-17-0",
+   "allplay_pct": 0.0556,
+   "exp_h2h_wins": 0.11,
+   "luck": 47.2,
+   "perf_rating": 5.2,
+   "PF": 219.12,
+   "PA": 319.18,
+   "PPG": 109.56,
+   "G": 2,
+   "seed": 10,
+   "status": "out"
+  }
+ ],
+ "weekly": [
+  {
+   "week": 1,
+   "team": "MARZ",
+   "opp": "DREXELLO",
+   "pf": 186.46,
+   "pa": 113.48,
+   "h2h": "W",
+   "median": 167.34,
+   "vs_median": "W",
+   "rank": 2,
+   "allplay": "8-1-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "FREEMAN",
+   "opp": "RUSSO",
+   "pf": 178.02,
+   "pa": 174.16,
+   "h2h": "W",
+   "median": 167.34,
+   "vs_median": "W",
+   "rank": 3,
+   "allplay": "7-2-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "DREXELLO",
+   "opp": "MARZ",
+   "pf": 113.48,
+   "pa": 186.46,
+   "h2h": "L",
+   "median": 167.34,
+   "vs_median": "L",
+   "rank": 9,
+   "allplay": "1-8-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "FIG",
+   "opp": "KEV",
+   "pf": 162.1,
+   "pa": 143.92,
+   "h2h": "W",
+   "median": 167.34,
+   "vs_median": "L",
+   "rank": 6,
+   "allplay": "4-5-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "KEV",
+   "opp": "FIG",
+   "pf": 143.92,
+   "pa": 162.1,
+   "h2h": "L",
+   "median": 167.34,
+   "vs_median": "L",
+   "rank": 8,
+   "allplay": "2-7-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "KARDIAN",
+   "opp": "GENTILE",
+   "pf": 157.08,
+   "pa": 217.06,
+   "h2h": "L",
+   "median": 167.34,
+   "vs_median": "L",
+   "rank": 7,
+   "allplay": "3-6-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "MCFADDEN",
+   "opp": "MEANY",
+   "pf": 93.52,
+   "pa": 172.58,
+   "h2h": "L",
+   "median": 167.34,
+   "vs_median": "L",
+   "rank": 10,
+   "allplay": "0-9-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "MEANY",
+   "opp": "MCFADDEN",
+   "pf": 172.58,
+   "pa": 93.52,
+   "h2h": "W",
+   "median": 167.34,
+   "vs_median": "W",
+   "rank": 5,
+   "allplay": "5-4-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "GENTILE",
+   "opp": "KARDIAN",
+   "pf": 217.06,
+   "pa": 157.08,
+   "h2h": "W",
+   "median": 167.34,
+   "vs_median": "W",
+   "rank": 1,
+   "allplay": "9-0-0",
+   "playoff": false
+  },
+  {
+   "week": 1,
+   "team": "RUSSO",
+   "opp": "FREEMAN",
+   "pf": 174.16,
+   "pa": 178.02,
+   "h2h": "L",
+   "median": 167.34,
+   "vs_median": "W",
+   "rank": 4,
+   "allplay": "6-3-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "MARZ",
+   "opp": "FREEMAN",
+   "pf": 116.58,
+   "pa": 171.18,
+   "h2h": "L",
+   "median": 151.42,
+   "vs_median": "L",
+   "rank": 10,
+   "allplay": "0-9-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "FREEMAN",
+   "opp": "MARZ",
+   "pf": 171.18,
+   "pa": 116.58,
+   "h2h": "W",
+   "median": 151.42,
+   "vs_median": "W",
+   "rank": 1,
+   "allplay": "9-0-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "DREXELLO",
+   "opp": "MCFADDEN",
+   "pf": 146.6,
+   "pa": 125.6,
+   "h2h": "W",
+   "median": 151.42,
+   "vs_median": "L",
+   "rank": 7,
+   "allplay": "3-6-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "FIG",
+   "opp": "GENTILE",
+   "pf": 151.36,
+   "pa": 151.48,
+   "h2h": "L",
+   "median": 151.42,
+   "vs_median": "L",
+   "rank": 6,
+   "allplay": "4-5-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "KEV",
+   "opp": "RUSSO",
+   "pf": 162.74,
+   "pa": 156.46,
+   "h2h": "W",
+   "median": 151.42,
+   "vs_median": "W",
+   "rank": 2,
+   "allplay": "8-1-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "KARDIAN",
+   "opp": "MEANY",
+   "pf": 139.64,
+   "pa": 162.04,
+   "h2h": "L",
+   "median": 151.42,
+   "vs_median": "L",
+   "rank": 8,
+   "allplay": "2-7-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "MCFADDEN",
+   "opp": "DREXELLO",
+   "pf": 125.6,
+   "pa": 146.6,
+   "h2h": "L",
+   "median": 151.42,
+   "vs_median": "L",
+   "rank": 9,
+   "allplay": "1-8-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "MEANY",
+   "opp": "KARDIAN",
+   "pf": 162.04,
+   "pa": 139.64,
+   "h2h": "W",
+   "median": 151.42,
+   "vs_median": "W",
+   "rank": 3,
+   "allplay": "7-2-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "GENTILE",
+   "opp": "FIG",
+   "pf": 151.48,
+   "pa": 151.36,
+   "h2h": "W",
+   "median": 151.42,
+   "vs_median": "W",
+   "rank": 5,
+   "allplay": "5-4-0",
+   "playoff": false
+  },
+  {
+   "week": 2,
+   "team": "RUSSO",
+   "opp": "KEV",
+   "pf": 156.46,
+   "pa": 162.74,
+   "h2h": "L",
+   "median": 151.42,
+   "vs_median": "W",
+   "rank": 4,
+   "allplay": "6-3-0",
+   "playoff": false
+  }
+ ],
+ "categories": {
+  "Passing": {
+   "MARZ": {
+    "raw": {
+     "Pass Yds": 711.0,
+     "Pass TD": 6.0,
+     "Pass INT": 1.0
+    },
+    "pts": {
+     "Pass Yds": 28.44,
+     "Pass TD": 24.0,
+     "Pass INT": -1.0
+    },
+    "total": 51.44
+   },
+   "FREEMAN": {
+    "raw": {
+     "Pass Yds": 1065.0,
+     "Pass TD": 10.0,
+     "Pass INT": 1.0
+    },
+    "pts": {
+     "Pass Yds": 42.6,
+     "Pass TD": 40.0,
+     "Pass INT": -1.0
+    },
+    "total": 81.6
+   },
+   "DREXELLO": {
+    "raw": {
+     "Pass Yds": 817.0,
+     "Pass TD": 3.0,
+     "Pass INT": 3.0
+    },
+    "pts": {
+     "Pass Yds": 32.68,
+     "Pass TD": 12.0,
+     "Pass INT": -3.0
+    },
+    "total": 41.68
+   },
+   "FIG": {
+    "raw": {
+     "Pass Yds": 689.0,
+     "Pass TD": 8.0,
+     "Pass INT": 2.0
+    },
+    "pts": {
+     "Pass Yds": 27.56,
+     "Pass TD": 32.0,
+     "Pass INT": -2.0
+    },
+    "total": 57.56
+   },
+   "KEV": {
+    "raw": {
+     "Pass Yds": 819.0,
+     "Pass TD": 5.0,
+     "Pass INT": 1.0
+    },
+    "pts": {
+     "Pass Yds": 32.76,
+     "Pass TD": 20.0,
+     "Pass INT": -1.0
+    },
+    "total": 51.76
+   },
+   "KARDIAN": {
+    "raw": {
+     "Pass Yds": 743.0,
+     "Pass TD": 5.0,
+     "Pass INT": 1.0
+    },
+    "pts": {
+     "Pass Yds": 29.72,
+     "Pass TD": 20.0,
+     "Pass INT": -1.0
+    },
+    "total": 48.72
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Pass Yds": 878.0,
+     "Pass TD": 6.0,
+     "Pass INT": 5.0
+    },
+    "pts": {
+     "Pass Yds": 35.12,
+     "Pass TD": 24.0,
+     "Pass INT": -5.0
+    },
+    "total": 54.12
+   },
+   "MEANY": {
+    "raw": {
+     "Pass Yds": 1033.0,
+     "Pass TD": 10.0,
+     "Pass INT": 3.0
+    },
+    "pts": {
+     "Pass Yds": 41.32,
+     "Pass TD": 40.0,
+     "Pass INT": -3.0
+    },
+    "total": 78.32
+   },
+   "GENTILE": {
+    "raw": {
+     "Pass Yds": 841.0,
+     "Pass TD": 6.0,
+     "Pass INT": 2.0
+    },
+    "pts": {
+     "Pass Yds": 33.64,
+     "Pass TD": 24.0,
+     "Pass INT": -2.0
+    },
+    "total": 55.64
+   },
+   "RUSSO": {
+    "raw": {
+     "Pass Yds": 883.0,
+     "Pass TD": 6.0,
+     "Pass INT": 5.0
+    },
+    "pts": {
+     "Pass Yds": 35.32,
+     "Pass TD": 24.0,
+     "Pass INT": -5.0
+    },
+    "total": 54.32
+   }
+  },
+  "Rushing": {
+   "MARZ": {
+    "raw": {
+     "Rush Yds": 483.0,
+     "Rush TD": 5.0
+    },
+    "pts": {
+     "Rush Yds": 48.3,
+     "Rush TD": 30.0
+    },
+    "total": 78.3
+   },
+   "FREEMAN": {
+    "raw": {
+     "Rush Yds": 338.0,
+     "Rush TD": 4.0
+    },
+    "pts": {
+     "Rush Yds": 33.8,
+     "Rush TD": 24.0
+    },
+    "total": 57.8
+   },
+   "DREXELLO": {
+    "raw": {
+     "Rush Yds": 351.0,
+     "Rush TD": 2.0
+    },
+    "pts": {
+     "Rush Yds": 35.1,
+     "Rush TD": 12.0
+    },
+    "total": 47.1
+   },
+   "FIG": {
+    "raw": {
+     "Rush Yds": 272.0,
+     "Rush TD": 3.0
+    },
+    "pts": {
+     "Rush Yds": 27.2,
+     "Rush TD": 18.0
+    },
+    "total": 45.2
+   },
+   "KEV": {
+    "raw": {
+     "Rush Yds": 495.0,
+     "Rush TD": 6.0
+    },
+    "pts": {
+     "Rush Yds": 49.5,
+     "Rush TD": 36.0
+    },
+    "total": 85.5
+   },
+   "KARDIAN": {
+    "raw": {
+     "Rush Yds": 395.0,
+     "Rush TD": 5.0
+    },
+    "pts": {
+     "Rush Yds": 39.5,
+     "Rush TD": 30.0
+    },
+    "total": 69.5
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Rush Yds": 392.0,
+     "Rush TD": 2.0
+    },
+    "pts": {
+     "Rush Yds": 39.2,
+     "Rush TD": 12.0
+    },
+    "total": 51.2
+   },
+   "MEANY": {
+    "raw": {
+     "Rush Yds": 394.0,
+     "Rush TD": 2.0
+    },
+    "pts": {
+     "Rush Yds": 39.4,
+     "Rush TD": 12.0
+    },
+    "total": 51.4
+   },
+   "GENTILE": {
+    "raw": {
+     "Rush Yds": 750.0,
+     "Rush TD": 6.0
+    },
+    "pts": {
+     "Rush Yds": 75.0,
+     "Rush TD": 36.0
+    },
+    "total": 111.0
+   },
+   "RUSSO": {
+    "raw": {
+     "Rush Yds": 314.0,
+     "Rush TD": 4.0
+    },
+    "pts": {
+     "Rush Yds": 31.4,
+     "Rush TD": 24.0
+    },
+    "total": 55.4
+   }
+  },
+  "Receiving": {
+   "MARZ": {
+    "raw": {
+     "Receptions": 51.0,
+     "Rec Yds": 593.0,
+     "Rec TD": 3.0
+    },
+    "pts": {
+     "Receptions": 51.0,
+     "Rec Yds": 59.3,
+     "Rec TD": 18.0
+    },
+    "total": 128.3
+   },
+   "FREEMAN": {
+    "raw": {
+     "Receptions": 59.0,
+     "Rec Yds": 658.0,
+     "Rec TD": 9.0
+    },
+    "pts": {
+     "Receptions": 59.0,
+     "Rec Yds": 65.8,
+     "Rec TD": 54.0
+    },
+    "total": 178.8
+   },
+   "DREXELLO": {
+    "raw": {
+     "Receptions": 46.0,
+     "Rec Yds": 583.0,
+     "Rec TD": 5.0
+    },
+    "pts": {
+     "Receptions": 46.0,
+     "Rec Yds": 58.3,
+     "Rec TD": 30.0
+    },
+    "total": 134.3
+   },
+   "FIG": {
+    "raw": {
+     "Receptions": 63.0,
+     "Rec Yds": 717.0,
+     "Rec TD": 8.0
+    },
+    "pts": {
+     "Receptions": 63.0,
+     "Rec Yds": 71.7,
+     "Rec TD": 48.0
+    },
+    "total": 182.7
+   },
+   "KEV": {
+    "raw": {
+     "Receptions": 54.0,
+     "Rec Yds": 784.0,
+     "Rec TD": 3.0
+    },
+    "pts": {
+     "Receptions": 54.0,
+     "Rec Yds": 78.4,
+     "Rec TD": 18.0
+    },
+    "total": 150.4
+   },
+   "KARDIAN": {
+    "raw": {
+     "Receptions": 53.0,
+     "Rec Yds": 555.0,
+     "Rec TD": 4.0
+    },
+    "pts": {
+     "Receptions": 53.0,
+     "Rec Yds": 55.5,
+     "Rec TD": 24.0
+    },
+    "total": 132.5
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Receptions": 51.0,
+     "Rec Yds": 508.0,
+     "Rec TD": 1.0
+    },
+    "pts": {
+     "Receptions": 51.0,
+     "Rec Yds": 50.8,
+     "Rec TD": 6.0
+    },
+    "total": 107.8
+   },
+   "MEANY": {
+    "raw": {
+     "Receptions": 62.0,
+     "Rec Yds": 689.0,
+     "Rec TD": 5.0
+    },
+    "pts": {
+     "Receptions": 62.0,
+     "Rec Yds": 68.9,
+     "Rec TD": 30.0
+    },
+    "total": 160.9
+   },
+   "GENTILE": {
+    "raw": {
+     "Receptions": 59.0,
+     "Rec Yds": 709.0,
+     "Rec TD": 8.0
+    },
+    "pts": {
+     "Receptions": 59.0,
+     "Rec Yds": 70.9,
+     "Rec TD": 48.0
+    },
+    "total": 177.9
+   },
+   "RUSSO": {
+    "raw": {
+     "Receptions": 69.0,
+     "Rec Yds": 729.0,
+     "Rec TD": 6.0
+    },
+    "pts": {
+     "Receptions": 69.0,
+     "Rec Yds": 72.9,
+     "Rec TD": 36.0
+    },
+    "total": 177.9
+   }
+  },
+  "Misc Offense": {
+   "MARZ": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 1.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -2.0
+    },
+    "total": -2.0
+   },
+   "FREEMAN": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 1.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -2.0
+    },
+    "total": -2.0
+   },
+   "DREXELLO": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 4.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -8.0
+    },
+    "total": -8.0
+   },
+   "FIG": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 2.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -4.0
+    },
+    "total": -4.0
+   },
+   "KEV": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 2.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -4.0
+    },
+    "total": -4.0
+   },
+   "KARDIAN": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 1.0,
+     "Fumbles Lost": 2.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 2.0,
+     "Fumbles Lost": -4.0
+    },
+    "total": -2.0
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 1.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -2.0
+    },
+    "total": -2.0
+   },
+   "MEANY": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 2.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -4.0
+    },
+    "total": -4.0
+   },
+   "GENTILE": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": 1.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 0.0,
+     "Fumbles Lost": -2.0
+    },
+    "total": -2.0
+   },
+   "RUSSO": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 1.0,
+     "Fumbles Lost": 1.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 2.0,
+     "Fumbles Lost": -2.0
+    },
+    "total": 0.0
+   }
+  },
+  "Kicking": {
+   "MARZ": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 1.0,
+     "FG 30-39": 1.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 4.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 3.0,
+     "FG 30-39": 3.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 20.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "total": 31.0
+   },
+   "FREEMAN": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 2.0,
+     "FG 30-39": 1.0,
+     "FG 40-49": 2.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 7.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 6.0,
+     "FG 30-39": 3.0,
+     "FG 40-49": 8.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 7.0
+    },
+    "total": 24.0
+   },
+   "DREXELLO": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 2.0,
+     "FG 50+": 1.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 1.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 8.0,
+     "FG 50+": 5.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 1.0
+    },
+    "total": 14.0
+   },
+   "FIG": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 1.0,
+     "FG 40-49": 1.0,
+     "FG 50+": 1.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 4.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 3.0,
+     "FG 40-49": 4.0,
+     "FG 50+": 5.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 4.0
+    },
+    "total": 16.0
+   },
+   "KEV": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 1.0,
+     "FG 30-39": 2.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 3.0,
+     "FG 30-39": 6.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "total": 14.0
+   },
+   "KARDIAN": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 1.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 3.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 3.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 12.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 5.0
+    },
+    "total": 20.0
+   },
+   "MCFADDEN": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 4.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 0.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 4.0
+    },
+    "total": 4.0
+   },
+   "MEANY": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 1.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 1.0,
+     "FG 50+": 1.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 6.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 3.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 4.0,
+     "FG 50+": 5.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 6.0
+    },
+    "total": 18.0
+   },
+   "GENTILE": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 1.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 1.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 8.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 3.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 0.0,
+     "FG 50+": 5.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 8.0
+    },
+    "total": 16.0
+   },
+   "RUSSO": {
+    "raw": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 2.0,
+     "FG 50+": 1.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 7.0
+    },
+    "pts": {
+     "FG 0-19": 0.0,
+     "FG 20-29": 0.0,
+     "FG 30-39": 0.0,
+     "FG 40-49": 8.0,
+     "FG 50+": 5.0,
+     "FG Miss 0-19": 0.0,
+     "FG Miss 20-29": 0.0,
+     "FG Miss 30-39": 0.0,
+     "PAT": 7.0
+    },
+    "total": 20.0
+   }
+  },
+  "Defense": {
+   "MARZ": {
+    "raw": {
+     "Sacks": 7.0,
+     "Def INT": 1.0,
+     "Fum Rec": 1.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 7.0,
+     "Def INT": 2.0,
+     "Fum Rec": 2.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 5.0
+    },
+    "total": 16.0
+   },
+   "FREEMAN": {
+    "raw": {
+     "Sacks": 5.0,
+     "Def INT": 1.0,
+     "Fum Rec": 1.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 5.0,
+     "Def INT": 2.0,
+     "Fum Rec": 2.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 0.0
+    },
+    "total": 9.0
+   },
+   "DREXELLO": {
+    "raw": {
+     "Sacks": 6.0,
+     "Def INT": 1.0,
+     "Fum Rec": 1.0,
+     "Def TD": 1.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 6.0,
+     "Def INT": 2.0,
+     "Fum Rec": 2.0,
+     "Def TD": 6.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 15.0
+    },
+    "total": 31.0
+   },
+   "FIG": {
+    "raw": {
+     "Sacks": 2.0,
+     "Def INT": 2.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 2.0,
+     "Def INT": 4.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 10.0
+    },
+    "total": 16.0
+   },
+   "KEV": {
+    "raw": {
+     "Sacks": 3.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 1.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 3.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 4.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 2.0
+    },
+    "total": 9.0
+   },
+   "KARDIAN": {
+    "raw": {
+     "Sacks": 7.0,
+     "Def INT": 3.0,
+     "Fum Rec": 1.0,
+     "Def TD": 1.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 7.0,
+     "Def INT": 6.0,
+     "Fum Rec": 2.0,
+     "Def TD": 6.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 7.0
+    },
+    "total": 28.0
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Sacks": 7.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 7.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": -3.0
+    },
+    "total": 4.0
+   },
+   "MEANY": {
+    "raw": {
+     "Sacks": 8.0,
+     "Def INT": 2.0,
+     "Fum Rec": 2.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 1.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 8.0,
+     "Def INT": 4.0,
+     "Fum Rec": 4.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 4.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 10.0
+    },
+    "total": 30.0
+   },
+   "GENTILE": {
+    "raw": {
+     "Sacks": 5.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 5.0,
+     "Def INT": 0.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 5.0
+    },
+    "total": 10.0
+   },
+   "RUSSO": {
+    "raw": {
+     "Sacks": 5.0,
+     "Def INT": 4.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 5.0,
+     "Def INT": 8.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 0.0,
+     "Def Return TD": 0.0,
+     "DST Pts Allowed": 10.0
+    },
+    "total": 23.0
+   }
+  }
+ },
+ "positions": {
+  "MARZ": {
+   "QB": 58.74,
+   "RB": 124.7,
+   "WR": 59.6,
+   "TE": 13.0,
+   "K": 31.0,
+   "DEF": 16.0
+  },
+  "FREEMAN": {
+   "QB": 80.5,
+   "RB": 90.9,
+   "WR": 142.3,
+   "TE": 2.5,
+   "K": 24.0,
+   "DEF": 9.0
+  },
+  "DREXELLO": {
+   "QB": 46.38,
+   "RB": 42.8,
+   "WR": 100.8,
+   "TE": 25.1,
+   "K": 14.0,
+   "DEF": 31.0
+  },
+  "FIG": {
+   "QB": 64.36,
+   "RB": 58.0,
+   "WR": 123.0,
+   "TE": 36.1,
+   "K": 16.0,
+   "DEF": 16.0
+  },
+  "KEV": {
+   "QB": 73.16,
+   "RB": 78.3,
+   "WR": 97.0,
+   "TE": 35.2,
+   "K": 14.0,
+   "DEF": 9.0
+  },
+  "KARDIAN": {
+   "QB": 83.42,
+   "RB": 60.8,
+   "WR": 84.7,
+   "TE": 19.8,
+   "K": 20.0,
+   "DEF": 28.0
+  },
+  "MCFADDEN": {
+   "QB": 72.42,
+   "RB": 63.4,
+   "WR": 53.2,
+   "TE": 22.1,
+   "K": 4.0,
+   "DEF": 4.0
+  },
+  "MEANY": {
+   "QB": 94.52,
+   "RB": 75.7,
+   "WR": 91.7,
+   "TE": 24.7,
+   "K": 18.0,
+   "DEF": 30.0
+  },
+  "GENTILE": {
+   "QB": 79.24,
+   "RB": 144.8,
+   "WR": 117.2,
+   "TE": 1.3,
+   "K": 16.0,
+   "DEF": 10.0
+  },
+  "RUSSO": {
+   "QB": 57.22,
+   "RB": 74.9,
+   "WR": 112.9,
+   "TE": 42.6,
+   "K": 20.0,
+   "DEF": 23.0
+  }
+ },
+ "players": [
+  {
+   "owner": "KARDIAN",
+   "player": "Josh Allen",
+   "nfl": "BUF",
+   "pos": "QB",
+   "gp": 2,
+   "points": 76.48,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 582.0,
+    "Pass TD": 5.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 92.0,
+    "Rush TD": 4.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 23.28,
+    "Pass TD": 20.0,
+    "Rush Yds": 9.2,
+    "Rush TD": 24.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Jaxon Smith-Njigba",
+   "nfl": "SEA",
+   "pos": "WR",
+   "gp": 2,
+   "points": 68.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 17.0,
+    "Rec Yds": 277.0,
+    "Rec TD": 4.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 17.0,
+    "Rec Yds": 27.7,
+    "Rec TD": 24.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Amon-Ra St. Brown",
+   "nfl": "DET",
+   "pos": "WR",
+   "gp": 2,
+   "points": 63.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 19.0,
+    "Rec Yds": 209.0,
+    "Rec TD": 4.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 19.0,
+    "Rec Yds": 20.9,
+    "Rec TD": 24.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Kenneth Walker III",
+   "nfl": "KC",
+   "pos": "RB",
+   "gp": 2,
+   "points": 57.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 290.0,
+    "Rush TD": 1.0,
+    "Receptions": 9.0,
+    "Rec Yds": 79.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 29.0,
+    "Rush TD": 6.0,
+    "Receptions": 9.0,
+    "Rec Yds": 7.9,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Jahmyr Gibbs",
+   "nfl": "DET",
+   "pos": "RB",
+   "gp": 2,
+   "points": 56.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 208.0,
+    "Rush TD": 2.0,
+    "Receptions": 11.0,
+    "Rec Yds": 91.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 20.8,
+    "Rush TD": 12.0,
+    "Receptions": 11.0,
+    "Rec Yds": 9.1,
+    "Rec TD": 6.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Jonathan Taylor",
+   "nfl": "IND",
+   "pos": "RB",
+   "gp": 2,
+   "points": 54.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 190.0,
+    "Rush TD": 4.0,
+    "Receptions": 7.0,
+    "Rec Yds": 63.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 19.0,
+    "Rush TD": 24.0,
+    "Receptions": 7.0,
+    "Rec Yds": 6.3,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Derrick Henry",
+   "nfl": "BAL",
+   "pos": "RB",
+   "gp": 2,
+   "points": 53.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 212.0,
+    "Rush TD": 4.0,
+    "Receptions": 4.0,
+    "Rec Yds": 38.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 21.2,
+    "Rush TD": 24.0,
+    "Receptions": 4.0,
+    "Rec Yds": 3.8
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Patrick Mahomes",
+   "nfl": "KC",
+   "pos": "QB",
+   "gp": 2,
+   "points": 51.64,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 566.0,
+    "Pass TD": 5.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 40.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 22.64,
+    "Pass TD": 20.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 4.0,
+    "Rush TD": 6.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Chris Olave",
+   "nfl": "NO",
+   "pos": "WR",
+   "gp": 2,
+   "points": 50.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 18.0,
+    "Rec Yds": 268.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 18.0,
+    "Rec Yds": 26.8,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "CeeDee Lamb",
+   "nfl": "DAL",
+   "pos": "WR",
+   "gp": 2,
+   "points": 50.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 13.0,
+    "Rec Yds": 197.0,
+    "Rec TD": 3.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 13.0,
+    "Rec Yds": 19.7,
+    "Rec TD": 18.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Brock Purdy",
+   "nfl": "SF",
+   "pos": "QB",
+   "gp": 2,
+   "points": 50.58,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 492.0,
+    "Pass TD": 5.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 59.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 19.68,
+    "Pass TD": 20.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 5.9,
+    "Rush TD": 6.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Christian Watson",
+   "nfl": "GB",
+   "pos": "WR",
+   "gp": 2,
+   "points": 46.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 10.0,
+    "Rec Yds": 188.0,
+    "Rec TD": 3.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 10.0,
+    "Rec Yds": 18.8,
+    "Rec TD": 18.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Jared Goff",
+   "nfl": "DET",
+   "pos": "QB",
+   "gp": 2,
+   "points": 46.22,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 533.0,
+    "Pass TD": 6.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 9.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 21.32,
+    "Pass TD": 24.0,
+    "Rush Yds": 0.9
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Caleb Williams",
+   "nfl": "CHI",
+   "pos": "QB",
+   "gp": 2,
+   "points": 45.98,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 407.0,
+    "Pass TD": 2.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 107.0,
+    "Rush TD": 2.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 16.28,
+    "Pass TD": 8.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 10.7,
+    "Rush TD": 12.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "D'Andre Swift",
+   "nfl": "CHI",
+   "pos": "RB",
+   "gp": 2,
+   "points": 45.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 169.0,
+    "Rush TD": 3.0,
+    "Receptions": 6.0,
+    "Rec Yds": 64.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 16.9,
+    "Rush TD": 18.0,
+    "Receptions": 6.0,
+    "Rec Yds": 6.4,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Dak Prescott",
+   "nfl": "DAL",
+   "pos": "QB",
+   "gp": 2,
+   "points": 45.16,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 454.0,
+    "Pass TD": 6.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 40.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 18.16,
+    "Pass TD": 24.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 4.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Davante Adams",
+   "nfl": "LAR",
+   "pos": "WR",
+   "gp": 2,
+   "points": 45.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 11.0,
+    "Rec Yds": 221.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 11.0,
+    "Rec Yds": 22.1,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Ashton Jeanty",
+   "nfl": "LV",
+   "pos": "RB",
+   "gp": 2,
+   "points": 43.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 150.0,
+    "Rush TD": 0.0,
+    "Receptions": 10.0,
+    "Rec Yds": 60.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 15.0,
+    "Receptions": 10.0,
+    "Rec Yds": 6.0,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Jalen Hurts",
+   "nfl": "PHI",
+   "pos": "QB",
+   "gp": 2,
+   "points": 42.88,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 467.0,
+    "Pass TD": 5.0,
+    "Pass INT": 2.0,
+    "Rush Yds": 62.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 18.68,
+    "Pass TD": 20.0,
+    "Pass INT": -2.0,
+    "Rush Yds": 6.2
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Trey McBride",
+   "nfl": "ARI",
+   "pos": "TE",
+   "gp": 2,
+   "points": 42.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 17.0,
+    "Rec Yds": 136.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 17.0,
+    "Rec Yds": 13.6,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Bijan Robinson",
+   "nfl": "ATL",
+   "pos": "RB",
+   "gp": 2,
+   "points": 42.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 155.0,
+    "Rush TD": 0.0,
+    "Receptions": 11.0,
+    "Rec Yds": 99.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 15.5,
+    "Receptions": 11.0,
+    "Rec Yds": 9.9,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Lamar Jackson",
+   "nfl": "BAL",
+   "pos": "QB",
+   "gp": 2,
+   "points": 40.76,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 559.0,
+    "Pass TD": 2.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 74.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 22.36,
+    "Pass TD": 8.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 7.4,
+    "Rush TD": 6.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Justin Jefferson",
+   "nfl": "MIN",
+   "pos": "WR",
+   "gp": 2,
+   "points": 39.7,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 11.0,
+    "Rec Yds": 147.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 11.0,
+    "Rec Yds": 14.7,
+    "Rec TD": 12.0,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Christian McCaffrey",
+   "nfl": "SF",
+   "pos": "RB",
+   "gp": 2,
+   "points": 36.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 91.0,
+    "Rush TD": 2.0,
+    "Receptions": 9.0,
+    "Rec Yds": 63.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 9.1,
+    "Rush TD": 12.0,
+    "Receptions": 9.0,
+    "Rec Yds": 6.3
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Isaiah Likely",
+   "nfl": "NYG",
+   "pos": "TE",
+   "gp": 2,
+   "points": 36.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 13.0,
+    "Rec Yds": 111.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 13.0,
+    "Rec Yds": 11.1,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Parker Washington",
+   "nfl": "JAX",
+   "pos": "WR",
+   "gp": 2,
+   "points": 36.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 12.0,
+    "Rec Yds": 181.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 12.0,
+    "Rec Yds": 18.1,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "DeVonta Smith",
+   "nfl": "PHI",
+   "pos": "WR",
+   "gp": 2,
+   "points": 36.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 13.0,
+    "Rec Yds": 170.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 13.0,
+    "Rec Yds": 17.0,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Travis Kelce",
+   "nfl": "KC",
+   "pos": "TE",
+   "gp": 2,
+   "points": 35.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 12.0,
+    "Rec Yds": 172.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 12.0,
+    "Rec Yds": 17.2,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Jordan Love",
+   "nfl": "GB",
+   "pos": "QB",
+   "gp": 2,
+   "points": 34.28,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 532.0,
+    "Pass TD": 4.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 21.28,
+    "Pass TD": 16.0,
+    "Pass INT": -1.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Breece Hall",
+   "nfl": "NYJ",
+   "pos": "RB",
+   "gp": 2,
+   "points": 34.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 131.0,
+    "Rush TD": 1.0,
+    "Receptions": 7.0,
+    "Rec Yds": 79.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 13.1,
+    "Rush TD": 6.0,
+    "Receptions": 7.0,
+    "Rec Yds": 7.9
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "David Montgomery",
+   "nfl": "HOU",
+   "pos": "RB",
+   "gp": 2,
+   "points": 33.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 70.0,
+    "Rush TD": 2.0,
+    "Receptions": 5.0,
+    "Rec Yds": 33.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 7.0,
+    "Rush TD": 12.0,
+    "Receptions": 5.0,
+    "Rec Yds": 3.3,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Bucky Irving",
+   "nfl": "TB",
+   "pos": "RB",
+   "gp": 2,
+   "points": 33.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 134.0,
+    "Rush TD": 1.0,
+    "Receptions": 11.0,
+    "Rec Yds": 49.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 13.4,
+    "Rush TD": 6.0,
+    "Receptions": 11.0,
+    "Rec Yds": 4.9,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Trevor Lawrence",
+   "nfl": "JAX",
+   "pos": "QB",
+   "gp": 2,
+   "points": 33.26,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 434.0,
+    "Pass TD": 4.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 9.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 17.36,
+    "Pass TD": 16.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 0.9
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Matthew Stafford",
+   "nfl": "LAR",
+   "pos": "QB",
+   "gp": 2,
+   "points": 33.08,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 482.0,
+    "Pass TD": 4.0,
+    "Pass INT": 2.0,
+    "Rush Yds": -2.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 19.28,
+    "Pass TD": 16.0,
+    "Pass INT": -2.0,
+    "Rush Yds": -0.2
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Jayden Daniels",
+   "nfl": "WAS",
+   "pos": "QB",
+   "gp": 2,
+   "points": 32.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 260.0,
+    "Pass TD": 3.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 100.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 10.4,
+    "Pass TD": 12.0,
+    "Rush Yds": 10.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Javonte Williams",
+   "nfl": "DAL",
+   "pos": "RB",
+   "gp": 2,
+   "points": 32.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 71.0,
+    "Rush TD": 1.0,
+    "Receptions": 8.0,
+    "Rec Yds": 51.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 7.1,
+    "Rush TD": 6.0,
+    "Receptions": 8.0,
+    "Rec Yds": 5.1,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Joe Burrow",
+   "nfl": "CIN",
+   "pos": "QB",
+   "gp": 2,
+   "points": 31.34,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 461.0,
+    "Pass TD": 3.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 19.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 18.44,
+    "Pass TD": 12.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 1.9
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Kyren Williams",
+   "nfl": "LAR",
+   "pos": "RB",
+   "gp": 2,
+   "points": 31.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 126.0,
+    "Rush TD": 1.0,
+    "Receptions": 5.0,
+    "Rec Yds": 36.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 12.6,
+    "Rush TD": 6.0,
+    "Receptions": 5.0,
+    "Rec Yds": 3.6,
+    "Rec TD": 6.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Evan McPherson",
+   "nfl": "CIN",
+   "pos": "K",
+   "gp": 2,
+   "points": 31.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 1.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 0.0,
+    "FG 50+": 4.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 5.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 3.0,
+    "FG 30-39": 3.0,
+    "FG 50+": 20.0,
+    "PAT": 5.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "James Cook III",
+   "nfl": "BUF",
+   "pos": "RB",
+   "gp": 2,
+   "points": 30.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 192.0,
+    "Rush TD": 1.0,
+    "Receptions": 4.0,
+    "Rec Yds": 16.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 19.2,
+    "Rush TD": 6.0,
+    "Receptions": 4.0,
+    "Rec Yds": 1.6
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Garrett Wilson",
+   "nfl": "NYJ",
+   "pos": "WR",
+   "gp": 2,
+   "points": 30.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 11.0,
+    "Rec Yds": 136.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 11.0,
+    "Rec Yds": 13.6,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Chase Brown",
+   "nfl": "CIN",
+   "pos": "RB",
+   "gp": 2,
+   "points": 30.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 136.0,
+    "Rush TD": 1.0,
+    "Receptions": 8.0,
+    "Rec Yds": 24.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 13.6,
+    "Rush TD": 6.0,
+    "Receptions": 8.0,
+    "Rec Yds": 2.4
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Ja'Marr Chase",
+   "nfl": "CIN",
+   "pos": "WR",
+   "gp": 2,
+   "points": 29.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 87.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 9.0,
+    "Rec Yds": 8.7,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Jaxson Dart",
+   "nfl": "NYG",
+   "pos": "QB",
+   "gp": 2,
+   "points": 27.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 250.0,
+    "Pass TD": 3.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 54.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 10.0,
+    "Pass TD": 12.0,
+    "Rush Yds": 5.4
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Zay Flowers",
+   "nfl": "BAL",
+   "pos": "WR",
+   "gp": 1,
+   "points": 26.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 150.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 15.0,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Omarion Hampton",
+   "nfl": "LAC",
+   "pos": "RB",
+   "gp": 2,
+   "points": 25.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 137.0,
+    "Rush TD": 2.0,
+    "Receptions": 2.0,
+    "Rec Yds": 21.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 2.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 13.7,
+    "Rush TD": 12.0,
+    "Receptions": 2.0,
+    "Rec Yds": 2.1,
+    "Fumbles Lost": -4.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Ladd McConkey",
+   "nfl": "LAC",
+   "pos": "WR",
+   "gp": 2,
+   "points": 25.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 117.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 8.0,
+    "Rec Yds": 11.7,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Tetairoa McMillan",
+   "nfl": "CAR",
+   "pos": "WR",
+   "gp": 2,
+   "points": 25.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 10.0,
+    "Rec Yds": 176.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Receptions": 10.0,
+    "Rec Yds": 17.6,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Mike Evans",
+   "nfl": "SF",
+   "pos": "WR",
+   "gp": 2,
+   "points": 25.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 103.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 9.0,
+    "Rec Yds": 10.3,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Dallas Goedert",
+   "nfl": "PHI",
+   "pos": "TE",
+   "gp": 2,
+   "points": 25.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 81.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 8.1,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Baker Mayfield",
+   "nfl": "TB",
+   "pos": "QB",
+   "gp": 2,
+   "points": 24.82,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 398.0,
+    "Pass TD": 1.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 59.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 3.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 15.92,
+    "Pass TD": 4.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 5.9,
+    "Rush TD": 6.0,
+    "Fumbles Lost": -6.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Tyler Warren",
+   "nfl": "IND",
+   "pos": "TE",
+   "gp": 2,
+   "points": 24.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 3.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 34.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.3,
+    "Receptions": 9.0,
+    "Rec Yds": 3.4,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Justin Herbert",
+   "nfl": "LAC",
+   "pos": "QB",
+   "gp": 2,
+   "points": 24.14,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 401.0,
+    "Pass TD": 2.0,
+    "Pass INT": 3.0,
+    "Rush Yds": 31.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 16.04,
+    "Pass TD": 8.0,
+    "Pass INT": -3.0,
+    "Rush Yds": 3.1
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Bhayshul Tuten",
+   "nfl": "JAX",
+   "pos": "RB",
+   "gp": 2,
+   "points": 24.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 131.0,
+    "Rush TD": 1.0,
+    "Receptions": 3.0,
+    "Rec Yds": 19.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 13.1,
+    "Rush TD": 6.0,
+    "Receptions": 3.0,
+    "Rec Yds": 1.9
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Harrison Butker",
+   "nfl": "KC",
+   "pos": "K",
+   "gp": 2,
+   "points": 24.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 2.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 2.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 7.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 6.0,
+    "FG 30-39": 3.0,
+    "FG 40-49": 8.0,
+    "PAT": 7.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Cam Skattebo",
+   "nfl": "NYG",
+   "pos": "RB",
+   "gp": 2,
+   "points": 23.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 117.0,
+    "Rush TD": 1.0,
+    "Receptions": 4.0,
+    "Rec Yds": 19.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 11.7,
+    "Rush TD": 6.0,
+    "Receptions": 4.0,
+    "Rec Yds": 1.9
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Tee Higgins",
+   "nfl": "CIN",
+   "pos": "WR",
+   "gp": 2,
+   "points": 23.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 154.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 8.0,
+    "Rec Yds": 15.4
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Jaylen Waddle",
+   "nfl": "DEN",
+   "pos": "WR",
+   "gp": 2,
+   "points": 23.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 140.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 9.0,
+    "Rec Yds": 14.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "De'Von Achane",
+   "nfl": "MIA",
+   "pos": "RB",
+   "gp": 2,
+   "points": 22.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 110.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 49.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 11.0,
+    "Receptions": 7.0,
+    "Rec Yds": 4.9
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Rashee Rice",
+   "nfl": "KC",
+   "pos": "WR",
+   "gp": 2,
+   "points": 22.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 6.0,
+    "Rec Yds": 102.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 6.0,
+    "Rec Yds": 10.2,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Travis Etienne Jr.",
+   "nfl": "NO",
+   "pos": "RB",
+   "gp": 2,
+   "points": 21.9,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 71.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 38.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 7.1,
+    "Receptions": 9.0,
+    "Rec Yds": 3.8,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Drake Maye",
+   "nfl": "NE",
+   "pos": "QB",
+   "gp": 2,
+   "points": 21.84,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 386.0,
+    "Pass TD": 1.0,
+    "Pass INT": 4.0,
+    "Rush Yds": 64.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 15.44,
+    "Pass TD": 4.0,
+    "Pass INT": -4.0,
+    "Rush Yds": 6.4
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Rashod Bateman",
+   "nfl": "BAL",
+   "pos": "WR",
+   "gp": 1,
+   "points": 21.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 88.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 7.0,
+    "Rec Yds": 8.8,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Stefon Diggs",
+   "nfl": "WAS",
+   "pos": "WR",
+   "gp": 1,
+   "points": 21.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 47.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 4.7,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Emeka Egbuka",
+   "nfl": "TB",
+   "pos": "WR",
+   "gp": 2,
+   "points": 21.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": -3.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 79.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": -0.3,
+    "Receptions": 8.0,
+    "Rec Yds": 7.9,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Bo Nix",
+   "nfl": "DEN",
+   "pos": "QB",
+   "gp": 2,
+   "points": 21.56,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 419.0,
+    "Pass TD": 2.0,
+    "Pass INT": 2.0,
+    "Rush Yds": 8.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 16.76,
+    "Pass TD": 8.0,
+    "Pass INT": -2.0,
+    "Rush Yds": 0.8,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Nico Collins",
+   "nfl": "HOU",
+   "pos": "WR",
+   "gp": 1,
+   "points": 21.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 7.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 75.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.7,
+    "Receptions": 7.0,
+    "Rec Yds": 7.5,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Pittsburgh",
+   "nfl": "PIT",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 21.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 7.0,
+    "Safety": 0.0,
+    "Def INT": 3.0,
+    "Fum Rec": 1.0,
+    "Def TD": 1.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 7.0,
+    "Def INT": 6.0,
+    "Fum Rec": 2.0,
+    "Def TD": 6.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "DJ Moore",
+   "nfl": "BUF",
+   "pos": "WR",
+   "gp": 2,
+   "points": 20.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": -1.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 100.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": -0.1,
+    "Receptions": 5.0,
+    "Rec Yds": 10.0,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Jeremiyah Love",
+   "nfl": "ARI",
+   "pos": "RB",
+   "gp": 2,
+   "points": 20.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 70.0,
+    "Rush TD": 1.0,
+    "Receptions": 5.0,
+    "Rec Yds": 25.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 7.0,
+    "Rush TD": 6.0,
+    "Receptions": 5.0,
+    "Rec Yds": 2.5
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Jaylen Warren",
+   "nfl": "PIT",
+   "pos": "RB",
+   "gp": 2,
+   "points": 20.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 89.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 61.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 8.9,
+    "Receptions": 7.0,
+    "Rec Yds": 6.1,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Cam Little",
+   "nfl": "JAX",
+   "pos": "K",
+   "gp": 2,
+   "points": 20.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 1.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 3.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 5.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 3.0,
+    "FG 40-49": 12.0,
+    "PAT": 5.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Tyler Loop",
+   "nfl": "BAL",
+   "pos": "K",
+   "gp": 2,
+   "points": 20.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 0.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 2.0,
+    "FG 50+": 1.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 7.0
+   },
+   "pts_by_cat": {
+    "FG 40-49": 8.0,
+    "FG 50+": 5.0,
+    "PAT": 7.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Vikings",
+   "nfl": "MIN",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 20.0,
+   "stats": {
+    "Blocked Kick": 1.0,
+    "Sacks": 8.0,
+    "Safety": 0.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 8.0,
+    "Def INT": 4.0,
+    "Fum Rec": 4.0,
+    "Blocked Kick": 4.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Mark Andrews",
+   "nfl": "BAL",
+   "pos": "TE",
+   "gp": 2,
+   "points": 19.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 10.0,
+    "Rec Yds": 98.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 10.0,
+    "Rec Yds": 9.8
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "George Kittle",
+   "nfl": "SF",
+   "pos": "TE",
+   "gp": 1,
+   "points": 18.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 4.0,
+    "Rec Yds": 80.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 4.0,
+    "Rec Yds": 8.0,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Brandon Aubrey",
+   "nfl": "DAL",
+   "pos": "K",
+   "gp": 2,
+   "points": 18.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 1.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 1.0,
+    "FG 50+": 1.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 6.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 3.0,
+    "FG 40-49": 4.0,
+    "FG 50+": 5.0,
+    "PAT": 6.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Quinshon Judkins",
+   "nfl": "CLE",
+   "pos": "RB",
+   "gp": 2,
+   "points": 16.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 54.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 44.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 5.4,
+    "Receptions": 7.0,
+    "Rec Yds": 4.4
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Ka'imi Fairbairn",
+   "nfl": "HOU",
+   "pos": "K",
+   "gp": 2,
+   "points": 16.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 0.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 1.0,
+    "FG 50+": 1.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 4.0
+   },
+   "pts_by_cat": {
+    "FG 30-39": 3.0,
+    "FG 40-49": 4.0,
+    "FG 50+": 5.0,
+    "PAT": 4.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Eddy Pineiro",
+   "nfl": "SF",
+   "pos": "K",
+   "gp": 2,
+   "points": 16.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 1.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 0.0,
+    "FG 50+": 1.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 8.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 3.0,
+    "FG 50+": 5.0,
+    "PAT": 8.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Patriots",
+   "nfl": "NE",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 16.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 6.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 1.0,
+    "Def TD": 1.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 6.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0,
+    "Def TD": 6.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "George Pickens",
+   "nfl": "DAL",
+   "pos": "WR",
+   "gp": 2,
+   "points": 15.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 9.0,
+    "Rec Yds": 68.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 9.0,
+    "Rec Yds": 6.8
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Luther Burden III",
+   "nfl": "CHI",
+   "pos": "WR",
+   "gp": 2,
+   "points": 15.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 2.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 95.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.2,
+    "Receptions": 8.0,
+    "Rec Yds": 9.5,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "DK Metcalf",
+   "nfl": "PIT",
+   "pos": "WR",
+   "gp": 2,
+   "points": 14.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 67.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 8.0,
+    "Rec Yds": 6.7
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Jalen Coker",
+   "nfl": "CAR",
+   "pos": "WR",
+   "gp": 1,
+   "points": 14.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 8.0,
+    "Rec Yds": 66.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 8.0,
+    "Rec Yds": 6.6
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Drake London",
+   "nfl": "ATL",
+   "pos": "WR",
+   "gp": 2,
+   "points": 14.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 4.0,
+    "Rush TD": 0.0,
+    "Receptions": 6.0,
+    "Rec Yds": 80.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.4,
+    "Receptions": 6.0,
+    "Rec Yds": 8.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Malik Nabers",
+   "nfl": "NYG",
+   "pos": "WR",
+   "gp": 2,
+   "points": 14.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 70.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 7.0,
+    "Rec Yds": 7.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Brian Thomas Jr.",
+   "nfl": "JAX",
+   "pos": "WR",
+   "gp": 2,
+   "points": 14.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 6.0,
+    "Rec Yds": 80.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 6.0,
+    "Rec Yds": 8.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Nick Folk",
+   "nfl": "ATL",
+   "pos": "K",
+   "gp": 2,
+   "points": 14.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 0.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 2.0,
+    "FG 50+": 1.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 1.0
+   },
+   "pts_by_cat": {
+    "FG 40-49": 8.0,
+    "FG 50+": 5.0,
+    "PAT": 1.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Jason Myers",
+   "nfl": "SEA",
+   "pos": "K",
+   "gp": 2,
+   "points": 14.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 1.0,
+    "FG 30-39": 2.0,
+    "FG 40-49": 0.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 5.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 3.0,
+    "FG 30-39": 6.0,
+    "PAT": 5.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Jameson Williams",
+   "nfl": "DET",
+   "pos": "WR",
+   "gp": 2,
+   "points": 13.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 6.0,
+    "Rec Yds": 78.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 6.0,
+    "Rec Yds": 7.8
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Tucker Kraft",
+   "nfl": "GB",
+   "pos": "TE",
+   "gp": 2,
+   "points": 13.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 80.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 8.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Seahawks",
+   "nfl": "SEA",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 13.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 5.0,
+    "Safety": 0.0,
+    "Def INT": 4.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 5.0,
+    "Def INT": 8.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Jadarian Price",
+   "nfl": "SEA",
+   "pos": "RB",
+   "gp": 2,
+   "points": 12.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 104.0,
+    "Rush TD": 0.0,
+    "Receptions": 3.0,
+    "Rec Yds": 14.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 10.4,
+    "Receptions": 3.0,
+    "Rec Yds": 1.4,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Romeo Doubs",
+   "nfl": "NE",
+   "pos": "WR",
+   "gp": 1,
+   "points": 12.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 3.0,
+    "Rec Yds": 96.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 3.0,
+    "Rec Yds": 9.6
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Puka Nacua",
+   "nfl": "LAR",
+   "pos": "WR",
+   "gp": 1,
+   "points": 12.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 74.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 7.4
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Alec Pierce",
+   "nfl": "IND",
+   "pos": "WR",
+   "gp": 2,
+   "points": 12.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 72.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 7.2
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Saquon Barkley",
+   "nfl": "PHI",
+   "pos": "RB",
+   "gp": 2,
+   "points": 12.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 92.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 8.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 9.2,
+    "Receptions": 2.0,
+    "Rec Yds": 0.8
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Cam Ward",
+   "nfl": "TEN",
+   "pos": "QB",
+   "gp": 1,
+   "points": 11.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 140.0,
+    "Pass TD": 1.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 21.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 5.6,
+    "Pass TD": 4.0,
+    "Rush Yds": 2.1
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Devaughn Vele",
+   "nfl": "NO",
+   "pos": "WR",
+   "gp": 1,
+   "points": 11.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 64.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 6.4
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Terry McLaurin",
+   "nfl": "WAS",
+   "pos": "WR",
+   "gp": 2,
+   "points": 10.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 4.0,
+    "Rec Yds": 64.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 4.0,
+    "Rec Yds": 6.4
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Jaguars",
+   "nfl": "JAX",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 9.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 5.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 5.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Baltimore",
+   "nfl": "BAL",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 9.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 5.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 5.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Carnell Tate",
+   "nfl": "TEN",
+   "pos": "WR",
+   "gp": 1,
+   "points": 7.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 4.0,
+    "Rec Yds": 38.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 4.0,
+    "Rec Yds": 3.8
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Jacoby Brissett",
+   "nfl": "ARI",
+   "pos": "QB",
+   "gp": 1,
+   "points": 7.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 95.0,
+    "Pass TD": 1.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 7.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 3.8,
+    "Pass TD": 4.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 0.7
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Eagles",
+   "nfl": "PHI",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 7.0,
+   "stats": {
+    "Blocked Kick": 1.0,
+    "Sacks": 3.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 3.0,
+    "Blocked Kick": 4.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Houston",
+   "nfl": "HOU",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 7.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 7.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 7.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Deebo Samuel Sr.",
+   "nfl": "SF",
+   "pos": "WR",
+   "gp": 1,
+   "points": 6.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 4.0,
+    "Rush TD": 0.0,
+    "Receptions": 3.0,
+    "Rec Yds": 31.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.4,
+    "Receptions": 3.0,
+    "Rec Yds": 3.1
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Carson Wentz",
+   "nfl": "MIN",
+   "pos": "QB",
+   "gp": 1,
+   "points": 6.32,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 143.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 6.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 5.72,
+    "Rush Yds": 0.6
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Rams",
+   "nfl": "LAR",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 6.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 2.0,
+    "Safety": 0.0,
+    "Def INT": 2.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 2.0,
+    "Def INT": 4.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Josh Downs",
+   "nfl": "IND",
+   "pos": "WR",
+   "gp": 1,
+   "points": 5.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 37.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 2.0,
+    "Rec Yds": 3.7
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "A.J. Brown",
+   "nfl": "NE",
+   "pos": "WR",
+   "gp": 1,
+   "points": 5.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 3.0,
+    "Rec Yds": 26.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 3.0,
+    "Rec Yds": 2.6
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Marvin Harrison Jr.",
+   "nfl": "ARI",
+   "pos": "WR",
+   "gp": 2,
+   "points": 4.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 1.0,
+    "Rec Yds": 33.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 1.0,
+    "Rec Yds": 3.3
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Harold Fannin Jr.",
+   "nfl": "CLE",
+   "pos": "TE",
+   "gp": 1,
+   "points": 4.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 21.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 2.0,
+    "Rec Yds": 2.1
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Cameron Dicker",
+   "nfl": "LAC",
+   "pos": "K",
+   "gp": 2,
+   "points": 4.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 0.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 0.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 4.0
+   },
+   "pts_by_cat": {
+    "PAT": 4.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "49ers",
+   "nfl": "SF",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 4.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 4.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 4.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Kyle Pitts Sr.",
+   "nfl": "ATL",
+   "pos": "TE",
+   "gp": 2,
+   "points": 2.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 1.0,
+    "Rec Yds": 15.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 1.0,
+    "Rec Yds": 1.5
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Buccaneers",
+   "nfl": "TB",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 2.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 2.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Colston Loveland",
+   "nfl": "CHI",
+   "pos": "TE",
+   "gp": 2,
+   "points": 1.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 1.0,
+    "Rec Yds": 3.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 1.0,
+    "Rec Yds": 0.3
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Chargers",
+   "nfl": "LAC",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 1.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 1.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 1.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Kyler Murray",
+   "nfl": "MIN",
+   "pos": "QB",
+   "gp": 1,
+   "points": 0.62,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 18.0,
+    "Pass TD": 0.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 9.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 0.72,
+    "Pass INT": -1.0,
+    "Rush Yds": 0.9
+   }
+  }
+ ],
+ "history": {
+  "alltime": [
+   {
+    "manager": "Drexello",
+    "active": true,
+    "years": 16,
+    "games": 213.0,
+    "first": 0.0,
+    "second": 2.0,
+    "third": 2.0,
+    "top2": 2.0,
+    "top3": 4.0,
+    "W": 116.5,
+    "L": 95.5,
+    "T": 1.0,
+    "win_pct": 0.5493,
+    "playoffs": 11.0,
+    "playoff_pct": 0.6875
+   },
+   {
+    "manager": "MARZ",
+    "active": true,
+    "years": 23,
+    "games": 307.0,
+    "first": 2.0,
+    "second": 3.0,
+    "third": 3.0,
+    "top2": 5.0,
+    "top3": 8.0,
+    "W": 167.5,
+    "L": 139.5,
+    "T": 0.0,
+    "win_pct": 0.5456,
+    "playoffs": 16.0,
+    "playoff_pct": 0.6957
+   },
+   {
+    "manager": "Freeman",
+    "active": true,
+    "years": 23,
+    "games": 307.0,
+    "first": 2.0,
+    "second": 4.0,
+    "third": 2.0,
+    "top2": 6.0,
+    "top3": 8.0,
+    "W": 167.5,
+    "L": 139.5,
+    "T": 0.0,
+    "win_pct": 0.5456,
+    "playoffs": 16.0,
+    "playoff_pct": 0.6957
+   },
+   {
+    "manager": "Russo",
+    "active": true,
+    "years": 23,
+    "games": 307.0,
+    "first": 0.0,
+    "second": 2.0,
+    "third": 2.0,
+    "top2": 2.0,
+    "top3": 4.0,
+    "W": 163.0,
+    "L": 143.0,
+    "T": 1.0,
+    "win_pct": 0.5326,
+    "playoffs": 17.0,
+    "playoff_pct": 0.7391
+   },
+   {
+    "manager": "KEV",
+    "active": true,
+    "years": 23,
+    "games": 307.0,
+    "first": 3.0,
+    "second": 2.0,
+    "third": 5.0,
+    "top2": 5.0,
+    "top3": 10.0,
+    "W": 156.0,
+    "L": 148.0,
+    "T": 3.0,
+    "win_pct": 0.513,
+    "playoffs": 14.0,
+    "playoff_pct": 0.6087
+   },
+   {
+    "manager": "MCFADDEN",
+    "active": true,
+    "years": 23,
+    "games": 307.0,
+    "first": 5.0,
+    "second": 2.0,
+    "third": 3.0,
+    "top2": 7.0,
+    "top3": 10.0,
+    "W": 153.5,
+    "L": 150.5,
+    "T": 3.0,
+    "win_pct": 0.5049,
+    "playoffs": 15.0,
+    "playoff_pct": 0.6522
+   },
+   {
+    "manager": "Gentile",
+    "active": true,
+    "years": 18,
+    "games": 239.0,
+    "first": 3.0,
+    "second": 2.0,
+    "third": 1.0,
+    "top2": 5.0,
+    "top3": 6.0,
+    "W": 118.0,
+    "L": 121.0,
+    "T": 0.0,
+    "win_pct": 0.4937,
+    "playoffs": 11.0,
+    "playoff_pct": 0.6111
+   },
+   {
+    "manager": "Meany",
+    "active": true,
+    "years": 22,
+    "games": 293.0,
+    "first": 6.0,
+    "second": 2.0,
+    "third": 1.0,
+    "top2": 8.0,
+    "top3": 9.0,
+    "W": 139.0,
+    "L": 152.0,
+    "T": 2.0,
+    "win_pct": 0.4778,
+    "playoffs": 13.0,
+    "playoff_pct": 0.5909
+   },
+   {
+    "manager": "Fig",
+    "active": true,
+    "years": 21,
+    "games": 279.0,
+    "first": 2.0,
+    "second": 1.0,
+    "third": 2.0,
+    "top2": 3.0,
+    "top3": 5.0,
+    "W": 123.5,
+    "L": 152.5,
+    "T": 3.0,
+    "win_pct": 0.448,
+    "playoffs": 9.0,
+    "playoff_pct": 0.4286
+   },
+   {
+    "manager": "Kardian",
+    "active": true,
+    "years": 19,
+    "games": 252.0,
+    "first": 0.0,
+    "second": 2.0,
+    "third": 3.0,
+    "top2": 2.0,
+    "top3": 5.0,
+    "W": 111.5,
+    "L": 138.5,
+    "T": 2.0,
+    "win_pct": 0.4464,
+    "playoffs": 8.0,
+    "playoff_pct": 0.4211
+   },
+   {
+    "manager": "Gizzi",
+    "active": false,
+    "years": 1,
+    "games": 13.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "win_pct": 0.5385,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Mikey's Cousin",
+    "active": false,
+    "years": 1,
+    "games": 14.0,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "top2": 1.0,
+    "top3": 1.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "win_pct": 0.5,
+    "playoffs": 1.0,
+    "playoff_pct": 1.0
+   },
+   {
+    "manager": "Mandara",
+    "active": false,
+    "years": 2,
+    "games": 27.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 11.0,
+    "L": 16.0,
+    "T": 0.0,
+    "win_pct": 0.4074,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Tim Mac",
+    "active": false,
+    "years": 1,
+    "games": 13.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "win_pct": 0.3846,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Steve Bags",
+    "active": false,
+    "years": 1,
+    "games": 14.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "win_pct": 0.3571,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Merg",
+    "active": false,
+    "years": 2,
+    "games": 26.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 9.0,
+    "L": 17.0,
+    "T": 0.0,
+    "win_pct": 0.3462,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Kennely",
+    "active": false,
+    "years": 1,
+    "games": 14.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 1.0,
+    "win_pct": 0.3214,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   },
+   {
+    "manager": "Hinden",
+    "active": false,
+    "years": 2,
+    "games": 26.0,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "top2": 0.0,
+    "top3": 0.0,
+    "W": 7.0,
+    "L": 19.0,
+    "T": 0.0,
+    "win_pct": 0.2692,
+    "playoffs": 0.0,
+    "playoff_pct": 0.0
+   }
+  ],
+  "active_ranks": {
+   "Drexello": {
+    "years": 10,
+    "games": 10,
+    "first": 8,
+    "second": 3,
+    "third": 5,
+    "top2": 8,
+    "top3": 9,
+    "W": 9,
+    "L": 1,
+    "win_pct": 1,
+    "playoffs": 7,
+    "playoff_pct": 4
+   },
+   "MARZ": {
+    "years": 1,
+    "games": 1,
+    "first": 5,
+    "second": 2,
+    "third": 2,
+    "top2": 4,
+    "top3": 4,
+    "W": 1,
+    "L": 4,
+    "win_pct": 2,
+    "playoffs": 2,
+    "playoff_pct": 2
+   },
+   "Freeman": {
+    "years": 1,
+    "games": 1,
+    "first": 5,
+    "second": 1,
+    "third": 5,
+    "top2": 3,
+    "top3": 4,
+    "W": 1,
+    "L": 4,
+    "win_pct": 2,
+    "playoffs": 2,
+    "playoff_pct": 2
+   },
+   "Russo": {
+    "years": 1,
+    "games": 1,
+    "first": 8,
+    "second": 3,
+    "third": 5,
+    "top2": 8,
+    "top3": 9,
+    "W": 3,
+    "L": 6,
+    "win_pct": 4,
+    "playoffs": 1,
+    "playoff_pct": 1
+   },
+   "KEV": {
+    "years": 1,
+    "games": 1,
+    "first": 3,
+    "second": 3,
+    "third": 1,
+    "top2": 4,
+    "top3": 1,
+    "W": 4,
+    "L": 7,
+    "win_pct": 5,
+    "playoffs": 5,
+    "playoff_pct": 7
+   },
+   "MCFADDEN": {
+    "years": 1,
+    "games": 1,
+    "first": 2,
+    "second": 3,
+    "third": 2,
+    "top2": 2,
+    "top3": 1,
+    "W": 5,
+    "L": 8,
+    "win_pct": 6,
+    "playoffs": 4,
+    "playoff_pct": 5
+   },
+   "Gentile": {
+    "years": 9,
+    "games": 9,
+    "first": 3,
+    "second": 3,
+    "third": 9,
+    "top2": 4,
+    "top3": 6,
+    "W": 8,
+    "L": 2,
+    "win_pct": 7,
+    "playoffs": 7,
+    "playoff_pct": 6
+   },
+   "Meany": {
+    "years": 6,
+    "games": 6,
+    "first": 1,
+    "second": 3,
+    "third": 9,
+    "top2": 1,
+    "top3": 3,
+    "W": 6,
+    "L": 9,
+    "win_pct": 8,
+    "playoffs": 6,
+    "playoff_pct": 8
+   },
+   "Fig": {
+    "years": 7,
+    "games": 7,
+    "first": 5,
+    "second": 10,
+    "third": 5,
+    "top2": 7,
+    "top3": 7,
+    "W": 7,
+    "L": 10,
+    "win_pct": 9,
+    "playoffs": 9,
+    "playoff_pct": 9
+   },
+   "Kardian": {
+    "years": 8,
+    "games": 8,
+    "first": 8,
+    "second": 3,
+    "third": 2,
+    "top2": 8,
+    "top3": 7,
+    "W": 10,
+    "L": 3,
+    "win_pct": 10,
+    "playoffs": 10,
+    "playoff_pct": 10
+   }
+  },
+  "years": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "games_by_year": {
+   "2003": 14.0,
+   "2004": 14.0,
+   "2005": 14.0,
+   "2006": 13.0,
+   "2007": 13.0,
+   "2008": 13.0,
+   "2009": 13.0,
+   "2010": 13.0,
+   "2011": 13.0,
+   "2012": 13.0,
+   "2013": 13.0,
+   "2014": 13.0,
+   "2015": 13.0,
+   "2016": 13.0,
+   "2017": 13.0,
+   "2018": 13.0,
+   "2019": 13.0,
+   "2020": 13.0,
+   "2021": 14.0,
+   "2022": 14.0,
+   "2023": 14.0,
+   "2024": 14.0,
+   "2025": 14.0
+  },
+  "median_years": [
+   2024,
+   2025
+  ],
+  "wins_grid": {
+   "2003": {
+    "MCFADDEN": 7.0,
+    "Mikey's Cousin": 7.0,
+    "MARZ": 8.0,
+    "Russo": 10.0,
+    "KEV": 6.0,
+    "Freeman": 4.0
+   },
+   "2004": {
+    "Freeman": 9.0,
+    "MARZ": 8.0,
+    "Russo": 10.0,
+    "Meany": 9.0,
+    "KEV": 7.0,
+    "Steve Bags": 5.0,
+    "MCFADDEN": 3.0,
+    "Kennely": 4.0
+   },
+   "2005": {
+    "MCFADDEN": 8.0,
+    "Meany": 8.0,
+    "Freeman": 8.0,
+    "Russo": 8.0,
+    "MARZ": 7.0,
+    "KEV": 7.0,
+    "Fig": 4.0,
+    "Mandara": 6.0
+   },
+   "2006": {
+    "Meany": 7.0,
+    "Fig": 6.0,
+    "MCFADDEN": 10.0,
+    "Russo": 8.0,
+    "Freeman": 8.0,
+    "MARZ": 5.0,
+    "Mandara": 5.0,
+    "Merg": 4.0,
+    "Tim Mac": 5.0,
+    "KEV": 6.0
+   },
+   "2007": {
+    "Meany": 7.0,
+    "Russo": 7.0,
+    "KEV": 8.0,
+    "MARZ": 8.0,
+    "Freeman": 10.0,
+    "Kardian": 7.0,
+    "MCFADDEN": 4.0,
+    "Fig": 6.0,
+    "Merg": 5.0,
+    "Hinden": 3.0
+   },
+   "2008": {
+    "Meany": 7.0,
+    "MARZ": 10.0,
+    "MCFADDEN": 7.0,
+    "Gentile": 11.0,
+    "Russo": 5.0,
+    "Freeman": 4.0,
+    "Hinden": 4.0,
+    "KEV": 5.0,
+    "Fig": 5.0,
+    "Kardian": 4.0
+   },
+   "2009": {
+    "KEV": 10.0,
+    "Gentile": 6.0,
+    "MARZ": 10.0,
+    "Meany": 9.0,
+    "Kardian": 6.0,
+    "MCFADDEN": 3.0,
+    "Russo": 3.0,
+    "Freeman": 5.0,
+    "Fig": 6.0,
+    "Gizzi": 7.0
+   },
+   "2010": {
+    "KEV": 7.0,
+    "Freeman": 10.0,
+    "MARZ": 11.0,
+    "Russo": 6.0,
+    "Fig": 9.0,
+    "Gentile": 6.0,
+    "MCFADDEN": 3.0,
+    "Meany": 1.0,
+    "Kardian": 6.0,
+    "Drexello": 6.0
+   },
+   "2011": {
+    "Meany": 9.0,
+    "MCFADDEN": 6.0,
+    "Kardian": 10.0,
+    "MARZ": 6.0,
+    "Russo": 5.0,
+    "KEV": 5.0,
+    "Freeman": 4.0,
+    "Gentile": 5.0,
+    "Fig": 7.0,
+    "Drexello": 7.0
+   },
+   "2012": {
+    "Gentile": 9.0,
+    "Meany": 6.0,
+    "Fig": 5.0,
+    "Freeman": 9.0,
+    "Drexello": 9.0,
+    "MCFADDEN": 5.0,
+    "MARZ": 5.0,
+    "Russo": 7.0,
+    "KEV": 3.0,
+    "Kardian": 5.0
+   },
+   "2013": {
+    "Gentile": 7.0,
+    "KEV": 10.0,
+    "Russo": 8.0,
+    "MCFADDEN": 11.0,
+    "Freeman": 7.0,
+    "Meany": 6.0,
+    "MARZ": 4.0,
+    "Fig": 5.0,
+    "Kardian": 2.0,
+    "Drexello": 5.0
+   },
+   "2014": {
+    "Gentile": 9.0,
+    "Russo": 9.0,
+    "KEV": 6.0,
+    "MARZ": 7.0,
+    "Freeman": 7.0,
+    "Drexello": 8.0,
+    "MCFADDEN": 5.0,
+    "Meany": 6.0,
+    "Fig": 5.0,
+    "Kardian": 3.0
+   },
+   "2015": {
+    "MCFADDEN": 7.0,
+    "Freeman": 8.0,
+    "Fig": 8.0,
+    "MARZ": 8.0,
+    "KEV": 8.0,
+    "Kardian": 7.0,
+    "Russo": 4.0,
+    "Meany": 4.0,
+    "Gentile": 6.0,
+    "Drexello": 5.0
+   },
+   "2016": {
+    "MARZ": 8.0,
+    "KEV": 8.0,
+    "Kardian": 8.0,
+    "Russo": 7.0,
+    "Freeman": 7.0,
+    "Meany": 7.0,
+    "MCFADDEN": 5.0,
+    "Fig": 5.0,
+    "Gentile": 5.0,
+    "Drexello": 5.0
+   },
+   "2017": {
+    "Meany": 7.0,
+    "MARZ": 8.0,
+    "Freeman": 7.0,
+    "Russo": 8.0,
+    "Gentile": 8.0,
+    "Drexello": 7.0,
+    "MCFADDEN": 5.0,
+    "KEV": 5.0,
+    "Fig": 5.0,
+    "Kardian": 5.0
+   },
+   "2018": {
+    "Fig": 7.0,
+    "Kardian": 8.0,
+    "KEV": 9.0,
+    "MCFADDEN": 8.0,
+    "MARZ": 8.0,
+    "Drexello": 10.0,
+    "Russo": 4.0,
+    "Freeman": 6.0,
+    "Meany": 3.0,
+    "Gentile": 2.0
+   },
+   "2019": {
+    "Meany": 10.0,
+    "MCFADDEN": 9.0,
+    "KEV": 6.0,
+    "Russo": 9.0,
+    "Freeman": 7.0,
+    "Gentile": 7.0,
+    "MARZ": 5.0,
+    "Fig": 5.0,
+    "Kardian": 4.0,
+    "Drexello": 3.0
+   },
+   "2020": {
+    "MARZ": 5.0,
+    "Freeman": 5.0,
+    "Meany": 5.0,
+    "Kardian": 5.0,
+    "MCFADDEN": 6.0,
+    "Russo": 9.0,
+    "KEV": 7.0,
+    "Fig": 6.0,
+    "Gentile": 6.0,
+    "Drexello": 11.0
+   },
+   "2021": {
+    "MARZ": 8.0,
+    "Freeman": 8.0,
+    "Meany": 5.0,
+    "Kardian": 9.0,
+    "MCFADDEN": 8.0,
+    "Russo": 7.0,
+    "KEV": 5.0,
+    "Fig": 5.0,
+    "Gentile": 7.0,
+    "Drexello": 8.0
+   },
+   "2022": {
+    "MARZ": 4.0,
+    "Freeman": 10.0,
+    "Meany": 5.0,
+    "Kardian": 9.0,
+    "MCFADDEN": 11.0,
+    "Russo": 6.0,
+    "KEV": 9.0,
+    "Fig": 5.0,
+    "Gentile": 4.0,
+    "Drexello": 7.0
+   },
+   "2023": {
+    "MARZ": 8.0,
+    "Freeman": 8.0,
+    "Meany": 8.0,
+    "Kardian": 4.0,
+    "MCFADDEN": 7.0,
+    "Russo": 10.0,
+    "KEV": 2.0,
+    "Fig": 5.0,
+    "Gentile": 7.0,
+    "Drexello": 11.0
+   },
+   "2024": {
+    "MARZ": 9.0,
+    "Freeman": 13.0,
+    "Meany": 3.5,
+    "Kardian": 6.0,
+    "MCFADDEN": 8.0,
+    "Russo": 6.0,
+    "KEV": 6.0,
+    "Fig": 7.5,
+    "Gentile": 4.5,
+    "Drexello": 6.5
+   },
+   "2025": {
+    "MARZ": 7.5,
+    "Freeman": 3.5,
+    "Meany": 6.5,
+    "Kardian": 3.5,
+    "MCFADDEN": 7.5,
+    "Russo": 7.0,
+    "KEV": 11.0,
+    "Fig": 7.0,
+    "Gentile": 8.5,
+    "Drexello": 8.0
+   }
+  },
+  "playoff_grid": {
+   "2003": {
+    "MCFADDEN": 1,
+    "Mikey's Cousin": 1,
+    "MARZ": 1,
+    "Russo": 1,
+    "KEV": 0,
+    "Freeman": 0
+   },
+   "2004": {
+    "Freeman": 1,
+    "MARZ": 1,
+    "Russo": 1,
+    "Meany": 1,
+    "KEV": 0,
+    "Steve Bags": 0,
+    "MCFADDEN": 0,
+    "Kennely": 0
+   },
+   "2005": {
+    "MCFADDEN": 1,
+    "Meany": 1,
+    "Freeman": 1,
+    "Russo": 1,
+    "MARZ": 0,
+    "KEV": 0,
+    "Fig": 0,
+    "Mandara": 0
+   },
+   "2006": {
+    "Meany": 1,
+    "Fig": 1,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "Freeman": 1,
+    "MARZ": 0,
+    "Mandara": 0,
+    "Merg": 0,
+    "Tim Mac": 0,
+    "KEV": 1
+   },
+   "2007": {
+    "Meany": 1,
+    "Russo": 1,
+    "KEV": 1,
+    "MARZ": 1,
+    "Freeman": 1,
+    "Kardian": 1,
+    "MCFADDEN": 0,
+    "Fig": 0,
+    "Merg": 0,
+    "Hinden": 0
+   },
+   "2008": {
+    "Meany": 1,
+    "MARZ": 1,
+    "MCFADDEN": 1,
+    "Gentile": 1,
+    "Russo": 0,
+    "Freeman": 0,
+    "Hinden": 0,
+    "KEV": 1,
+    "Fig": 1,
+    "Kardian": 0
+   },
+   "2009": {
+    "KEV": 1,
+    "Gentile": 1,
+    "MARZ": 1,
+    "Meany": 1,
+    "Kardian": 1,
+    "MCFADDEN": 0,
+    "Russo": 0,
+    "Freeman": 0,
+    "Fig": 0,
+    "Gizzi": 0
+   },
+   "2010": {
+    "KEV": 1,
+    "Freeman": 1,
+    "MARZ": 1,
+    "Russo": 1,
+    "Fig": 1,
+    "Gentile": 1,
+    "MCFADDEN": 0,
+    "Meany": 0,
+    "Kardian": 0,
+    "Drexello": 0
+   },
+   "2011": {
+    "Meany": 1,
+    "MCFADDEN": 1,
+    "Kardian": 1,
+    "MARZ": 1,
+    "Russo": 0,
+    "KEV": 0,
+    "Freeman": 0,
+    "Gentile": 0,
+    "Fig": 1,
+    "Drexello": 1
+   },
+   "2012": {
+    "Gentile": 1,
+    "Meany": 1,
+    "Fig": 1,
+    "Freeman": 1,
+    "Drexello": 1,
+    "MCFADDEN": 0,
+    "MARZ": 0,
+    "Russo": 1,
+    "KEV": 0,
+    "Kardian": 0
+   },
+   "2013": {
+    "Gentile": 1,
+    "KEV": 1,
+    "Russo": 1,
+    "MCFADDEN": 1,
+    "Freeman": 1,
+    "Meany": 1,
+    "MARZ": 0,
+    "Fig": 0,
+    "Kardian": 0,
+    "Drexello": 0
+   },
+   "2014": {
+    "Gentile": 1,
+    "Russo": 1,
+    "KEV": 1,
+    "MARZ": 1,
+    "Freeman": 1,
+    "Drexello": 1,
+    "MCFADDEN": 0,
+    "Meany": 0,
+    "Fig": 0,
+    "Kardian": 0
+   },
+   "2015": {
+    "MCFADDEN": 1,
+    "Freeman": 1,
+    "Fig": 1,
+    "MARZ": 1,
+    "KEV": 1,
+    "Kardian": 1,
+    "Russo": 0,
+    "Meany": 0,
+    "Gentile": 0,
+    "Drexello": 0
+   },
+   "2016": {
+    "MARZ": 1,
+    "KEV": 1,
+    "Kardian": 1,
+    "Russo": 1,
+    "Freeman": 1,
+    "Meany": 1,
+    "MCFADDEN": 0,
+    "Fig": 0,
+    "Gentile": 0,
+    "Drexello": 0
+   },
+   "2017": {
+    "Meany": 1,
+    "MARZ": 1,
+    "Freeman": 1,
+    "Russo": 1,
+    "Gentile": 1,
+    "Drexello": 1,
+    "MCFADDEN": 0,
+    "KEV": 0,
+    "Fig": 0,
+    "Kardian": 0
+   },
+   "2018": {
+    "Fig": 1,
+    "Kardian": 1,
+    "KEV": 1,
+    "MCFADDEN": 1,
+    "MARZ": 1,
+    "Drexello": 1,
+    "Russo": 0,
+    "Freeman": 0,
+    "Meany": 0,
+    "Gentile": 0
+   },
+   "2019": {
+    "Meany": 1,
+    "MCFADDEN": 1,
+    "KEV": 1,
+    "Russo": 1,
+    "Freeman": 1,
+    "Gentile": 1,
+    "MARZ": 0,
+    "Fig": 0,
+    "Kardian": 0,
+    "Drexello": 0
+   },
+   "2020": {
+    "MARZ": 0,
+    "Freeman": 0,
+    "Meany": 0,
+    "Kardian": 0,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "KEV": 1,
+    "Fig": 1,
+    "Gentile": 1,
+    "Drexello": 1
+   },
+   "2021": {
+    "MARZ": 1,
+    "Freeman": 1,
+    "Meany": 0,
+    "Kardian": 1,
+    "MCFADDEN": 1,
+    "Russo": 0,
+    "KEV": 0,
+    "Fig": 0,
+    "Gentile": 1,
+    "Drexello": 1
+   },
+   "2022": {
+    "MARZ": 0,
+    "Freeman": 1,
+    "Meany": 0,
+    "Kardian": 1,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "KEV": 1,
+    "Fig": 0,
+    "Gentile": 0,
+    "Drexello": 1
+   },
+   "2023": {
+    "MARZ": 1,
+    "Freeman": 1,
+    "Meany": 1,
+    "Kardian": 0,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "KEV": 0,
+    "Fig": 0,
+    "Gentile": 0,
+    "Drexello": 1
+   },
+   "2024": {
+    "MARZ": 1,
+    "Freeman": 1,
+    "Meany": 0,
+    "Kardian": 0,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "KEV": 0,
+    "Fig": 1,
+    "Gentile": 0,
+    "Drexello": 1
+   },
+   "2025": {
+    "MARZ": 1,
+    "Freeman": 0,
+    "Meany": 0,
+    "Kardian": 0,
+    "MCFADDEN": 1,
+    "Russo": 1,
+    "KEV": 1,
+    "Fig": 0,
+    "Gentile": 1,
+    "Drexello": 1
+   }
+  },
+  "championships": [
+   {
+    "year": 2003,
+    "champion": "MCFADDEN",
+    "runner_up": "Mikey's Cousin",
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "draft": 4,
+    "size": 6
+   },
+   {
+    "year": 2004,
+    "champion": "Freeman",
+    "runner_up": "MARZ",
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "draft": 8,
+    "size": 8
+   },
+   {
+    "year": 2005,
+    "champion": "MCFADDEN",
+    "runner_up": "Meany",
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 1,
+    "size": 8
+   },
+   {
+    "year": 2006,
+    "champion": "Meany",
+    "runner_up": "Fig",
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "draft": 3,
+    "size": 10
+   },
+   {
+    "year": 2007,
+    "champion": "Meany",
+    "runner_up": "Russo",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 7,
+    "size": 10
+   },
+   {
+    "year": 2008,
+    "champion": "Meany",
+    "runner_up": "MARZ",
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "draft": 2,
+    "size": 10
+   },
+   {
+    "year": 2009,
+    "champion": "KEV",
+    "runner_up": "Gentile",
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "draft": 6,
+    "size": 10
+   },
+   {
+    "year": 2010,
+    "champion": "KEV",
+    "runner_up": "Freeman",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 1,
+    "size": 10
+   },
+   {
+    "year": 2011,
+    "champion": "Meany",
+    "runner_up": "MCFADDEN",
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "draft": 7,
+    "size": 10
+   },
+   {
+    "year": 2012,
+    "champion": "Gentile",
+    "runner_up": "Meany",
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "draft": 3,
+    "size": 10
+   },
+   {
+    "year": 2013,
+    "champion": "Gentile",
+    "runner_up": "KEV",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 1,
+    "size": 10
+   },
+   {
+    "year": 2014,
+    "champion": "Gentile",
+    "runner_up": "Russo",
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "draft": 5,
+    "size": 10
+   },
+   {
+    "year": 2015,
+    "champion": "MCFADDEN",
+    "runner_up": "Freeman",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 8,
+    "size": 10
+   },
+   {
+    "year": 2016,
+    "champion": "MARZ",
+    "runner_up": "KEV",
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "draft": 1,
+    "size": 10
+   },
+   {
+    "year": 2017,
+    "champion": "Meany",
+    "runner_up": "MARZ",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 6,
+    "size": 10
+   },
+   {
+    "year": 2018,
+    "champion": "Fig",
+    "runner_up": "Kardian",
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 7,
+    "size": 10
+   },
+   {
+    "year": 2019,
+    "champion": "Meany",
+    "runner_up": "MCFADDEN",
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "draft": 10,
+    "size": 10
+   },
+   {
+    "year": 2020,
+    "champion": "Fig",
+    "runner_up": "Gentile",
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "draft": 1,
+    "size": 10
+   },
+   {
+    "year": 2021,
+    "champion": "MCFADDEN",
+    "runner_up": "Kardian",
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 10,
+    "size": 10
+   },
+   {
+    "year": 2022,
+    "champion": "MCFADDEN",
+    "runner_up": "Freeman",
+    "W": 11.0,
+    "L": 3.0,
+    "T": 0.0,
+    "draft": 2,
+    "size": 10
+   },
+   {
+    "year": 2023,
+    "champion": "Freeman",
+    "runner_up": "Drexello",
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "draft": 7,
+    "size": 10
+   },
+   {
+    "year": 2024,
+    "champion": "MARZ",
+    "runner_up": "Freeman",
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "draft": 4,
+    "size": 10
+   },
+   {
+    "year": 2025,
+    "champion": "KEV",
+    "runner_up": "Drexello",
+    "W": 11.0,
+    "L": 3.0,
+    "T": 0.0,
+    "draft": 6,
+    "size": 10
+   }
+  ],
+  "titles_by_draft_slot": {
+   "1": 4,
+   "2": 2,
+   "3": 2,
+   "4": 1,
+   "5": 1,
+   "6": 3,
+   "7": 4,
+   "8": 1,
+   "10": 2
+  },
+  "evolution": [
+   {
+    "year": 2003,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Original"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Original"
+     },
+     {
+      "manager": "Russo",
+      "type": "Original"
+     },
+     {
+      "manager": "KEV",
+      "type": "Original"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Original"
+     },
+     {
+      "manager": "Mikey's Cousin",
+      "type": "Original"
+     }
+    ]
+   },
+   {
+    "year": 2004,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kennely",
+      "type": "New"
+     },
+     {
+      "manager": "Steve Bags",
+      "type": "New"
+     },
+     {
+      "manager": "Meany",
+      "type": "New"
+     },
+     {
+      "manager": "Mikey's Cousin",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2005,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "New"
+     },
+     {
+      "manager": "Mandara",
+      "type": "New"
+     },
+     {
+      "manager": "Kennely",
+      "type": "Departing"
+     },
+     {
+      "manager": "Steve Bags",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2006,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Mandara",
+      "type": "Returning"
+     },
+     {
+      "manager": "Merg",
+      "type": "New"
+     },
+     {
+      "manager": "Tim Mac",
+      "type": "New"
+     }
+    ]
+   },
+   {
+    "year": 2007,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Merg",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "New"
+     },
+     {
+      "manager": "Hinden",
+      "type": "New"
+     },
+     {
+      "manager": "Mandara",
+      "type": "Departing"
+     },
+     {
+      "manager": "Tim Mac",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2008,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Hinden",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "New"
+     },
+     {
+      "manager": "Merg",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2009,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gizzi",
+      "type": "New"
+     },
+     {
+      "manager": "Hinden",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2010,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "New"
+     },
+     {
+      "manager": "Gizzi",
+      "type": "Departing"
+     }
+    ]
+   },
+   {
+    "year": 2011,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2012,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2013,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2014,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2015,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2016,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2017,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2018,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2019,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2020,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2021,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2022,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2023,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2024,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   },
+   {
+    "year": 2025,
+    "seats": [
+     {
+      "manager": "MCFADDEN",
+      "type": "Returning"
+     },
+     {
+      "manager": "MARZ",
+      "type": "Returning"
+     },
+     {
+      "manager": "Russo",
+      "type": "Returning"
+     },
+     {
+      "manager": "KEV",
+      "type": "Returning"
+     },
+     {
+      "manager": "Freeman",
+      "type": "Returning"
+     },
+     {
+      "manager": "Meany",
+      "type": "Returning"
+     },
+     {
+      "manager": "Fig",
+      "type": "Returning"
+     },
+     {
+      "manager": "Kardian",
+      "type": "Returning"
+     },
+     {
+      "manager": "Gentile",
+      "type": "Returning"
+     },
+     {
+      "manager": "Drexello",
+      "type": "Returning"
+     }
+    ]
+   }
+  ],
+  "awards": [
+   {
+    "award": "Most Titles",
+    "stat": 6.0,
+    "managers": [
+     "Meany"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Most Wins",
+    "stat": 167.5,
+    "managers": [
+     "Freeman",
+     "MARZ"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Most Losses",
+    "stat": 152.5,
+    "managers": [
+     "Fig"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Best Win % (5+ seasons)",
+    "stat": 0.5493,
+    "managers": [
+     "Drexello"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Worst Win % (5+ seasons)",
+    "stat": 0.4464,
+    "managers": [
+     "Kardian"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Most Playoff Appearances",
+    "stat": 17.0,
+    "managers": [
+     "Russo"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Most Top 2 Finishes",
+    "stat": 8.0,
+    "managers": [
+     "Meany"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Most Top 3 Finishes",
+    "stat": 10.0,
+    "managers": [
+     "KEV",
+     "MCFADDEN"
+    ],
+    "years": [
+     "All"
+    ]
+   },
+   {
+    "award": "Best Single Season (Win %)",
+    "stat": 0.9285714285714286,
+    "managers": [
+     "Freeman"
+    ],
+    "years": [
+     "2024"
+    ]
+   },
+   {
+    "award": "Worst Single Season (Win %)",
+    "stat": 0.07692307692307693,
+    "managers": [
+     "Meany"
+    ],
+    "years": [
+     "2010"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "year": 2025,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.5,
+    "L": 6.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 15.0,
+    "L_median": 13.0
+   },
+   {
+    "year": 2025,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.5,
+    "L": 10.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 7.0,
+    "L_median": 21.0
+   },
+   {
+    "year": 2025,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.5,
+    "L": 7.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 13.0,
+    "L_median": 15.0
+   },
+   {
+    "year": 2025,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.5,
+    "L": 10.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 7.0,
+    "L_median": 21.0
+   },
+   {
+    "year": 2025,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.5,
+    "L": 6.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 15.0,
+    "L_median": 13.0
+   },
+   {
+    "year": 2025,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 14.0,
+    "L_median": 14.0
+   },
+   {
+    "year": 2025,
+    "manager": "KEV",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 11.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 22.0,
+    "L_median": 6.0
+   },
+   {
+    "year": 2025,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 14.0,
+    "L_median": 14.0
+   },
+   {
+    "year": 2025,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.5,
+    "L": 5.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 17.0,
+    "L_median": 11.0
+   },
+   {
+    "year": 2025,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 16.0,
+    "L_median": 12.0
+   },
+   {
+    "year": 2024,
+    "manager": "MARZ",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 18.0,
+    "L_median": 10.0
+   },
+   {
+    "year": 2024,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 13.0,
+    "L": 1.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 26.0,
+    "L_median": 2.0
+   },
+   {
+    "year": 2024,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.5,
+    "L": 10.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 7.0,
+    "L_median": 21.0
+   },
+   {
+    "year": 2024,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 12.0,
+    "L_median": 16.0
+   },
+   {
+    "year": 2024,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 16.0,
+    "L_median": 12.0
+   },
+   {
+    "year": 2024,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 12.0,
+    "L_median": 16.0
+   },
+   {
+    "year": 2024,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 12.0,
+    "L_median": 16.0
+   },
+   {
+    "year": 2024,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.5,
+    "L": 6.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 15.0,
+    "L_median": 13.0
+   },
+   {
+    "year": 2024,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.5,
+    "L": 9.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": 9.0,
+    "L_median": 19.0
+   },
+   {
+    "year": 2024,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.5,
+    "L": 7.5,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": 13.0,
+    "L_median": 15.0
+   },
+   {
+    "year": 2023,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Freeman",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 2.0,
+    "L": 12.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2023,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 11.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 11.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2022,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2021,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Fig",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2020,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 11.0,
+    "L": 2.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2019,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Fig",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2018,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 2.0,
+    "L": 11.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2017,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "MARZ",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2016,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2015,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Gentile",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2014,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Gentile",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 11.0,
+    "L": 2.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 2.0,
+    "L": 11.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2013,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Gentile",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 5.0,
+    "L": 7.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 9.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2012,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 7.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2011,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "KEV",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 11.0,
+    "L": 2.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 1.0,
+    "L": 12.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2010,
+    "manager": "Drexello",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "KEV",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2009,
+    "manager": "Gizzi",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 7.0,
+    "L": 4.0,
+    "T": 2.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Gentile",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 11.0,
+    "L": 2.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Hinden",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 7.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 7.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2008,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 8.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Kardian",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Merg",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2007,
+    "manager": "Hinden",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Meany",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 5.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 10.0,
+    "L": 3.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Mandara",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Merg",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "Tim Mac",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 13.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2006,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 6.0,
+    "T": 1.0,
+    "games": 13.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "Fig",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2005,
+    "manager": "Mandara",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "Freeman",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 10.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "Meany",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 9.0,
+    "L": 5.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "Steve Bags",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 5.0,
+    "L": 9.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 3.0,
+    "L": 10.0,
+    "T": 1.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2004,
+    "manager": "Kennely",
+    "active": false,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 9.0,
+    "T": 1.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "MCFADDEN",
+    "active": true,
+    "first": 1.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "Mikey's Cousin",
+    "active": false,
+    "first": 0.0,
+    "second": 1.0,
+    "third": 0.0,
+    "W": 7.0,
+    "L": 7.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "MARZ",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 1.0,
+    "W": 8.0,
+    "L": 6.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "Russo",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 10.0,
+    "L": 4.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 1.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "KEV",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 6.0,
+    "L": 8.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   },
+   {
+    "year": 2003,
+    "manager": "Freeman",
+    "active": true,
+    "first": 0.0,
+    "second": 0.0,
+    "third": 0.0,
+    "W": 4.0,
+    "L": 10.0,
+    "T": 0.0,
+    "games": 14.0,
+    "playoffs": 0.0,
+    "W_median": null,
+    "L_median": null
+   }
+  ]
+ },
+ "scoring": {
+  "Pass Yds": 0.04,
+  "Pass TD": 4,
+  "Pass INT": -1,
+  "Rush Yds": 0.1,
+  "Rush TD": 6,
+  "Receptions": 1,
+  "Rec Yds": 0.1,
+  "Rec TD": 6,
+  "Return TD": 6,
+  "2-Pt Conv": 2,
+  "Fumbles Lost": -2,
+  "FG 0-19": 3,
+  "FG 20-29": 3,
+  "FG 30-39": 3,
+  "FG 40-49": 4,
+  "FG 50+": 5,
+  "FG Miss 0-19": -1,
+  "FG Miss 20-29": -1,
+  "FG Miss 30-39": -1,
+  "PAT": 1,
+  "Sacks": 1,
+  "Def INT": 2,
+  "Fum Rec": 2,
+  "Def TD": 6,
+  "Safety": 2,
+  "Blocked Kick": 4,
+  "Def Return TD": 6
+ }
+}
