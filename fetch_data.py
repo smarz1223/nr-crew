@@ -322,9 +322,14 @@ def build_analytics(players, dst_pa, owners):
 
 
 # ----------------------------------------------------------------- HISTORY
+CURRENT_OWNERS = set()
+
+
 def hname(n):
+    """History name -> display name. Current managers use their 2026 name."""
     n = str(n).strip()
-    return HISTORY_NAME_MAP.get(n, n)
+    n = HISTORY_NAME_MAP.get(n, n)
+    return n.upper() if n.upper() in CURRENT_OWNERS else n
 
 
 def build_history(wb, flags):
@@ -409,11 +414,13 @@ def build_history(wb, flags):
         y = r[1].value
         if not y:
             continue
-        seats = []
+        seats = []  # keeps the sheet's seat columns, gaps included
         for c in r[2:14]:
-            if c.value:
-                seats.append({"manager": hname(c.value),
-                              "type": legend.get((c.fill.fgColor.rgb or "")[-6:], "Continuing")})
+            seats.append({"manager": hname(c.value),
+                          "type": legend.get((c.fill.fgColor.rgb or "")[-6:], "Continuing")}
+                         if c.value else None)
+        while seats and seats[-1] is None:
+            seats.pop()
         evolution.append({"year": int(y), "seats": seats})
     # awards (recomputed)
     def best(key, rows, rev=True, fmt=lambda v: v):
@@ -475,6 +482,7 @@ def main():
     recon, dst_pa, status, weeks_entered = reconcile(players, ytot, weeks, owners, flags)
     standings, weekly_rows = build_standings(weeks, owners)
     cats, positions = build_analytics(players, dst_pa, owners)
+    CURRENT_OWNERS.update(owners)
     history = build_history(hwb, flags)
 
     player_out = sorted(({"owner": p["owner"], "player": p["player"], "nfl": p["nfl"], "pos": p["pos"],
