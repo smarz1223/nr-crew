@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-09-23 17:28 UTC",
+ "updated": "2026-09-23 17:37 UTC",
  "weeks_entered": 2,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -3432,7 +3432,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 2,
@@ -3584,7 +3584,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Vikings",
+   "player": "Minnesota",
    "nfl": "MIN",
    "pos": "DEF",
    "gp": 2,
@@ -4282,7 +4282,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Jaguars",
+   "player": "Jacksonville",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
@@ -4304,7 +4304,7 @@
   },
   {
    "owner": "FREEMAN",
-   "player": "Baltimore",
+   "player": "Ravens",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -4399,7 +4399,7 @@
   },
   {
    "owner": "MCFADDEN",
-   "player": "Houston",
+   "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 2,
@@ -4658,7 +4658,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Buccaneers",
+   "player": "Tampa Bay",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
@@ -4751,7 +4751,7 @@
  "history": {
   "alltime": [
    {
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "years": 16,
     "games": 213.0,
@@ -4785,7 +4785,7 @@
     "playoff_pct": 0.6957
    },
    {
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "years": 23,
     "games": 307.0,
@@ -4802,7 +4802,7 @@
     "playoff_pct": 0.6957
    },
    {
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "years": 23,
     "games": 307.0,
@@ -4853,7 +4853,7 @@
     "playoff_pct": 0.6522
    },
    {
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "years": 18,
     "games": 239.0,
@@ -4870,7 +4870,7 @@
     "playoff_pct": 0.6111
    },
    {
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "years": 22,
     "games": 293.0,
@@ -4887,7 +4887,7 @@
     "playoff_pct": 0.5909
    },
    {
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "years": 21,
     "games": 279.0,
@@ -4904,7 +4904,7 @@
     "playoff_pct": 0.4286
    },
    {
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "years": 19,
     "games": 252.0,
@@ -5058,7 +5058,7 @@
    }
   ],
   "active_ranks": {
-   "Drexello": {
+   "DREXELLO": {
     "years": 10,
     "games": 10,
     "first": 8,
@@ -5086,7 +5086,7 @@
     "playoffs": 2,
     "playoff_pct": 2
    },
-   "Freeman": {
+   "FREEMAN": {
     "years": 1,
     "games": 1,
     "first": 5,
@@ -5100,7 +5100,7 @@
     "playoffs": 2,
     "playoff_pct": 2
    },
-   "Russo": {
+   "RUSSO": {
     "years": 1,
     "games": 1,
     "first": 8,
@@ -5142,7 +5142,7 @@
     "playoffs": 4,
     "playoff_pct": 5
    },
-   "Gentile": {
+   "GENTILE": {
     "years": 9,
     "games": 9,
     "first": 3,
@@ -5156,7 +5156,7 @@
     "playoffs": 7,
     "playoff_pct": 6
    },
-   "Meany": {
+   "MEANY": {
     "years": 6,
     "games": 6,
     "first": 1,
@@ -5170,7 +5170,7 @@
     "playoffs": 6,
     "playoff_pct": 8
    },
-   "Fig": {
+   "FIG": {
     "years": 7,
     "games": 7,
     "first": 5,
@@ -5184,7 +5184,7 @@
     "playoffs": 9,
     "playoff_pct": 9
    },
-   "Kardian": {
+   "KARDIAN": {
     "years": 8,
     "games": 8,
     "first": 8,
@@ -5258,15 +5258,15 @@
     "MCFADDEN": 7.0,
     "Mikey's Cousin": 7.0,
     "MARZ": 8.0,
-    "Russo": 10.0,
+    "RUSSO": 10.0,
     "KEV": 6.0,
-    "Freeman": 4.0
+    "FREEMAN": 4.0
    },
    "2004": {
-    "Freeman": 9.0,
+    "FREEMAN": 9.0,
     "MARZ": 8.0,
-    "Russo": 10.0,
-    "Meany": 9.0,
+    "RUSSO": 10.0,
+    "MEANY": 9.0,
     "KEV": 7.0,
     "Steve Bags": 5.0,
     "MCFADDEN": 3.0,
@@ -5274,20 +5274,20 @@
    },
    "2005": {
     "MCFADDEN": 8.0,
-    "Meany": 8.0,
-    "Freeman": 8.0,
-    "Russo": 8.0,
+    "MEANY": 8.0,
+    "FREEMAN": 8.0,
+    "RUSSO": 8.0,
     "MARZ": 7.0,
     "KEV": 7.0,
-    "Fig": 4.0,
+    "FIG": 4.0,
     "Mandara": 6.0
    },
    "2006": {
-    "Meany": 7.0,
-    "Fig": 6.0,
+    "MEANY": 7.0,
+    "FIG": 6.0,
     "MCFADDEN": 10.0,
-    "Russo": 8.0,
-    "Freeman": 8.0,
+    "RUSSO": 8.0,
+    "FREEMAN": 8.0,
     "MARZ": 5.0,
     "Mandara": 5.0,
     "Merg": 4.0,
@@ -5295,232 +5295,232 @@
     "KEV": 6.0
    },
    "2007": {
-    "Meany": 7.0,
-    "Russo": 7.0,
+    "MEANY": 7.0,
+    "RUSSO": 7.0,
     "KEV": 8.0,
     "MARZ": 8.0,
-    "Freeman": 10.0,
-    "Kardian": 7.0,
+    "FREEMAN": 10.0,
+    "KARDIAN": 7.0,
     "MCFADDEN": 4.0,
-    "Fig": 6.0,
+    "FIG": 6.0,
     "Merg": 5.0,
     "Hinden": 3.0
    },
    "2008": {
-    "Meany": 7.0,
+    "MEANY": 7.0,
     "MARZ": 10.0,
     "MCFADDEN": 7.0,
-    "Gentile": 11.0,
-    "Russo": 5.0,
-    "Freeman": 4.0,
+    "GENTILE": 11.0,
+    "RUSSO": 5.0,
+    "FREEMAN": 4.0,
     "Hinden": 4.0,
     "KEV": 5.0,
-    "Fig": 5.0,
-    "Kardian": 4.0
+    "FIG": 5.0,
+    "KARDIAN": 4.0
    },
    "2009": {
     "KEV": 10.0,
-    "Gentile": 6.0,
+    "GENTILE": 6.0,
     "MARZ": 10.0,
-    "Meany": 9.0,
-    "Kardian": 6.0,
+    "MEANY": 9.0,
+    "KARDIAN": 6.0,
     "MCFADDEN": 3.0,
-    "Russo": 3.0,
-    "Freeman": 5.0,
-    "Fig": 6.0,
+    "RUSSO": 3.0,
+    "FREEMAN": 5.0,
+    "FIG": 6.0,
     "Gizzi": 7.0
    },
    "2010": {
     "KEV": 7.0,
-    "Freeman": 10.0,
+    "FREEMAN": 10.0,
     "MARZ": 11.0,
-    "Russo": 6.0,
-    "Fig": 9.0,
-    "Gentile": 6.0,
+    "RUSSO": 6.0,
+    "FIG": 9.0,
+    "GENTILE": 6.0,
     "MCFADDEN": 3.0,
-    "Meany": 1.0,
-    "Kardian": 6.0,
-    "Drexello": 6.0
+    "MEANY": 1.0,
+    "KARDIAN": 6.0,
+    "DREXELLO": 6.0
    },
    "2011": {
-    "Meany": 9.0,
+    "MEANY": 9.0,
     "MCFADDEN": 6.0,
-    "Kardian": 10.0,
+    "KARDIAN": 10.0,
     "MARZ": 6.0,
-    "Russo": 5.0,
+    "RUSSO": 5.0,
     "KEV": 5.0,
-    "Freeman": 4.0,
-    "Gentile": 5.0,
-    "Fig": 7.0,
-    "Drexello": 7.0
+    "FREEMAN": 4.0,
+    "GENTILE": 5.0,
+    "FIG": 7.0,
+    "DREXELLO": 7.0
    },
    "2012": {
-    "Gentile": 9.0,
-    "Meany": 6.0,
-    "Fig": 5.0,
-    "Freeman": 9.0,
-    "Drexello": 9.0,
+    "GENTILE": 9.0,
+    "MEANY": 6.0,
+    "FIG": 5.0,
+    "FREEMAN": 9.0,
+    "DREXELLO": 9.0,
     "MCFADDEN": 5.0,
     "MARZ": 5.0,
-    "Russo": 7.0,
+    "RUSSO": 7.0,
     "KEV": 3.0,
-    "Kardian": 5.0
+    "KARDIAN": 5.0
    },
    "2013": {
-    "Gentile": 7.0,
+    "GENTILE": 7.0,
     "KEV": 10.0,
-    "Russo": 8.0,
+    "RUSSO": 8.0,
     "MCFADDEN": 11.0,
-    "Freeman": 7.0,
-    "Meany": 6.0,
+    "FREEMAN": 7.0,
+    "MEANY": 6.0,
     "MARZ": 4.0,
-    "Fig": 5.0,
-    "Kardian": 2.0,
-    "Drexello": 5.0
+    "FIG": 5.0,
+    "KARDIAN": 2.0,
+    "DREXELLO": 5.0
    },
    "2014": {
-    "Gentile": 9.0,
-    "Russo": 9.0,
+    "GENTILE": 9.0,
+    "RUSSO": 9.0,
     "KEV": 6.0,
     "MARZ": 7.0,
-    "Freeman": 7.0,
-    "Drexello": 8.0,
+    "FREEMAN": 7.0,
+    "DREXELLO": 8.0,
     "MCFADDEN": 5.0,
-    "Meany": 6.0,
-    "Fig": 5.0,
-    "Kardian": 3.0
+    "MEANY": 6.0,
+    "FIG": 5.0,
+    "KARDIAN": 3.0
    },
    "2015": {
     "MCFADDEN": 7.0,
-    "Freeman": 8.0,
-    "Fig": 8.0,
+    "FREEMAN": 8.0,
+    "FIG": 8.0,
     "MARZ": 8.0,
     "KEV": 8.0,
-    "Kardian": 7.0,
-    "Russo": 4.0,
-    "Meany": 4.0,
-    "Gentile": 6.0,
-    "Drexello": 5.0
+    "KARDIAN": 7.0,
+    "RUSSO": 4.0,
+    "MEANY": 4.0,
+    "GENTILE": 6.0,
+    "DREXELLO": 5.0
    },
    "2016": {
     "MARZ": 8.0,
     "KEV": 8.0,
-    "Kardian": 8.0,
-    "Russo": 7.0,
-    "Freeman": 7.0,
-    "Meany": 7.0,
+    "KARDIAN": 8.0,
+    "RUSSO": 7.0,
+    "FREEMAN": 7.0,
+    "MEANY": 7.0,
     "MCFADDEN": 5.0,
-    "Fig": 5.0,
-    "Gentile": 5.0,
-    "Drexello": 5.0
+    "FIG": 5.0,
+    "GENTILE": 5.0,
+    "DREXELLO": 5.0
    },
    "2017": {
-    "Meany": 7.0,
+    "MEANY": 7.0,
     "MARZ": 8.0,
-    "Freeman": 7.0,
-    "Russo": 8.0,
-    "Gentile": 8.0,
-    "Drexello": 7.0,
+    "FREEMAN": 7.0,
+    "RUSSO": 8.0,
+    "GENTILE": 8.0,
+    "DREXELLO": 7.0,
     "MCFADDEN": 5.0,
     "KEV": 5.0,
-    "Fig": 5.0,
-    "Kardian": 5.0
+    "FIG": 5.0,
+    "KARDIAN": 5.0
    },
    "2018": {
-    "Fig": 7.0,
-    "Kardian": 8.0,
+    "FIG": 7.0,
+    "KARDIAN": 8.0,
     "KEV": 9.0,
     "MCFADDEN": 8.0,
     "MARZ": 8.0,
-    "Drexello": 10.0,
-    "Russo": 4.0,
-    "Freeman": 6.0,
-    "Meany": 3.0,
-    "Gentile": 2.0
+    "DREXELLO": 10.0,
+    "RUSSO": 4.0,
+    "FREEMAN": 6.0,
+    "MEANY": 3.0,
+    "GENTILE": 2.0
    },
    "2019": {
-    "Meany": 10.0,
+    "MEANY": 10.0,
     "MCFADDEN": 9.0,
     "KEV": 6.0,
-    "Russo": 9.0,
-    "Freeman": 7.0,
-    "Gentile": 7.0,
+    "RUSSO": 9.0,
+    "FREEMAN": 7.0,
+    "GENTILE": 7.0,
     "MARZ": 5.0,
-    "Fig": 5.0,
-    "Kardian": 4.0,
-    "Drexello": 3.0
+    "FIG": 5.0,
+    "KARDIAN": 4.0,
+    "DREXELLO": 3.0
    },
    "2020": {
     "MARZ": 5.0,
-    "Freeman": 5.0,
-    "Meany": 5.0,
-    "Kardian": 5.0,
+    "FREEMAN": 5.0,
+    "MEANY": 5.0,
+    "KARDIAN": 5.0,
     "MCFADDEN": 6.0,
-    "Russo": 9.0,
+    "RUSSO": 9.0,
     "KEV": 7.0,
-    "Fig": 6.0,
-    "Gentile": 6.0,
-    "Drexello": 11.0
+    "FIG": 6.0,
+    "GENTILE": 6.0,
+    "DREXELLO": 11.0
    },
    "2021": {
     "MARZ": 8.0,
-    "Freeman": 8.0,
-    "Meany": 5.0,
-    "Kardian": 9.0,
+    "FREEMAN": 8.0,
+    "MEANY": 5.0,
+    "KARDIAN": 9.0,
     "MCFADDEN": 8.0,
-    "Russo": 7.0,
+    "RUSSO": 7.0,
     "KEV": 5.0,
-    "Fig": 5.0,
-    "Gentile": 7.0,
-    "Drexello": 8.0
+    "FIG": 5.0,
+    "GENTILE": 7.0,
+    "DREXELLO": 8.0
    },
    "2022": {
     "MARZ": 4.0,
-    "Freeman": 10.0,
-    "Meany": 5.0,
-    "Kardian": 9.0,
+    "FREEMAN": 10.0,
+    "MEANY": 5.0,
+    "KARDIAN": 9.0,
     "MCFADDEN": 11.0,
-    "Russo": 6.0,
+    "RUSSO": 6.0,
     "KEV": 9.0,
-    "Fig": 5.0,
-    "Gentile": 4.0,
-    "Drexello": 7.0
+    "FIG": 5.0,
+    "GENTILE": 4.0,
+    "DREXELLO": 7.0
    },
    "2023": {
     "MARZ": 8.0,
-    "Freeman": 8.0,
-    "Meany": 8.0,
-    "Kardian": 4.0,
+    "FREEMAN": 8.0,
+    "MEANY": 8.0,
+    "KARDIAN": 4.0,
     "MCFADDEN": 7.0,
-    "Russo": 10.0,
+    "RUSSO": 10.0,
     "KEV": 2.0,
-    "Fig": 5.0,
-    "Gentile": 7.0,
-    "Drexello": 11.0
+    "FIG": 5.0,
+    "GENTILE": 7.0,
+    "DREXELLO": 11.0
    },
    "2024": {
     "MARZ": 9.0,
-    "Freeman": 13.0,
-    "Meany": 3.5,
-    "Kardian": 6.0,
+    "FREEMAN": 13.0,
+    "MEANY": 3.5,
+    "KARDIAN": 6.0,
     "MCFADDEN": 8.0,
-    "Russo": 6.0,
+    "RUSSO": 6.0,
     "KEV": 6.0,
-    "Fig": 7.5,
-    "Gentile": 4.5,
-    "Drexello": 6.5
+    "FIG": 7.5,
+    "GENTILE": 4.5,
+    "DREXELLO": 6.5
    },
    "2025": {
     "MARZ": 7.5,
-    "Freeman": 3.5,
-    "Meany": 6.5,
-    "Kardian": 3.5,
+    "FREEMAN": 3.5,
+    "MEANY": 6.5,
+    "KARDIAN": 3.5,
     "MCFADDEN": 7.5,
-    "Russo": 7.0,
+    "RUSSO": 7.0,
     "KEV": 11.0,
-    "Fig": 7.0,
-    "Gentile": 8.5,
-    "Drexello": 8.0
+    "FIG": 7.0,
+    "GENTILE": 8.5,
+    "DREXELLO": 8.0
    }
   },
   "playoff_grid": {
@@ -5528,15 +5528,15 @@
     "MCFADDEN": 1,
     "Mikey's Cousin": 1,
     "MARZ": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 0,
-    "Freeman": 0
+    "FREEMAN": 0
    },
    "2004": {
-    "Freeman": 1,
+    "FREEMAN": 1,
     "MARZ": 1,
-    "Russo": 1,
-    "Meany": 1,
+    "RUSSO": 1,
+    "MEANY": 1,
     "KEV": 0,
     "Steve Bags": 0,
     "MCFADDEN": 0,
@@ -5544,20 +5544,20 @@
    },
    "2005": {
     "MCFADDEN": 1,
-    "Meany": 1,
-    "Freeman": 1,
-    "Russo": 1,
+    "MEANY": 1,
+    "FREEMAN": 1,
+    "RUSSO": 1,
     "MARZ": 0,
     "KEV": 0,
-    "Fig": 0,
+    "FIG": 0,
     "Mandara": 0
    },
    "2006": {
-    "Meany": 1,
-    "Fig": 1,
+    "MEANY": 1,
+    "FIG": 1,
     "MCFADDEN": 1,
-    "Russo": 1,
-    "Freeman": 1,
+    "RUSSO": 1,
+    "FREEMAN": 1,
     "MARZ": 0,
     "Mandara": 0,
     "Merg": 0,
@@ -5565,232 +5565,232 @@
     "KEV": 1
    },
    "2007": {
-    "Meany": 1,
-    "Russo": 1,
+    "MEANY": 1,
+    "RUSSO": 1,
     "KEV": 1,
     "MARZ": 1,
-    "Freeman": 1,
-    "Kardian": 1,
+    "FREEMAN": 1,
+    "KARDIAN": 1,
     "MCFADDEN": 0,
-    "Fig": 0,
+    "FIG": 0,
     "Merg": 0,
     "Hinden": 0
    },
    "2008": {
-    "Meany": 1,
+    "MEANY": 1,
     "MARZ": 1,
     "MCFADDEN": 1,
-    "Gentile": 1,
-    "Russo": 0,
-    "Freeman": 0,
+    "GENTILE": 1,
+    "RUSSO": 0,
+    "FREEMAN": 0,
     "Hinden": 0,
     "KEV": 1,
-    "Fig": 1,
-    "Kardian": 0
+    "FIG": 1,
+    "KARDIAN": 0
    },
    "2009": {
     "KEV": 1,
-    "Gentile": 1,
+    "GENTILE": 1,
     "MARZ": 1,
-    "Meany": 1,
-    "Kardian": 1,
+    "MEANY": 1,
+    "KARDIAN": 1,
     "MCFADDEN": 0,
-    "Russo": 0,
-    "Freeman": 0,
-    "Fig": 0,
+    "RUSSO": 0,
+    "FREEMAN": 0,
+    "FIG": 0,
     "Gizzi": 0
    },
    "2010": {
     "KEV": 1,
-    "Freeman": 1,
+    "FREEMAN": 1,
     "MARZ": 1,
-    "Russo": 1,
-    "Fig": 1,
-    "Gentile": 1,
+    "RUSSO": 1,
+    "FIG": 1,
+    "GENTILE": 1,
     "MCFADDEN": 0,
-    "Meany": 0,
-    "Kardian": 0,
-    "Drexello": 0
+    "MEANY": 0,
+    "KARDIAN": 0,
+    "DREXELLO": 0
    },
    "2011": {
-    "Meany": 1,
+    "MEANY": 1,
     "MCFADDEN": 1,
-    "Kardian": 1,
+    "KARDIAN": 1,
     "MARZ": 1,
-    "Russo": 0,
+    "RUSSO": 0,
     "KEV": 0,
-    "Freeman": 0,
-    "Gentile": 0,
-    "Fig": 1,
-    "Drexello": 1
+    "FREEMAN": 0,
+    "GENTILE": 0,
+    "FIG": 1,
+    "DREXELLO": 1
    },
    "2012": {
-    "Gentile": 1,
-    "Meany": 1,
-    "Fig": 1,
-    "Freeman": 1,
-    "Drexello": 1,
+    "GENTILE": 1,
+    "MEANY": 1,
+    "FIG": 1,
+    "FREEMAN": 1,
+    "DREXELLO": 1,
     "MCFADDEN": 0,
     "MARZ": 0,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 0,
-    "Kardian": 0
+    "KARDIAN": 0
    },
    "2013": {
-    "Gentile": 1,
+    "GENTILE": 1,
     "KEV": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "MCFADDEN": 1,
-    "Freeman": 1,
-    "Meany": 1,
+    "FREEMAN": 1,
+    "MEANY": 1,
     "MARZ": 0,
-    "Fig": 0,
-    "Kardian": 0,
-    "Drexello": 0
+    "FIG": 0,
+    "KARDIAN": 0,
+    "DREXELLO": 0
    },
    "2014": {
-    "Gentile": 1,
-    "Russo": 1,
+    "GENTILE": 1,
+    "RUSSO": 1,
     "KEV": 1,
     "MARZ": 1,
-    "Freeman": 1,
-    "Drexello": 1,
+    "FREEMAN": 1,
+    "DREXELLO": 1,
     "MCFADDEN": 0,
-    "Meany": 0,
-    "Fig": 0,
-    "Kardian": 0
+    "MEANY": 0,
+    "FIG": 0,
+    "KARDIAN": 0
    },
    "2015": {
     "MCFADDEN": 1,
-    "Freeman": 1,
-    "Fig": 1,
+    "FREEMAN": 1,
+    "FIG": 1,
     "MARZ": 1,
     "KEV": 1,
-    "Kardian": 1,
-    "Russo": 0,
-    "Meany": 0,
-    "Gentile": 0,
-    "Drexello": 0
+    "KARDIAN": 1,
+    "RUSSO": 0,
+    "MEANY": 0,
+    "GENTILE": 0,
+    "DREXELLO": 0
    },
    "2016": {
     "MARZ": 1,
     "KEV": 1,
-    "Kardian": 1,
-    "Russo": 1,
-    "Freeman": 1,
-    "Meany": 1,
+    "KARDIAN": 1,
+    "RUSSO": 1,
+    "FREEMAN": 1,
+    "MEANY": 1,
     "MCFADDEN": 0,
-    "Fig": 0,
-    "Gentile": 0,
-    "Drexello": 0
+    "FIG": 0,
+    "GENTILE": 0,
+    "DREXELLO": 0
    },
    "2017": {
-    "Meany": 1,
+    "MEANY": 1,
     "MARZ": 1,
-    "Freeman": 1,
-    "Russo": 1,
-    "Gentile": 1,
-    "Drexello": 1,
+    "FREEMAN": 1,
+    "RUSSO": 1,
+    "GENTILE": 1,
+    "DREXELLO": 1,
     "MCFADDEN": 0,
     "KEV": 0,
-    "Fig": 0,
-    "Kardian": 0
+    "FIG": 0,
+    "KARDIAN": 0
    },
    "2018": {
-    "Fig": 1,
-    "Kardian": 1,
+    "FIG": 1,
+    "KARDIAN": 1,
     "KEV": 1,
     "MCFADDEN": 1,
     "MARZ": 1,
-    "Drexello": 1,
-    "Russo": 0,
-    "Freeman": 0,
-    "Meany": 0,
-    "Gentile": 0
+    "DREXELLO": 1,
+    "RUSSO": 0,
+    "FREEMAN": 0,
+    "MEANY": 0,
+    "GENTILE": 0
    },
    "2019": {
-    "Meany": 1,
+    "MEANY": 1,
     "MCFADDEN": 1,
     "KEV": 1,
-    "Russo": 1,
-    "Freeman": 1,
-    "Gentile": 1,
+    "RUSSO": 1,
+    "FREEMAN": 1,
+    "GENTILE": 1,
     "MARZ": 0,
-    "Fig": 0,
-    "Kardian": 0,
-    "Drexello": 0
+    "FIG": 0,
+    "KARDIAN": 0,
+    "DREXELLO": 0
    },
    "2020": {
     "MARZ": 0,
-    "Freeman": 0,
-    "Meany": 0,
-    "Kardian": 0,
+    "FREEMAN": 0,
+    "MEANY": 0,
+    "KARDIAN": 0,
     "MCFADDEN": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 1,
-    "Fig": 1,
-    "Gentile": 1,
-    "Drexello": 1
+    "FIG": 1,
+    "GENTILE": 1,
+    "DREXELLO": 1
    },
    "2021": {
     "MARZ": 1,
-    "Freeman": 1,
-    "Meany": 0,
-    "Kardian": 1,
+    "FREEMAN": 1,
+    "MEANY": 0,
+    "KARDIAN": 1,
     "MCFADDEN": 1,
-    "Russo": 0,
+    "RUSSO": 0,
     "KEV": 0,
-    "Fig": 0,
-    "Gentile": 1,
-    "Drexello": 1
+    "FIG": 0,
+    "GENTILE": 1,
+    "DREXELLO": 1
    },
    "2022": {
     "MARZ": 0,
-    "Freeman": 1,
-    "Meany": 0,
-    "Kardian": 1,
+    "FREEMAN": 1,
+    "MEANY": 0,
+    "KARDIAN": 1,
     "MCFADDEN": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 1,
-    "Fig": 0,
-    "Gentile": 0,
-    "Drexello": 1
+    "FIG": 0,
+    "GENTILE": 0,
+    "DREXELLO": 1
    },
    "2023": {
     "MARZ": 1,
-    "Freeman": 1,
-    "Meany": 1,
-    "Kardian": 0,
+    "FREEMAN": 1,
+    "MEANY": 1,
+    "KARDIAN": 0,
     "MCFADDEN": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 0,
-    "Fig": 0,
-    "Gentile": 0,
-    "Drexello": 1
+    "FIG": 0,
+    "GENTILE": 0,
+    "DREXELLO": 1
    },
    "2024": {
     "MARZ": 1,
-    "Freeman": 1,
-    "Meany": 0,
-    "Kardian": 0,
+    "FREEMAN": 1,
+    "MEANY": 0,
+    "KARDIAN": 0,
     "MCFADDEN": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 0,
-    "Fig": 1,
-    "Gentile": 0,
-    "Drexello": 1
+    "FIG": 1,
+    "GENTILE": 0,
+    "DREXELLO": 1
    },
    "2025": {
     "MARZ": 1,
-    "Freeman": 0,
-    "Meany": 0,
-    "Kardian": 0,
+    "FREEMAN": 0,
+    "MEANY": 0,
+    "KARDIAN": 0,
     "MCFADDEN": 1,
-    "Russo": 1,
+    "RUSSO": 1,
     "KEV": 1,
-    "Fig": 0,
-    "Gentile": 1,
-    "Drexello": 1
+    "FIG": 0,
+    "GENTILE": 1,
+    "DREXELLO": 1
    }
   },
   "championships": [
@@ -5806,7 +5806,7 @@
    },
    {
     "year": 2004,
-    "champion": "Freeman",
+    "champion": "FREEMAN",
     "runner_up": "MARZ",
     "W": 9.0,
     "L": 5.0,
@@ -5817,7 +5817,7 @@
    {
     "year": 2005,
     "champion": "MCFADDEN",
-    "runner_up": "Meany",
+    "runner_up": "MEANY",
     "W": 8.0,
     "L": 6.0,
     "T": 0.0,
@@ -5826,8 +5826,8 @@
    },
    {
     "year": 2006,
-    "champion": "Meany",
-    "runner_up": "Fig",
+    "champion": "MEANY",
+    "runner_up": "FIG",
     "W": 7.0,
     "L": 5.0,
     "T": 1.0,
@@ -5836,8 +5836,8 @@
    },
    {
     "year": 2007,
-    "champion": "Meany",
-    "runner_up": "Russo",
+    "champion": "MEANY",
+    "runner_up": "RUSSO",
     "W": 7.0,
     "L": 6.0,
     "T": 0.0,
@@ -5846,7 +5846,7 @@
    },
    {
     "year": 2008,
-    "champion": "Meany",
+    "champion": "MEANY",
     "runner_up": "MARZ",
     "W": 7.0,
     "L": 5.0,
@@ -5857,7 +5857,7 @@
    {
     "year": 2009,
     "champion": "KEV",
-    "runner_up": "Gentile",
+    "runner_up": "GENTILE",
     "W": 10.0,
     "L": 3.0,
     "T": 0.0,
@@ -5867,7 +5867,7 @@
    {
     "year": 2010,
     "champion": "KEV",
-    "runner_up": "Freeman",
+    "runner_up": "FREEMAN",
     "W": 7.0,
     "L": 6.0,
     "T": 0.0,
@@ -5876,7 +5876,7 @@
    },
    {
     "year": 2011,
-    "champion": "Meany",
+    "champion": "MEANY",
     "runner_up": "MCFADDEN",
     "W": 9.0,
     "L": 4.0,
@@ -5886,8 +5886,8 @@
    },
    {
     "year": 2012,
-    "champion": "Gentile",
-    "runner_up": "Meany",
+    "champion": "GENTILE",
+    "runner_up": "MEANY",
     "W": 9.0,
     "L": 4.0,
     "T": 0.0,
@@ -5896,7 +5896,7 @@
    },
    {
     "year": 2013,
-    "champion": "Gentile",
+    "champion": "GENTILE",
     "runner_up": "KEV",
     "W": 7.0,
     "L": 6.0,
@@ -5906,8 +5906,8 @@
    },
    {
     "year": 2014,
-    "champion": "Gentile",
-    "runner_up": "Russo",
+    "champion": "GENTILE",
+    "runner_up": "RUSSO",
     "W": 9.0,
     "L": 4.0,
     "T": 0.0,
@@ -5917,7 +5917,7 @@
    {
     "year": 2015,
     "champion": "MCFADDEN",
-    "runner_up": "Freeman",
+    "runner_up": "FREEMAN",
     "W": 7.0,
     "L": 6.0,
     "T": 0.0,
@@ -5936,7 +5936,7 @@
    },
    {
     "year": 2017,
-    "champion": "Meany",
+    "champion": "MEANY",
     "runner_up": "MARZ",
     "W": 7.0,
     "L": 6.0,
@@ -5946,8 +5946,8 @@
    },
    {
     "year": 2018,
-    "champion": "Fig",
-    "runner_up": "Kardian",
+    "champion": "FIG",
+    "runner_up": "KARDIAN",
     "W": 7.0,
     "L": 6.0,
     "T": 0.0,
@@ -5956,7 +5956,7 @@
    },
    {
     "year": 2019,
-    "champion": "Meany",
+    "champion": "MEANY",
     "runner_up": "MCFADDEN",
     "W": 10.0,
     "L": 3.0,
@@ -5966,8 +5966,8 @@
    },
    {
     "year": 2020,
-    "champion": "Fig",
-    "runner_up": "Gentile",
+    "champion": "FIG",
+    "runner_up": "GENTILE",
     "W": 6.0,
     "L": 7.0,
     "T": 0.0,
@@ -5977,7 +5977,7 @@
    {
     "year": 2021,
     "champion": "MCFADDEN",
-    "runner_up": "Kardian",
+    "runner_up": "KARDIAN",
     "W": 8.0,
     "L": 6.0,
     "T": 0.0,
@@ -5987,7 +5987,7 @@
    {
     "year": 2022,
     "champion": "MCFADDEN",
-    "runner_up": "Freeman",
+    "runner_up": "FREEMAN",
     "W": 11.0,
     "L": 3.0,
     "T": 0.0,
@@ -5996,8 +5996,8 @@
    },
    {
     "year": 2023,
-    "champion": "Freeman",
-    "runner_up": "Drexello",
+    "champion": "FREEMAN",
+    "runner_up": "DREXELLO",
     "W": 8.0,
     "L": 6.0,
     "T": 0.0,
@@ -6007,7 +6007,7 @@
    {
     "year": 2024,
     "champion": "MARZ",
-    "runner_up": "Freeman",
+    "runner_up": "FREEMAN",
     "W": 9.0,
     "L": 5.0,
     "T": 0.0,
@@ -6017,7 +6017,7 @@
    {
     "year": 2025,
     "champion": "KEV",
-    "runner_up": "Drexello",
+    "runner_up": "DREXELLO",
     "W": 11.0,
     "L": 3.0,
     "T": 0.0,
@@ -6049,7 +6049,7 @@
       "type": "Original"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Original"
      },
      {
@@ -6057,7 +6057,7 @@
       "type": "Original"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Original"
      },
      {
@@ -6078,7 +6078,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6086,7 +6086,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
@@ -6098,9 +6098,11 @@
       "type": "New"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "New"
      },
+     null,
+     null,
      {
       "manager": "Mikey's Cousin",
       "type": "Departing"
@@ -6119,7 +6121,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6127,21 +6129,23 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "New"
      },
      {
       "manager": "Mandara",
       "type": "New"
      },
+     null,
+     null,
      {
       "manager": "Kennely",
       "type": "Departing"
@@ -6164,7 +6168,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6172,15 +6176,15 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
@@ -6209,7 +6213,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6217,15 +6221,15 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
@@ -6233,7 +6237,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "New"
      },
      {
@@ -6262,7 +6266,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6270,19 +6274,19 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
@@ -6290,7 +6294,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "New"
      },
      {
@@ -6311,7 +6315,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6319,23 +6323,23 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
@@ -6360,7 +6364,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6368,27 +6372,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "New"
      },
      {
@@ -6409,7 +6413,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6417,27 +6421,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6454,7 +6458,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6462,27 +6466,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6499,7 +6503,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6507,27 +6511,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6544,7 +6548,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6552,27 +6556,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6589,7 +6593,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6597,27 +6601,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6634,7 +6638,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6642,27 +6646,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6679,7 +6683,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6687,27 +6691,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6724,7 +6728,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6732,27 +6736,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6769,7 +6773,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6777,27 +6781,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6814,7 +6818,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6822,27 +6826,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6859,7 +6863,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6867,27 +6871,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6904,7 +6908,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6912,27 +6916,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6949,7 +6953,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -6957,27 +6961,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -6994,7 +6998,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -7002,27 +7006,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -7039,7 +7043,7 @@
       "type": "Returning"
      },
      {
-      "manager": "Russo",
+      "manager": "RUSSO",
       "type": "Returning"
      },
      {
@@ -7047,27 +7051,27 @@
       "type": "Returning"
      },
      {
-      "manager": "Freeman",
+      "manager": "FREEMAN",
       "type": "Returning"
      },
      {
-      "manager": "Meany",
+      "manager": "MEANY",
       "type": "Returning"
      },
      {
-      "manager": "Fig",
+      "manager": "FIG",
       "type": "Returning"
      },
      {
-      "manager": "Kardian",
+      "manager": "KARDIAN",
       "type": "Returning"
      },
      {
-      "manager": "Gentile",
+      "manager": "GENTILE",
       "type": "Returning"
      },
      {
-      "manager": "Drexello",
+      "manager": "DREXELLO",
       "type": "Returning"
      }
     ]
@@ -7078,7 +7082,7 @@
     "award": "Most Titles",
     "stat": 6.0,
     "managers": [
-     "Meany"
+     "MEANY"
     ],
     "years": [
      "All"
@@ -7088,7 +7092,7 @@
     "award": "Most Wins",
     "stat": 167.5,
     "managers": [
-     "Freeman",
+     "FREEMAN",
      "MARZ"
     ],
     "years": [
@@ -7099,7 +7103,7 @@
     "award": "Most Losses",
     "stat": 152.5,
     "managers": [
-     "Fig"
+     "FIG"
     ],
     "years": [
      "All"
@@ -7109,7 +7113,7 @@
     "award": "Best Win % (5+ seasons)",
     "stat": 0.5493,
     "managers": [
-     "Drexello"
+     "DREXELLO"
     ],
     "years": [
      "All"
@@ -7119,7 +7123,7 @@
     "award": "Worst Win % (5+ seasons)",
     "stat": 0.4464,
     "managers": [
-     "Kardian"
+     "KARDIAN"
     ],
     "years": [
      "All"
@@ -7129,7 +7133,7 @@
     "award": "Most Playoff Appearances",
     "stat": 17.0,
     "managers": [
-     "Russo"
+     "RUSSO"
     ],
     "years": [
      "All"
@@ -7139,7 +7143,7 @@
     "award": "Most Top 2 Finishes",
     "stat": 8.0,
     "managers": [
-     "Meany"
+     "MEANY"
     ],
     "years": [
      "All"
@@ -7160,7 +7164,7 @@
     "award": "Best Single Season (Win %)",
     "stat": 0.9285714285714286,
     "managers": [
-     "Freeman"
+     "FREEMAN"
     ],
     "years": [
      "2024"
@@ -7170,7 +7174,7 @@
     "award": "Worst Single Season (Win %)",
     "stat": 0.07692307692307693,
     "managers": [
-     "Meany"
+     "MEANY"
     ],
     "years": [
      "2010"
@@ -7195,7 +7199,7 @@
    },
    {
     "year": 2025,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7210,7 +7214,7 @@
    },
    {
     "year": 2025,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7225,7 +7229,7 @@
    },
    {
     "year": 2025,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7255,7 +7259,7 @@
    },
    {
     "year": 2025,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7285,7 +7289,7 @@
    },
    {
     "year": 2025,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7300,7 +7304,7 @@
    },
    {
     "year": 2025,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7315,7 +7319,7 @@
    },
    {
     "year": 2025,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -7345,7 +7349,7 @@
    },
    {
     "year": 2024,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -7360,7 +7364,7 @@
    },
    {
     "year": 2024,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7375,7 +7379,7 @@
    },
    {
     "year": 2024,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7405,7 +7409,7 @@
    },
    {
     "year": 2024,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7435,7 +7439,7 @@
    },
    {
     "year": 2024,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7450,7 +7454,7 @@
    },
    {
     "year": 2024,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7465,7 +7469,7 @@
    },
    {
     "year": 2024,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7495,7 +7499,7 @@
    },
    {
     "year": 2023,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -7510,7 +7514,7 @@
    },
    {
     "year": 2023,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7525,7 +7529,7 @@
    },
    {
     "year": 2023,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7555,7 +7559,7 @@
    },
    {
     "year": 2023,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7585,7 +7589,7 @@
    },
    {
     "year": 2023,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7600,7 +7604,7 @@
    },
    {
     "year": 2023,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7615,7 +7619,7 @@
    },
    {
     "year": 2023,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -7645,7 +7649,7 @@
    },
    {
     "year": 2022,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -7660,7 +7664,7 @@
    },
    {
     "year": 2022,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7675,7 +7679,7 @@
    },
    {
     "year": 2022,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7705,7 +7709,7 @@
    },
    {
     "year": 2022,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7735,7 +7739,7 @@
    },
    {
     "year": 2022,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7750,7 +7754,7 @@
    },
    {
     "year": 2022,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7765,7 +7769,7 @@
    },
    {
     "year": 2022,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7795,7 +7799,7 @@
    },
    {
     "year": 2021,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7810,7 +7814,7 @@
    },
    {
     "year": 2021,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7825,7 +7829,7 @@
    },
    {
     "year": 2021,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -7855,7 +7859,7 @@
    },
    {
     "year": 2021,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7885,7 +7889,7 @@
    },
    {
     "year": 2021,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7900,7 +7904,7 @@
    },
    {
     "year": 2021,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7915,7 +7919,7 @@
    },
    {
     "year": 2021,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7945,7 +7949,7 @@
    },
    {
     "year": 2020,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7960,7 +7964,7 @@
    },
    {
     "year": 2020,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -7975,7 +7979,7 @@
    },
    {
     "year": 2020,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8005,7 +8009,7 @@
    },
    {
     "year": 2020,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8035,7 +8039,7 @@
    },
    {
     "year": 2020,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -8050,7 +8054,7 @@
    },
    {
     "year": 2020,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -8065,7 +8069,7 @@
    },
    {
     "year": 2020,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8080,7 +8084,7 @@
    },
    {
     "year": 2019,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -8125,7 +8129,7 @@
    },
    {
     "year": 2019,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8140,7 +8144,7 @@
    },
    {
     "year": 2019,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8155,7 +8159,7 @@
    },
    {
     "year": 2019,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8185,7 +8189,7 @@
    },
    {
     "year": 2019,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8200,7 +8204,7 @@
    },
    {
     "year": 2019,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8215,7 +8219,7 @@
    },
    {
     "year": 2019,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8230,7 +8234,7 @@
    },
    {
     "year": 2018,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -8245,7 +8249,7 @@
    },
    {
     "year": 2018,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -8305,7 +8309,7 @@
    },
    {
     "year": 2018,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8320,7 +8324,7 @@
    },
    {
     "year": 2018,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8335,7 +8339,7 @@
    },
    {
     "year": 2018,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8350,7 +8354,7 @@
    },
    {
     "year": 2018,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8365,7 +8369,7 @@
    },
    {
     "year": 2018,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8380,7 +8384,7 @@
    },
    {
     "year": 2017,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -8410,7 +8414,7 @@
    },
    {
     "year": 2017,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8425,7 +8429,7 @@
    },
    {
     "year": 2017,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8440,7 +8444,7 @@
    },
    {
     "year": 2017,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8455,7 +8459,7 @@
    },
    {
     "year": 2017,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8500,7 +8504,7 @@
    },
    {
     "year": 2017,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8515,7 +8519,7 @@
    },
    {
     "year": 2017,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8560,7 +8564,7 @@
    },
    {
     "year": 2016,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8575,7 +8579,7 @@
    },
    {
     "year": 2016,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8590,7 +8594,7 @@
    },
    {
     "year": 2016,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8605,7 +8609,7 @@
    },
    {
     "year": 2016,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8635,7 +8639,7 @@
    },
    {
     "year": 2016,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8650,7 +8654,7 @@
    },
    {
     "year": 2016,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8665,7 +8669,7 @@
    },
    {
     "year": 2016,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8695,7 +8699,7 @@
    },
    {
     "year": 2015,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -8710,7 +8714,7 @@
    },
    {
     "year": 2015,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8755,7 +8759,7 @@
    },
    {
     "year": 2015,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8770,7 +8774,7 @@
    },
    {
     "year": 2015,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8785,7 +8789,7 @@
    },
    {
     "year": 2015,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8800,7 +8804,7 @@
    },
    {
     "year": 2015,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8815,7 +8819,7 @@
    },
    {
     "year": 2015,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8830,7 +8834,7 @@
    },
    {
     "year": 2014,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -8845,7 +8849,7 @@
    },
    {
     "year": 2014,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -8890,7 +8894,7 @@
    },
    {
     "year": 2014,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8905,7 +8909,7 @@
    },
    {
     "year": 2014,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8935,7 +8939,7 @@
    },
    {
     "year": 2014,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8950,7 +8954,7 @@
    },
    {
     "year": 2014,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8965,7 +8969,7 @@
    },
    {
     "year": 2014,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -8980,7 +8984,7 @@
    },
    {
     "year": 2013,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -9010,7 +9014,7 @@
    },
    {
     "year": 2013,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9040,7 +9044,7 @@
    },
    {
     "year": 2013,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9055,7 +9059,7 @@
    },
    {
     "year": 2013,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9085,7 +9089,7 @@
    },
    {
     "year": 2013,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9100,7 +9104,7 @@
    },
    {
     "year": 2013,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9115,7 +9119,7 @@
    },
    {
     "year": 2013,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9130,7 +9134,7 @@
    },
    {
     "year": 2012,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -9145,7 +9149,7 @@
    },
    {
     "year": 2012,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -9160,7 +9164,7 @@
    },
    {
     "year": 2012,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9175,7 +9179,7 @@
    },
    {
     "year": 2012,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9190,7 +9194,7 @@
    },
    {
     "year": 2012,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9235,7 +9239,7 @@
    },
    {
     "year": 2012,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9265,7 +9269,7 @@
    },
    {
     "year": 2012,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9280,7 +9284,7 @@
    },
    {
     "year": 2011,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -9310,7 +9314,7 @@
    },
    {
     "year": 2011,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9340,7 +9344,7 @@
    },
    {
     "year": 2011,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9370,7 +9374,7 @@
    },
    {
     "year": 2011,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9385,7 +9389,7 @@
    },
    {
     "year": 2011,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9400,7 +9404,7 @@
    },
    {
     "year": 2011,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9415,7 +9419,7 @@
    },
    {
     "year": 2011,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9445,7 +9449,7 @@
    },
    {
     "year": 2010,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -9475,7 +9479,7 @@
    },
    {
     "year": 2010,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9490,7 +9494,7 @@
    },
    {
     "year": 2010,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9505,7 +9509,7 @@
    },
    {
     "year": 2010,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9535,7 +9539,7 @@
    },
    {
     "year": 2010,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9550,7 +9554,7 @@
    },
    {
     "year": 2010,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9565,7 +9569,7 @@
    },
    {
     "year": 2010,
-    "manager": "Drexello",
+    "manager": "DREXELLO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9595,7 +9599,7 @@
    },
    {
     "year": 2009,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -9625,7 +9629,7 @@
    },
    {
     "year": 2009,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9640,7 +9644,7 @@
    },
    {
     "year": 2009,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9670,7 +9674,7 @@
    },
    {
     "year": 2009,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9685,7 +9689,7 @@
    },
    {
     "year": 2009,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9700,7 +9704,7 @@
    },
    {
     "year": 2009,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9730,7 +9734,7 @@
    },
    {
     "year": 2008,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -9775,7 +9779,7 @@
    },
    {
     "year": 2008,
-    "manager": "Gentile",
+    "manager": "GENTILE",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9790,7 +9794,7 @@
    },
    {
     "year": 2008,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9805,7 +9809,7 @@
    },
    {
     "year": 2008,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9850,7 +9854,7 @@
    },
    {
     "year": 2008,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9865,7 +9869,7 @@
    },
    {
     "year": 2008,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9880,7 +9884,7 @@
    },
    {
     "year": 2007,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -9895,7 +9899,7 @@
    },
    {
     "year": 2007,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -9940,7 +9944,7 @@
    },
    {
     "year": 2007,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9955,7 +9959,7 @@
    },
    {
     "year": 2007,
-    "manager": "Kardian",
+    "manager": "KARDIAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -9985,7 +9989,7 @@
    },
    {
     "year": 2007,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10030,7 +10034,7 @@
    },
    {
     "year": 2006,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -10045,7 +10049,7 @@
    },
    {
     "year": 2006,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -10075,7 +10079,7 @@
    },
    {
     "year": 2006,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10090,7 +10094,7 @@
    },
    {
     "year": 2006,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10195,7 +10199,7 @@
    },
    {
     "year": 2005,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 1.0,
@@ -10210,7 +10214,7 @@
    },
    {
     "year": 2005,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10225,7 +10229,7 @@
    },
    {
     "year": 2005,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10270,7 +10274,7 @@
    },
    {
     "year": 2005,
-    "manager": "Fig",
+    "manager": "FIG",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10300,7 +10304,7 @@
    },
    {
     "year": 2004,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 1.0,
     "second": 0.0,
@@ -10330,7 +10334,7 @@
    },
    {
     "year": 2004,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10345,7 +10349,7 @@
    },
    {
     "year": 2004,
-    "manager": "Meany",
+    "manager": "MEANY",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10465,7 +10469,7 @@
    },
    {
     "year": 2003,
-    "manager": "Russo",
+    "manager": "RUSSO",
     "active": true,
     "first": 0.0,
     "second": 0.0,
@@ -10495,7 +10499,7 @@
    },
    {
     "year": 2003,
-    "manager": "Freeman",
+    "manager": "FREEMAN",
     "active": true,
     "first": 0.0,
     "second": 0.0,
