@@ -73,7 +73,7 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .W{color:#6CCB98;font-weight:700}.L{color:#E86A60;font-weight:700}.T{color:#E0A43A;font-weight:700}
 .muted{color:var(--dim)}
 
-/* The Line */
+/* Weekly median chart */
 .line-card{background:var(--shell);border:1px solid var(--rule);border-radius:8px;padding:20px 22px 16px;position:relative}
 .line-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;margin-bottom:14px}
 .line-head .big{font-family:var(--display);font-weight:900;font-size:44px;line-height:1;color:var(--ink)}
@@ -89,7 +89,8 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .bar .res{font-size:13px;text-align:right}
 .median{position:absolute;top:-8px;bottom:-8px;width:2px;background:var(--signal);
   box-shadow:0 0 10px 2px rgba(255,90,31,.7),0 0 26px 4px rgba(227,18,27,.35);pointer-events:none}
-.median span{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--ember);white-space:nowrap}
+.median span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--ember);white-space:nowrap}
+.line-card .note{margin-top:26px}
 .line-split{grid-column:1/-1;height:1px;margin:4px 0;border-top:1px dashed rgba(227,18,27,.5)}
 
 /* grids & cards */
@@ -112,6 +113,20 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .seat{font-size:13px;font-weight:600;padding:5px 8px!important;text-align:center!important;color:#16181D}
 .loading{color:var(--dim);padding:40px 0}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--ink)}
+th.asc::after{content:" ▲";font-size:10px;color:var(--signal)}
+th.desc::after{content:" ▼";font-size:10px;color:var(--signal)}
+td.dv{min-width:150px;vertical-align:middle;text-align:center}
+td.dv.lead{text-align:right}
+.dvc{position:relative;height:12px;margin-bottom:4px}
+.dvc::before{content:"";position:absolute;top:-3px;bottom:-3px;left:calc(50% - 1px);width:2px;background:var(--dim)}
+.dvc.lead::before{left:auto;right:0}
+.dvbar{position:absolute;top:0;height:12px;border-radius:2px}
+.dvbar.pos{left:50%;background:var(--good)}
+.dvbar.neg{right:50%;background:var(--bad)}
+.dvc.lead .dvbar.neg{right:0}
+td.dv small{color:var(--dim);margin-left:5px}
 footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:18px 0 30px}
 
 @media (max-width:640px){
@@ -170,6 +185,42 @@ function picker(id,items,cur,cb){
 }
 function bindPicker(id,cb){document.getElementById(id)?.addEventListener("click",e=>{const b=e.target.closest("button");if(b)cb(b.dataset.v)})}
 
+/* ---------------- sortable tables ---------------- */
+function sortVal(td){
+  if(!td)return null;
+  if(td.dataset.s!=null)return +td.dataset.s;
+  const t=td.textContent.trim();
+  if(t==="")return null; if(t==="✓")return 1; if(t==="·")return 0;
+  const rec=t.match(/^(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/);
+  if(rec){const w=+rec[1],l=+rec[2],tt=+rec[3],g=w+l+tt;return g?(w+tt/2)/g+g*1e-6:0}
+  const c=t.replace(/[,#%+]/g,"");
+  if(/^-?\d*\.?\d/.test(c)&&!isNaN(parseFloat(c)))return parseFloat(c);
+  return t.toLowerCase();
+}
+function sortTable(tbl,idx,th){
+  const numeric=[...tbl.tBodies].some(tb=>[...tb.rows].some(r=>typeof sortVal(r.cells[idx])=="number"&&!r.classList.contains("pin-bot")));
+  const dir=th.classList.contains("desc")?"asc":th.classList.contains("asc")?"desc":(numeric&&idx>0?"desc":"asc");
+  tbl.tHead.querySelectorAll("th").forEach(x=>x.classList.remove("asc","desc"));th.classList.add(dir);
+  [...tbl.tBodies].forEach(tb=>{
+    const rows=[...tb.rows],top=rows.filter(r=>r.classList.contains("pin-top")),bot=rows.filter(r=>r.classList.contains("pin-bot"));
+    const body=rows.filter(r=>!top.includes(r)&&!bot.includes(r));
+    body.sort((a,b)=>{const x=sortVal(a.cells[idx]),y=sortVal(b.cells[idx]);
+      if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
+      const c=typeof x=="number"&&typeof y=="number"?x-y:String(x).localeCompare(String(y));return dir=="asc"?c:-c});
+    [...top,...body,...bot].forEach(r=>tb.appendChild(r));
+  });
+  if(tbl.dataset.cut){const rows=[...tbl.tBodies[0].rows];rows.forEach(r=>r.classList.remove("cut"));
+    if(idx==0&&dir=="asc")rows[+tbl.dataset.cut-1]?.classList.add("cut");}
+}
+function makeSortable(){
+  document.querySelectorAll("#main table").forEach(tbl=>{
+    if(tbl.dataset.sortReady||!tbl.tHead)return;tbl.dataset.sortReady=1;
+    [...tbl.tHead.rows[0].cells].forEach((th,i)=>{th.classList.add("sortable");th.tabIndex=0;th.setAttribute("title",(th.title?th.title+". ":"")+"Click to sort");
+      const go=()=>sortTable(tbl,i,th);th.addEventListener("click",go);th.addEventListener("keydown",e=>{if(e.key=="Enter"||e.key==" "){e.preventDefault();go()}})});
+  });
+}
+new MutationObserver(()=>{clearTimeout(window._st);window._st=setTimeout(makeSortable,30)}).observe(document.getElementById("main"),{childList:true,subtree:true});
+
 /* ---------------- boot ---------------- */
 fetch("data/nrcrew_data.json?v="+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{D=d;boot()})
  .catch(e=>{$("#main").innerHTML=`<div class="loading">League data didn't load (${esc(e.message)}). Run the "Update NR Crew data" workflow in GitHub Actions, then refresh.</div>`});
@@ -182,7 +233,7 @@ function boot(){
   $("#nav").innerHTML=PAGES.map(([k,l])=>`<button role="tab" data-p="${k}">${l}</button>`).join("");
   $("#main").innerHTML=PAGES.map(([k])=>`<section class="page" id="p-${k}"></section>`).join("");
   $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b)show(b.dataset.p)});
-  $("#foot").innerHTML=`Updated ${esc(D.updated)}. Player stats are season-to-date from Yahoo team logs, starters only. DST points allowed are backed out of weekly scores because Yahoo's log doesn't include them.<br>Part of <a href="https://redplanetanalytics.com">Red Planet Analytics</a>.`;
+  $("#foot").innerHTML=`Updated ${esc(D.updated)}. Player stats are season-to-date from Yahoo team logs, starters only. DST points-allowed fantasy points are backed out of weekly scores because Yahoo's log doesn't list points allowed.<br>Part of <a href="https://redplanetanalytics.com">Red Planet Analytics</a>.`;
   const h=location.hash.slice(1);show(PAGES.some(p=>p[0]==h)?h:"standings");
 }
 const rendered={};
@@ -194,39 +245,39 @@ function show(p){
 }
 const regWeeks=()=>[...new Set(D.weekly.map(w=>w.week))].sort((a,b)=>a-b);
 
-/* ---------------- The Line ---------------- */
+/* ---------------- Weekly median chart ---------------- */
 function theLine(week){
   const rows=D.weekly.filter(w=>w.week==week).sort((a,b)=>b.pf-a.pf);
   if(!rows.length)return"";
   const med=rows[0].median, max=Math.ceil(rows[0].pf/10)*10+10, lo=Math.max(0,Math.floor((rows[rows.length-1].pf-25)/10)*10), x=v=>((v-lo)/(max-lo)*100).toFixed(2)+"%";
-  let html=`<div class="line-card"><div class="line-head"><div class="big">${med!=null?f2(med):"Playoffs"}<small>${med!=null?`week ${week} line`:`week ${week}, no median game`}</small></div>
-   <div class="muted">${med!=null?"Top five clear the line and bank a second win.":""}</div></div><div class="bars">`;
+  let html=`<div class="line-card"><div class="line-head"><div class="big">${med!=null?f2(med):"Playoffs"}<small>${med!=null?`week ${week} median`:`week ${week}, no median game in playoffs`}</small></div>
+   <div class="muted">${med!=null?"Top five scores beat the median for a second win.":""}</div></div><div class="bars">`;
   rows.forEach((r,i)=>{
     const above=med==null||r.pf>med;
     if(med!=null&&i==5)html+=`<div class="line-split"></div>`;
     html+=`<div class="bar ${above?"above":"below"}"><div class="nm">${esc(r.team)}</div>
-      <div class="track"><div class="fill" style="width:${x(r.pf)}"></div>${i==0&&med!=null?`<div class="median" style="left:${x(med)}"><span>The line</span></div>`:""}</div>
+      <div class="track"><div class="fill" style="width:${x(r.pf)}"></div>${i==0&&med!=null?`<div class="median" style="left:${x(med)}"><span>Median</span></div>`:""}</div>
       <div class="pts">${f2(r.pf)}</div><div class="res"><span class="${r.h2h}">${r.h2h}</span>${r.vs_median?` <span class="${r.vs_median}">${r.vs_median}</span>`:""}</div></div>`;
   });
-  return html+`</div><div class="note">Bars start at ${lo} points so close scores are easy to compare. Right column: head-to-head result, then result vs. the line.</div></div>`;
+  return html+`</div><div class="note">Bars start at ${lo} points so close scores are easy to compare. Right column: head-to-head result, then result vs. median.</div></div>`;
 }
 // stretch the median marker across all bars
 function stretchMedian(sel){const c=document.querySelector(sel);if(!c)return;const m=c.querySelector(".median"),bars=c.querySelector(".bars");if(!m||!bars)return;
   const tr=c.querySelector(".track"),top=tr.getBoundingClientRect().top-bars.getBoundingClientRect().top;
-  m.style.top=(-top-6)+"px";m.style.height=(bars.getBoundingClientRect().height+12)+"px";m.style.bottom="auto"}
+  m.style.top=(-top-6)+"px";m.style.height=(bars.getBoundingClientRect().height+6)+"px";m.style.bottom="auto"}
 
 /* ---------------- Standings ---------------- */
 function rStandings(){
   const s=D.standings, wks=regWeeks(), last=wks[wks.length-1];
   const hLuck=colHeat(s,"luck"), hPerf=colHeat(s,"perf_rating"), hPF=colHeat(s,"PF"), hPA=colHeat(s,"PA",true);
-  $("#p-standings").innerHTML=`<h2>Standings</h2><p class="lede">Two games a week: your head-to-head matchup, plus a game against the line (the league median). Top two seeds get a bye, six make the playoffs. Ties go to points for.</p>
-  ${picker("lineWk",wks.map(w=>[w,"Week "+w]),last)}<div id="lineBox">${theLine(last)}</div>
-  <h3>Table</h3><div class="tbl"><table><thead><tr><th>Seed</th><th class="l">Team</th><th>Record</th><th>Win %</th><th>H2H</th><th>vs. Line</th><th>PF</th><th>PA</th><th>PPG</th><th title="Record if you played every team every week">All-play</th><th title="50 is neutral. Above 50: more H2H wins than your scores earned">Luck</th><th title="Average weekly score vs. the league, 0 to 100">Perf.</th></tr></thead><tbody>
+  $("#p-standings").innerHTML=`<h2>Standings</h2>
+  <div class="tbl" style="margin-top:14px"><table data-cut="6"><thead><tr><th>Seed</th><th class="l">Team</th><th>Record</th><th>Win %</th><th>H2H</th><th>vs. Median</th><th>PF</th><th>PA</th><th>PPG</th><th title="Record if you played every team every week">All-play</th><th title="50 is neutral. Above 50: more H2H wins than your scores earned">Luck</th><th title="Average weekly score vs. the league, 0 to 100">Perf.</th></tr></thead><tbody>
   ${s.map(r=>`<tr class="${r.seed==6?"cut":""}"><td>${r.seed}</td><td class="team l">${esc(r.team)}${r.status=="bye"?'<span class="tag bye">Bye</span>':r.status=="playoff"?'<span class="tag po">In</span>':""}</td>
    <td><b>${r.W}-${r.L}-${r.T}</b></td><td>${pct(r.win_pct)}</td><td>${r.h2h}</td><td>${r.median}</td>
    <td style="${hPF(r)}">${f2(r.PF)}</td><td style="${hPA(r)}">${f2(r.PA)}</td><td>${f2(r.PPG)}</td><td>${r.allplay}</td>
    <td style="${hLuck(r)}">${f1(r.luck)}</td><td style="${hPerf(r)}">${f1(r.perf_rating)}</td></tr>`).join("")}
-  </tbody></table></div><p class="note">Red rule marks the playoff line. Records combine H2H and line games (W-L-T).</p>`;
+  </tbody></table></div><p class="note">Red rule marks the playoff cutoff (top six; top two get a bye). Records combine H2H and median games (W-L-T). Ties go to points for. Click any column header to sort.</p>
+  <h3>Weekly results vs. median</h3>${picker("lineWk",wks.map(w=>[w,"Week "+w]),last)}<div id="lineBox">${theLine(last)}</div>`;
   bindPicker("lineWk",w=>{$("#lineBox").innerHTML=theLine(+w);document.querySelectorAll("#lineWk button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==w));stretchMedian("#lineBox")});
   stretchMedian("#lineBox");window.addEventListener("resize",()=>stretchMedian("#lineBox"));
 }
@@ -234,16 +285,16 @@ function rStandings(){
 /* ---------------- Weekly ---------------- */
 function rWeekly(){
   const wks=regWeeks(), last=wks[wks.length-1];
-  $("#p-weekly").innerHTML=`<h2>Weekly</h2><p class="lede">Every matchup, and where each score landed against the line.</p>
+  $("#p-weekly").innerHTML=`<h2>Weekly</h2><p class="lede">Every matchup, and where each score landed against the median.</p>
    ${picker("wkPick",wks.map(w=>[w,"Week "+w]),last)}<div id="wkBox"></div>
-   <h3>Season grid</h3><p class="lede">Weekly points, shaded by that week's rank. Letters show H2H then line result.</p><div class="tbl" id="gridBox"></div>
+   <h3>Season grid</h3><p class="lede">Weekly points, shaded by that week's rank. Letters show H2H result, then median result.</p><div class="tbl" id="gridBox"></div>
    <h3>Scoring trend</h3><div class="panel"><div class="chart sm"><canvas id="cTrend"></canvas></div></div>`;
   const draw=w=>{
     const rows=D.weekly.filter(r=>r.week==w), seen=new Set(), pairs=[];
     rows.sort((a,b)=>b.pf-a.pf).forEach(r=>{if(seen.has(r.team))return;const o=rows.find(x=>x.team==r.opp);seen.add(r.team);if(o)seen.add(o.team);pairs.push([r,o])});
     const med=rows[0]?.median;
-    const side=(r,win)=>r?`<div class="side ${win?"win":""}"><span class="t">${esc(r.team)}</span><span class="s">${f2(r.pf)}</span><span class="vm ${r.vs_median||""}">${r.vs_median?(r.vs_median=="W"?"Above line":r.vs_median=="L"?"Below line":"On the line"):""}</span></div>`:"";
-    $("#wkBox").innerHTML=`<div class="kpis"><div class="kpi"><b>${med!=null?f2(med):"None"}</b><span>The line</span></div><div class="kpi"><b>${f2(rows[0].pf)}</b><span>High: ${esc(rows[0].team)}</span></div><div class="kpi"><b>${f2(rows[rows.length-1].pf)}</b><span>Low: ${esc(rows[rows.length-1].team)}</span></div></div>
+    const side=(r,win)=>r?`<div class="side ${win?"win":""}"><span class="t">${esc(r.team)}</span><span class="s">${f2(r.pf)}</span><span class="vm ${r.vs_median||""}">${r.vs_median?(r.vs_median=="W"?"Above median":r.vs_median=="L"?"Below median":"Tied median"):""}</span></div>`:"";
+    $("#wkBox").innerHTML=`<div class="kpis"><div class="kpi"><b>${med!=null?f2(med):"None"}</b><span>Median</span></div><div class="kpi"><b>${f2(rows[0].pf)}</b><span>High: ${esc(rows[0].team)}</span></div><div class="kpi"><b>${f2(rows[rows.length-1].pf)}</b><span>Low: ${esc(rows[rows.length-1].team)}</span></div></div>
       <div class="matchups">${pairs.map(([a,b])=>`<div class="mu">${side(a,a.h2h=="W")}${side(b,b&&b.h2h=="W")}</div>`).join("")}</div>`;
   };
   draw(last);
@@ -251,9 +302,9 @@ function rWeekly(){
   const teams=D.standings.map(s=>s.team);
   $("#gridBox").innerHTML=`<table><thead><tr><th class="l">Team</th>${wks.map(w=>`<th>Wk ${w}</th>`).join("")}<th>Total</th></tr></thead><tbody>
    ${teams.map(t=>`<tr><td class="team l">${esc(t)}</td>${wks.map(w=>{const r=D.weekly.find(x=>x.week==w&&x.team==t);return r?`<td style="${heat(10-r.rank,0,9)}">${f2(r.pf)} <span class="muted" style="font-size:12px">${r.h2h}${r.vs_median||""}</span></td>`:"<td></td>"}).join("")}<td><b>${f2(D.standings.find(s=>s.team==t).PF)}</b></td></tr>`).join("")}
-   <tr><td class="l muted">The line</td>${wks.map(w=>{const r=D.weekly.find(x=>x.week==w);return`<td class="muted">${r.median!=null?f2(r.median):""}</td>`}).join("")}<td></td></tr></tbody></table>`;
+   <tr class="pin-bot"><td class="l muted">Median</td>${wks.map(w=>{const r=D.weekly.find(x=>x.week==w);return`<td class="muted">${r.median!=null?f2(r.median):""}</td>`}).join("")}<td></td></tr></tbody></table>`;
   mkChart("cTrend",{type:"line",data:{labels:wks.map(w=>"Wk "+w),datasets:[
-    {label:"The line",data:wks.map(w=>D.weekly.find(x=>x.week==w).median),borderColor:"#E3121B",backgroundColor:"#E3121B",borderWidth:3,pointRadius:4},
+    {label:"Median",data:wks.map(w=>D.weekly.find(x=>x.week==w).median),borderColor:"#E3121B",backgroundColor:"#E3121B",borderWidth:3,pointRadius:4},
     {label:"League high",data:wks.map(w=>Math.max(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#C9CCD1",borderDash:[5,4],pointRadius:3},
     {label:"League low",data:wks.map(w=>Math.min(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#5B616C",borderDash:[5,4],pointRadius:3}]},options:baseOpts()});
 }
@@ -264,12 +315,35 @@ function rCategories(){
   const teams=D.standings.map(s=>s.team);
   $("#p-categories").innerHTML=`<h2>Stat Categories</h2><p class="lede">Where each team's fantasy points come from, season to date. Starters only.</p>
    <div class="panel"><h4>Points by category</h4><div class="chart"><canvas id="cCat"></canvas></div></div>
+   <h3>Ahead or behind the league</h3><p class="lede">How far each team is from the rest of the league in every scoring category, in fantasy points. Green bars mean ahead, red bars mean behind. Small number is the league rank.</p>
+   ${picker("cmpScope",[["ALL","All categories"],...GROUPS.map(g=>[g,g])],"ALL")}${picker("cmpBase",[["avg","vs. league average"],["lead","vs. category leader"]],"avg")}<div class="tbl" id="cmpTbl"></div>
    <h3>Category detail</h3>${picker("grpPick",GROUPS.map(g=>[g,g]),"Passing")}${picker("modePick",[["pts","Fantasy points"],["raw","Raw stats"]],"pts")}<div class="tbl" id="catTbl"></div>
-   <p class="note">DST points allowed come from the weekly scores, so they have points but no raw stat.</p>`;
+   <p class="note">DST Pts Allowed are the fantasy points earned from the points-allowed tiers (how many points the defense's NFL opponent scored). Yahoo's team log doesn't list the actual points allowed, so the site calculates these fantasy points as each team's weekly scores minus all other player points. That's why this column has fantasy points but no raw stat.</p>`;
   const sorted=[...teams].sort((a,b)=>tot(b)-tot(a));
   function tot(t){return GROUPS.reduce((s,g)=>s+D.categories[g][t].total,0)}
   mkChart("cCat",{type:"bar",data:{labels:sorted,datasets:GROUPS.map((g,i)=>({label:g,data:sorted.map(t=>D.categories[g][t].total),backgroundColor:SERIES[i]}))},
     options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{stacked:true,ticks:{color:"#C9CCD1",font:{weight:"600"}},grid:{display:false}}}})});
+  let scope="ALL", base="avg";
+  const ord=n=>n+(["th","st","nd","rd"][(n%100>10&&n%100<14)?0:(n%10<4?n%10:0)]);
+  const drawCmp=()=>{
+    const keys=scope=="ALL"?GROUPS:Object.keys(D.categories[scope][teams[0]].pts);
+    const val=(t,k)=>scope=="ALL"?D.categories[k][t].total:D.categories[scope][t].pts[k];
+    const cols=[...keys,"Total"];
+    const V=(t,k)=>k=="Total"?keys.reduce((s,kk)=>s+val(t,kk),0):val(t,k);
+    const stats=Object.fromEntries(cols.map(k=>{const vs=teams.map(t=>V(t,k));const avg=vs.reduce((a,b)=>a+b,0)/vs.length,mx=Math.max(...vs);
+      const b=base=="avg"?avg:mx;const m=Math.max(...vs.map(v=>Math.abs(v-b)))||1;return[k,{b,m,vs}]}));
+    const rows=[...teams].sort((a,b)=>V(b,"Total")-V(a,"Total"));
+    const cell=(t,k)=>{const s=stats[k],v=V(t,k),d=v-s.b,rank=1+s.vs.filter(x=>x>v+1e-9).length;
+      const w=(Math.abs(d)/s.m*(base=="avg"?50:100)).toFixed(1);
+      const lab=base=="lead"&&Math.abs(d)<1e-9?"Leader":(d>=0?"+":"")+f2(d);
+      return`<td class="dv ${base=="lead"?"lead":""}" data-s="${d.toFixed(4)}" title="${esc(t)}: ${f2(v)} pts, ${ord(rank)} of ${teams.length}"><div class="dvc ${base=="lead"?"lead":""}">${Math.abs(d)>1e-9?`<div class="dvbar ${d>0?"pos":"neg"}" style="width:${w}%"></div>`:""}</div>${lab}<small>#${rank}</small></td>`};
+    $("#cmpTbl").innerHTML=`<table><thead><tr><th class="l">Team</th>${cols.map(k=>`<th style="text-align:${base=="avg"?"center":"right"}">${esc(k)}</th>`).join("")}</tr></thead><tbody>
+      ${rows.map(t=>`<tr><td class="team l">${esc(t)}</td>${cols.map(k=>cell(t,k)).join("")}</tr>`).join("")}
+      <tr class="pin-bot"><td class="l muted">${base=="avg"?"League avg":"Leader"}</td>${cols.map(k=>`<td class="muted" style="text-align:${base=="avg"?"center":"right"}">${f2(stats[k].b)}</td>`).join("")}</tr></tbody></table>`;
+  };
+  drawCmp();
+  bindPicker("cmpScope",v=>{scope=v;document.querySelectorAll("#cmpScope button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==v));drawCmp()});
+  bindPicker("cmpBase",v=>{base=v;document.querySelectorAll("#cmpBase button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==v));drawCmp()});
   let grp="Passing";
   const draw=()=>{
     const C=D.categories[grp], keys=Object.keys(C[teams[0]].pts).filter(k=>catMode=="pts"||k!="DST Pts Allowed");
@@ -294,7 +368,7 @@ function rPositions(){
    <h3>By team</h3><div class="tbl"><table><thead><tr><th class="l">Team</th>${POS.map(p=>`<th>${p}</th>`).join("")}<th>Total</th></tr></thead><tbody>
    ${rows.map(r=>`<tr><td class="team l">${esc(r.team)}</td>${POS.map(p=>`<td style="${hs[p](r)}">${f2(r[p])}</td>`).join("")}<td style="${hs.total(r)}"><b>${f2(r.total)}</b></td></tr>`).join("")}</tbody></table></div>
    <h3>Top starters by position</h3><div class="grid2">${POS.map(pos=>`<div class="panel"><h4>${pos}</h4><table><tbody>${top(pos).map(p=>`<tr><td class="l">${esc(p.player)} <span class="muted">${esc(p.nfl||"")}</span></td><td class="l muted">${esc(p.owner)}</td><td><b>${f2(p.points)}</b></td></tr>`).join("")}</tbody></table></div>`).join("")}</div>
-   <p class="note">DEF totals include DST points allowed. Player lists show stats only, so DST points allowed aren't in individual defense totals.</p>`;
+   <p class="note">DEF totals include points-allowed tier points. Individual defenses in the top-starters lists don't, because Yahoo's log doesn't break points allowed out by player.</p>`;
   mkChart("cPos",{type:"bar",data:{labels:sorted,datasets:POS.map((p,i)=>({label:p,data:sorted.map(t=>P[t][p]),backgroundColor:SERIES[i]}))},
     options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{stacked:true,ticks:{color:"#C9CCD1",font:{weight:"600"}},grid:{display:false}}}})});
 }
@@ -307,9 +381,9 @@ function rTeams(){
     const s=D.standings.find(x=>x.team==t), wk=D.weekly.filter(w=>w.team==t).sort((a,b)=>a.week-b.week), pl=D.players.filter(p=>p.owner==t);
     const posT=POS.map(p=>D.positions[t][p]), sum=posT.reduce((a,b)=>a+b,0);
     $("#tmBox").innerHTML=`<div class="kpis"><div class="kpi"><b>#${s.seed}</b><span>Seed</span></div><div class="kpi"><b>${s.W}-${s.L}-${s.T}</b><span>Record</span></div>
-      <div class="kpi"><b>${s.h2h}</b><span>H2H</span></div><div class="kpi"><b>${s.median}</b><span>vs. line</span></div><div class="kpi"><b>${f2(s.PF)}</b><span>Points for</span></div><div class="kpi"><b>${f1(s.luck)}</b><span>Luck</span></div></div>
+      <div class="kpi"><b>${s.h2h}</b><span>H2H</span></div><div class="kpi"><b>${s.median}</b><span>vs. median</span></div><div class="kpi"><b>${f2(s.PF)}</b><span>Points for</span></div><div class="kpi"><b>${f1(s.luck)}</b><span>Luck</span></div></div>
       <div class="grid2"><div class="panel"><h4>Points by position</h4><div class="chart sm"><canvas id="cTmPos"></canvas></div></div>
-      <div class="panel"><h4>Weekly results</h4><table><thead><tr><th class="l">Week</th><th class="l">Opponent</th><th>PF</th><th>PA</th><th>H2H</th><th>Line</th><th>Rank</th></tr></thead><tbody>
+      <div class="panel"><h4>Weekly results</h4><table><thead><tr><th class="l">Week</th><th class="l">Opponent</th><th>PF</th><th>PA</th><th>H2H</th><th>Median</th><th>Rank</th></tr></thead><tbody>
       ${wk.map(w=>`<tr><td class="l">${w.week}</td><td class="l">${esc(w.opp||"")}</td><td>${f2(w.pf)}</td><td>${f2(w.pa)}</td><td class="${w.h2h}">${w.h2h}</td><td class="${w.vs_median||""}">${w.vs_median||""}</td><td>${w.rank}</td></tr>`).join("")}</tbody></table></div></div>
       <h3>Starters who scored</h3><div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th class="l">NFL</th><th>GP</th><th>Points</th><th>Share</th><th class="l">Biggest source</th></tr></thead><tbody>
       ${pl.map(p=>{const top=Object.entries(p.pts_by_cat).sort((a,b)=>b[1]-a[1])[0];return`<tr><td class="team l">${esc(p.player)}</td><td class="l">${p.pos}</td><td class="l muted">${esc(p.nfl||"")}</td><td>${p.gp}</td><td><b>${f2(p.points)}</b></td><td>${sum?(p.points/s.PF*100).toFixed(1)+"%":""}</td><td class="l muted">${top?esc(top[0])+" ("+f2(top[1])+")":""}</td></tr>`}).join("")}</tbody></table></div>`;
@@ -335,8 +409,8 @@ function rHistory(){
   $("#p-history").innerHTML=`<h2>League History</h2><p class="lede">${H.years[0]} to ${H.years[H.years.length-1]}. ${H.years.length} seasons, ${H.alltime.length} managers.</p>
    ${picker("hJump",[["h-all","All-time"],["h-rank","Rankings"],["h-champ","Championships"],["h-year","Year by year"],["h-evo","Evolution"],["h-awd","Awards"]],"")}
    <h3 id="h-all">All-time, sorted by win %</h3><div class="tbl"><table><thead><tr><th class="l">Manager</th>${cols.map(c=>`<th>${c[1]}</th>`).join("")}</tr></thead><tbody>
-    ${act.map(a=>allRow(a,1)).join("")}<tr><td colspan="${cols.length+1}" class="l muted" style="background:var(--shell2)">Former managers</td></tr>${former.map(a=>allRow(a,0)).join("")}</tbody></table></div>
-   <p class="note">Since ${H.median_years[0]||"2024"} the line game counts as half a win, so every era compares on the same 1-game-per-week scale.</p>
+    ${act.map(a=>allRow(a,1)).join("")}</tbody><tbody><tr class="pin-top"><td colspan="${cols.length+1}" class="l muted" style="background:var(--shell2)">Former managers</td></tr>${former.map(a=>allRow(a,0)).join("")}</tbody></table></div>
+   <p class="note">Since ${H.median_years[0]||"2024"} the median game counts as half a win, so every era compares on the same 1-game-per-week scale.</p>
    <h3 id="h-rank">Active manager rankings</h3><p class="lede">1 is best in each column. Fewest losses ranks first.</p><div class="tbl"><table><thead><tr><th class="l">Manager</th>${rkCols.map(c=>`<th>${c[1]}</th>`).join("")}</tr></thead><tbody>
     ${mgrs.map(m=>`<tr><td class="team l">${esc(m)}</td>${rkCols.map(([k])=>`<td style="${heat(R[m][k],1,10,true)}">${R[m][k]}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
    <div class="panel" style="margin-top:18px"><h4>Playoff % vs. win %</h4><div class="chart sm"><canvas id="cPvW"></canvas></div></div>
@@ -344,10 +418,10 @@ function rHistory(){
     ${[...H.championships].reverse().map(c=>`<tr><td class="l">${c.year}</td><td class="team l">${esc(c.champion)}</td><td class="l">${esc(c.runner_up)}</td><td>${num(c.W)}-${num(c.L)}-${num(c.T)}</td><td>${c.draft??""}</td><td>${c.size??""}</td></tr>`).join("")}</tbody></table></div>
     <div class="panel"><h4>Titles by draft slot</h4><p class="note" style="margin-top:0">Since the league went to 10 teams.</p><div class="chart sm"><canvas id="cSlot"></canvas></div></div></div>
    <h3 id="h-year">Wins by year</h3><div class="tbl"><table><thead><tr><th class="l">Year</th>${mgrs.map(m=>`<th>${esc(m)}</th>`).join("")}<th class="l">Format</th></tr></thead><tbody>
-    ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.wins_grid[y][m];return`<td style="${v!=null?heat(v/H.games_by_year[y],0,1):""}">${v!=null?num(v):""}</td>`}).join("")}<td class="l muted">${H.games_by_year[y]}-week season${H.median_years.includes(y)?", line game (½ win)":""}</td></tr>`).join("")}</tbody></table></div>
+    ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.wins_grid[y][m];return`<td style="${v!=null?heat(v/H.games_by_year[y],0,1):""}">${v!=null?num(v):""}</td>`}).join("")}<td class="l muted">${H.games_by_year[y]}-week season${H.median_years.includes(y)?", median game (½ win)":""}</td></tr>`).join("")}</tbody></table></div>
    <h3>Playoff appearances</h3><div class="tbl"><table><thead><tr><th class="l">Year</th>${mgrs.map(m=>`<th>${esc(m)}</th>`).join("")}</tr></thead><tbody>
     ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.playoff_grid[y][m];return v==null?"<td></td>":`<td style="text-align:center;${v?"background:rgba(62,158,110,.45)":""}">${v?"✓":"<span class='muted'>·</span>"}</td>`}).join("")}</tr>`).join("")}
-    <tr><td class="l"><b>Total</b></td>${mgrs.map(m=>`<td style="text-align:center"><b>${num(act.find(a=>a.manager==m).playoffs)}</b></td>`).join("")}</tr></tbody></table></div>
+    <tr class="pin-bot"><td class="l"><b>Total</b></td>${mgrs.map(m=>`<td style="text-align:center"><b>${num(act.find(a=>a.manager==m).playoffs)}</b></td>`).join("")}</tr></tbody></table></div>
    <h3 id="h-evo">League evolution</h3><div class="legend">${["Original","New","Returning","Departing"].map(k=>`<span><i style="background:${EV[k]}"></i>${k}</span>`).join("")}</div>
     <div class="tbl"><table><thead><tr><th class="l">Year</th>${Array.from({length:maxSeats},(_,i)=>`<th style="text-align:center">${i+1}</th>`).join("")}</tr></thead><tbody>
     ${[...H.evolution].reverse().map(e=>`<tr><td class="l">${e.year}</td>${Array.from({length:maxSeats},(_,i)=>{const s=e.seats[i];return s?`<td class="seat" style="background:${EV[s.type]||EV.Continuing}">${esc(s.manager)}</td>`:"<td></td>"}).join("")}</tr>`).join("")}</tbody></table></div>
