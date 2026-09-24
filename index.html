@@ -11,37 +11,38 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root{
-  --night:#0D0E12; --shell:#15171C; --shell2:#1C1F26; --rule:#2A2E37;
-  --chrome:#C9CCD1; --dim:#8A8F99; --ink:#F2F3F5;
-  --signal:#E3121B; --ember:#FF5A1F;
-  --good:#3E9E6E; --bad:#B8433C;
+  --page:#D6D9DE; --shell:#F2F3F5; --shell2:#E3E6EA; --rule:#B7BCC4;
+  --chrome:#3A3F49; --dim:#5B616C; --ink:#14161A;
+  --band:#0D0E12; --band-rule:#2A2E37; --band-ink:#F2F3F5; --band-dim:#9AA0AA;
+  --signal:#D4101A; --ember:#FF5A1F;
+  --good:#2F8A5C; --bad:#B8433C;
   --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
   --body:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
 }
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--night);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
+html,body{margin:0;background:var(--page);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
 body{padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0);
-  background:radial-gradient(1200px 500px at 85% -120px,rgba(227,18,27,.14),transparent 70%),var(--night)}
+  background:linear-gradient(180deg,#E2E4E8 0,var(--page) 420px)}
 a{color:var(--chrome)}
 :focus-visible{outline:2px solid var(--ember);outline-offset:2px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 
 /* header */
-header{border-bottom:1px solid var(--rule);background:linear-gradient(180deg,rgba(13,14,18,.2),rgba(13,14,18,.95))}
+header{background:radial-gradient(900px 300px at 85% -80px,rgba(227,18,27,.22),transparent 70%),var(--band);color:var(--band-ink);border-bottom:3px solid var(--signal)}
 .brand{display:flex;align-items:center;gap:16px;padding:18px 0 10px}
 .brand img{width:68px;height:68px;filter:drop-shadow(0 0 14px rgba(227,18,27,.35))}
 .brand h1{font-family:var(--display);font-weight:900;font-size:40px;line-height:.9;margin:0;letter-spacing:.5px}
-.brand .sub{color:var(--dim);font-size:15px;margin-top:4px}
-.status{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:14px;color:var(--chrome);
-  border:1px solid var(--rule);border-radius:20px;padding:5px 12px;cursor:help;white-space:nowrap}
+.brand .sub{color:var(--band-dim);font-size:15px;margin-top:4px}
+.status{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:14px;color:var(--band-ink);
+  border:1px solid var(--band-rule);border-radius:20px;padding:5px 12px;cursor:help;white-space:nowrap}
 .status i{width:9px;height:9px;border-radius:50%;background:var(--good)}
 .status.warn i{background:#E0A43A}.status.fail i{background:var(--signal)}
 nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
-nav button{background:none;border:0;color:var(--dim);font-family:var(--display);font-weight:800;font-size:20px;
+nav button{background:none;border:0;color:var(--band-dim);font-family:var(--display);font-weight:800;font-size:20px;
   padding:10px 14px 12px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
-nav button:hover{color:var(--ink)}
-nav button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--signal)}
+nav button:hover{color:var(--band-ink)}
+nav button[aria-selected=true]{color:#fff;border-bottom-color:var(--signal)}
 
 main.wrap{padding-top:28px;padding-bottom:60px}
 section.page{display:none}section.page.on{display:block}
@@ -52,7 +53,7 @@ h3{font-family:var(--display);font-weight:800;font-size:24px;margin:36px 0 10px;
 
 /* chips / pickers */
 .picker{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}
-.picker button{font-family:var(--body);font-weight:600;font-size:15px;color:var(--chrome);background:var(--shell);
+.picker button{font-family:var(--body);font-weight:600;font-size:15px;color:var(--ink);background:var(--shell);
   border:1px solid var(--rule);border-radius:4px;padding:6px 11px;cursor:pointer;min-height:36px}
 .picker button:hover{border-color:var(--dim)}
 .picker button[aria-pressed=true]{background:var(--signal);border-color:var(--signal);color:#fff}
@@ -62,15 +63,16 @@ h3{font-family:var(--display);font-weight:800;font-size:24px;margin:36px 0 10px;
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
 th,td{padding:8px 10px;text-align:right;white-space:nowrap}
 th{color:var(--dim);font-weight:600;font-size:13px;border-bottom:1px solid var(--rule);background:var(--shell2);position:sticky;top:0}
-td{border-bottom:1px solid rgba(42,46,55,.6)}
+td{border-bottom:1px solid rgba(183,188,196,.55)}
+.tbl,.panel,.line-card,.mu{box-shadow:0 1px 0 rgba(255,255,255,.6) inset}
 th:first-child,td:first-child,th.l,td.l{text-align:left}
 tr:last-child td{border-bottom:0}
 td.team{font-weight:700;color:var(--ink)}
 tr.cut td{border-bottom:2px solid var(--signal)}
 .tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 6px;border-radius:3px;margin-left:6px;vertical-align:1px}
-.tag.bye{background:var(--chrome);color:var(--night)}
+.tag.bye{background:var(--ink);color:#fff}
 .tag.po{border:1px solid var(--chrome);color:var(--chrome)}
-.W{color:#6CCB98;font-weight:700}.L{color:#E86A60;font-weight:700}.T{color:#E0A43A;font-weight:700}
+.W{color:#1E7A4C;font-weight:700}.L{color:#B3261E;font-weight:700}.T{color:#9A6400;font-weight:700}
 .muted{color:var(--dim)}
 
 /* Weekly median chart */
@@ -82,16 +84,16 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .bar{display:grid;grid-template-columns:118px 1fr 70px 64px;align-items:center;gap:10px;height:32px}
 .bar .nm{font-weight:700;font-size:15px}
 .bar .track{position:relative;height:18px}
-.bar .fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#3A3F49,#9AA0AA)}
-.bar.above .fill{background:linear-gradient(90deg,#5B616C,#DADDE2)}
+.bar .fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#C3C7CD,#9AA0AA)}
+.bar.above .fill{background:linear-gradient(90deg,#5B616C,#14161A)}
 .bar.below .nm,.bar.below .pts{color:var(--dim)}
 .bar .pts{font-family:var(--display);font-weight:800;font-size:20px;text-align:right}
 .bar .res{font-size:13px;text-align:right}
 .median{position:absolute;top:-8px;bottom:-8px;width:2px;background:var(--signal);
-  box-shadow:0 0 10px 2px rgba(255,90,31,.7),0 0 26px 4px rgba(227,18,27,.35);pointer-events:none}
-.median span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--ember);white-space:nowrap}
+  box-shadow:0 0 8px 1px rgba(255,90,31,.55),0 0 18px 3px rgba(227,18,27,.25);pointer-events:none}
+.median span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--signal);white-space:nowrap}
 .line-card .note{margin-top:26px}
-.line-split{grid-column:1/-1;height:1px;margin:4px 0;border-top:1px dashed rgba(227,18,27,.5)}
+.line-split{grid-column:1/-1;height:1px;margin:4px 0;border-top:1px dashed rgba(212,16,26,.55)}
 
 /* grids & cards */
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
@@ -109,7 +111,7 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .kpis{display:flex;flex-wrap:wrap;gap:24px;margin:6px 0 18px}
 .kpi b{display:block;font-family:var(--display);font-weight:900;font-size:34px;line-height:1}
 .kpi span{color:var(--dim);font-size:14px}
-.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--chrome);margin:8px 0}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--ink);margin:8px 0}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .seat{font-size:13px;font-weight:600;padding:5px 8px!important;text-align:center!important;color:#16181D}
 .loading{color:var(--dim);padding:40px 0}
@@ -127,6 +129,27 @@ td.dv.lead{text-align:right}
 .dvbar.neg{right:50%;background:var(--bad)}
 .dvc.lead .dvbar.neg{right:0}
 td.dv small{color:var(--dim);margin-left:5px}
+.rules{max-width:1040px}
+.rule-sec{background:var(--shell);border:1px solid var(--rule);border-radius:6px;padding:20px 22px;margin:0 0 18px;scroll-margin-top:12px}
+.rule-sec h3{margin:0 0 12px;display:flex;align-items:baseline;gap:12px}
+.rule-sec h3 .n{font-size:18px;color:#fff;background:var(--signal);border-radius:4px;padding:3px 9px 2px;line-height:1}
+.rule-sec h4{font-family:var(--display);font-weight:800;font-size:19px;margin:18px 0 6px}
+.rule-sec ul{margin:6px 0 0;padding-left:20px}.rule-sec li{margin:5px 0;max-width:72ch}
+.rule-sec li.ex{list-style:none;margin-left:-4px;color:var(--dim);font-size:15px}
+.rule-sec p{margin:6px 0;max-width:72ch}
+.pool{display:flex;flex-wrap:wrap;gap:28px;margin:4px 0 14px}
+.slots{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.slot{font-family:var(--display);font-weight:800;font-size:18px;min-width:52px;text-align:center;padding:8px 10px;border-radius:5px;background:var(--ink);color:#fff}
+.slot.flex{background:#5B616C}.slot.sf{background:var(--signal)}
+.slot.bench{background:var(--shell2);color:var(--ink);border:1px dashed var(--rule)}
+.ladder{display:flex;flex-wrap:wrap;align-items:stretch;gap:8px;margin:10px 0 4px}
+.rung{background:var(--shell2);border:1px solid var(--rule);border-radius:5px;padding:8px 12px;min-width:120px}
+.rung b{display:block;font-family:var(--display);font-weight:900;font-size:26px;line-height:1.05}
+.rung span{font-size:13px;color:var(--dim)}
+.rung.no{background:transparent;border-style:dashed}.rung.no b{color:var(--signal)}
+.arrow{align-self:center;color:var(--dim);font-size:20px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;align-items:start}
+.two .tbl table{font-size:14px}
 footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:18px 0 30px}
 
 @media (max-width:640px){
@@ -158,10 +181,10 @@ footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:
 <footer><div class="wrap" id="foot"></div></footer>
 
 <script>
-const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["history","League History"]];
+const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["history","League History"],["rules","Rulebook"]];
 const POS=["QB","RB","WR","TE","K","DEF"];
 const GROUPS=["Passing","Rushing","Receiving","Misc Offense","Kicking","Defense"];
-const SERIES=["#E3121B","#FF5A1F","#C9CCD1","#6E7686","#E0A43A","#8C1C22"];
+const SERIES=["#D4101A","#FF7A3D","#3A3F49","#A3A9B3","#E0A43A","#7A0E14"];
 let D=null, charts={};
 const $=s=>document.querySelector(s);
 const f2=x=>(+x).toFixed(2), f1=x=>(+x).toFixed(1);
@@ -172,14 +195,14 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 function heat(v,lo,hi,invert){
   if(hi===lo||v==null)return"";
   let t=(v-lo)/(hi-lo); if(invert)t=1-t;
-  const c=t>=.5?[62,158,110]:[184,67,60], a=Math.abs(t-.5)*2*.55;
+  const c=t>=.5?[47,138,92]:[196,64,56], a=Math.abs(t-.5)*2*.5;
   return `background:rgba(${c},${a.toFixed(2)})`;
 }
 function colHeat(rows,key,invert){const v=rows.map(r=>+r[key]);const lo=Math.min(...v),hi=Math.max(...v);return r=>heat(+r[key],lo,hi,invert)}
 function mkChart(id,cfg){if(charts[id])charts[id].destroy();const el=document.getElementById(id);if(!el||!window.Chart)return;charts[id]=new Chart(el,cfg)}
 function baseOpts(extra={}){return Object.assign({responsive:true,maintainAspectRatio:false,animation:false,
-  plugins:{legend:{labels:{color:"#C9CCD1",font:{family:"Barlow Semi Condensed",size:13}}},tooltip:{mode:"index",intersect:false}},
-  scales:{x:{ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{ticks:{color:"#C9CCD1"},grid:{color:"#22262E"}}}},extra)}
+  plugins:{legend:{labels:{color:"#14161A",font:{family:"Barlow Semi Condensed",size:13}}},tooltip:{mode:"index",intersect:false}},
+  scales:{x:{ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}},y:{ticks:{color:"#14161A"},grid:{color:"#C9CDD3"}}}},extra)}
 function picker(id,items,cur,cb){
   return `<div class="picker" id="${id}">${items.map(([v,l])=>`<button aria-pressed="${v==cur}" data-v="${esc(v)}">${esc(l)}</button>`).join("")}</div>`;
 }
@@ -241,7 +264,7 @@ function show(p){
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.p==p));
   document.querySelectorAll("section.page").forEach(s=>s.classList.toggle("on",s.id=="p-"+p));
   history.replaceState(null,"","#"+p);
-  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory})[p]()}
+  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory,rules:rRules})[p]()}
 }
 const regWeeks=()=>[...new Set(D.weekly.map(w=>w.week))].sort((a,b)=>a-b);
 
@@ -305,8 +328,8 @@ function rWeekly(){
    <tr class="pin-bot"><td class="l muted">Median</td>${wks.map(w=>{const r=D.weekly.find(x=>x.week==w);return`<td class="muted">${r.median!=null?f2(r.median):""}</td>`}).join("")}<td></td></tr></tbody></table>`;
   mkChart("cTrend",{type:"line",data:{labels:wks.map(w=>"Wk "+w),datasets:[
     {label:"Median",data:wks.map(w=>D.weekly.find(x=>x.week==w).median),borderColor:"#E3121B",backgroundColor:"#E3121B",borderWidth:3,pointRadius:4},
-    {label:"League high",data:wks.map(w=>Math.max(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#C9CCD1",borderDash:[5,4],pointRadius:3},
-    {label:"League low",data:wks.map(w=>Math.min(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#5B616C",borderDash:[5,4],pointRadius:3}]},options:baseOpts()});
+    {label:"League high",data:wks.map(w=>Math.max(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#3A3F49",borderDash:[5,4],pointRadius:3},
+    {label:"League low",data:wks.map(w=>Math.min(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#9AA1AD",borderDash:[5,4],pointRadius:3}]},options:baseOpts()});
 }
 
 /* ---------------- Stat categories ---------------- */
@@ -322,7 +345,7 @@ function rCategories(){
   const sorted=[...teams].sort((a,b)=>tot(b)-tot(a));
   function tot(t){return GROUPS.reduce((s,g)=>s+D.categories[g][t].total,0)}
   mkChart("cCat",{type:"bar",data:{labels:sorted,datasets:GROUPS.map((g,i)=>({label:g,data:sorted.map(t=>D.categories[g][t].total),backgroundColor:SERIES[i]}))},
-    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{stacked:true,ticks:{color:"#C9CCD1",font:{weight:"600"}},grid:{display:false}}}})});
+    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}},y:{stacked:true,ticks:{color:"#14161A",font:{weight:"600"}},grid:{display:false}}}})});
   let scope="ALL", base="avg";
   const ord=n=>n+(["th","st","nd","rd"][(n%100>10&&n%100<14)?0:(n%10<4?n%10:0)]);
   const drawCmp=()=>{
@@ -370,7 +393,7 @@ function rPositions(){
    <h3>Top starters by position</h3><div class="grid2">${POS.map(pos=>`<div class="panel"><h4>${pos}</h4><table><tbody>${top(pos).map(p=>`<tr><td class="l">${esc(p.player)} <span class="muted">${esc(p.nfl||"")}</span></td><td class="l muted">${esc(p.owner)}</td><td><b>${f2(p.points)}</b></td></tr>`).join("")}</tbody></table></div>`).join("")}</div>
    <p class="note">DEF totals include points-allowed tier points. Individual defenses in the top-starters lists don't, because Yahoo's log doesn't break points allowed out by player.</p>`;
   mkChart("cPos",{type:"bar",data:{labels:sorted,datasets:POS.map((p,i)=>({label:p,data:sorted.map(t=>P[t][p]),backgroundColor:SERIES[i]}))},
-    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{stacked:true,ticks:{color:"#C9CCD1",font:{weight:"600"}},grid:{display:false}}}})});
+    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}},y:{stacked:true,ticks:{color:"#14161A",font:{weight:"600"}},grid:{display:false}}}})});
 }
 
 /* ---------------- Teams ---------------- */
@@ -387,11 +410,84 @@ function rTeams(){
       ${wk.map(w=>`<tr><td class="l">${w.week}</td><td class="l">${esc(w.opp||"")}</td><td>${f2(w.pf)}</td><td>${f2(w.pa)}</td><td class="${w.h2h}">${w.h2h}</td><td class="${w.vs_median||""}">${w.vs_median||""}</td><td>${w.rank}</td></tr>`).join("")}</tbody></table></div></div>
       <h3>Starters who scored</h3><div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th class="l">NFL</th><th>GP</th><th>Points</th><th>Share</th><th class="l">Biggest source</th></tr></thead><tbody>
       ${pl.map(p=>{const top=Object.entries(p.pts_by_cat).sort((a,b)=>b[1]-a[1])[0];return`<tr><td class="team l">${esc(p.player)}</td><td class="l">${p.pos}</td><td class="l muted">${esc(p.nfl||"")}</td><td>${p.gp}</td><td><b>${f2(p.points)}</b></td><td>${sum?(p.points/s.PF*100).toFixed(1)+"%":""}</td><td class="l muted">${top?esc(top[0])+" ("+f2(top[1])+")":""}</td></tr>`}).join("")}</tbody></table></div>`;
-    mkChart("cTmPos",{type:"doughnut",data:{labels:POS,datasets:[{data:posT,backgroundColor:SERIES,borderColor:"#15171C",borderWidth:2}]},
-      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:"right",labels:{color:"#C9CCD1",font:{family:"Barlow Semi Condensed",size:14}}}}}});
+    mkChart("cTmPos",{type:"doughnut",data:{labels:POS,datasets:[{data:posT,backgroundColor:SERIES,borderColor:"#F2F3F5",borderWidth:2}]},
+      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:"right",labels:{color:"#14161A",font:{family:"Barlow Semi Condensed",size:14}}}}}});
   };
   draw(teams[0]);
   bindPicker("tmPick",t=>{draw(t);document.querySelectorAll("#tmPick button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==t))});
+}
+
+/* ---------------- Rulebook ---------------- */
+function rRules(){
+  const S=D.standings, reg=D.weekly.filter(w=>!w.playoff), wks=[...new Set(reg.map(w=>w.week))].sort((a,b)=>a-b);
+  const highs=wks.map(w=>{const r=reg.filter(x=>x.week==w),m=Math.max(...r.map(x=>x.pf));return{week:w,pf:m,teams:r.filter(x=>x.pf==m).map(x=>x.team)}});
+  const won={};highs.forEach(h=>h.teams.forEach(t=>won[t]=(won[t]||0)+30/h.teams.length));
+  const mostPF=[...S].sort((a,b)=>b.PF-a.PF)[0], regDone=wks.length>=D.reg_season_weeks;
+  const pay=[["Champion (1st place overall)",1290,"Decided in the championship, week 17"],["2nd place overall",500,"Decided in the championship, week 17"],
+    ["1st place after regular season",415,`${regDone?"Won by":"Currently"} ${esc(S[0].team)} (${S[0].W}-${S[0].L}-${S[0].T})`],
+    ["Most points, regular season",375,`${regDone?"Won by":"Currently"} ${esc(mostPF.team)} (${f2(mostPF.PF)})`],
+    ["Weekly high score (14 weeks × $30)",420,`${highs.length} of 14 weeks paid out`]];
+  const slot=(n,l,c="")=>Array.from({length:n},()=>`<div class="slot ${c}">${l}</div>`).join("");
+  const sc=(rows)=>`<div class="tbl"><table><thead><tr><th class="l">Stat</th><th>Points</th></tr></thead><tbody>${rows.map(([a,b])=>`<tr><td class="l">${a}</td><td><b>${b}</b></td></tr>`).join("")}</tbody></table></div>`;
+  $("#p-rules").innerHTML=`<div class="rules"><h2>Rulebook</h2><p class="lede">Official NR Crew rules for the ${D.season}-${D.season+1} season.</p>
+  ${picker("rJump",[["r1","Fees & payouts"],["r2","Lineup"],["r3","Keepers"],["r4","Waivers"],["r5","Weekly format"],["r6","Playoffs"],["r7","Scoring"]],"")}
+
+  <div class="rule-sec" id="r1"><h3><span class="n">1</span>League fees and payouts</h3>
+   <div class="pool"><div class="kpi"><b>$300</b><span>Fee per team</span></div><div class="kpi"><b>$3,000</b><span>Total prize pool, 10 teams</span></div></div>
+   <div class="tbl"><table><thead><tr><th class="l">Payout</th><th>Amount</th><th class="l">Status</th></tr></thead><tbody>
+    ${pay.map(p=>`<tr><td class="l team">${p[0]}</td><td><b>$${p[1].toLocaleString()}</b></td><td class="l muted">${p[2]}</td></tr>`).join("")}
+    <tr class="pin-bot"><td class="l"><b>Total</b></td><td><b>$3,000</b></td><td></td></tr></tbody></table></div>
+   <h4>Weekly high score winners</h4>
+   <div class="tbl"><table><thead><tr><th class="l">Week</th><th class="l">Team</th><th>Score</th><th>Payout</th></tr></thead><tbody>
+    ${highs.map(x=>`<tr><td class="l">${x.week}</td><td class="l team">${esc(x.teams.join(", "))}</td><td>${f2(x.pf)}</td><td>$${(30/x.teams.length).toFixed(2).replace(".00","")}</td></tr>`).join("")}</tbody></table></div>
+   <p class="note">Weekly high score money so far: ${Object.entries(won).sort((a,b)=>b[1]-a[1]).map(([t,v])=>`${esc(t)} $${v%1?v.toFixed(2):v}`).join(", ")}.</p></div>
+
+  <div class="rule-sec" id="r2"><h3><span class="n">2</span>Roster and starting lineup</h3>
+   <p>Each team starts 11 players every week:</p>
+   <div class="slots">${slot(1,"QB")}${slot(2,"RB")}${slot(3,"WR")}${slot(1,"TE")}${slot(1,"FLEX","flex")}${slot(1,"SFLEX","sf")}${slot(1,"K")}${slot(1,"DEF")}</div>
+   <div class="slots">${slot(7,"BN","bench")}${slot(2,"IR","bench")}</div>
+   <ul><li><b>Flex:</b> RB, WR, or TE.</li><li><b>SuperFlex:</b> QB, RB, WR, or TE.</li><li><b>Bench:</b> 7 spots. <b>Injured Reserve:</b> 2 spots.</li></ul></div>
+
+  <div class="rule-sec" id="r3"><h3><span class="n">3</span>Keeper rules</h3>
+   <h4>Eligibility</h4><ul>
+    <li>Each team may keep <b>one player</b> per season.</li>
+    <li>All other roster spots go back into the draft pool and are drafted fresh.</li>
+    <li>Keepers are a snapshot of your <b>final season roster</b>. Whoever is on your roster at the end of the season is eligible, no matter how they got there.</li></ul>
+   <h4>Cost for drafted players</h4><ul>
+    <li>A keeper costs a pick <b>3 rounds earlier</b> than the round they were originally drafted.</li>
+    <li>It's based on the player's <b>original draft round</b>, no matter who drafted them or whether they were traded to you.</li>
+    <li>Each additional consecutive year you keep the same player, the cost moves up <b>3 more rounds</b>.</li>
+    <li>A player drafted or kept in <b>rounds 1 to 3</b> can't be kept, because 3 rounds can't be taken off.</li></ul>
+   <div class="ladder"><div class="rung"><b>Rd 9</b><span>Originally drafted</span></div><div class="arrow">›</div>
+    <div class="rung"><b>Rd 6</b><span>Keeper cost, year 1</span></div><div class="arrow">›</div>
+    <div class="rung"><b>Rd 3</b><span>Keeper cost, year 2</span></div><div class="arrow">›</div>
+    <div class="rung no"><b>Done</b><span>Can't be kept again</span></div></div>
+   <h4>Cost for undrafted and waiver players</h4><ul>
+    <li>Players who went undrafted or came off waivers cost a <b>Round 11</b> pick, no matter when they joined your roster.</li></ul></div>
+
+  <div class="rule-sec" id="r4"><h3><span class="n">4</span>Waivers</h3><ul>
+   <li>Each team gets a <b>$100 waiver budget</b> for the season.</li>
+   <li>The waiver period runs from <b>game time through Tuesday</b>.</li>
+   <li>Waiver priority starts in <b>reverse order of the current standings</b> each week and rolls. A successful claim moves your team to the end of the list.</li></ul></div>
+
+  <div class="rule-sec" id="r5"><h3><span class="n">5</span>Weekly scoring format</h3>
+   <p>Every regular season week is worth <b>two possible wins</b>:</p><ul>
+   <li><b>1 win</b> for beating your head-to-head opponent.</li>
+   <li><b>1 win</b> for scoring above the league median that week (the top five scores).</li></ul>
+   <p>So each week you can go 2-0, 1-1, or 0-2. A score exactly equal to the median counts as a tie.</p></div>
+
+  <div class="rule-sec" id="r6"><h3><span class="n">6</span>Playoffs and tiebreakers</h3><ul>
+   <li><b>Regular season:</b> weeks 1 to ${D.reg_season_weeks}.</li>
+   <li><b>Playoffs:</b> weeks ${D.playoff_weeks[0]} to ${D.playoff_weeks[D.playoff_weeks.length-1]}. <b>6 teams</b> qualify and the <b>top 2 seeds get a bye</b>.</li>
+   <li>The median game <b>does not apply</b> in the playoffs.</li>
+   <li><b>Standings tiebreaker:</b> total points for.</li></ul></div>
+
+  <div class="rule-sec" id="r7"><h3><span class="n">7</span>Scoring</h3><div class="two">
+   ${sc([["Passing yards","1 per 25 yds"],["Passing TD","4"],["Interception","-1"],["Rushing yards","1 per 10 yds"],["Rushing TD","6"],["Reception","1"],["Receiving yards","1 per 10 yds"],["Receiving TD","6"],["Return TD","6"],["2-point conversion","2"],["Fumble lost","-2"],["Offensive fumble return TD","6"]])}
+   <div>${sc([["FG 0-39 yds","3"],["FG 40-49 yds","4"],["FG 50+ yds","5"],["Missed FG 0-39 yds","-1"],["PAT made","1"]])}</div>
+   ${sc([["Sack","1"],["Interception","2"],["Fumble recovery","2"],["Touchdown","6"],["Safety","2"],["Blocked kick","4"],["Kick or punt return TD","6"],["Extra point returned","2"],["0 pts allowed","15"],["1-6 pts allowed","10"],["7-13 pts allowed","5"],["14-20 pts allowed","2"],["21-27 pts allowed","0"],["28-34 pts allowed","-1"],["35+ pts allowed","-5"]])}</div>
+   <p class="note">Offense, kicker, and defense/special teams scoring, left to right.</p></div></div>`;
+  bindPicker("rJump",id=>document.getElementById(id).scrollIntoView({behavior:"smooth"}));
 }
 
 /* ---------------- History ---------------- */
@@ -420,7 +516,7 @@ function rHistory(){
    <h3 id="h-year">Wins by year</h3><div class="tbl"><table><thead><tr><th class="l">Year</th>${mgrs.map(m=>`<th>${esc(m)}</th>`).join("")}<th class="l">Format</th></tr></thead><tbody>
     ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.wins_grid[y][m];return`<td style="${v!=null?heat(v/H.games_by_year[y],0,1):""}">${v!=null?num(v):""}</td>`}).join("")}<td class="l muted">${H.games_by_year[y]}-week season${H.median_years.includes(y)?", median game (½ win)":""}</td></tr>`).join("")}</tbody></table></div>
    <h3>Playoff appearances</h3><div class="tbl"><table><thead><tr><th class="l">Year</th>${mgrs.map(m=>`<th>${esc(m)}</th>`).join("")}</tr></thead><tbody>
-    ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.playoff_grid[y][m];return v==null?"<td></td>":`<td style="text-align:center;${v?"background:rgba(62,158,110,.45)":""}">${v?"✓":"<span class='muted'>·</span>"}</td>`}).join("")}</tr>`).join("")}
+    ${[...H.years].reverse().map(y=>`<tr><td class="l">${y}</td>${mgrs.map(m=>{const v=H.playoff_grid[y][m];return v==null?"<td></td>":`<td style="text-align:center;${v?"background:rgba(47,138,92,.35)":""}">${v?"✓":"<span class='muted'>·</span>"}</td>`}).join("")}</tr>`).join("")}
     <tr class="pin-bot"><td class="l"><b>Total</b></td>${mgrs.map(m=>`<td style="text-align:center"><b>${num(act.find(a=>a.manager==m).playoffs)}</b></td>`).join("")}</tr></tbody></table></div>
    <h3 id="h-evo">League evolution</h3><div class="legend">${["Original","New","Returning","Departing"].map(k=>`<span><i style="background:${EV[k]}"></i>${k}</span>`).join("")}</div>
     <div class="tbl"><table><thead><tr><th class="l">Year</th>${Array.from({length:maxSeats},(_,i)=>`<th style="text-align:center">${i+1}</th>`).join("")}</tr></thead><tbody>
@@ -429,13 +525,13 @@ function rHistory(){
    <h3 id="h-awd">Records and awards</h3><div class="tbl"><table><thead><tr><th class="l">Award</th><th>Stat</th><th class="l">Manager</th><th class="l">Year</th></tr></thead><tbody>
     ${H.awards.map(a=>`<tr><td class="l">${esc(a.award)}</td><td><b>${/pct|Win %/.test(a.award)?pct(a.stat):num(a.stat)}</b></td><td class="team l">${esc(a.managers.join(", "))}</td><td class="l muted">${esc(a.years.join(", "))}</td></tr>`).join("")}</tbody></table></div>`;
   bindPicker("hJump",id=>document.getElementById(id).scrollIntoView({behavior:"smooth"}));
-  mkChart("cPvW",{type:"bar",data:{labels:mgrs,datasets:[{label:"Win %",data:act.map(a=>a.win_pct),backgroundColor:"#C9CCD1"},{label:"Playoff %",data:act.map(a=>a.playoff_pct),backgroundColor:"#E3121B"}]},
-    options:baseOpts({scales:{x:{ticks:{color:"#C9CCD1"},grid:{display:false}},y:{min:0,max:1,ticks:{color:"#8A8F99",callback:v=>pct(v)},grid:{color:"#22262E"}}}})});
+  mkChart("cPvW",{type:"bar",data:{labels:mgrs,datasets:[{label:"Win %",data:act.map(a=>a.win_pct),backgroundColor:"#3A3F49"},{label:"Playoff %",data:act.map(a=>a.playoff_pct),backgroundColor:"#E3121B"}]},
+    options:baseOpts({scales:{x:{ticks:{color:"#14161A"},grid:{display:false}},y:{min:0,max:1,ticks:{color:"#4A505B",callback:v=>pct(v)},grid:{color:"#C9CDD3"}}}})});
   const slots=Array.from({length:10},(_,i)=>i+1);
   mkChart("cSlot",{type:"bar",data:{labels:slots.map(s=>"#"+s),datasets:[{label:"Titles",data:slots.map(s=>H.titles_by_draft_slot[s]||0),backgroundColor:"#E3121B"}]},
-    options:baseOpts({plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#C9CCD1"},grid:{display:false}},y:{ticks:{color:"#8A8F99",stepSize:1},grid:{color:"#22262E"}}}})});
-  mkChart("cTen",{type:"bar",data:{labels:tenure.map(a=>a.manager),datasets:[{label:"Seasons",data:tenure.map(a=>a.years),backgroundColor:tenure.map(a=>a.active?"#C9CCD1":"#4E5563")}]},
-    options:baseOpts({indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#8A8F99"},grid:{color:"#22262E"}},y:{ticks:{color:"#C9CCD1"},grid:{display:false}}}})});
+    options:baseOpts({plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#14161A"},grid:{display:false}},y:{ticks:{color:"#4A505B",stepSize:1},grid:{color:"#C9CDD3"}}}})});
+  mkChart("cTen",{type:"bar",data:{labels:tenure.map(a=>a.manager),datasets:[{label:"Seasons",data:tenure.map(a=>a.years),backgroundColor:tenure.map(a=>a.active?"#3A3F49":"#A3A9B3")}]},
+    options:baseOpts({indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}},y:{ticks:{color:"#14161A"},grid:{display:false}}}})});
 }
 </script>
 </body>
