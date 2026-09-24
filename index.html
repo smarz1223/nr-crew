@@ -129,6 +129,10 @@ td.dv.lead{text-align:right}
 .dvbar.neg{right:50%;background:var(--bad)}
 .dvc.lead .dvbar.neg{right:0}
 td.dv small{color:var(--dim);margin-left:5px}
+.mv{font-weight:700;white-space:nowrap}
+.mv.up{color:#1E7A4C}.mv.dn{color:#B3261E}.mv.fl{color:var(--dim);font-weight:500}
+.pill{display:inline-block;font-size:11px;font-weight:700;padding:1px 6px;border-radius:3px;background:var(--shell2);color:var(--dim);border:1px solid var(--rule)}
+.pill.out{border-color:#C9A0A0;color:#8E3B34}
 .rules{max-width:1040px}
 .rule-sec{background:var(--shell);border:1px solid var(--rule);border-radius:6px;padding:20px 22px;margin:0 0 18px;scroll-margin-top:12px}
 .rule-sec h3{margin:0 0 12px;display:flex;align-items:baseline;gap:12px}
@@ -181,7 +185,7 @@ footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:
 <footer><div class="wrap" id="foot"></div></footer>
 
 <script>
-const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["history","League History"],["rules","Rulebook"]];
+const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["draft","Draft"],["history","League History"],["rules","Rulebook"]];
 const POS=["QB","RB","WR","TE","K","DEF"];
 const GROUPS=["Passing","Rushing","Receiving","Misc Offense","Kicking","Defense"];
 const SERIES=["#D4101A","#FF7A3D","#3A3F49","#A3A9B3","#E0A43A","#7A0E14"];
@@ -253,18 +257,19 @@ function boot(){
   const st={PASS:["","Scores reconciled"],LIVE:["warn","Week in progress"],STALE:["warn","Game log behind"],FAIL:["fail","Data check failed"]}[D.recon_status]||["warn",D.recon_status];
   $("#status").className="status "+st[0];$("#statusTxt").textContent=st[1];
   $("#status").title=D.flags.length?D.flags.join("\n"):"Every team's player points tie back to its weekly scores.";
-  $("#nav").innerHTML=PAGES.map(([k,l])=>`<button role="tab" data-p="${k}">${l}</button>`).join("");
-  $("#main").innerHTML=PAGES.map(([k])=>`<section class="page" id="p-${k}"></section>`).join("");
+  const pages=PAGES.filter(([k])=>k!="draft"||D.draft);
+  $("#nav").innerHTML=pages.map(([k,l])=>`<button role="tab" data-p="${k}">${l}</button>`).join("");
+  $("#main").innerHTML=pages.map(([k])=>`<section class="page" id="p-${k}"></section>`).join("");
   $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b)show(b.dataset.p)});
   $("#foot").innerHTML=`Updated ${esc(D.updated)}. Player stats are season-to-date from Yahoo team logs, starters only. DST points-allowed fantasy points are backed out of weekly scores because Yahoo's log doesn't list points allowed.<br>Part of <a href="https://redplanetanalytics.com">Red Planet Analytics</a>.`;
-  const h=location.hash.slice(1);show(PAGES.some(p=>p[0]==h)?h:"standings");
+  const h=location.hash.slice(1);show(pages.some(p=>p[0]==h)?h:"standings");
 }
 const rendered={};
 function show(p){
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.p==p));
   document.querySelectorAll("section.page").forEach(s=>s.classList.toggle("on",s.id=="p-"+p));
   history.replaceState(null,"","#"+p);
-  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory,rules:rRules})[p]()}
+  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory,rules:rRules,draft:rDraft})[p]()}
 }
 const regWeeks=()=>[...new Set(D.weekly.map(w=>w.week))].sort((a,b)=>a-b);
 
@@ -415,6 +420,76 @@ function rTeams(){
   };
   draw(teams[0]);
   bindPicker("tmPick",t=>{draw(t);document.querySelectorAll("#tmPick button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==t))});
+}
+
+/* ---------------- Draft ---------------- */
+const mv=v=>v>0?`<span class="mv up">+${v}</span>`:v<0?`<span class="mv dn">${v}</span>`:`<span class="mv fl">even</span>`;
+const ordn=n=>n+(["th","st","nd","rd"][(n%100>10&&n%100<14)?0:(n%10<4?n%10:0)]);
+function pickRow(p,showOwner){
+  const st=p.kept?"":`<span class="pill out" title="${p.rostered_by.length?"Has started for "+p.rostered_by.join(", ")+" this season":"Has not started for anyone this season, so he has no recorded points"}">${p.rostered_by.length?"started elsewhere":"no starts"}</span>`;
+  return `<tr><td>${p.round}.${String(p.pick).padStart(2,"0")}</td><td>${p.overall}</td>
+   <td class="team l">${esc(p.player)} ${st}</td><td class="l muted">${esc(p.nfl)}</td><td class="l">${p.pos}</td>
+   ${showOwner?`<td class="l">${esc(p.owner)}</td>`:""}
+   <td>${f2(p.points)}</td><td class="l">${p.pos}${p.pos_draft_rank} → ${p.pos}${p.pos_points_rank}</td>
+   <td data-s="${p.pos_value}">${mv(p.pos_value)}</td></tr>`;
+}
+function rDraft(){
+  const DR=D.draft, picks=DR.picks, teams=D.standings.map(s=>s.team);
+  const heads=(o)=>`<tr><th>Pick</th><th>Overall</th><th class="l">Player</th><th class="l">NFL</th><th class="l">Pos</th>${o?'<th class="l">Team</th>':""}<th>Points</th><th class="l" title="Where they were taken at their position, then where they rank now">Pos rank</th><th title="Positions gained or lost against their draft slot">Value</th></tr>`;
+  $("#p-draft").innerHTML=`<h2>Draft</h2><p class="lede">${DR.rounds} rounds, ${picks.length} picks. Points are what each player has scored <b>as a starter</b> this season, for whoever started them.</p>
+   ${picker("drView",[["team","By team"],["league","Best & worst picks"],["pos","By position"],["board","Full board"]],"team")}<div id="drBox"></div>
+   <p class="note">Value compares where a player was taken at his position to where he ranks now in points, so a kicker is measured against kickers rather than against first-round backs. Only starters score in Yahoo's team log, so a pick who has been benched or hurt shows no points and shares the last rank at his position.</p>`;
+  let view="team", team=D.standings[0].team, pos="QB", lg="best";
+  const draw=()=>{
+    const B=$("#drBox");
+    if(view=="team"){
+      const mine=picks.filter(p=>p.owner==team).sort((a,b)=>a.overall-b.overall);
+      const s=DR.summary.find(x=>x.team==team), rank=DR.summary.findIndex(x=>x.team==team)+1;
+      const byPos={};mine.forEach(p=>byPos[p.pos]=(byPos[p.pos]||0)+p.points);
+      B.innerHTML=`${picker("drTeam",teams.map(t=>[t,t]),team)}
+       <div class="kpis"><div class="kpi"><b>#${rank}</b><span>Draft points rank</span></div><div class="kpi"><b>${f2(s.draft_points)}</b><span>Points from picks</span></div>
+        <div class="kpi"><b>${s.hits}-${s.misses}</b><span>Picks up / down</span></div><div class="kpi"><b>${s.still_rostered}/${s.picks}</b><span>Picks that started for you</span></div>
+        <div class="kpi"><b>${f2(s.points_from_adds)}</b><span>Points from adds</span></div></div>
+       <div class="tbl"><table><thead>${heads(0)}</thead><tbody>${mine.map(p=>pickRow(p,0)).join("")}</tbody></table></div>
+       <div class="panel" style="margin-top:18px"><h4>Points by round</h4><div class="chart sm"><canvas id="cRound"></canvas></div></div>`;
+      bindPicker("drTeam",t=>{team=t;draw()});
+      mkChart("cRound",{type:"bar",data:{labels:mine.map(p=>"R"+p.round),datasets:[{label:"Points",data:mine.map(p=>p.points),
+        backgroundColor:mine.map(p=>p.pos_value>0?"#2F8A5C":p.pos_value<0?"#C44038":"#A3A9B3")}]},
+        options:baseOpts({plugins:{legend:{display:false},tooltip:{callbacks:{title:i=>mine[i[0].dataIndex].player}}},
+          scales:{x:{ticks:{color:"#4A505B"},grid:{display:false}},y:{ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}}}})});
+    } else if(view=="league"){
+      const sorted=[...picks].sort((a,b)=>b.pos_value-a.pos_value||b.points-a.points);
+      const rows=lg=="best"?sorted.slice(0,20):[...sorted].reverse().slice(0,20);
+      B.innerHTML=`<h3>Team draft summary</h3><div class="tbl"><table><thead><tr><th class="l">Team</th><th>Points from picks</th><th>Points from adds</th><th title="Picks that gained ground on their position slot">Up</th><th title="Picks that lost ground">Down</th><th title="Picks that have started for the team that drafted them">Started for you</th><th title="Average positions gained per pick">Avg value</th></tr></thead><tbody>
+        ${DR.summary.map(s=>`<tr><td class="team l">${esc(s.team)}</td><td style="${colHeat(DR.summary,"draft_points")(s)}">${f2(s.draft_points)}</td><td>${f2(s.points_from_adds)}</td>
+         <td>${s.hits}</td><td>${s.misses}</td><td>${s.still_rostered}</td><td data-s="${s.avg_value}" style="${colHeat(DR.summary,"avg_value")(s)}">${mv(s.avg_value)}</td></tr>`).join("")}</tbody></table></div>
+       <h3>${lg=="best"?"Best":"Worst"} picks of the draft</h3>${picker("drLg",[["best","Best picks"],["worst","Worst picks"]],lg)}
+       <div class="tbl"><table><thead>${heads(1)}</thead><tbody>${rows.map(p=>pickRow(p,1)).join("")}</tbody></table></div>
+       <div class="panel" style="margin-top:18px"><h4>Points vs. draft slot</h4><p class="note" style="margin-top:0">Each dot is a pick. Dots high and to the right are late picks that are producing.</p><div class="chart"><canvas id="cScatter"></canvas></div></div>`;
+      bindPicker("drLg",v=>{lg=v;draw()});
+      mkChart("cScatter",{type:"scatter",data:{datasets:POS.map((ps,i)=>({label:ps,
+        data:picks.filter(p=>p.pos==ps).map(p=>({x:p.overall,y:p.points,n:p.player})),backgroundColor:SERIES[i],pointRadius:5}))},
+        options:baseOpts({plugins:{tooltip:{mode:"point",callbacks:{label:c=>`${c.raw.n}: pick ${c.raw.x}, ${f2(c.raw.y)} pts`}},legend:{labels:{color:"#14161A"}}},
+          scales:{x:{title:{display:true,text:"Overall draft pick",color:"#4A505B"},ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}},
+                  y:{title:{display:true,text:"Points",color:"#4A505B"},ticks:{color:"#4A505B"},grid:{color:"#C9CDD3"}}}})});
+    } else if(view=="pos"){
+      const rows=picks.filter(p=>p.pos==pos).sort((a,b)=>a.pos_draft_rank-b.pos_draft_rank);
+      B.innerHTML=`${picker("drPos",POS.map(p=>[p,p]),pos)}
+       <p class="lede">${rows.length} ${pos}s drafted. "${pos}1 → ${pos}4" means he was the first ${pos} taken and now ranks fourth in points among drafted ${pos}s.</p>
+       <div class="tbl"><table><thead>${heads(1)}</thead><tbody>${rows.map(p=>pickRow(p,1)).join("")}</tbody></table></div>`;
+      bindPicker("drPos",v=>{pos=v;draw()});
+    } else {
+      const rounds=[...new Set(picks.map(p=>p.round))].sort((a,b)=>a-b);
+      B.innerHTML=`<p class="lede">Snake order. Each cell shows the player and points scored as a starter; green means he has gained ground on his position slot.</p>
+       <div class="tbl"><table><thead><tr><th class="l">Rd</th>${Array.from({length:DR.teams_per_round},(_,i)=>`<th class="l">${i+1}</th>`).join("")}</tr></thead><tbody>
+       ${rounds.map(r=>`<tr><td class="l"><b>${r}</b></td>${Array.from({length:DR.teams_per_round},(_,i)=>{
+          const p=picks.find(x=>x.round==r&&x.pick==i+1);if(!p)return"<td></td>";
+          return `<td class="l" style="${heat(p.pos_value,-20,20)}" title="${esc(p.owner)} — ${p.pos}${p.pos_draft_rank} → ${p.pos}${p.pos_points_rank}"><b>${esc(p.player)}</b><br><span class="muted" style="font-size:12px">${p.pos} · ${f2(p.points)}</span></td>`}).join("")}</tr>`).join("")}
+       </tbody></table></div>`;
+    }
+  };
+  draw();
+  bindPicker("drView",v=>{view=v;document.querySelectorAll("#drView button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==v));draw()});
 }
 
 /* ---------------- Rulebook ---------------- */

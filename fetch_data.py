@@ -14,6 +14,7 @@ import io, json, math, os, re, sys, collections, datetime
 import openpyxl
 
 # ----------------------------------------------------------------- CONFIG
+DRAFT_FILE = "NR_Crew_2026_Draft_Results.xlsx"   # committed to the repo; the draft never changes
 STATS_URL = ("https://docs.google.com/spreadsheets/d/e/2PACX-1vRlXVtPeOs3lyaLyj59sBIw4pBSYHHCzVK9JJZIrrF2uaqYaePptKTP0dapJ1GpJi6Pe_2sj0c3atG8/pub?output=xlsx")
 HISTORY_URL = ("https://docs.google.com/spreadsheets/d/e/2PACX-1vTs3OiPgWspTYZV9kxXFMaYVps0UhoEHs5pXZNe6ZsSW8SDGGkmQq8aXK3jQ1-zFs_5ARv0p-bm3UgC/pub?output=xlsx")
 
@@ -26,6 +27,12 @@ OUT_DIR = "data"
 
 # History names -> 2026 names (2026 names display everywhere)
 HISTORY_NAME_MAP = {"Marzella": "MARZ", "Mikey": "MCFADDEN", "Hampson": "KEV"}
+# Draft-sheet owner names -> 2026 names
+DRAFT_NAME_MAP = {"Mr. Joseph A Gentile": "GENTILE", "meany": "MEANY", "Fig": "FIG",
+                  "McFadden": "MCFADDEN", "Russo": "RUSSO", "Kardian": "KARDIAN",
+                  "Marzella": "MARZ", "Hampello": "KEV", "Drexello": "DREXELLO",
+                  "Danny Free": "FREEMAN"}
+DRAFT_PICK_RE = re.compile(r"^(.*?)\((.+?) - (QB|RB|WR|TE|K|DEF)\)$")
 
 # League scoring (from SCORING MODIFIERS tab)
 SCORING = {
@@ -321,6 +328,98 @@ def build_analytics(players, dst_pa, owners):
     return cats, positions
 
 
+# ----------------------------------------------------------------- DRAFT
+def build_draft(wb, players, owners, flags):
+    """Join draft picks to season scoring. Returns picks + positional value."""
+    ws = wb.worksheets[0]
+    picks, rnd = [], None
+    for r in ws.iter_rows(values_only=True):
+        a = r[0]
+        if isinstance(a, str) and a.strip().lower().startswith("round"):
+            rnd = int(re.sub(r"\D", "", a) or 0)
+            continue
+        if a in (None, "") or r[1] in (None, ""):
+            continue
+        m = DRAFT_PICK_RE.match(str(r[1]).strip())
+        if not m:
+            flags.append(f"Draft: could not read pick '{r[1]}'")
+            continue
+        raw = str(r[2]).strip()
+        owner = DRAFT_NAME_MAP.get(raw, raw)
+        if owner not in owners:
+            flags.append(f"Draft owner '{raw}' not found in Weekly Scores")
+        picks.append({"round": rnd, "pick": int(a), "player": m.group(1).strip(),
+                      "nfl": m.group(2).upper(), "pos": m.group(3), "owner": owner})
+    if not picks:
+        return None
+    teams_per_round = max(p["pick"] for p in picks)
+    for p in picks:
+        p["overall"] = (p["round"] - 1) * teams_per_round + p["pick"]
+
+    # season points by player (starter points; a drafted player with no data scored none for anyone)
+    idx = {}
+    for pl in players:
+        idx.setdefault((pl["player"].lower(), pl["pos"]), []).append(pl)
+        idx.setdefault((pl["player"].lower(), None), []).append(pl)
+    for p in picks:
+        hit = idx.get((p["player"].lower(), p["pos"])) or idx.get((p["player"].lower(), None)) or []
+        p["points"] = r2(sum(h["points"] for h in hit))
+        p["gp"] = max((h["stats"].get("GP", 0) for h in hit), default=0)
+        p["rostered_by"] = sorted({h["owner"] for h in hit})
+        p["kept"] = p["owner"] in p["rostered_by"]
+
+    # ranks: overall and within position, by points vs. by draft order
+    def rank(rows, key, reverse=True):
+        """Rank rows. Ranking on points, players with no starts all tie for last,
+        so a late pick who never played never looks like a steal."""
+        out = {}
+        if key == "points":
+            scored = [r for r in rows if r["gp"]]
+            prev, rk = None, 0
+            for i, row in enumerate(sorted(scored, key=lambda x: (-x["points"], x["overall"])), 1):
+                if prev is None or abs(row["points"] - prev) > 1e-9:
+                    rk, prev = i, row["points"]
+                out[row["overall"]] = rk
+            for row in rows:
+                out.setdefault(row["overall"], len(rows))
+            return out
+        for i, row in enumerate(sorted(rows, key=lambda x: (-x[key] if reverse else x[key])), 1):
+            out[row["overall"]] = i
+        return out
+    r_pts = rank(picks, "points")
+    r_drf = rank(picks, "overall", reverse=False)
+    for p in picks:
+        p["points_rank"] = r_pts[p["overall"]]
+        p["value"] = r_drf[p["overall"]] - r_pts[p["overall"]]   # + = outperformed draft slot
+    by_pos = {}
+    for pos in POSITIONS:
+        rows = [p for p in picks if p["pos"] == pos]
+        rp, rd = rank(rows, "points"), rank(rows, "overall", reverse=False)
+        for p in rows:
+            p["pos_points_rank"] = rp[p["overall"]]
+            p["pos_draft_rank"] = rd[p["overall"]]
+            p["pos_value"] = p["pos_draft_rank"] - p["pos_points_rank"]
+        by_pos[pos] = len(rows)
+
+    # per-team summary
+    summary = []
+    for o in owners:
+        mine = [p for p in picks if p["owner"] == o]
+        drafted_pts = sum(p["points"] for p in mine if p["kept"])
+        team_pts = sum(pl["points"] for pl in players if pl["owner"] == o)
+        summary.append({"team": o, "picks": len(mine),
+                        "draft_points": r2(sum(p["points"] for p in mine)),
+                        "points_from_own_picks": r2(drafted_pts),
+                        "points_from_adds": r2(team_pts - drafted_pts),
+                        "hits": sum(1 for p in mine if p["value"] > 0),
+                        "misses": sum(1 for p in mine if p["value"] < 0),
+                        "still_rostered": sum(1 for p in mine if p["kept"]),
+                        "avg_value": round(sum(p["value"] for p in mine) / len(mine), 1) if mine else 0})
+    summary.sort(key=lambda x: -x["draft_points"])
+    return {"rounds": max(p["round"] for p in picks), "teams_per_round": teams_per_round,
+            "picks": picks, "summary": summary, "pos_counts": by_pos}
+
+
 # ----------------------------------------------------------------- HISTORY
 CURRENT_OWNERS = set()
 
@@ -484,6 +583,16 @@ def main():
     cats, positions = build_analytics(players, dst_pa, owners)
     CURRENT_OWNERS.update(owners)
     history = build_history(hwb, flags)
+    draft = None
+    draft_path = os.environ.get("DRAFT_FILE", DRAFT_FILE)
+    if os.path.exists(draft_path):
+        try:
+            dwb = openpyxl.load_workbook(draft_path, data_only=True)
+            draft = build_draft(dwb, players, owners, flags)
+        except Exception as e:
+            flags.append(f"Draft workbook could not be read: {e}")
+    else:
+        flags.append(f"Draft file '{draft_path}' not found in the repo; the Draft page will be hidden")
 
     player_out = sorted(({"owner": p["owner"], "player": p["player"], "nfl": p["nfl"], "pos": p["pos"],
                           "gp": int(p["stats"].get("GP", 0)), "points": r2(p["points"]),
@@ -496,7 +605,7 @@ def main():
            "reg_season_weeks": REG_SEASON_WEEKS, "playoff_weeks": PLAYOFF_WEEKS,
            "owners": owners, "recon_status": status, "recon": recon, "flags": flags,
            "standings": standings, "weekly": weekly_rows, "categories": cats,
-           "positions": positions, "players": player_out, "history": history,
+           "positions": positions, "players": player_out, "history": history, "draft": draft,
            "scoring": SCORING}
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(os.path.join(OUT_DIR, "nrcrew_data.json"), "w") as f:
