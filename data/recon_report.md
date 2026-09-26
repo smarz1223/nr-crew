@@ -1,5 +1,5 @@
 # NR Crew Reconciliation: LIVE
-Updated 2026-09-25 15:52 UTC | Weeks entered: 2
+Updated 2026-09-26 15:03 UTC | Weeks entered: 2
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
