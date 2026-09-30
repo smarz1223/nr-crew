@@ -1,5 +1,5 @@
 # NR Crew Reconciliation: PASS
-Updated 2026-09-29 16:56 UTC | Weeks entered: 3
+Updated 2026-09-30 16:54 UTC | Weeks entered: 3
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
