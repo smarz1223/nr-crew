@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-09 17:29 UTC",
+ "updated": "2026-10-10 16:18 UTC",
  "weeks_entered": 4,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5261,7 +5261,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Jacksonville",
+   "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
@@ -5464,7 +5464,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 1,
@@ -5718,7 +5718,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tampa Bay",
+   "player": "Buccaneers",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
@@ -5738,7 +5738,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Green Bay",
+   "player": "Packers",
    "nfl": "GB",
    "pos": "DEF",
    "gp": 1,
@@ -12123,8 +12123,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 122,
-    "value": -95,
+    "points_rank": 123,
+    "value": -96,
     "pos_points_rank": 40,
     "pos_draft_rank": 8,
     "pos_value": -32
@@ -13141,8 +13141,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 125,
-    "value": -47,
+    "points_rank": 126,
+    "value": -48,
     "pos_points_rank": 28,
     "pos_draft_rank": 26,
     "pos_value": -2
@@ -13221,8 +13221,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": -42,
+    "points_rank": 125,
+    "value": -43,
     "pos_points_rank": 41,
     "pos_draft_rank": 30,
     "pos_value": -11
@@ -13319,8 +13319,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 119,
-    "value": -32,
+    "points_rank": 120,
+    "value": -33,
     "pos_points_rank": 39,
     "pos_draft_rank": 32,
     "pos_value": -7
@@ -13529,8 +13529,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 123,
-    "value": -25,
+    "points_rank": 124,
+    "value": -26,
     "pos_points_rank": 15,
     "pos_draft_rank": 10,
     "pos_value": -5
@@ -14095,11 +14095,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 120,
-    "value": 8,
-    "pos_points_rank": 7,
+    "points_rank": 121,
+    "value": 7,
+    "pos_points_rank": 8,
     "pos_draft_rank": 5,
-    "pos_value": -2
+    "pos_value": -3
    },
    {
     "round": 13,
@@ -14579,15 +14579,17 @@
     "pos": "DEF",
     "owner": "MARZ",
     "overall": 154,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -26,
-    "pos_points_rank": 11,
+    "points": 9.0,
+    "gp": 1.0,
+    "rostered_by": [
+     "MARZ"
+    ],
+    "kept": true,
+    "points_rank": 119,
+    "value": 35,
+    "pos_points_rank": 7,
     "pos_draft_rank": 7,
-    "pos_value": -4
+    "pos_value": 0
    },
    {
     "round": 16,
@@ -14603,11 +14605,11 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 121,
-    "value": 34,
-    "pos_points_rank": 8,
+    "points_rank": 122,
+    "value": 33,
+    "pos_points_rank": 9,
     "pos_draft_rank": 8,
-    "pos_value": 0
+    "pos_value": -1
    },
    {
     "round": 16,
@@ -15091,7 +15093,7 @@
     "hits": 7,
     "misses": 11,
     "still_rostered": 11,
-    "avg_value": -7.8
+    "avg_value": -7.9
    },
    {
     "team": "FREEMAN",
@@ -15135,7 +15137,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 14,
-    "avg_value": -3.9
+    "avg_value": -4.1
    },
    {
     "team": "KARDIAN",
@@ -15146,7 +15148,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 11,
-    "avg_value": -11.3
+    "avg_value": -11.4
    },
    {
     "team": "KEV",
@@ -15184,13 +15186,13 @@
    {
     "team": "MARZ",
     "picks": 18,
-    "draft_points": 509.58,
-    "points_from_own_picks": 509.58,
-    "points_from_adds": 57.8,
-    "hits": 6,
-    "misses": 12,
-    "still_rostered": 13,
-    "avg_value": -11.9
+    "draft_points": 518.58,
+    "points_from_own_picks": 518.58,
+    "points_from_adds": 48.8,
+    "hits": 7,
+    "misses": 11,
+    "still_rostered": 14,
+    "avg_value": -8.6
    }
   ],
   "pos_counts": {
