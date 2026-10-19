@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-18 14:43 UTC",
+ "updated": "2026-10-19 17:38 UTC",
  "weeks_entered": 5,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -25,80 +25,80 @@
   {
    "team": "MARZ",
    "weekly_total": 660.52,
-   "calculated": 665.52,
-   "dst_pts_allowed": -5,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 797.36,
+   "dst_pts_allowed": -137,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "FREEMAN",
    "weekly_total": 781.12,
-   "calculated": 776.12,
-   "dst_pts_allowed": 5,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 909.3,
+   "dst_pts_allowed": -128,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "DREXELLO",
    "weekly_total": 739.84,
-   "calculated": 727.32,
-   "dst_pts_allowed": 13,
-   "dst_games": 5,
+   "calculated": 863.54,
+   "dst_pts_allowed": -124,
+   "dst_games": 6,
    "check": "PENDING"
   },
   {
    "team": "FIG",
    "weekly_total": 729.0,
-   "calculated": 722.0,
-   "dst_pts_allowed": 7,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 862.74,
+   "dst_pts_allowed": -134,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "KEV",
    "weekly_total": 746.04,
-   "calculated": 754.44,
-   "dst_pts_allowed": -8,
-   "dst_games": 5,
+   "calculated": 863.76,
+   "dst_pts_allowed": -118,
+   "dst_games": 6,
    "check": "PENDING"
   },
   {
    "team": "KARDIAN",
    "weekly_total": 782.46,
-   "calculated": 775.46,
-   "dst_pts_allowed": 7,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 898.22,
+   "dst_pts_allowed": -116,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "MCFADDEN",
    "weekly_total": 782.56,
-   "calculated": 774.56,
-   "dst_pts_allowed": 8,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 874.56,
+   "dst_pts_allowed": -92,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "MEANY",
    "weekly_total": 808.5,
-   "calculated": 799.52,
-   "dst_pts_allowed": 9,
-   "dst_games": 5,
+   "calculated": 861.7,
+   "dst_pts_allowed": -53,
+   "dst_games": 6,
    "check": "PENDING"
   },
   {
    "team": "GENTILE",
    "weekly_total": 896.98,
-   "calculated": 885.98,
-   "dst_pts_allowed": 11,
-   "dst_games": 5,
-   "check": "PASS"
+   "calculated": 1013.82,
+   "dst_pts_allowed": -117,
+   "dst_games": 6,
+   "check": "PENDING"
   },
   {
    "team": "RUSSO",
    "weekly_total": 812.96,
-   "calculated": 830.36,
-   "dst_pts_allowed": -17,
+   "calculated": 930.9,
+   "dst_pts_allowed": -118,
    "dst_games": 6,
    "check": "PENDING"
   }
@@ -964,377 +964,377 @@
   "Passing": {
    "MARZ": {
     "raw": {
-     "Pass Yds": 2248.0,
-     "Pass TD": 19.0,
-     "Pass INT": 6.0
+     "Pass Yds": 2544.0,
+     "Pass TD": 23.0,
+     "Pass INT": 8.0
     },
     "pts": {
-     "Pass Yds": 89.92,
-     "Pass TD": 76.0,
-     "Pass INT": -6.0
+     "Pass Yds": 101.76,
+     "Pass TD": 92.0,
+     "Pass INT": -8.0
     },
-    "total": 159.92
+    "total": 185.76
    },
    "FREEMAN": {
     "raw": {
-     "Pass Yds": 2893.0,
-     "Pass TD": 22.0,
-     "Pass INT": 3.0
+     "Pass Yds": 3450.0,
+     "Pass TD": 25.0,
+     "Pass INT": 4.0
     },
     "pts": {
-     "Pass Yds": 115.72,
-     "Pass TD": 88.0,
-     "Pass INT": -3.0
+     "Pass Yds": 138.0,
+     "Pass TD": 100.0,
+     "Pass INT": -4.0
     },
-    "total": 200.72
+    "total": 234.0
    },
    "DREXELLO": {
     "raw": {
-     "Pass Yds": 2198.0,
-     "Pass TD": 14.0,
-     "Pass INT": 7.0
+     "Pass Yds": 2451.0,
+     "Pass TD": 16.0,
+     "Pass INT": 8.0
     },
     "pts": {
-     "Pass Yds": 87.92,
-     "Pass TD": 56.0,
-     "Pass INT": -7.0
+     "Pass Yds": 98.04,
+     "Pass TD": 64.0,
+     "Pass INT": -8.0
     },
-    "total": 136.92
+    "total": 154.04
    },
    "FIG": {
     "raw": {
-     "Pass Yds": 2255.0,
-     "Pass TD": 17.0,
-     "Pass INT": 9.0
-    },
-    "pts": {
-     "Pass Yds": 90.2,
-     "Pass TD": 68.0,
-     "Pass INT": -9.0
-    },
-    "total": 149.2
-   },
-   "KEV": {
-    "raw": {
-     "Pass Yds": 2201.0,
-     "Pass TD": 13.0,
-     "Pass INT": 1.0
-    },
-    "pts": {
-     "Pass Yds": 88.04,
-     "Pass TD": 52.0,
-     "Pass INT": -1.0
-    },
-    "total": 139.04
-   },
-   "KARDIAN": {
-    "raw": {
-     "Pass Yds": 2054.0,
-     "Pass TD": 9.0,
-     "Pass INT": 6.0
-    },
-    "pts": {
-     "Pass Yds": 82.16,
-     "Pass TD": 36.0,
-     "Pass INT": -6.0
-    },
-    "total": 112.16
-   },
-   "MCFADDEN": {
-    "raw": {
-     "Pass Yds": 2424.0,
-     "Pass TD": 21.0,
-     "Pass INT": 9.0
-    },
-    "pts": {
-     "Pass Yds": 96.96,
-     "Pass TD": 84.0,
-     "Pass INT": -9.0
-    },
-    "total": 171.96
-   },
-   "MEANY": {
-    "raw": {
-     "Pass Yds": 2443.0,
+     "Pass Yds": 2731.0,
      "Pass TD": 18.0,
-     "Pass INT": 9.0
-    },
-    "pts": {
-     "Pass Yds": 97.72,
-     "Pass TD": 72.0,
-     "Pass INT": -9.0
-    },
-    "total": 160.72
-   },
-   "GENTILE": {
-    "raw": {
-     "Pass Yds": 2077.0,
-     "Pass TD": 13.0,
-     "Pass INT": 5.0
-    },
-    "pts": {
-     "Pass Yds": 83.08,
-     "Pass TD": 52.0,
-     "Pass INT": -5.0
-    },
-    "total": 130.08
-   },
-   "RUSSO": {
-    "raw": {
-     "Pass Yds": 2409.0,
-     "Pass TD": 13.0,
      "Pass INT": 12.0
     },
     "pts": {
-     "Pass Yds": 96.36,
-     "Pass TD": 52.0,
+     "Pass Yds": 109.24,
+     "Pass TD": 72.0,
      "Pass INT": -12.0
     },
-    "total": 136.36
+    "total": 169.24
+   },
+   "KEV": {
+    "raw": {
+     "Pass Yds": 2514.0,
+     "Pass TD": 15.0,
+     "Pass INT": 2.0
+    },
+    "pts": {
+     "Pass Yds": 100.56,
+     "Pass TD": 60.0,
+     "Pass INT": -2.0
+    },
+    "total": 158.56
+   },
+   "KARDIAN": {
+    "raw": {
+     "Pass Yds": 2578.0,
+     "Pass TD": 12.0,
+     "Pass INT": 8.0
+    },
+    "pts": {
+     "Pass Yds": 103.12,
+     "Pass TD": 48.0,
+     "Pass INT": -8.0
+    },
+    "total": 143.12
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Pass Yds": 2659.0,
+     "Pass TD": 24.0,
+     "Pass INT": 9.0
+    },
+    "pts": {
+     "Pass Yds": 106.36,
+     "Pass TD": 96.0,
+     "Pass INT": -9.0
+    },
+    "total": 193.36
+   },
+   "MEANY": {
+    "raw": {
+     "Pass Yds": 2715.0,
+     "Pass TD": 18.0,
+     "Pass INT": 10.0
+    },
+    "pts": {
+     "Pass Yds": 108.6,
+     "Pass TD": 72.0,
+     "Pass INT": -10.0
+    },
+    "total": 170.6
+   },
+   "GENTILE": {
+    "raw": {
+     "Pass Yds": 2688.0,
+     "Pass TD": 18.0,
+     "Pass INT": 6.0
+    },
+    "pts": {
+     "Pass Yds": 107.52,
+     "Pass TD": 72.0,
+     "Pass INT": -6.0
+    },
+    "total": 173.52
+   },
+   "RUSSO": {
+    "raw": {
+     "Pass Yds": 2835.0,
+     "Pass TD": 15.0,
+     "Pass INT": 13.0
+    },
+    "pts": {
+     "Pass Yds": 113.4,
+     "Pass TD": 60.0,
+     "Pass INT": -13.0
+    },
+    "total": 160.4
    }
   },
   "Rushing": {
    "MARZ": {
     "raw": {
-     "Rush Yds": 1074.0,
-     "Rush TD": 10.0
-    },
-    "pts": {
-     "Rush Yds": 107.4,
-     "Rush TD": 60.0
-    },
-    "total": 167.4
-   },
-   "FREEMAN": {
-    "raw": {
-     "Rush Yds": 740.0,
-     "Rush TD": 6.0
-    },
-    "pts": {
-     "Rush Yds": 74.0,
-     "Rush TD": 36.0
-    },
-    "total": 110.0
-   },
-   "DREXELLO": {
-    "raw": {
-     "Rush Yds": 1094.0,
-     "Rush TD": 10.0
-    },
-    "pts": {
-     "Rush Yds": 109.4,
-     "Rush TD": 60.0
-    },
-    "total": 169.4
-   },
-   "FIG": {
-    "raw": {
-     "Rush Yds": 741.0,
-     "Rush TD": 10.0
-    },
-    "pts": {
-     "Rush Yds": 74.1,
-     "Rush TD": 60.0
-    },
-    "total": 134.1
-   },
-   "KEV": {
-    "raw": {
-     "Rush Yds": 1184.0,
-     "Rush TD": 12.0
-    },
-    "pts": {
-     "Rush Yds": 118.4,
-     "Rush TD": 72.0
-    },
-    "total": 190.4
-   },
-   "KARDIAN": {
-    "raw": {
-     "Rush Yds": 1005.0,
-     "Rush TD": 13.0
-    },
-    "pts": {
-     "Rush Yds": 100.5,
-     "Rush TD": 78.0
-    },
-    "total": 178.5
-   },
-   "MCFADDEN": {
-    "raw": {
-     "Rush Yds": 1198.0,
-     "Rush TD": 6.0
-    },
-    "pts": {
-     "Rush Yds": 119.8,
-     "Rush TD": 36.0
-    },
-    "total": 155.8
-   },
-   "MEANY": {
-    "raw": {
-     "Rush Yds": 1183.0,
-     "Rush TD": 9.0
-    },
-    "pts": {
-     "Rush Yds": 118.3,
-     "Rush TD": 54.0
-    },
-    "total": 172.3
-   },
-   "GENTILE": {
-    "raw": {
-     "Rush Yds": 1552.0,
+     "Rush Yds": 1176.0,
      "Rush TD": 14.0
     },
     "pts": {
-     "Rush Yds": 155.2,
+     "Rush Yds": 117.6,
      "Rush TD": 84.0
     },
-    "total": 239.2
+    "total": 201.6
+   },
+   "FREEMAN": {
+    "raw": {
+     "Rush Yds": 833.0,
+     "Rush TD": 7.0
+    },
+    "pts": {
+     "Rush Yds": 83.3,
+     "Rush TD": 42.0
+    },
+    "total": 125.3
+   },
+   "DREXELLO": {
+    "raw": {
+     "Rush Yds": 1315.0,
+     "Rush TD": 12.0
+    },
+    "pts": {
+     "Rush Yds": 131.5,
+     "Rush TD": 72.0
+    },
+    "total": 203.5
+   },
+   "FIG": {
+    "raw": {
+     "Rush Yds": 857.0,
+     "Rush TD": 11.0
+    },
+    "pts": {
+     "Rush Yds": 85.7,
+     "Rush TD": 66.0
+    },
+    "total": 151.7
+   },
+   "KEV": {
+    "raw": {
+     "Rush Yds": 1318.0,
+     "Rush TD": 13.0
+    },
+    "pts": {
+     "Rush Yds": 131.8,
+     "Rush TD": 78.0
+    },
+    "total": 209.8
+   },
+   "KARDIAN": {
+    "raw": {
+     "Rush Yds": 1121.0,
+     "Rush TD": 14.0
+    },
+    "pts": {
+     "Rush Yds": 112.1,
+     "Rush TD": 84.0
+    },
+    "total": 196.1
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Rush Yds": 1350.0,
+     "Rush TD": 6.0
+    },
+    "pts": {
+     "Rush Yds": 135.0,
+     "Rush TD": 36.0
+    },
+    "total": 171.0
+   },
+   "MEANY": {
+    "raw": {
+     "Rush Yds": 1306.0,
+     "Rush TD": 9.0
+    },
+    "pts": {
+     "Rush Yds": 130.6,
+     "Rush TD": 54.0
+    },
+    "total": 184.6
+   },
+   "GENTILE": {
+    "raw": {
+     "Rush Yds": 1768.0,
+     "Rush TD": 16.0
+    },
+    "pts": {
+     "Rush Yds": 176.8,
+     "Rush TD": 96.0
+    },
+    "total": 272.8
    },
    "RUSSO": {
     "raw": {
-     "Rush Yds": 832.0,
+     "Rush Yds": 992.0,
      "Rush TD": 8.0
     },
     "pts": {
-     "Rush Yds": 83.2,
+     "Rush Yds": 99.2,
      "Rush TD": 48.0
     },
-    "total": 131.2
+    "total": 147.2
    }
   },
   "Receiving": {
    "MARZ": {
     "raw": {
-     "Receptions": 122.0,
-     "Rec Yds": 1262.0,
-     "Rec TD": 4.0
+     "Receptions": 147.0,
+     "Rec Yds": 1500.0,
+     "Rec TD": 5.0
     },
     "pts": {
-     "Receptions": 122.0,
-     "Rec Yds": 126.2,
-     "Rec TD": 24.0
+     "Receptions": 147.0,
+     "Rec Yds": 150.0,
+     "Rec TD": 30.0
     },
-    "total": 272.2
+    "total": 327.0
    },
    "FREEMAN": {
     "raw": {
-     "Receptions": 140.0,
-     "Rec Yds": 1654.0,
-     "Rec TD": 15.0
+     "Receptions": 167.0,
+     "Rec Yds": 1940.0,
+     "Rec TD": 19.0
     },
     "pts": {
-     "Receptions": 140.0,
-     "Rec Yds": 165.4,
-     "Rec TD": 90.0
+     "Receptions": 167.0,
+     "Rec Yds": 194.0,
+     "Rec TD": 114.0
     },
-    "total": 395.4
+    "total": 475.0
    },
    "DREXELLO": {
     "raw": {
-     "Receptions": 133.0,
-     "Rec Yds": 1600.0,
-     "Rec TD": 10.0
+     "Receptions": 166.0,
+     "Rec Yds": 2000.0,
+     "Rec TD": 11.0
     },
     "pts": {
-     "Receptions": 133.0,
-     "Rec Yds": 160.0,
-     "Rec TD": 60.0
+     "Receptions": 166.0,
+     "Rec Yds": 200.0,
+     "Rec TD": 66.0
     },
-    "total": 353.0
+    "total": 432.0
    },
    "FIG": {
     "raw": {
-     "Receptions": 145.0,
-     "Rec Yds": 1537.0,
-     "Rec TD": 12.0
-    },
-    "pts": {
-     "Receptions": 145.0,
-     "Rec Yds": 153.7,
-     "Rec TD": 72.0
-    },
-    "total": 370.7
-   },
-   "KEV": {
-    "raw": {
-     "Receptions": 131.0,
-     "Rec Yds": 1640.0,
-     "Rec TD": 10.0
-    },
-    "pts": {
-     "Receptions": 131.0,
-     "Rec Yds": 164.0,
-     "Rec TD": 60.0
-    },
-    "total": 355.0
-   },
-   "KARDIAN": {
-    "raw": {
-     "Receptions": 162.0,
+     "Receptions": 171.0,
      "Rec Yds": 1858.0,
-     "Rec TD": 10.0
-    },
-    "pts": {
-     "Receptions": 162.0,
-     "Rec Yds": 185.8,
-     "Rec TD": 60.0
-    },
-    "total": 407.8
-   },
-   "MCFADDEN": {
-    "raw": {
-     "Receptions": 144.0,
-     "Rec Yds": 1598.0,
-     "Rec TD": 10.0
-    },
-    "pts": {
-     "Receptions": 144.0,
-     "Rec Yds": 159.8,
-     "Rec TD": 60.0
-    },
-    "total": 363.8
-   },
-   "MEANY": {
-    "raw": {
-     "Receptions": 138.0,
-     "Rec Yds": 1635.0,
-     "Rec TD": 12.0
-    },
-    "pts": {
-     "Receptions": 138.0,
-     "Rec Yds": 163.5,
-     "Rec TD": 72.0
-    },
-    "total": 373.5
-   },
-   "GENTILE": {
-    "raw": {
-     "Receptions": 154.0,
-     "Rec Yds": 1817.0,
      "Rec TD": 17.0
     },
     "pts": {
-     "Receptions": 154.0,
-     "Rec Yds": 181.7,
+     "Receptions": 171.0,
+     "Rec Yds": 185.8,
      "Rec TD": 102.0
     },
-    "total": 437.7
+    "total": 458.8
+   },
+   "KEV": {
+    "raw": {
+     "Receptions": 151.0,
+     "Rec Yds": 1934.0,
+     "Rec TD": 12.0
+    },
+    "pts": {
+     "Receptions": 151.0,
+     "Rec Yds": 193.4,
+     "Rec TD": 72.0
+    },
+    "total": 416.4
+   },
+   "KARDIAN": {
+    "raw": {
+     "Receptions": 188.0,
+     "Rec Yds": 2150.0,
+     "Rec TD": 11.0
+    },
+    "pts": {
+     "Receptions": 188.0,
+     "Rec Yds": 215.0,
+     "Rec TD": 66.0
+    },
+    "total": 469.0
+   },
+   "MCFADDEN": {
+    "raw": {
+     "Receptions": 166.0,
+     "Rec Yds": 1902.0,
+     "Rec TD": 10.0
+    },
+    "pts": {
+     "Receptions": 166.0,
+     "Rec Yds": 190.2,
+     "Rec TD": 60.0
+    },
+    "total": 416.2
+   },
+   "MEANY": {
+    "raw": {
+     "Receptions": 156.0,
+     "Rec Yds": 1825.0,
+     "Rec TD": 12.0
+    },
+    "pts": {
+     "Receptions": 156.0,
+     "Rec Yds": 182.5,
+     "Rec TD": 72.0
+    },
+    "total": 410.5
+   },
+   "GENTILE": {
+    "raw": {
+     "Receptions": 168.0,
+     "Rec Yds": 1985.0,
+     "Rec TD": 17.0
+    },
+    "pts": {
+     "Receptions": 168.0,
+     "Rec Yds": 198.5,
+     "Rec TD": 102.0
+    },
+    "total": 468.5
    },
    "RUSSO": {
     "raw": {
-     "Receptions": 186.0,
-     "Rec Yds": 1948.0,
+     "Receptions": 217.0,
+     "Rec Yds": 2223.0,
      "Rec TD": 15.0
     },
     "pts": {
-     "Receptions": 186.0,
-     "Rec Yds": 194.8,
+     "Receptions": 217.0,
+     "Rec Yds": 222.3,
      "Rec TD": 90.0
     },
-    "total": 470.8
+    "total": 529.3
    }
   },
   "Misc Offense": {
@@ -1380,19 +1380,6 @@
    "FIG": {
     "raw": {
      "Return TD": 0.0,
-     "2-Pt Conv": 1.0,
-     "Fumbles Lost": 3.0
-    },
-    "pts": {
-     "Return TD": 0.0,
-     "2-Pt Conv": 2.0,
-     "Fumbles Lost": -6.0
-    },
-    "total": -4.0
-   },
-   "KEV": {
-    "raw": {
-     "Return TD": 0.0,
      "2-Pt Conv": 2.0,
      "Fumbles Lost": 3.0
     },
@@ -1403,18 +1390,31 @@
     },
     "total": -2.0
    },
-   "KARDIAN": {
+   "KEV": {
     "raw": {
      "Return TD": 0.0,
-     "2-Pt Conv": 3.0,
+     "2-Pt Conv": 2.0,
      "Fumbles Lost": 4.0
     },
     "pts": {
      "Return TD": 0.0,
-     "2-Pt Conv": 6.0,
+     "2-Pt Conv": 4.0,
      "Fumbles Lost": -8.0
     },
-    "total": -2.0
+    "total": -4.0
+   },
+   "KARDIAN": {
+    "raw": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 4.0,
+     "Fumbles Lost": 4.0
+    },
+    "pts": {
+     "Return TD": 0.0,
+     "2-Pt Conv": 8.0,
+     "Fumbles Lost": -8.0
+    },
+    "total": 0.0
    },
    "MCFADDEN": {
     "raw": {
@@ -1459,14 +1459,14 @@
     "raw": {
      "Return TD": 0.0,
      "2-Pt Conv": 2.0,
-     "Fumbles Lost": 2.0
+     "Fumbles Lost": 3.0
     },
     "pts": {
      "Return TD": 0.0,
      "2-Pt Conv": 4.0,
-     "Fumbles Lost": -4.0
+     "Fumbles Lost": -6.0
     },
-    "total": 0.0
+    "total": -2.0
    }
   },
   "Kicking": {
@@ -1474,26 +1474,26 @@
     "raw": {
      "FG 0-19": 0.0,
      "FG 20-29": 3.0,
-     "FG 30-39": 2.0,
-     "FG 40-49": 0.0,
+     "FG 30-39": 3.0,
+     "FG 40-49": 1.0,
      "FG 50+": 5.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 14.0
+     "PAT": 15.0
     },
     "pts": {
      "FG 0-19": 0.0,
      "FG 20-29": 9.0,
-     "FG 30-39": 6.0,
-     "FG 40-49": 0.0,
+     "FG 30-39": 9.0,
+     "FG 40-49": 4.0,
      "FG 50+": 25.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 14.0
+     "PAT": 15.0
     },
-    "total": 54.0
+    "total": 62.0
    },
    "FREEMAN": {
     "raw": {
@@ -1530,7 +1530,7 @@
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 12.0
+     "PAT": 13.0
     },
     "pts": {
      "FG 0-19": 0.0,
@@ -1541,34 +1541,34 @@
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 12.0
+     "PAT": 13.0
     },
-    "total": 45.0
+    "total": 46.0
    },
    "FIG": {
     "raw": {
      "FG 0-19": 0.0,
-     "FG 20-29": 2.0,
+     "FG 20-29": 3.0,
      "FG 30-39": 3.0,
-     "FG 40-49": 2.0,
+     "FG 40-49": 3.0,
      "FG 50+": 4.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 11.0
+     "PAT": 15.0
     },
     "pts": {
      "FG 0-19": 0.0,
-     "FG 20-29": 6.0,
+     "FG 20-29": 9.0,
      "FG 30-39": 9.0,
-     "FG 40-49": 8.0,
+     "FG 40-49": 12.0,
      "FG 50+": 20.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 11.0
+     "PAT": 15.0
     },
-    "total": 54.0
+    "total": 65.0
    },
    "KEV": {
     "raw": {
@@ -1601,49 +1601,49 @@
      "FG 20-29": 2.0,
      "FG 30-39": 1.0,
      "FG 40-49": 3.0,
-     "FG 50+": 3.0,
+     "FG 50+": 4.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 12.0
+     "PAT": 16.0
     },
     "pts": {
      "FG 0-19": 0.0,
      "FG 20-29": 6.0,
      "FG 30-39": 3.0,
      "FG 40-49": 12.0,
-     "FG 50+": 15.0,
+     "FG 50+": 20.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 12.0
+     "PAT": 16.0
     },
-    "total": 48.0
+    "total": 57.0
    },
    "MCFADDEN": {
     "raw": {
      "FG 0-19": 0.0,
-     "FG 20-29": 3.0,
+     "FG 20-29": 4.0,
      "FG 30-39": 2.0,
-     "FG 40-49": 3.0,
+     "FG 40-49": 4.0,
      "FG 50+": 3.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 9.0
+     "PAT": 11.0
     },
     "pts": {
      "FG 0-19": 0.0,
-     "FG 20-29": 9.0,
+     "FG 20-29": 12.0,
      "FG 30-39": 6.0,
-     "FG 40-49": 12.0,
+     "FG 40-49": 16.0,
      "FG 50+": 15.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 9.0
+     "PAT": 11.0
     },
-    "total": 51.0
+    "total": 60.0
    },
    "MEANY": {
     "raw": {
@@ -1655,7 +1655,7 @@
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 13.0
+     "PAT": 14.0
     },
     "pts": {
      "FG 0-19": 0.0,
@@ -1666,66 +1666,66 @@
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 13.0
+     "PAT": 14.0
     },
-    "total": 46.0
+    "total": 47.0
    },
    "GENTILE": {
     "raw": {
      "FG 0-19": 0.0,
-     "FG 20-29": 2.0,
-     "FG 30-39": 1.0,
+     "FG 20-29": 4.0,
+     "FG 30-39": 2.0,
      "FG 40-49": 3.0,
      "FG 50+": 5.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 13.0
+     "PAT": 16.0
     },
     "pts": {
      "FG 0-19": 0.0,
-     "FG 20-29": 6.0,
-     "FG 30-39": 3.0,
+     "FG 20-29": 12.0,
+     "FG 30-39": 6.0,
      "FG 40-49": 12.0,
      "FG 50+": 25.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 13.0
+     "PAT": 16.0
     },
-    "total": 59.0
+    "total": 71.0
    },
    "RUSSO": {
     "raw": {
      "FG 0-19": 0.0,
      "FG 20-29": 2.0,
-     "FG 30-39": 0.0,
+     "FG 30-39": 1.0,
      "FG 40-49": 2.0,
      "FG 50+": 5.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 15.0
+     "PAT": 16.0
     },
     "pts": {
      "FG 0-19": 0.0,
      "FG 20-29": 6.0,
-     "FG 30-39": 0.0,
+     "FG 30-39": 3.0,
      "FG 40-49": 8.0,
      "FG 50+": 25.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 15.0
+     "PAT": 16.0
     },
-    "total": 54.0
+    "total": 58.0
    }
   },
   "Defense": {
    "MARZ": {
     "raw": {
-     "Sacks": 10.0,
-     "Def INT": 3.0,
+     "Sacks": 15.0,
+     "Def INT": 5.0,
      "Fum Rec": 3.0,
      "Def TD": 0.0,
      "Safety": 0.0,
@@ -1733,20 +1733,20 @@
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 10.0,
-     "Def INT": 6.0,
+     "Sacks": 15.0,
+     "Def INT": 10.0,
      "Fum Rec": 6.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -5.0
+     "DST Pts Allowed": -137.0
     },
-    "total": 17.0
+    "total": -106.0
    },
    "FREEMAN": {
     "raw": {
-     "Sacks": 8.0,
+     "Sacks": 13.0,
      "Def INT": 5.0,
      "Fum Rec": 4.0,
      "Def TD": 0.0,
@@ -1755,21 +1755,21 @@
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 8.0,
+     "Sacks": 13.0,
      "Def INT": 10.0,
      "Fum Rec": 8.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 5.0
+     "DST Pts Allowed": -128.0
     },
-    "total": 31.0
+    "total": -97.0
    },
    "DREXELLO": {
     "raw": {
-     "Sacks": 15.0,
-     "Def INT": 3.0,
+     "Sacks": 18.0,
+     "Def INT": 4.0,
      "Fum Rec": 2.0,
      "Def TD": 1.0,
      "Safety": 0.0,
@@ -1777,21 +1777,21 @@
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 15.0,
-     "Def INT": 6.0,
+     "Sacks": 18.0,
+     "Def INT": 8.0,
      "Fum Rec": 4.0,
      "Def TD": 6.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 13.0
+     "DST Pts Allowed": -124.0
     },
-    "total": 44.0
+    "total": -88.0
    },
    "FIG": {
     "raw": {
      "Sacks": 8.0,
-     "Def INT": 4.0,
+     "Def INT": 5.0,
      "Fum Rec": 1.0,
      "Def TD": 0.0,
      "Safety": 0.0,
@@ -1800,42 +1800,42 @@
     },
     "pts": {
      "Sacks": 8.0,
-     "Def INT": 8.0,
+     "Def INT": 10.0,
      "Fum Rec": 2.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 7.0
+     "DST Pts Allowed": -134.0
     },
-    "total": 25.0
+    "total": -114.0
    },
    "KEV": {
     "raw": {
-     "Sacks": 8.0,
+     "Sacks": 13.0,
      "Def INT": 0.0,
-     "Fum Rec": 0.0,
+     "Fum Rec": 3.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 1.0,
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 8.0,
+     "Sacks": 13.0,
      "Def INT": 0.0,
-     "Fum Rec": 0.0,
+     "Fum Rec": 6.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 4.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -8.0
+     "DST Pts Allowed": -118.0
     },
-    "total": 4.0
+    "total": -95.0
    },
    "KARDIAN": {
     "raw": {
      "Sacks": 11.0,
-     "Def INT": 5.0,
+     "Def INT": 6.0,
      "Fum Rec": 2.0,
      "Def TD": 1.0,
      "Safety": 0.0,
@@ -1844,20 +1844,20 @@
     },
     "pts": {
      "Sacks": 11.0,
-     "Def INT": 10.0,
+     "Def INT": 12.0,
      "Fum Rec": 4.0,
      "Def TD": 6.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 7.0
+     "DST Pts Allowed": -116.0
     },
-    "total": 38.0
+    "total": -83.0
    },
    "MCFADDEN": {
     "raw": {
      "Sacks": 18.0,
-     "Def INT": 2.0,
+     "Def INT": 3.0,
      "Fum Rec": 3.0,
      "Def TD": 0.0,
      "Safety": 0.0,
@@ -1866,20 +1866,20 @@
     },
     "pts": {
      "Sacks": 18.0,
-     "Def INT": 4.0,
+     "Def INT": 6.0,
      "Fum Rec": 6.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 4.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 8.0
+     "DST Pts Allowed": -92.0
     },
-    "total": 40.0
+    "total": -58.0
    },
    "MEANY": {
     "raw": {
      "Sacks": 17.0,
-     "Def INT": 6.0,
+     "Def INT": 7.0,
      "Fum Rec": 4.0,
      "Def TD": 0.0,
      "Safety": 0.0,
@@ -1888,37 +1888,37 @@
     },
     "pts": {
      "Sacks": 17.0,
-     "Def INT": 12.0,
+     "Def INT": 14.0,
      "Fum Rec": 8.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 4.0,
      "Def Return TD": 6.0,
-     "DST Pts Allowed": 9.0
+     "DST Pts Allowed": -53.0
     },
-    "total": 56.0
+    "total": -4.0
    },
    "GENTILE": {
     "raw": {
-     "Sacks": 16.0,
-     "Def INT": 1.0,
-     "Fum Rec": 3.0,
+     "Sacks": 20.0,
+     "Def INT": 2.0,
+     "Fum Rec": 4.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 16.0,
-     "Def INT": 2.0,
-     "Fum Rec": 6.0,
+     "Sacks": 20.0,
+     "Def INT": 4.0,
+     "Fum Rec": 8.0,
      "Def TD": 0.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 11.0
+     "DST Pts Allowed": -117.0
     },
-    "total": 35.0
+    "total": -85.0
    },
    "RUSSO": {
     "raw": {
@@ -1938,95 +1938,127 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -17.0
+     "DST Pts Allowed": -118.0
     },
-    "total": 21.0
+    "total": -80.0
    }
   }
  },
  "positions": {
   "MARZ": {
-   "QB": 174.22,
-   "RB": 256.7,
-   "WR": 121.5,
-   "TE": 37.1,
-   "K": 54.0,
-   "DEF": 17.0
+   "QB": 209.66,
+   "RB": 295.5,
+   "WR": 153.4,
+   "TE": 45.8,
+   "K": 62.0,
+   "DEF": -106.0
   },
   "FREEMAN": {
-   "QB": 208.12,
-   "RB": 158.0,
-   "WR": 312.9,
-   "TE": 25.1,
+   "QB": 249.2,
+   "RB": 167.0,
+   "WR": 353.2,
+   "TE": 62.9,
    "K": 46.0,
-   "DEF": 31.0
+   "DEF": -97.0
   },
   "DREXELLO": {
-   "QB": 155.72,
-   "RB": 168.6,
-   "WR": 242.5,
-   "TE": 84.5,
-   "K": 45.0,
-   "DEF": 44.0
+   "QB": 172.74,
+   "RB": 212.0,
+   "WR": 300.2,
+   "TE": 96.6,
+   "K": 46.0,
+   "DEF": -88.0
   },
   "FIG": {
-   "QB": 166.2,
-   "RB": 154.3,
-   "WR": 255.5,
-   "TE": 74.0,
-   "K": 54.0,
-   "DEF": 25.0
+   "QB": 187.14,
+   "RB": 178.4,
+   "WR": 314.3,
+   "TE": 97.9,
+   "K": 65.0,
+   "DEF": -114.0
   },
   "KEV": {
-   "QB": 200.44,
-   "RB": 161.8,
-   "WR": 196.4,
-   "TE": 123.8,
+   "QB": 219.96,
+   "RB": 207.6,
+   "WR": 209.1,
+   "TE": 144.1,
    "K": 60.0,
-   "DEF": 4.0
+   "DEF": -95.0
   },
   "KARDIAN": {
-   "QB": 195.06,
-   "RB": 178.4,
-   "WR": 279.3,
-   "TE": 43.7,
-   "K": 48.0,
-   "DEF": 38.0
+   "QB": 229.12,
+   "RB": 203.1,
+   "WR": 329.2,
+   "TE": 46.8,
+   "K": 57.0,
+   "DEF": -83.0
   },
   "MCFADDEN": {
-   "QB": 212.86,
-   "RB": 187.3,
-   "WR": 207.0,
+   "QB": 236.66,
+   "RB": 209.5,
+   "WR": 250.0,
    "TE": 84.4,
-   "K": 51.0,
-   "DEF": 40.0
+   "K": 60.0,
+   "DEF": -58.0
   },
   "MEANY": {
-   "QB": 191.92,
-   "RB": 201.5,
-   "WR": 243.2,
-   "TE": 69.9,
-   "K": 46.0,
-   "DEF": 56.0
+   "QB": 203.4,
+   "RB": 215.7,
+   "WR": 273.4,
+   "TE": 73.2,
+   "K": 47.0,
+   "DEF": -4.0
   },
   "GENTILE": {
-   "QB": 166.58,
-   "RB": 328.8,
-   "WR": 284.7,
-   "TE": 22.9,
-   "K": 59.0,
-   "DEF": 35.0
+   "QB": 211.42,
+   "RB": 366.1,
+   "WR": 301.0,
+   "TE": 32.3,
+   "K": 71.0,
+   "DEF": -85.0
   },
   "RUSSO": {
-   "QB": 144.42,
-   "RB": 162.9,
-   "WR": 340.24,
-   "TE": 90.8,
-   "K": 54.0,
-   "DEF": 21.0
+   "QB": 171.06,
+   "RB": 175.5,
+   "WR": 385.24,
+   "TE": 103.1,
+   "K": 58.0,
+   "DEF": -80.0
   }
  },
  "players": [
+  {
+   "owner": "KARDIAN",
+   "player": "Josh Allen",
+   "nfl": "BUF",
+   "pos": "QB",
+   "gp": 6,
+   "points": 165.26,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 1504.0,
+    "Pass TD": 9.0,
+    "Pass INT": 4.0,
+    "Rush Yds": 240.0,
+    "Rush TD": 8.0,
+    "Receptions": 1.0,
+    "Rec Yds": 1.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 60.16,
+    "Pass TD": 36.0,
+    "Pass INT": -4.0,
+    "Rush Yds": 24.0,
+    "Rush TD": 48.0,
+    "Receptions": 1.0,
+    "Rec Yds": 0.1,
+    "2-Pt Conv": 2.0,
+    "Fumbles Lost": -2.0
+   }
+  },
   {
    "owner": "RUSSO",
    "player": "Jaxon Smith-Njigba",
@@ -2085,35 +2117,59 @@
    }
   },
   {
-   "owner": "KARDIAN",
-   "player": "Josh Allen",
-   "nfl": "BUF",
-   "pos": "QB",
+   "owner": "GENTILE",
+   "player": "Kenneth Walker III",
+   "nfl": "KC",
+   "pos": "RB",
    "gp": 5,
-   "points": 146.96,
+   "points": 138.0,
    "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 1249.0,
-    "Pass TD": 7.0,
-    "Pass INT": 4.0,
-    "Rush Yds": 239.0,
-    "Rush TD": 8.0,
-    "Receptions": 1.0,
-    "Rec Yds": 1.0,
-    "Rec TD": 0.0,
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 665.0,
+    "Rush TD": 6.0,
+    "Receptions": 14.0,
+    "Rec Yds": 95.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 1.0
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Pass Yds": 49.96,
-    "Pass TD": 28.0,
-    "Pass INT": -4.0,
-    "Rush Yds": 23.9,
-    "Rush TD": 48.0,
-    "Receptions": 1.0,
-    "Rec Yds": 0.1,
-    "2-Pt Conv": 2.0,
-    "Fumbles Lost": -2.0
+    "Rush Yds": 66.5,
+    "Rush TD": 36.0,
+    "Receptions": 14.0,
+    "Rec Yds": 9.5,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "CeeDee Lamb",
+   "nfl": "DAL",
+   "pos": "WR",
+   "gp": 6,
+   "points": 131.1,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": -6.0,
+    "Rush TD": 0.0,
+    "Receptions": 48.0,
+    "Rec Yds": 577.0,
+    "Rec TD": 4.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": -0.6,
+    "Receptions": 48.0,
+    "Rec Yds": 57.7,
+    "Rec TD": 24.0,
+    "2-Pt Conv": 2.0
    }
   },
   {
@@ -2121,27 +2177,82 @@
    "player": "Bijan Robinson",
    "nfl": "ATL",
    "pos": "RB",
-   "gp": 5,
-   "points": 121.2,
+   "gp": 6,
+   "points": 128.5,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 580.0,
+    "Rush Yds": 641.0,
     "Rush TD": 4.0,
-    "Receptions": 18.0,
-    "Rec Yds": 152.0,
+    "Receptions": 20.0,
+    "Rec Yds": 144.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 58.0,
+    "Rush Yds": 64.1,
     "Rush TD": 24.0,
-    "Receptions": 18.0,
-    "Rec Yds": 15.2,
+    "Receptions": 20.0,
+    "Rec Yds": 14.4,
     "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Kyren Williams",
+   "nfl": "LAR",
+   "pos": "RB",
+   "gp": 6,
+   "points": 119.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 393.0,
+    "Rush TD": 4.0,
+    "Receptions": 30.0,
+    "Rec Yds": 217.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 39.3,
+    "Rush TD": 24.0,
+    "Receptions": 30.0,
+    "Rec Yds": 21.7,
+    "Rec TD": 6.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Christian Watson",
+   "nfl": "GB",
+   "pos": "WR",
+   "gp": 6,
+   "points": 118.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 29.0,
+    "Rec Yds": 538.0,
+    "Rec TD": 6.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 29.0,
+    "Rec Yds": 53.8,
+    "Rec TD": 36.0
    }
   },
   {
@@ -2174,31 +2285,118 @@
    }
   },
   {
-   "owner": "FREEMAN",
-   "player": "CeeDee Lamb",
-   "nfl": "DAL",
-   "pos": "WR",
-   "gp": 5,
-   "points": 115.1,
+   "owner": "KEV",
+   "player": "Jonathan Taylor",
+   "nfl": "IND",
+   "pos": "RB",
+   "gp": 6,
+   "points": 118.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 492.0,
+    "Rush TD": 7.0,
+    "Receptions": 15.0,
+    "Rec Yds": 163.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 2.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 49.2,
+    "Rush TD": 42.0,
+    "Receptions": 15.0,
+    "Rec Yds": 16.3,
+    "Fumbles Lost": -4.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Trevor Lawrence",
+   "nfl": "JAX",
+   "pos": "QB",
+   "gp": 6,
+   "points": 118.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 1480.0,
+    "Pass TD": 14.0,
+    "Pass INT": 4.0,
+    "Rush Yds": 70.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 59.2,
+    "Pass TD": 56.0,
+    "Pass INT": -4.0,
+    "Rush Yds": 7.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Drake Maye",
+   "nfl": "NE",
+   "pos": "QB",
+   "gp": 6,
+   "points": 118.02,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 1463.0,
+    "Pass TD": 11.0,
+    "Pass INT": 7.0,
+    "Rush Yds": 185.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 2.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 58.52,
+    "Pass TD": 44.0,
+    "Pass INT": -7.0,
+    "Rush Yds": 18.5,
+    "Rush TD": 6.0,
+    "2-Pt Conv": 2.0,
+    "Fumbles Lost": -4.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Derrick Henry",
+   "nfl": "BAL",
+   "pos": "RB",
+   "gp": 6,
+   "points": 116.8,
    "stats": {
     "2-Pt Conv": 1.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": -6.0,
-    "Rush TD": 0.0,
-    "Receptions": 39.0,
-    "Rec Yds": 507.0,
-    "Rec TD": 4.0,
+    "Rush Yds": 534.0,
+    "Rush TD": 7.0,
+    "Receptions": 9.0,
+    "Rec Yds": 64.0,
+    "Rec TD": 1.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 0.0
+    "Fumbles Lost": 1.0
    },
    "pts_by_cat": {
-    "Rush Yds": -0.6,
-    "Receptions": 39.0,
-    "Rec Yds": 50.7,
-    "Rec TD": 24.0,
-    "2-Pt Conv": 2.0
+    "Rush Yds": 53.4,
+    "Rush TD": 42.0,
+    "Receptions": 9.0,
+    "Rec Yds": 6.4,
+    "Rec TD": 6.0,
+    "2-Pt Conv": 2.0,
+    "Fumbles Lost": -2.0
    }
   },
   {
@@ -2229,69 +2427,70 @@
    }
   },
   {
-   "owner": "RUSSO",
-   "player": "Derrick Henry",
-   "nfl": "BAL",
-   "pos": "RB",
-   "gp": 5,
-   "points": 111.8,
+   "owner": "FREEMAN",
+   "player": "Jordan Love",
+   "nfl": "GB",
+   "pos": "QB",
+   "gp": 6,
+   "points": 114.36,
    "stats": {
     "2-Pt Conv": 1.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 476.0,
-    "Rush TD": 7.0,
-    "Receptions": 8.0,
-    "Rec Yds": 62.0,
-    "Rec TD": 1.0,
+    "Pass Yds": 1684.0,
+    "Pass TD": 11.0,
+    "Pass INT": 4.0,
+    "Rush Yds": 10.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 0.0
+    "Fumbles Lost": 1.0
    },
    "pts_by_cat": {
-    "Rush Yds": 47.6,
-    "Rush TD": 42.0,
-    "Receptions": 8.0,
-    "Rec Yds": 6.2,
-    "Rec TD": 6.0,
-    "2-Pt Conv": 2.0
+    "Pass Yds": 67.36,
+    "Pass TD": 44.0,
+    "Pass INT": -4.0,
+    "Rush Yds": 1.0,
+    "Rush TD": 6.0,
+    "2-Pt Conv": 2.0,
+    "Fumbles Lost": -2.0
    }
   },
   {
-   "owner": "GENTILE",
-   "player": "Kenneth Walker III",
-   "nfl": "KC",
+   "owner": "DREXELLO",
+   "player": "James Cook III",
+   "nfl": "BUF",
    "pos": "RB",
-   "gp": 4,
-   "points": 110.1,
+   "gp": 6,
+   "points": 113.6,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 537.0,
-    "Rush TD": 4.0,
-    "Receptions": 12.0,
-    "Rec Yds": 84.0,
-    "Rec TD": 2.0,
+    "Rush Yds": 627.0,
+    "Rush TD": 6.0,
+    "Receptions": 10.0,
+    "Rec Yds": 89.0,
+    "Rec TD": 0.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 0.0
+    "Fumbles Lost": 2.0
    },
    "pts_by_cat": {
-    "Rush Yds": 53.7,
-    "Rush TD": 24.0,
-    "Receptions": 12.0,
-    "Rec Yds": 8.4,
-    "Rec TD": 12.0
+    "Rush Yds": 62.7,
+    "Rush TD": 36.0,
+    "Receptions": 10.0,
+    "Rec Yds": 8.9,
+    "Fumbles Lost": -4.0
    }
   },
   {
-   "owner": "GENTILE",
-   "player": "Christian Watson",
-   "nfl": "GB",
+   "owner": "FIG",
+   "player": "Chris Olave",
+   "nfl": "NO",
    "pos": "WR",
-   "gp": 5,
-   "points": 109.4,
+   "gp": 6,
+   "points": 113.0,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -2299,45 +2498,99 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 26.0,
-    "Rec Yds": 474.0,
-    "Rec TD": 6.0,
+    "Receptions": 43.0,
+    "Rec Yds": 580.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 26.0,
-    "Rec Yds": 47.4,
-    "Rec TD": 36.0
+    "Receptions": 43.0,
+    "Rec Yds": 58.0,
+    "Rec TD": 12.0
    }
   },
   {
-   "owner": "KARDIAN",
-   "player": "Kyren Williams",
+   "owner": "RUSSO",
+   "player": "Matthew Stafford",
    "nfl": "LAR",
+   "pos": "QB",
+   "gp": 6,
+   "points": 111.86,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 1794.0,
+    "Pass TD": 11.0,
+    "Pass INT": 6.0,
+    "Rush Yds": 21.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 71.76,
+    "Pass TD": 44.0,
+    "Pass INT": -6.0,
+    "Rush Yds": 2.1
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Dak Prescott",
+   "nfl": "DAL",
+   "pos": "QB",
+   "gp": 6,
+   "points": 109.86,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 1639.0,
+    "Pass TD": 10.0,
+    "Pass INT": 5.0,
+    "Rush Yds": 73.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 65.56,
+    "Pass TD": 40.0,
+    "Pass INT": -5.0,
+    "Rush Yds": 7.3,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Javonte Williams",
+   "nfl": "DAL",
    "pos": "RB",
-   "gp": 5,
-   "points": 109.3,
+   "gp": 6,
+   "points": 109.0,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 343.0,
-    "Rush TD": 4.0,
-    "Receptions": 27.0,
-    "Rec Yds": 200.0,
+    "Rush Yds": 317.0,
+    "Rush TD": 7.0,
+    "Receptions": 19.0,
+    "Rec Yds": 103.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 1.0
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 34.3,
-    "Rush TD": 24.0,
-    "Receptions": 27.0,
-    "Rec Yds": 20.0,
-    "Rec TD": 6.0,
-    "Fumbles Lost": -2.0
+    "Rush Yds": 31.7,
+    "Rush TD": 42.0,
+    "Receptions": 19.0,
+    "Rec Yds": 10.3,
+    "Rec TD": 6.0
    }
   },
   {
@@ -2396,38 +2649,12 @@
    }
   },
   {
-   "owner": "FIG",
-   "player": "Chris Olave",
-   "nfl": "NO",
-   "pos": "WR",
-   "gp": 5,
-   "points": 98.7,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 39.0,
-    "Rec Yds": 537.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 39.0,
-    "Rec Yds": 53.7,
-    "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "KEV",
-   "player": "Jonathan Taylor",
-   "nfl": "IND",
+   "owner": "MARZ",
+   "player": "D'Andre Swift",
+   "nfl": "CHI",
    "pos": "RB",
-   "gp": 5,
-   "points": 97.4,
+   "gp": 6,
+   "points": 103.8,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -2435,83 +2662,27 @@
     "Pass INT": 0.0,
     "Rush Yds": 398.0,
     "Rush TD": 6.0,
-    "Receptions": 13.0,
-    "Rec Yds": 106.0,
+    "Receptions": 18.0,
+    "Rec Yds": 140.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 1.0
+    "Fumbles Lost": 2.0
    },
    "pts_by_cat": {
     "Rush Yds": 39.8,
     "Rush TD": 36.0,
-    "Receptions": 13.0,
-    "Rec Yds": 10.6,
-    "Fumbles Lost": -2.0
+    "Receptions": 18.0,
+    "Rec Yds": 14.0,
+    "Fumbles Lost": -4.0
    }
   },
   {
-   "owner": "FIG",
-   "player": "Dak Prescott",
-   "nfl": "DAL",
-   "pos": "QB",
-   "gp": 5,
-   "points": 96.84,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 1381.0,
-    "Pass TD": 9.0,
-    "Pass INT": 3.0,
-    "Rush Yds": 66.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 55.24,
-    "Pass TD": 36.0,
-    "Pass INT": -3.0,
-    "Rush Yds": 6.6,
-    "2-Pt Conv": 2.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Javonte Williams",
-   "nfl": "DAL",
-   "pos": "RB",
-   "gp": 5,
-   "points": 96.0,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 276.0,
-    "Rush TD": 6.0,
-    "Receptions": 17.0,
-    "Rec Yds": 94.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 27.6,
-    "Rush TD": 36.0,
-    "Receptions": 17.0,
-    "Rec Yds": 9.4,
-    "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "GENTILE",
-   "player": "Davante Adams",
-   "nfl": "LAR",
-   "pos": "WR",
-   "gp": 5,
-   "points": 95.1,
+   "owner": "RUSSO",
+   "player": "Trey McBride",
+   "nfl": "ARI",
+   "pos": "TE",
+   "gp": 6,
+   "points": 103.1,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -2519,102 +2690,16 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 27.0,
-    "Rec Yds": 441.0,
-    "Rec TD": 4.0,
+    "Receptions": 49.0,
+    "Rec Yds": 361.0,
+    "Rec TD": 3.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 27.0,
-    "Rec Yds": 44.1,
-    "Rec TD": 24.0
-   }
-  },
-  {
-   "owner": "RUSSO",
-   "player": "Matthew Stafford",
-   "nfl": "LAR",
-   "pos": "QB",
-   "gp": 5,
-   "points": 94.98,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 1572.0,
-    "Pass TD": 9.0,
-    "Pass INT": 6.0,
-    "Rush Yds": 21.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 62.88,
-    "Pass TD": 36.0,
-    "Pass INT": -6.0,
-    "Rush Yds": 2.1
-   }
-  },
-  {
-   "owner": "MCFADDEN",
-   "player": "Drake Maye",
-   "nfl": "NE",
-   "pos": "QB",
-   "gp": 5,
-   "points": 94.22,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 1228.0,
-    "Pass TD": 8.0,
-    "Pass INT": 7.0,
-    "Rush Yds": 161.0,
-    "Rush TD": 1.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 2.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 49.12,
-    "Pass TD": 32.0,
-    "Pass INT": -7.0,
-    "Rush Yds": 16.1,
-    "Rush TD": 6.0,
-    "2-Pt Conv": 2.0,
-    "Fumbles Lost": -4.0
-   }
-  },
-  {
-   "owner": "FREEMAN",
-   "player": "Jordan Love",
-   "nfl": "GB",
-   "pos": "QB",
-   "gp": 5,
-   "points": 93.12,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 1408.0,
-    "Pass TD": 10.0,
-    "Pass INT": 3.0,
-    "Rush Yds": -2.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 56.32,
-    "Pass TD": 40.0,
-    "Pass INT": -3.0,
-    "Rush Yds": -0.2,
-    "2-Pt Conv": 2.0,
-    "Fumbles Lost": -2.0
+    "Receptions": 49.0,
+    "Rec Yds": 36.1,
+    "Rec TD": 18.0
    }
   },
   {
@@ -2622,28 +2707,271 @@
    "player": "Jaylen Warren",
    "nfl": "PIT",
    "pos": "RB",
-   "gp": 5,
-   "points": 93.0,
+   "gp": 6,
+   "points": 102.8,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 410.0,
+    "Rush Yds": 460.0,
     "Rush TD": 1.0,
-    "Receptions": 19.0,
-    "Rec Yds": 230.0,
+    "Receptions": 21.0,
+    "Rec Yds": 258.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 1.0
    },
    "pts_by_cat": {
-    "Rush Yds": 41.0,
+    "Rush Yds": 46.0,
     "Rush TD": 6.0,
-    "Receptions": 19.0,
-    "Rec Yds": 23.0,
+    "Receptions": 21.0,
+    "Rec Yds": 25.8,
     "Rec TD": 6.0,
     "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Davante Adams",
+   "nfl": "LAR",
+   "pos": "WR",
+   "gp": 6,
+   "points": 102.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 30.0,
+    "Rec Yds": 480.0,
+    "Rec TD": 4.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 30.0,
+    "Rec Yds": 48.0,
+    "Rec TD": 24.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Ashton Jeanty",
+   "nfl": "LV",
+   "pos": "RB",
+   "gp": 6,
+   "points": 100.4,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 313.0,
+    "Rush TD": 1.0,
+    "Receptions": 26.0,
+    "Rec Yds": 251.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 31.3,
+    "Rush TD": 6.0,
+    "Receptions": 26.0,
+    "Rec Yds": 25.1,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Patrick Mahomes",
+   "nfl": "KC",
+   "pos": "QB",
+   "gp": 5,
+   "points": 97.06,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 1309.0,
+    "Pass TD": 9.0,
+    "Pass INT": 3.0,
+    "Rush Yds": 57.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 52.36,
+    "Pass TD": 36.0,
+    "Pass INT": -3.0,
+    "Rush Yds": 5.7,
+    "Rush TD": 6.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Malik Nabers",
+   "nfl": "NYG",
+   "pos": "WR",
+   "gp": 5,
+   "points": 94.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 36.0,
+    "Rec Yds": 468.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 36.0,
+    "Rec Yds": 46.8,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Garrett Wilson",
+   "nfl": "NYJ",
+   "pos": "WR",
+   "gp": 6,
+   "points": 94.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 35.0,
+    "Rec Yds": 418.0,
+    "Rec TD": 3.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 35.0,
+    "Rec Yds": 41.8,
+    "Rec TD": 18.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Zay Flowers",
+   "nfl": "BAL",
+   "pos": "WR",
+   "gp": 5,
+   "points": 94.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 34.0,
+    "Rush TD": 0.0,
+    "Receptions": 32.0,
+    "Rec Yds": 471.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 3.4,
+    "Receptions": 32.0,
+    "Rec Yds": 47.1,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Isaiah Likely",
+   "nfl": "NYG",
+   "pos": "TE",
+   "gp": 4,
+   "points": 92.4,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 30.0,
+    "Rec Yds": 304.0,
+    "Rec TD": 5.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 30.0,
+    "Rec Yds": 30.4,
+    "Rec TD": 30.0,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Parker Washington",
+   "nfl": "JAX",
+   "pos": "WR",
+   "gp": 6,
+   "points": 91.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 3.0,
+    "Rush TD": 0.0,
+    "Receptions": 26.0,
+    "Rec Yds": 416.0,
+    "Rec TD": 4.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.3,
+    "Receptions": 26.0,
+    "Rec Yds": 41.6,
+    "Rec TD": 24.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Puka Nacua",
+   "nfl": "LAR",
+   "pos": "WR",
+   "gp": 4,
+   "points": 91.8,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 11.0,
+    "Rush TD": 1.0,
+    "Receptions": 37.0,
+    "Rec Yds": 417.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 1.1,
+    "Rush TD": 6.0,
+    "Receptions": 37.0,
+    "Rec Yds": 41.7,
+    "Rec TD": 6.0
    }
   },
   {
@@ -2674,93 +3002,12 @@
    }
   },
   {
-   "owner": "RUSSO",
-   "player": "Trey McBride",
-   "nfl": "ARI",
-   "pos": "TE",
-   "gp": 5,
-   "points": 90.8,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 42.0,
-    "Rec Yds": 308.0,
-    "Rec TD": 3.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 42.0,
-    "Rec Yds": 30.8,
-    "Rec TD": 18.0
-   }
-  },
-  {
-   "owner": "GENTILE",
-   "player": "Trevor Lawrence",
-   "nfl": "JAX",
-   "pos": "QB",
-   "gp": 5,
-   "points": 89.86,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 1174.0,
-    "Pass TD": 10.0,
-    "Pass INT": 3.0,
-    "Rush Yds": 59.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 46.96,
-    "Pass TD": 40.0,
-    "Pass INT": -3.0,
-    "Rush Yds": 5.9
-   }
-  },
-  {
-   "owner": "DREXELLO",
-   "player": "James Cook III",
-   "nfl": "BUF",
-   "pos": "RB",
-   "gp": 5,
-   "points": 89.3,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 532.0,
-    "Rush TD": 5.0,
-    "Receptions": 7.0,
-    "Rec Yds": 31.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 2.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 53.2,
-    "Rush TD": 30.0,
-    "Receptions": 7.0,
-    "Rec Yds": 3.1,
-    "Fumbles Lost": -4.0
-   }
-  },
-  {
-   "owner": "KARDIAN",
-   "player": "Garrett Wilson",
-   "nfl": "NYJ",
+   "owner": "MEANY",
+   "player": "Tetairoa McMillan",
+   "nfl": "CAR",
    "pos": "WR",
    "gp": 5,
-   "points": 86.4,
+   "points": 89.1,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -2768,71 +3015,101 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 31.0,
-    "Rec Yds": 374.0,
-    "Rec TD": 3.0,
+    "Receptions": 32.0,
+    "Rec Yds": 471.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 0.0
+    "Fumbles Lost": 1.0
    },
    "pts_by_cat": {
-    "Receptions": 31.0,
-    "Rec Yds": 37.4,
-    "Rec TD": 18.0
+    "Receptions": 32.0,
+    "Rec Yds": 47.1,
+    "Rec TD": 12.0,
+    "Fumbles Lost": -2.0
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Patrick Mahomes",
-   "nfl": "KC",
-   "pos": "QB",
-   "gp": 4,
-   "points": 85.58,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 1037.0,
-    "Pass TD": 9.0,
-    "Pass INT": 2.0,
-    "Rush Yds": 41.0,
-    "Rush TD": 1.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 41.48,
-    "Pass TD": 36.0,
-    "Pass INT": -2.0,
-    "Rush Yds": 4.1,
-    "Rush TD": 6.0
-   }
-  },
-  {
-   "owner": "MARZ",
-   "player": "Ashton Jeanty",
-   "nfl": "LV",
+   "owner": "KEV",
+   "player": "Bhayshul Tuten",
+   "nfl": "JAX",
    "pos": "RB",
-   "gp": 5,
-   "points": 84.6,
+   "gp": 6,
+   "points": 88.4,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 291.0,
-    "Rush TD": 0.0,
-    "Receptions": 22.0,
-    "Rec Yds": 215.0,
+    "Rush Yds": 388.0,
+    "Rush TD": 2.0,
+    "Receptions": 13.0,
+    "Rec Yds": 126.0,
     "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 29.1,
-    "Receptions": 22.0,
-    "Rec Yds": 21.5,
+    "Rush Yds": 38.8,
+    "Rush TD": 12.0,
+    "Receptions": 13.0,
+    "Rec Yds": 12.6,
     "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Drake London",
+   "nfl": "ATL",
+   "pos": "WR",
+   "gp": 6,
+   "points": 88.4,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 4.0,
+    "Rush TD": 0.0,
+    "Receptions": 31.0,
+    "Rec Yds": 550.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 0.4,
+    "Receptions": 31.0,
+    "Rec Yds": 55.0,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Bucky Irving",
+   "nfl": "TB",
+   "pos": "RB",
+   "gp": 6,
+   "points": 85.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 452.0,
+    "Rush TD": 2.0,
+    "Receptions": 17.0,
+    "Rec Yds": 74.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 45.2,
+    "Rush TD": 12.0,
+    "Receptions": 17.0,
+    "Rec Yds": 7.4,
+    "Rec TD": 6.0,
+    "Fumbles Lost": -2.0
    }
   },
   {
@@ -2865,84 +3142,55 @@
   },
   {
    "owner": "KEV",
-   "player": "Zay Flowers",
-   "nfl": "BAL",
-   "pos": "WR",
+   "player": "Brock Bowers",
+   "nfl": "LV",
+   "pos": "TE",
    "gp": 4,
+   "points": 82.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 28.0,
+    "Rec Yds": 382.0,
+    "Rec TD": 3.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Receptions": 28.0,
+    "Rec Yds": 38.2,
+    "Rec TD": 18.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "George Pickens",
+   "nfl": "DAL",
+   "pos": "WR",
+   "gp": 6,
    "points": 81.8,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 33.0,
+    "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 26.0,
-    "Rec Yds": 405.0,
-    "Rec TD": 2.0,
+    "Receptions": 33.0,
+    "Rec Yds": 428.0,
+    "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 3.3,
-    "Receptions": 26.0,
-    "Rec Yds": 40.5,
-    "Rec TD": 12.0
-   }
-  },
-  {
-   "owner": "MEANY",
-   "player": "Parker Washington",
-   "nfl": "JAX",
-   "pos": "WR",
-   "gp": 5,
-   "points": 81.5,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 3.0,
-    "Rush TD": 0.0,
-    "Receptions": 22.0,
-    "Rec Yds": 352.0,
-    "Rec TD": 4.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 0.3,
-    "Receptions": 22.0,
-    "Rec Yds": 35.2,
-    "Rec TD": 24.0
-   }
-  },
-  {
-   "owner": "MARZ",
-   "player": "D'Andre Swift",
-   "nfl": "CHI",
-   "pos": "RB",
-   "gp": 5,
-   "points": 80.8,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 354.0,
-    "Rush TD": 4.0,
-    "Receptions": 14.0,
-    "Rec Yds": 114.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 2.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 35.4,
-    "Rush TD": 24.0,
-    "Receptions": 14.0,
-    "Rec Yds": 11.4,
-    "Fumbles Lost": -4.0
+    "Receptions": 33.0,
+    "Rec Yds": 42.8,
+    "Rec TD": 6.0
    }
   },
   {
@@ -3001,63 +3249,6 @@
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Bucky Irving",
-   "nfl": "TB",
-   "pos": "RB",
-   "gp": 5,
-   "points": 78.7,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 406.0,
-    "Rush TD": 2.0,
-    "Receptions": 15.0,
-    "Rec Yds": 71.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 40.6,
-    "Rush TD": 12.0,
-    "Receptions": 15.0,
-    "Rec Yds": 7.1,
-    "Rec TD": 6.0,
-    "Fumbles Lost": -2.0
-   }
-  },
-  {
-   "owner": "MCFADDEN",
-   "player": "Puka Nacua",
-   "nfl": "LAR",
-   "pos": "WR",
-   "gp": 3,
-   "points": 77.8,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 11.0,
-    "Rush TD": 1.0,
-    "Receptions": 31.0,
-    "Rec Yds": 337.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 1.1,
-    "Rush TD": 6.0,
-    "Receptions": 31.0,
-    "Rec Yds": 33.7,
-    "Rec TD": 6.0
-   }
-  },
-  {
    "owner": "GENTILE",
    "player": "Mike Evans",
    "nfl": "SF",
@@ -3086,28 +3277,30 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Drake London",
-   "nfl": "ATL",
+   "player": "Matthew Golden",
+   "nfl": "GB",
    "pos": "WR",
-   "gp": 5,
-   "points": 76.2,
+   "gp": 4,
+   "points": 75.4,
    "stats": {
-    "2-Pt Conv": 0.0,
+    "2-Pt Conv": 1.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 4.0,
+    "Rush Yds": 6.0,
     "Rush TD": 0.0,
-    "Receptions": 27.0,
-    "Rec Yds": 488.0,
-    "Rec TD": 0.0,
+    "Receptions": 20.0,
+    "Rec Yds": 348.0,
+    "Rec TD": 3.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 0.4,
-    "Receptions": 27.0,
-    "Rec Yds": 48.8
+    "Rush Yds": 0.6,
+    "Receptions": 20.0,
+    "Rec Yds": 34.8,
+    "Rec TD": 18.0,
+    "2-Pt Conv": 2.0
    }
   },
   {
@@ -3137,30 +3330,30 @@
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Tetairoa McMillan",
-   "nfl": "CAR",
+   "owner": "FREEMAN",
+   "player": "Nico Collins",
+   "nfl": "HOU",
    "pos": "WR",
    "gp": 4,
-   "points": 74.5,
+   "points": 73.5,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 0.0,
+    "Rush Yds": 12.0,
     "Rush TD": 0.0,
-    "Receptions": 26.0,
-    "Rec Yds": 385.0,
-    "Rec TD": 2.0,
+    "Receptions": 22.0,
+    "Rec Yds": 323.0,
+    "Rec TD": 3.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 1.0
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 26.0,
-    "Rec Yds": 38.5,
-    "Rec TD": 12.0,
-    "Fumbles Lost": -2.0
+    "Rush Yds": 1.2,
+    "Receptions": 22.0,
+    "Rec Yds": 32.3,
+    "Rec TD": 18.0
    }
   },
   {
@@ -3194,30 +3387,31 @@
    }
   },
   {
-   "owner": "KEV",
-   "player": "Brock Bowers",
-   "nfl": "LV",
-   "pos": "TE",
-   "gp": 3,
-   "points": 71.2,
+   "owner": "FIG",
+   "player": "Emeka Egbuka",
+   "nfl": "TB",
+   "pos": "WR",
+   "gp": 6,
+   "points": 71.1,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 24.0,
-    "Rec Yds": 312.0,
-    "Rec TD": 3.0,
+    "Rush Yds": 11.0,
+    "Rush TD": 1.0,
+    "Receptions": 28.0,
+    "Rec Yds": 240.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 1.0
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 24.0,
-    "Rec Yds": 31.2,
-    "Rec TD": 18.0,
-    "Fumbles Lost": -2.0
+    "Rush Yds": 1.1,
+    "Rush TD": 6.0,
+    "Receptions": 28.0,
+    "Rec Yds": 24.0,
+    "Rec TD": 12.0
    }
   },
   {
@@ -3249,6 +3443,61 @@
    }
   },
   {
+   "owner": "MARZ",
+   "player": "Tyler Shough",
+   "nfl": "NO",
+   "pos": "QB",
+   "gp": 4,
+   "points": 69.54,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 781.0,
+    "Pass TD": 8.0,
+    "Pass INT": 3.0,
+    "Rush Yds": 73.0,
+    "Rush TD": 1.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 2.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 31.24,
+    "Pass TD": 32.0,
+    "Pass INT": -3.0,
+    "Rush Yds": 7.3,
+    "Rush TD": 6.0,
+    "Fumbles Lost": -4.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "DeVonta Smith",
+   "nfl": "PHI",
+   "pos": "WR",
+   "gp": 4,
+   "points": 69.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 26.0,
+    "Rec Yds": 310.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 26.0,
+    "Rec Yds": 31.0,
+    "Rec TD": 12.0
+   }
+  },
+  {
    "owner": "MCFADDEN",
    "player": "George Kittle",
    "nfl": "SF",
@@ -3272,84 +3521,6 @@
     "Receptions": 19.0,
     "Rec Yds": 25.6,
     "Rec TD": 24.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Isaiah Likely",
-   "nfl": "NYG",
-   "pos": "TE",
-   "gp": 3,
-   "points": 68.5,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 24.0,
-    "Rec Yds": 205.0,
-    "Rec TD": 4.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 24.0,
-    "Rec Yds": 20.5,
-    "Rec TD": 24.0
-   }
-  },
-  {
-   "owner": "MCFADDEN",
-   "player": "George Pickens",
-   "nfl": "DAL",
-   "pos": "WR",
-   "gp": 5,
-   "points": 68.5,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 27.0,
-    "Rec Yds": 355.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 27.0,
-    "Rec Yds": 35.5,
-    "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "DREXELLO",
-   "player": "Malik Nabers",
-   "nfl": "NYG",
-   "pos": "WR",
-   "gp": 4,
-   "points": 66.3,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 24.0,
-    "Rec Yds": 303.0,
-    "Rec TD": 2.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 24.0,
-    "Rec Yds": 30.3,
-    "Rec TD": 12.0
    }
   },
   {
@@ -3381,6 +3552,32 @@
    }
   },
   {
+   "owner": "FIG",
+   "player": "Ka'imi Fairbairn",
+   "nfl": "HOU",
+   "pos": "K",
+   "gp": 6,
+   "points": 65.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 3.0,
+    "FG 30-39": 3.0,
+    "FG 40-49": 3.0,
+    "FG 50+": 4.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 15.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 9.0,
+    "FG 30-39": 9.0,
+    "FG 40-49": 12.0,
+    "FG 50+": 20.0,
+    "PAT": 15.0
+   }
+  },
+  {
    "owner": "KEV",
    "player": "Jayden Daniels",
    "nfl": "WAS",
@@ -3406,33 +3603,6 @@
     "Rush Yds": 20.3,
     "Rush TD": 12.0,
     "2-Pt Conv": 2.0
-   }
-  },
-  {
-   "owner": "KEV",
-   "player": "Bhayshul Tuten",
-   "nfl": "JAX",
-   "pos": "RB",
-   "gp": 5,
-   "points": 63.7,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 349.0,
-    "Rush TD": 2.0,
-    "Receptions": 9.0,
-    "Rec Yds": 78.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 34.9,
-    "Rush TD": 12.0,
-    "Receptions": 9.0,
-    "Rec Yds": 7.8
    }
   },
   {
@@ -3464,30 +3634,112 @@
    }
   },
   {
-   "owner": "FREEMAN",
-   "player": "Nico Collins",
-   "nfl": "HOU",
-   "pos": "WR",
+   "owner": "DREXELLO",
+   "player": "Aaron Rodgers",
+   "nfl": "PIT",
+   "pos": "QB",
    "gp": 3,
-   "points": 62.6,
+   "points": 62.98,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 787.0,
+    "Pass TD": 8.0,
+    "Pass INT": 3.0,
+    "Rush Yds": 5.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 31.48,
+    "Pass TD": 32.0,
+    "Pass INT": -3.0,
+    "Rush Yds": 0.5,
+    "2-Pt Conv": 2.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Caleb Williams",
+   "nfl": "CHI",
+   "pos": "QB",
+   "gp": 3,
+   "points": 62.48,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 712.0,
+    "Pass TD": 3.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 110.0,
+    "Rush TD": 2.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 28.48,
+    "Pass TD": 12.0,
+    "Pass INT": -1.0,
+    "Rush Yds": 11.0,
+    "Rush TD": 12.0
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Travis Kelce",
+   "nfl": "KC",
+   "pos": "TE",
+   "gp": 5,
+   "points": 61.9,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 7.0,
+    "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 19.0,
-    "Rec Yds": 249.0,
-    "Rec TD": 3.0,
+    "Receptions": 20.0,
+    "Rec Yds": 299.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 0.7,
-    "Receptions": 19.0,
-    "Rec Yds": 24.9,
-    "Rec TD": 18.0
+    "Receptions": 20.0,
+    "Rec Yds": 29.9,
+    "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "DREXELLO",
+   "player": "Chuba Hubbard",
+   "nfl": "CAR",
+   "pos": "RB",
+   "gp": 3,
+   "points": 60.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 324.0,
+    "Rush TD": 3.0,
+    "Receptions": 6.0,
+    "Rec Yds": 36.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 32.4,
+    "Rush TD": 18.0,
+    "Receptions": 6.0,
+    "Rec Yds": 3.6
    }
   },
   {
@@ -3518,6 +3770,60 @@
   },
   {
    "owner": "RUSSO",
+   "player": "Justin Herbert",
+   "nfl": "LAC",
+   "pos": "QB",
+   "gp": 5,
+   "points": 59.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 1020.0,
+    "Pass TD": 4.0,
+    "Pass INT": 7.0,
+    "Rush Yds": 114.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 40.8,
+    "Pass TD": 16.0,
+    "Pass INT": -7.0,
+    "Rush Yds": 11.4,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Tyler Loop",
+   "nfl": "BAL",
+   "pos": "K",
+   "gp": 6,
+   "points": 58.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 2.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 2.0,
+    "FG 50+": 5.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 16.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 6.0,
+    "FG 30-39": 3.0,
+    "FG 40-49": 8.0,
+    "FG 50+": 25.0,
+    "PAT": 16.0
+   }
+  },
+  {
+   "owner": "RUSSO",
    "player": "Jameson Williams",
    "nfl": "DET",
    "pos": "WR",
@@ -3540,6 +3846,59 @@
     "Receptions": 18.0,
     "Rec Yds": 27.6,
     "Rec TD": 12.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Cam Little",
+   "nfl": "JAX",
+   "pos": "K",
+   "gp": 6,
+   "points": 57.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 2.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 3.0,
+    "FG 50+": 4.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 16.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 6.0,
+    "FG 30-39": 3.0,
+    "FG 40-49": 12.0,
+    "FG 50+": 20.0,
+    "PAT": 16.0
+   }
+  },
+  {
+   "owner": "RUSSO",
+   "player": "Michael Wilson",
+   "nfl": "ARI",
+   "pos": "WR",
+   "gp": 4,
+   "points": 56.88,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 7.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 26.0,
+    "Rec Yds": 246.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 0.28,
+    "Receptions": 26.0,
+    "Rec Yds": 24.6,
+    "Rec TD": 6.0
    }
   },
   {
@@ -3597,6 +3956,35 @@
    }
   },
   {
+   "owner": "FIG",
+   "player": "Jacoby Brissett",
+   "nfl": "ARI",
+   "pos": "QB",
+   "gp": 4,
+   "points": 55.14,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 771.0,
+    "Pass TD": 6.0,
+    "Pass INT": 6.0,
+    "Rush Yds": 46.0,
+    "Rush TD": 0.0,
+    "Receptions": 1.0,
+    "Rec Yds": 7.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 30.84,
+    "Pass TD": 24.0,
+    "Pass INT": -6.0,
+    "Rush Yds": 4.6,
+    "Receptions": 1.0,
+    "Rec Yds": 0.7
+   }
+  },
+  {
    "owner": "KEV",
    "player": "Jaylen Waddle",
    "nfl": "DEN",
@@ -3650,136 +4038,57 @@
    }
   },
   {
-   "owner": "FIG",
-   "player": "Ka'imi Fairbairn",
-   "nfl": "HOU",
-   "pos": "K",
+   "owner": "RUSSO",
+   "player": "Luther Burden III",
+   "nfl": "CHI",
+   "pos": "WR",
    "gp": 5,
-   "points": 54.0,
+   "points": 53.5,
    "stats": {
-    "FG 0-19": 0.0,
-    "FG 20-29": 2.0,
-    "FG 30-39": 3.0,
-    "FG 40-49": 2.0,
-    "FG 50+": 4.0,
-    "FG Miss 0-19": 0.0,
-    "FG Miss 20-29": 0.0,
-    "FG Miss 30-39": 0.0,
-    "PAT": 11.0
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 15.0,
+    "Rush TD": 0.0,
+    "Receptions": 24.0,
+    "Rec Yds": 300.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
    },
    "pts_by_cat": {
-    "FG 20-29": 6.0,
-    "FG 30-39": 9.0,
-    "FG 40-49": 8.0,
-    "FG 50+": 20.0,
-    "PAT": 11.0
+    "Rush Yds": 1.5,
+    "Receptions": 24.0,
+    "Rec Yds": 30.0,
+    "Fumbles Lost": -2.0
    }
   },
   {
    "owner": "RUSSO",
-   "player": "Tyler Loop",
-   "nfl": "BAL",
-   "pos": "K",
-   "gp": 5,
-   "points": 54.0,
-   "stats": {
-    "FG 0-19": 0.0,
-    "FG 20-29": 2.0,
-    "FG 30-39": 0.0,
-    "FG 40-49": 2.0,
-    "FG 50+": 5.0,
-    "FG Miss 0-19": 0.0,
-    "FG Miss 20-29": 0.0,
-    "FG Miss 30-39": 0.0,
-    "PAT": 15.0
-   },
-   "pts_by_cat": {
-    "FG 20-29": 6.0,
-    "FG 40-49": 8.0,
-    "FG 50+": 25.0,
-    "PAT": 15.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Emeka Egbuka",
-   "nfl": "TB",
+   "player": "DK Metcalf",
+   "nfl": "PIT",
    "pos": "WR",
    "gp": 5,
-   "points": 53.3,
+   "points": 52.4,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
     "Rush Yds": 11.0,
-    "Rush TD": 1.0,
-    "Receptions": 21.0,
-    "Rec Yds": 192.0,
+    "Rush TD": 0.0,
+    "Receptions": 25.0,
+    "Rec Yds": 203.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
     "Rush Yds": 1.1,
-    "Rush TD": 6.0,
-    "Receptions": 21.0,
-    "Rec Yds": 19.2,
+    "Receptions": 25.0,
+    "Rec Yds": 20.3,
     "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "KARDIAN",
-   "player": "Matthew Golden",
-   "nfl": "GB",
-   "pos": "WR",
-   "gp": 3,
-   "points": 53.0,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 6.0,
-    "Rush TD": 0.0,
-    "Receptions": 14.0,
-    "Rec Yds": 244.0,
-    "Rec TD": 2.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 0.6,
-    "Receptions": 14.0,
-    "Rec Yds": 24.4,
-    "Rec TD": 12.0,
-    "2-Pt Conv": 2.0
-   }
-  },
-  {
-   "owner": "KEV",
-   "player": "Travis Kelce",
-   "nfl": "KC",
-   "pos": "TE",
-   "gp": 4,
-   "points": 52.6,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 16.0,
-    "Rec Yds": 246.0,
-    "Rec TD": 2.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 16.0,
-    "Rec Yds": 24.6,
-    "Rec TD": 12.0
    }
   },
   {
@@ -3839,33 +4148,6 @@
    }
   },
   {
-   "owner": "RUSSO",
-   "player": "Michael Wilson",
-   "nfl": "ARI",
-   "pos": "WR",
-   "gp": 3,
-   "points": 49.68,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 7.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 22.0,
-    "Rec Yds": 214.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 0.28,
-    "Receptions": 22.0,
-    "Rec Yds": 21.4,
-    "Rec TD": 6.0
-   }
-  },
-  {
    "owner": "DREXELLO",
    "player": "Sam LaPorta",
    "nfl": "DET",
@@ -3920,40 +4202,12 @@
    }
   },
   {
-   "owner": "RUSSO",
-   "player": "Justin Herbert",
-   "nfl": "LAC",
-   "pos": "QB",
-   "gp": 4,
-   "points": 49.44,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 816.0,
-    "Pass TD": 4.0,
-    "Pass INT": 6.0,
-    "Rush Yds": 88.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 32.64,
-    "Pass TD": 16.0,
-    "Pass INT": -6.0,
-    "Rush Yds": 8.8,
-    "Fumbles Lost": -2.0
-   }
-  },
-  {
    "owner": "DREXELLO",
-   "player": "DeVonta Smith",
+   "player": "Dallas Goedert",
    "nfl": "PHI",
-   "pos": "WR",
-   "gp": 3,
-   "points": 48.5,
+   "pos": "TE",
+   "gp": 4,
+   "points": 47.0,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -3961,71 +4215,42 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 19.0,
-    "Rec Yds": 235.0,
-    "Rec TD": 1.0,
+    "Receptions": 17.0,
+    "Rec Yds": 180.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 19.0,
-    "Rec Yds": 23.5,
-    "Rec TD": 6.0
+    "Receptions": 17.0,
+    "Rec Yds": 18.0,
+    "Rec TD": 12.0
    }
   },
   {
-   "owner": "KARDIAN",
-   "player": "Cam Little",
-   "nfl": "JAX",
+   "owner": "MEANY",
+   "player": "Brandon Aubrey",
+   "nfl": "DAL",
    "pos": "K",
-   "gp": 5,
-   "points": 48.0,
+   "gp": 6,
+   "points": 47.0,
    "stats": {
     "FG 0-19": 0.0,
-    "FG 20-29": 2.0,
-    "FG 30-39": 1.0,
-    "FG 40-49": 3.0,
-    "FG 50+": 3.0,
+    "FG 20-29": 3.0,
+    "FG 30-39": 2.0,
+    "FG 40-49": 2.0,
+    "FG 50+": 2.0,
     "FG Miss 0-19": 0.0,
     "FG Miss 20-29": 0.0,
     "FG Miss 30-39": 0.0,
-    "PAT": 12.0
+    "PAT": 14.0
    },
    "pts_by_cat": {
-    "FG 20-29": 6.0,
-    "FG 30-39": 3.0,
-    "FG 40-49": 12.0,
-    "FG 50+": 15.0,
-    "PAT": 12.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Jacoby Brissett",
-   "nfl": "ARI",
-   "pos": "QB",
-   "gp": 3,
-   "points": 47.22,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 553.0,
-    "Pass TD": 6.0,
-    "Pass INT": 5.0,
-    "Rush Yds": 44.0,
-    "Rush TD": 0.0,
-    "Receptions": 1.0,
-    "Rec Yds": 7.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 22.12,
-    "Pass TD": 24.0,
-    "Pass INT": -5.0,
-    "Rush Yds": 4.4,
-    "Receptions": 1.0,
-    "Rec Yds": 0.7
+    "FG 20-29": 9.0,
+    "FG 30-39": 6.0,
+    "FG 40-49": 8.0,
+    "FG 50+": 10.0,
+    "PAT": 14.0
    }
   },
   {
@@ -4053,85 +4278,54 @@
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Brandon Aubrey",
-   "nfl": "DAL",
+   "owner": "DREXELLO",
+   "player": "Nick Folk",
+   "nfl": "ATL",
    "pos": "K",
-   "gp": 5,
+   "gp": 6,
    "points": 46.0,
    "stats": {
     "FG 0-19": 0.0,
-    "FG 20-29": 3.0,
+    "FG 20-29": 2.0,
     "FG 30-39": 2.0,
-    "FG 40-49": 2.0,
-    "FG 50+": 2.0,
+    "FG 40-49": 4.0,
+    "FG 50+": 1.0,
     "FG Miss 0-19": 0.0,
     "FG Miss 20-29": 0.0,
     "FG Miss 30-39": 0.0,
     "PAT": 13.0
    },
    "pts_by_cat": {
-    "FG 20-29": 9.0,
+    "FG 20-29": 6.0,
     "FG 30-39": 6.0,
-    "FG 40-49": 8.0,
-    "FG 50+": 10.0,
+    "FG 40-49": 16.0,
+    "FG 50+": 5.0,
     "PAT": 13.0
    }
   },
   {
-   "owner": "GENTILE",
-   "player": "Caleb Williams",
-   "nfl": "CHI",
-   "pos": "QB",
-   "gp": 2,
-   "points": 45.98,
+   "owner": "MCFADDEN",
+   "player": "Spencer Shrader",
+   "nfl": "IND",
+   "pos": "K",
+   "gp": 3,
+   "points": 46.0,
    "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 407.0,
-    "Pass TD": 2.0,
-    "Pass INT": 1.0,
-    "Rush Yds": 107.0,
-    "Rush TD": 2.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
+    "FG 0-19": 0.0,
+    "FG 20-29": 3.0,
+    "FG 30-39": 0.0,
+    "FG 40-49": 4.0,
+    "FG 50+": 3.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 6.0
    },
    "pts_by_cat": {
-    "Pass Yds": 16.28,
-    "Pass TD": 8.0,
-    "Pass INT": -1.0,
-    "Rush Yds": 10.7,
-    "Rush TD": 12.0
-   }
-  },
-  {
-   "owner": "DREXELLO",
-   "player": "Aaron Rodgers",
-   "nfl": "PIT",
-   "pos": "QB",
-   "gp": 2,
-   "points": 45.96,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 534.0,
-    "Pass TD": 6.0,
-    "Pass INT": 2.0,
-    "Rush Yds": 6.0,
-    "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 21.36,
-    "Pass TD": 24.0,
-    "Pass INT": -2.0,
-    "Rush Yds": 0.6,
-    "2-Pt Conv": 2.0
+    "FG 20-29": 9.0,
+    "FG 40-49": 16.0,
+    "FG 50+": 15.0,
+    "PAT": 6.0
    }
   },
   {
@@ -4163,32 +4357,6 @@
    }
   },
   {
-   "owner": "DREXELLO",
-   "player": "Nick Folk",
-   "nfl": "ATL",
-   "pos": "K",
-   "gp": 5,
-   "points": 45.0,
-   "stats": {
-    "FG 0-19": 0.0,
-    "FG 20-29": 2.0,
-    "FG 30-39": 2.0,
-    "FG 40-49": 4.0,
-    "FG 50+": 1.0,
-    "FG Miss 0-19": 0.0,
-    "FG Miss 20-29": 0.0,
-    "FG Miss 30-39": 0.0,
-    "PAT": 12.0
-   },
-   "pts_by_cat": {
-    "FG 20-29": 6.0,
-    "FG 30-39": 6.0,
-    "FG 40-49": 16.0,
-    "FG 50+": 5.0,
-    "PAT": 12.0
-   }
-  },
-  {
    "owner": "KARDIAN",
    "player": "Mark Andrews",
    "nfl": "BAL",
@@ -4217,30 +4385,28 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tyler Shough",
+   "player": "Devaughn Vele",
    "nfl": "NO",
-   "pos": "QB",
-   "gp": 3,
-   "points": 42.58,
+   "pos": "WR",
+   "gp": 4,
+   "points": 42.6,
    "stats": {
     "2-Pt Conv": 0.0,
-    "Pass Yds": 637.0,
-    "Pass TD": 5.0,
-    "Pass INT": 3.0,
-    "Rush Yds": 41.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
+    "Receptions": 18.0,
+    "Rec Yds": 186.0,
+    "Rec TD": 1.0,
     "Return TD": 0.0,
-    "Fumbles Lost": 2.0
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Pass Yds": 25.48,
-    "Pass TD": 20.0,
-    "Pass INT": -3.0,
-    "Rush Yds": 4.1,
-    "Fumbles Lost": -4.0
+    "Receptions": 18.0,
+    "Rec Yds": 18.6,
+    "Rec TD": 6.0
    }
   },
   {
@@ -4326,29 +4492,54 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "Chuba Hubbard",
-   "nfl": "CAR",
-   "pos": "RB",
-   "gp": 2,
-   "points": 40.9,
+   "player": "Josh Downs",
+   "nfl": "IND",
+   "pos": "WR",
+   "gp": 5,
+   "points": 39.4,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 204.0,
-    "Rush TD": 2.0,
-    "Receptions": 5.0,
-    "Rec Yds": 35.0,
+    "Rush Yds": 7.0,
+    "Rush TD": 0.0,
+    "Receptions": 17.0,
+    "Rec Yds": 217.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 20.4,
-    "Rush TD": 12.0,
-    "Receptions": 5.0,
-    "Rec Yds": 3.5
+    "Rush Yds": 0.7,
+    "Receptions": 17.0,
+    "Rec Yds": 21.7
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Ladd McConkey",
+   "nfl": "LAC",
+   "pos": "WR",
+   "gp": 5,
+   "points": 39.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 13.0,
+    "Rec Yds": 200.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 13.0,
+    "Rec Yds": 20.0,
+    "Rec TD": 6.0
    }
   },
   {
@@ -4429,81 +4620,30 @@
    }
   },
   {
-   "owner": "MCFADDEN",
-   "player": "Spencer Shrader",
-   "nfl": "IND",
-   "pos": "K",
-   "gp": 2,
-   "points": 37.0,
-   "stats": {
-    "FG 0-19": 0.0,
-    "FG 20-29": 2.0,
-    "FG 30-39": 0.0,
-    "FG 40-49": 3.0,
-    "FG 50+": 3.0,
-    "FG Miss 0-19": 0.0,
-    "FG Miss 20-29": 0.0,
-    "FG Miss 30-39": 0.0,
-    "PAT": 4.0
-   },
-   "pts_by_cat": {
-    "FG 20-29": 6.0,
-    "FG 40-49": 12.0,
-    "FG 50+": 15.0,
-    "PAT": 4.0
-   }
-  },
-  {
    "owner": "MEANY",
-   "player": "Ladd McConkey",
-   "nfl": "LAC",
+   "player": "Denzel Boston",
+   "nfl": "CLE",
    "pos": "WR",
    "gp": 4,
-   "points": 36.3,
+   "points": 37.1,
    "stats": {
-    "2-Pt Conv": 0.0,
+    "2-Pt Conv": 1.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 12.0,
-    "Rec Yds": 183.0,
+    "Receptions": 10.0,
+    "Rec Yds": 191.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 12.0,
-    "Rec Yds": 18.3,
-    "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "RUSSO",
-   "player": "Luther Burden III",
-   "nfl": "CHI",
-   "pos": "WR",
-   "gp": 4,
-   "points": 36.0,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 15.0,
-    "Rush TD": 0.0,
-    "Receptions": 16.0,
-    "Rec Yds": 205.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 1.5,
-    "Receptions": 16.0,
-    "Rec Yds": 20.5,
-    "Fumbles Lost": -2.0
+    "Receptions": 10.0,
+    "Rec Yds": 19.1,
+    "Rec TD": 6.0,
+    "2-Pt Conv": 2.0
    }
   },
   {
@@ -4529,32 +4669,6 @@
     "FG 30-39": 6.0,
     "FG 40-49": 8.0,
     "PAT": 13.0
-   }
-  },
-  {
-   "owner": "MARZ",
-   "player": "Devaughn Vele",
-   "nfl": "NO",
-   "pos": "WR",
-   "gp": 3,
-   "points": 35.4,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 15.0,
-    "Rec Yds": 144.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 15.0,
-    "Rec Yds": 14.4,
-    "Rec TD": 6.0
    }
   },
   {
@@ -4584,12 +4698,12 @@
    }
   },
   {
-   "owner": "DREXELLO",
-   "player": "Dallas Goedert",
-   "nfl": "PHI",
+   "owner": "FREEMAN",
+   "player": "Kyle Pitts Sr.",
+   "nfl": "ATL",
    "pos": "TE",
-   "gp": 3,
-   "points": 34.9,
+   "gp": 5,
+   "points": 34.7,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -4597,70 +4711,68 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 11.0,
-    "Rec Yds": 119.0,
+    "Receptions": 10.0,
+    "Rec Yds": 127.0,
     "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 11.0,
-    "Rec Yds": 11.9,
+    "Receptions": 10.0,
+    "Rec Yds": 12.7,
     "Rec TD": 12.0
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Denzel Boston",
-   "nfl": "CLE",
-   "pos": "WR",
-   "gp": 3,
-   "points": 34.6,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 9.0,
-    "Rec Yds": 176.0,
-    "Rec TD": 1.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 9.0,
-    "Rec Yds": 17.6,
-    "Rec TD": 6.0,
-    "2-Pt Conv": 2.0
-   }
-  },
-  {
    "owner": "RUSSO",
-   "player": "DK Metcalf",
-   "nfl": "PIT",
-   "pos": "WR",
-   "gp": 4,
-   "points": 32.1,
+   "player": "Tony Pollard",
+   "nfl": "TEN",
+   "pos": "RB",
+   "gp": 3,
+   "points": 34.2,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 11.0,
-    "Rush TD": 0.0,
-    "Receptions": 14.0,
-    "Rec Yds": 110.0,
-    "Rec TD": 1.0,
+    "Rush Yds": 198.0,
+    "Rush TD": 1.0,
+    "Receptions": 6.0,
+    "Rec Yds": 24.0,
+    "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 1.1,
-    "Receptions": 14.0,
-    "Rec Yds": 11.0,
-    "Rec TD": 6.0
+    "Rush Yds": 19.8,
+    "Rush TD": 6.0,
+    "Receptions": 6.0,
+    "Rec Yds": 2.4
+   }
+  },
+  {
+   "owner": "MCFADDEN",
+   "player": "Jalen Coker",
+   "nfl": "CAR",
+   "pos": "WR",
+   "gp": 3,
+   "points": 34.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 16.0,
+    "Rec Yds": 181.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 16.0,
+    "Rec Yds": 18.1
    }
   },
   {
@@ -4668,31 +4780,58 @@
    "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
-   "gp": 5,
-   "points": 32.0,
+   "gp": 6,
+   "points": 34.0,
    "stats": {
     "Blocked Kick": 1.0,
     "Sacks": 18.0,
     "Safety": 0.0,
-    "Def INT": 2.0,
+    "Def INT": 3.0,
     "Fum Rec": 3.0,
     "Def TD": 0.0,
     "Def Return TD": 0.0
    },
    "pts_by_cat": {
     "Sacks": 18.0,
-    "Def INT": 4.0,
+    "Def INT": 6.0,
     "Fum Rec": 6.0,
     "Blocked Kick": 4.0
    }
   },
   {
-   "owner": "DREXELLO",
-   "player": "Josh Downs",
-   "nfl": "IND",
+   "owner": "MCFADDEN",
+   "player": "Braelon Allen",
+   "nfl": "NYJ",
+   "pos": "RB",
+   "gp": 2,
+   "points": 31.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 194.0,
+    "Rush TD": 1.0,
+    "Receptions": 3.0,
+    "Rec Yds": 26.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 19.4,
+    "Rush TD": 6.0,
+    "Receptions": 3.0,
+    "Rec Yds": 2.6
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Carnell Tate",
+   "nfl": "TEN",
    "pos": "WR",
-   "gp": 4,
-   "points": 30.7,
+   "gp": 3,
+   "points": 28.4,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -4700,15 +4839,67 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 13.0,
-    "Rec Yds": 177.0,
+    "Receptions": 11.0,
+    "Rec Yds": 114.0,
+    "Rec TD": 1.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 11.0,
+    "Rec Yds": 11.4,
+    "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Tucker Kraft",
+   "nfl": "GB",
+   "pos": "TE",
+   "gp": 4,
+   "points": 28.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 14.0,
+    "Rec Yds": 143.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 13.0,
-    "Rec Yds": 17.7
+    "Receptions": 14.0,
+    "Rec Yds": 14.3
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Hunter Henry",
+   "nfl": "NE",
+   "pos": "TE",
+   "gp": 2,
+   "points": 28.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 7.0,
+    "Rec Yds": 92.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 7.0,
+    "Rec Yds": 9.2,
+    "Rec TD": 12.0
    }
   },
   {
@@ -4738,30 +4929,29 @@
    }
   },
   {
-   "owner": "RUSSO",
-   "player": "Tony Pollard",
-   "nfl": "TEN",
-   "pos": "RB",
-   "gp": 2,
-   "points": 26.6,
+   "owner": "FIG",
+   "player": "Tre Tucker",
+   "nfl": "LV",
+   "pos": "WR",
+   "gp": 1,
+   "points": 26.7,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 122.0,
-    "Rush TD": 1.0,
-    "Receptions": 6.0,
-    "Rec Yds": 24.0,
-    "Rec TD": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 97.0,
+    "Rec TD": 2.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Rush Yds": 12.2,
-    "Rush TD": 6.0,
-    "Receptions": 6.0,
-    "Rec Yds": 2.4
+    "Receptions": 5.0,
+    "Rec Yds": 9.7,
+    "Rec TD": 12.0
    }
   },
   {
@@ -4769,7 +4959,7 @@
    "player": "Brian Thomas Jr.",
    "nfl": "JAX",
    "pos": "WR",
-   "gp": 5,
+   "gp": 6,
    "points": 25.5,
    "stats": {
     "2-Pt Conv": 0.0,
@@ -5080,8 +5270,31 @@
    }
   },
   {
+   "owner": "DREXELLO",
+   "player": "Patriots",
+   "nfl": "NE",
+   "pos": "DEF",
+   "gp": 3,
+   "points": 21.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 9.0,
+    "Safety": 0.0,
+    "Def INT": 2.0,
+    "Fum Rec": 1.0,
+    "Def TD": 1.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 9.0,
+    "Def INT": 4.0,
+    "Fum Rec": 2.0,
+    "Def TD": 6.0
+   }
+  },
+  {
    "owner": "KARDIAN",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 2,
@@ -5103,28 +5316,77 @@
    }
   },
   {
-   "owner": "MARZ",
-   "player": "Tucker Kraft",
-   "nfl": "GB",
-   "pos": "TE",
-   "gp": 3,
-   "points": 19.6,
+   "owner": "FIG",
+   "player": "Rams",
+   "nfl": "LAR",
+   "pos": "DEF",
+   "gp": 6,
+   "points": 20.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 8.0,
+    "Safety": 0.0,
+    "Def INT": 5.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 8.0,
+    "Def INT": 10.0,
+    "Fum Rec": 2.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Bryce Young",
+   "nfl": "CAR",
+   "pos": "QB",
+   "gp": 1,
+   "points": 19.84,
    "stats": {
     "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
+    "Pass Yds": 281.0,
+    "Pass TD": 2.0,
     "Pass INT": 0.0,
-    "Rush Yds": 0.0,
+    "Rush Yds": 6.0,
     "Rush TD": 0.0,
-    "Receptions": 9.0,
-    "Rec Yds": 106.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 9.0,
-    "Rec Yds": 10.6
+    "Pass Yds": 11.24,
+    "Pass TD": 8.0,
+    "Rush Yds": 0.6
+   }
+  },
+  {
+   "owner": "KEV",
+   "player": "Kirk Cousins",
+   "nfl": "LV",
+   "pos": "QB",
+   "gp": 1,
+   "points": 19.52,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 313.0,
+    "Pass TD": 2.0,
+    "Pass INT": 1.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 12.52,
+    "Pass TD": 8.0,
+    "Pass INT": -1.0
    }
   },
   {
@@ -5153,79 +5415,6 @@
     "Receptions": 3.0,
     "Rec Yds": 0.4,
     "Fumbles Lost": -2.0
-   }
-  },
-  {
-   "owner": "MCFADDEN",
-   "player": "Braelon Allen",
-   "nfl": "NYJ",
-   "pos": "RB",
-   "gp": 1,
-   "points": 18.6,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 116.0,
-    "Rush TD": 1.0,
-    "Receptions": 1.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 11.6,
-    "Rush TD": 6.0,
-    "Receptions": 1.0
-   }
-  },
-  {
-   "owner": "MCFADDEN",
-   "player": "Jalen Coker",
-   "nfl": "CAR",
-   "pos": "WR",
-   "gp": 2,
-   "points": 18.4,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 10.0,
-    "Rec Yds": 84.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 10.0,
-    "Rec Yds": 8.4
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Rams",
-   "nfl": "LAR",
-   "pos": "DEF",
-   "gp": 5,
-   "points": 18.0,
-   "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 8.0,
-    "Safety": 0.0,
-    "Def INT": 4.0,
-    "Fum Rec": 1.0,
-    "Def TD": 0.0,
-    "Def Return TD": 0.0
-   },
-   "pts_by_cat": {
-    "Sacks": 8.0,
-    "Def INT": 8.0,
-    "Fum Rec": 2.0
    }
   },
   {
@@ -5279,26 +5468,24 @@
    }
   },
   {
-   "owner": "DREXELLO",
-   "player": "Patriots",
-   "nfl": "NE",
+   "owner": "KEV",
+   "player": "Bears",
+   "nfl": "CHI",
    "pos": "DEF",
-   "gp": 2,
+   "gp": 3,
    "points": 16.0,
    "stats": {
     "Blocked Kick": 0.0,
-    "Sacks": 6.0,
+    "Sacks": 10.0,
     "Safety": 0.0,
-    "Def INT": 1.0,
-    "Fum Rec": 1.0,
-    "Def TD": 1.0,
+    "Def INT": 0.0,
+    "Fum Rec": 3.0,
+    "Def TD": 0.0,
     "Def Return TD": 0.0
    },
    "pts_by_cat": {
-    "Sacks": 6.0,
-    "Def INT": 2.0,
-    "Fum Rec": 2.0,
-    "Def TD": 6.0
+    "Sacks": 10.0,
+    "Fum Rec": 6.0
    }
   },
   {
@@ -5328,6 +5515,33 @@
    }
   },
   {
+   "owner": "KARDIAN",
+   "player": "Daniel Jones",
+   "nfl": "IND",
+   "pos": "QB",
+   "gp": 1,
+   "points": 15.76,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 269.0,
+    "Pass TD": 1.0,
+    "Pass INT": 2.0,
+    "Rush Yds": 30.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 10.76,
+    "Pass TD": 4.0,
+    "Pass INT": -2.0,
+    "Rush Yds": 3.0
+   }
+  },
+  {
    "owner": "DREXELLO",
    "player": "J.K. Dobbins",
    "nfl": "DEN",
@@ -5352,6 +5566,55 @@
     "Rush TD": 6.0,
     "Receptions": 2.0,
     "Rec Yds": 0.6
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Dameon Pierce",
+   "nfl": "PHI",
+   "pos": "RB",
+   "gp": 1,
+   "points": 15.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 35.0,
+    "Rush TD": 1.0,
+    "Receptions": 4.0,
+    "Rec Yds": 15.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 3.5,
+    "Rush TD": 6.0,
+    "Receptions": 4.0,
+    "Rec Yds": 1.5
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Steelers",
+   "nfl": "PIT",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 15.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 7.0,
+    "Safety": 0.0,
+    "Def INT": 3.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 7.0,
+    "Def INT": 6.0,
+    "Fum Rec": 2.0
    }
   },
   {
@@ -5406,9 +5669,31 @@
   },
   {
    "owner": "FREEMAN",
-   "player": "Hunter Henry",
-   "nfl": "NE",
-   "pos": "TE",
+   "player": "Ravens",
+   "nfl": "BAL",
+   "pos": "DEF",
+   "gp": 3,
+   "points": 14.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 10.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 10.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0
+   }
+  },
+  {
+   "owner": "FREEMAN",
+   "player": "Khalil Shakir",
+   "nfl": "BUF",
+   "pos": "WR",
    "gp": 1,
    "points": 13.4,
    "stats": {
@@ -5418,15 +5703,15 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 3.0,
-    "Rec Yds": 44.0,
+    "Receptions": 4.0,
+    "Rec Yds": 34.0,
     "Rec TD": 1.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 3.0,
-    "Rec Yds": 4.4,
+    "Receptions": 4.0,
+    "Rec Yds": 3.4,
     "Rec TD": 6.0
    }
   },
@@ -5509,6 +5794,30 @@
   },
   {
    "owner": "GENTILE",
+   "player": "Matt Gay",
+   "nfl": "LV",
+   "pos": "K",
+   "gp": 1,
+   "points": 12.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 2.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 0.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 3.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 6.0,
+    "FG 30-39": 3.0,
+    "PAT": 3.0
+   }
+  },
+  {
+   "owner": "GENTILE",
    "player": "Jets",
    "nfl": "NYJ",
    "pos": "DEF",
@@ -5529,12 +5838,12 @@
    }
   },
   {
-   "owner": "FREEMAN",
-   "player": "Kyle Pitts Sr.",
-   "nfl": "ATL",
-   "pos": "TE",
-   "gp": 4,
-   "points": 11.7,
+   "owner": "MARZ",
+   "player": "A.J. Brown",
+   "nfl": "NE",
+   "pos": "WR",
+   "gp": 2,
+   "points": 11.3,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
@@ -5542,15 +5851,15 @@
     "Pass INT": 0.0,
     "Rush Yds": 0.0,
     "Rush TD": 0.0,
-    "Receptions": 5.0,
-    "Rec Yds": 67.0,
+    "Receptions": 6.0,
+    "Rec Yds": 53.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 5.0,
-    "Rec Yds": 6.7
+    "Receptions": 6.0,
+    "Rec Yds": 5.3
    }
   },
   {
@@ -5578,6 +5887,32 @@
     "Pass INT": -1.0,
     "Rush Yds": 5.6,
     "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Woody Marks",
+   "nfl": "HOU",
+   "pos": "RB",
+   "gp": 1,
+   "points": 10.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 56.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 25.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 5.6,
+    "Receptions": 2.0,
+    "Rec Yds": 2.5
    }
   },
   {
@@ -5629,11 +5964,11 @@
    }
   },
   {
-   "owner": "MARZ",
-   "player": "Carnell Tate",
-   "nfl": "TEN",
-   "pos": "WR",
-   "gp": 2,
+   "owner": "GENTILE",
+   "player": "Brenton Strange",
+   "nfl": "JAX",
+   "pos": "TE",
+   "gp": 1,
    "points": 9.4,
    "stats": {
     "2-Pt Conv": 0.0,
@@ -5680,33 +6015,36 @@
    }
   },
   {
+   "owner": "FREEMAN",
+   "player": "Kendre Miller",
+   "nfl": "NO",
+   "pos": "RB",
+   "gp": 1,
+   "points": 9.0,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 70.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 7.0,
+    "Receptions": 2.0
+   }
+  },
+  {
    "owner": "MARZ",
    "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
-   "points": 9.0,
-   "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 5.0,
-    "Safety": 0.0,
-    "Def INT": 1.0,
-    "Fum Rec": 1.0,
-    "Def TD": 0.0,
-    "Def Return TD": 0.0
-   },
-   "pts_by_cat": {
-    "Sacks": 5.0,
-    "Def INT": 2.0,
-    "Fum Rec": 2.0
-   }
-  },
-  {
-   "owner": "FREEMAN",
-   "player": "Ravens",
-   "nfl": "BAL",
-   "pos": "DEF",
-   "gp": 2,
    "points": 9.0,
    "stats": {
     "Blocked Kick": 0.0,
@@ -5772,6 +6110,57 @@
    }
   },
   {
+   "owner": "MARZ",
+   "player": "Jameis Winston",
+   "nfl": "NYG",
+   "pos": "QB",
+   "gp": 1,
+   "points": 8.48,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 152.0,
+    "Pass TD": 1.0,
+    "Pass INT": 2.0,
+    "Rush Yds": 4.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 6.08,
+    "Pass TD": 4.0,
+    "Pass INT": -2.0,
+    "Rush Yds": 0.4
+   }
+  },
+  {
+   "owner": "MARZ",
+   "player": "Dominic Zvada",
+   "nfl": "NYG",
+   "pos": "K",
+   "gp": 1,
+   "points": 8.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 0.0,
+    "FG 30-39": 1.0,
+    "FG 40-49": 1.0,
+    "FG 50+": 0.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 1.0
+   },
+   "pts_by_cat": {
+    "FG 30-39": 3.0,
+    "FG 40-49": 4.0,
+    "PAT": 1.0
+   }
+  },
+  {
    "owner": "FREEMAN",
    "player": "Chiefs",
    "nfl": "KC",
@@ -5790,6 +6179,28 @@
    "pts_by_cat": {
     "Def INT": 4.0,
     "Fum Rec": 4.0
+   }
+  },
+  {
+   "owner": "GENTILE",
+   "player": "Chiefs",
+   "nfl": "KC",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 8.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 4.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 1.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 4.0,
+    "Def INT": 2.0,
+    "Fum Rec": 2.0
    }
   },
   {
@@ -5857,6 +6268,31 @@
   },
   {
    "owner": "KARDIAN",
+   "player": "Rome Odunze",
+   "nfl": "CHI",
+   "pos": "WR",
+   "gp": 1,
+   "points": 6.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 3.0,
+    "Rec Yds": 39.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 3.0,
+    "Rec Yds": 3.9
+   }
+  },
+  {
+   "owner": "KARDIAN",
    "player": "Carson Wentz",
    "nfl": "MIN",
    "pos": "QB",
@@ -5906,28 +6342,6 @@
    }
   },
   {
-   "owner": "MARZ",
-   "player": "Steelers",
-   "nfl": "PIT",
-   "pos": "DEF",
-   "gp": 1,
-   "points": 6.0,
-   "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 2.0,
-    "Safety": 0.0,
-    "Def INT": 1.0,
-    "Fum Rec": 1.0,
-    "Def TD": 0.0,
-    "Def Return TD": 0.0
-   },
-   "pts_by_cat": {
-    "Sacks": 2.0,
-    "Def INT": 2.0,
-    "Fum Rec": 2.0
-   }
-  },
-  {
    "owner": "GENTILE",
    "player": "49ers",
    "nfl": "SF",
@@ -5948,28 +6362,29 @@
    }
   },
   {
-   "owner": "MARZ",
-   "player": "A.J. Brown",
-   "nfl": "NE",
-   "pos": "WR",
+   "owner": "GENTILE",
+   "player": "Tyler Allgeier",
+   "nfl": "ARI",
+   "pos": "RB",
    "gp": 1,
-   "points": 5.6,
+   "points": 5.8,
    "stats": {
     "2-Pt Conv": 0.0,
     "Pass Yds": 0.0,
     "Pass TD": 0.0,
     "Pass INT": 0.0,
-    "Rush Yds": 0.0,
+    "Rush Yds": 38.0,
     "Rush TD": 0.0,
-    "Receptions": 3.0,
-    "Rec Yds": 26.0,
+    "Receptions": 1.0,
+    "Rec Yds": 10.0,
     "Rec TD": 0.0,
     "Return TD": 0.0,
     "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Receptions": 3.0,
-    "Rec Yds": 2.6
+    "Rush Yds": 3.8,
+    "Receptions": 1.0,
+    "Rec Yds": 1.0
    }
   },
   {
@@ -6024,28 +6439,8 @@
    }
   },
   {
-   "owner": "KEV",
-   "player": "Bears",
-   "nfl": "CHI",
-   "pos": "DEF",
-   "gp": 2,
-   "points": 5.0,
-   "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 5.0,
-    "Safety": 0.0,
-    "Def INT": 0.0,
-    "Fum Rec": 0.0,
-    "Def TD": 0.0,
-    "Def Return TD": 0.0
-   },
-   "pts_by_cat": {
-    "Sacks": 5.0
-   }
-  },
-  {
    "owner": "KARDIAN",
-   "player": "Buffalo",
+   "player": "Bills",
    "nfl": "BUF",
    "pos": "DEF",
    "gp": 1,
@@ -6114,7 +6509,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Cincinnati",
+   "player": "Bengals",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -6159,6 +6554,80 @@
    }
   },
   {
+   "owner": "GENTILE",
+   "player": "Rhamondre Stevenson",
+   "nfl": "NE",
+   "pos": "RB",
+   "gp": 1,
+   "points": 3.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 36.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 3.6
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Jake Ferguson",
+   "nfl": "DAL",
+   "pos": "TE",
+   "gp": 1,
+   "points": 3.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 13.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 2.0,
+    "Rec Yds": 1.3
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Pat Freiermuth",
+   "nfl": "PIT",
+   "pos": "TE",
+   "gp": 1,
+   "points": 3.1,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 2.0,
+    "Rec Yds": 11.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 2.0,
+    "Rec Yds": 1.1
+   }
+  },
+  {
    "owner": "MARZ",
    "player": "Raiders",
    "nfl": "LV",
@@ -6177,6 +6646,27 @@
    "pts_by_cat": {
     "Sacks": 1.0,
     "Fum Rec": 2.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Jaguars",
+   "nfl": "JAX",
+   "pos": "DEF",
+   "gp": 2,
+   "points": 3.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 1.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 1.0,
+    "Def INT": 2.0
    }
   },
   {
@@ -6247,7 +6737,27 @@
   },
   {
    "owner": "MEANY",
-   "player": "Brian Robinson",
+   "player": "Bills",
+   "nfl": "BUF",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 2.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 0.0,
+    "Safety": 0.0,
+    "Def INT": 1.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Def INT": 2.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Brian Robinson Jr.",
    "nfl": "ATL",
    "pos": "RB",
    "gp": 1,
@@ -6270,29 +6780,33 @@
    }
   },
   {
-   "owner": "DREXELLO",
-   "player": "Cowboys",
-   "nfl": "DAL",
-   "pos": "DEF",
+   "owner": "FIG",
+   "player": "MarShawn Lloyd",
+   "nfl": "GB",
+   "pos": "RB",
    "gp": 1,
    "points": 1.0,
    "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 1.0,
-    "Safety": 0.0,
-    "Def INT": 0.0,
-    "Fum Rec": 0.0,
-    "Def TD": 0.0,
-    "Def Return TD": 0.0
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 10.0,
+    "Rush TD": 0.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
    },
    "pts_by_cat": {
-    "Sacks": 1.0
+    "Rush Yds": 1.0
    }
   },
   {
-   "owner": "KARDIAN",
-   "player": "Jacksonville",
-   "nfl": "JAX",
+   "owner": "DREXELLO",
+   "player": "Cowboys",
+   "nfl": "DAL",
    "pos": "DEF",
    "gp": 1,
    "points": 1.0,
@@ -12160,8 +12674,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 2,
-    "value": -1,
+    "points_rank": 3,
+    "value": -2,
     "pos_points_rank": 1,
     "pos_draft_rank": 1,
     "pos_value": 0
@@ -12174,17 +12688,17 @@
     "pos": "RB",
     "owner": "MEANY",
     "overall": 2,
-    "points": 121.2,
-    "gp": 5.0,
+    "points": 128.5,
+    "gp": 6.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 4,
-    "value": -2,
-    "pos_points_rank": 2,
+    "points_rank": 6,
+    "value": -4,
+    "pos_points_rank": 3,
     "pos_draft_rank": 2,
-    "pos_value": 0
+    "pos_value": -1
    },
    {
     "round": 1,
@@ -12200,11 +12714,11 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 35,
-    "value": -32,
-    "pos_points_rank": 10,
+    "points_rank": 44,
+    "value": -41,
+    "pos_points_rank": 15,
     "pos_draft_rank": 1,
-    "pos_value": -9
+    "pos_value": -14
    },
    {
     "round": 1,
@@ -12214,14 +12728,14 @@
     "pos": "WR",
     "owner": "MCFADDEN",
     "overall": 4,
-    "points": 77.8,
-    "gp": 3.0,
+    "points": 91.8,
+    "gp": 4.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 37,
-    "value": -33,
+    "points_rank": 34,
+    "value": -30,
     "pos_points_rank": 11,
     "pos_draft_rank": 2,
     "pos_value": -9
@@ -12240,8 +12754,8 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 1,
-    "value": 4,
+    "points_rank": 2,
+    "value": 3,
     "pos_points_rank": 1,
     "pos_draft_rank": 3,
     "pos_value": 2
@@ -12254,14 +12768,14 @@
     "pos": "QB",
     "owner": "KARDIAN",
     "overall": 6,
-    "points": 146.96,
-    "gp": 5.0,
+    "points": 165.26,
+    "gp": 6.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 3,
-    "value": 3,
+    "points_rank": 1,
+    "value": 5,
     "pos_points_rank": 1,
     "pos_draft_rank": 1,
     "pos_value": 0
@@ -12280,11 +12794,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 23,
-    "value": -16,
-    "pos_points_rank": 9,
+    "points_rank": 35,
+    "value": -28,
+    "pos_points_rank": 12,
     "pos_draft_rank": 3,
-    "pos_value": -6
+    "pos_value": -9
    },
    {
     "round": 1,
@@ -12294,17 +12808,17 @@
     "pos": "RB",
     "owner": "KEV",
     "overall": 8,
-    "points": 97.4,
-    "gp": 5.0,
+    "points": 118.5,
+    "gp": 6.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
-    "points_rank": 15,
-    "value": -7,
-    "pos_points_rank": 6,
+    "points_rank": 10,
+    "value": -2,
+    "pos_points_rank": 5,
     "pos_draft_rank": 4,
-    "pos_value": -2
+    "pos_value": -1
    },
    {
     "round": 1,
@@ -12320,11 +12834,11 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 102,
-    "value": -93,
-    "pos_points_rank": 25,
+    "points_rank": 107,
+    "value": -98,
+    "pos_points_rank": 26,
     "pos_draft_rank": 5,
-    "pos_value": -20
+    "pos_value": -21
    },
    {
     "round": 1,
@@ -12340,11 +12854,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 13,
-    "value": -3,
-    "pos_points_rank": 4,
+    "points_rank": 22,
+    "value": -12,
+    "pos_points_rank": 5,
     "pos_draft_rank": 4,
-    "pos_value": 0
+    "pos_value": -1
    },
    {
     "round": 2,
@@ -12354,14 +12868,14 @@
     "pos": "WR",
     "owner": "FREEMAN",
     "overall": 11,
-    "points": 115.1,
-    "gp": 5.0,
+    "points": 131.1,
+    "gp": 6.0,
     "rostered_by": [
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 6,
-    "value": 5,
+    "points_rank": 5,
+    "value": 6,
     "pos_points_rank": 2,
     "pos_draft_rank": 5,
     "pos_value": 3
@@ -12374,17 +12888,17 @@
     "pos": "RB",
     "owner": "DREXELLO",
     "overall": 12,
-    "points": 89.3,
-    "gp": 5.0,
+    "points": 113.6,
+    "gp": 6.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 26,
-    "value": -14,
-    "pos_points_rank": 10,
+    "points_rank": 16,
+    "value": -4,
+    "pos_points_rank": 7,
     "pos_draft_rank": 6,
-    "pos_value": -4
+    "pos_value": -1
    },
    {
     "round": 2,
@@ -12400,8 +12914,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 34,
-    "value": -21,
+    "points_rank": 43,
+    "value": -30,
     "pos_points_rank": 12,
     "pos_draft_rank": 2,
     "pos_value": -10
@@ -12420,11 +12934,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 12,
-    "value": 2,
-    "pos_points_rank": 4,
+    "points_rank": 21,
+    "value": -7,
+    "pos_points_rank": 9,
     "pos_draft_rank": 3,
-    "pos_value": -1
+    "pos_value": -6
    },
    {
     "round": 2,
@@ -12440,11 +12954,11 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 51,
-    "value": -36,
-    "pos_points_rank": 18,
+    "points_rank": 58,
+    "value": -43,
+    "pos_points_rank": 22,
     "pos_draft_rank": 6,
-    "pos_value": -12
+    "pos_value": -16
    },
    {
     "round": 2,
@@ -12454,17 +12968,17 @@
     "pos": "RB",
     "owner": "RUSSO",
     "overall": 16,
-    "points": 111.8,
-    "gp": 5.0,
+    "points": 116.8,
+    "gp": 6.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 8,
-    "value": 8,
-    "pos_points_rank": 3,
+    "points_rank": 13,
+    "value": 3,
+    "pos_points_rank": 6,
     "pos_draft_rank": 7,
-    "pos_value": 4
+    "pos_value": 1
    },
    {
     "round": 2,
@@ -12480,11 +12994,11 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 98,
-    "value": -81,
-    "pos_points_rank": 24,
+    "points_rank": 103,
+    "value": -86,
+    "pos_points_rank": 25,
     "pos_draft_rank": 8,
-    "pos_value": -16
+    "pos_value": -17
    },
    {
     "round": 2,
@@ -12500,11 +13014,11 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 67,
-    "value": -49,
-    "pos_points_rank": 19,
+    "points_rank": 77,
+    "value": -59,
+    "pos_points_rank": 20,
     "pos_draft_rank": 9,
-    "pos_value": -10
+    "pos_value": -11
    },
    {
     "round": 2,
@@ -12520,8 +13034,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 30,
-    "value": -11,
+    "points_rank": 40,
+    "value": -21,
     "pos_points_rank": 11,
     "pos_draft_rank": 4,
     "pos_value": -7
@@ -12540,11 +13054,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 49,
-    "value": -29,
-    "pos_points_rank": 14,
+    "points_rank": 55,
+    "value": -35,
+    "pos_points_rank": 15,
     "pos_draft_rank": 10,
-    "pos_value": -4
+    "pos_value": -5
    },
    {
     "round": 3,
@@ -12554,17 +13068,17 @@
     "pos": "RB",
     "owner": "GENTILE",
     "overall": 21,
-    "points": 110.1,
-    "gp": 4.0,
+    "points": 138.0,
+    "gp": 5.0,
     "rostered_by": [
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 9,
-    "value": 12,
-    "pos_points_rank": 4,
+    "points_rank": 4,
+    "value": 17,
+    "pos_points_rank": 2,
     "pos_draft_rank": 11,
-    "pos_value": 7
+    "pos_value": 9
    },
    {
     "round": 3,
@@ -12574,17 +13088,17 @@
     "pos": "WR",
     "owner": "MEANY",
     "overall": 22,
-    "points": 36.3,
-    "gp": 4.0,
+    "points": 39.0,
+    "gp": 5.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 88,
-    "value": -66,
-    "pos_points_rank": 28,
+    "points_rank": 89,
+    "value": -67,
+    "pos_points_rank": 30,
     "pos_draft_rank": 7,
-    "pos_value": -21
+    "pos_value": -23
    },
    {
     "round": 3,
@@ -12594,17 +13108,17 @@
     "pos": "QB",
     "owner": "FIG",
     "overall": 23,
-    "points": 96.84,
-    "gp": 5.0,
+    "points": 109.86,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 16,
-    "value": 7,
-    "pos_points_rank": 5,
+    "points_rank": 19,
+    "value": 4,
+    "pos_points_rank": 8,
     "pos_draft_rank": 5,
-    "pos_value": 0
+    "pos_value": -3
    },
    {
     "round": 3,
@@ -12614,17 +13128,17 @@
     "pos": "QB",
     "owner": "MCFADDEN",
     "overall": 24,
-    "points": 94.22,
-    "gp": 5.0,
+    "points": 118.02,
+    "gp": 6.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 20,
-    "value": 4,
-    "pos_points_rank": 7,
+    "points_rank": 12,
+    "value": 12,
+    "pos_points_rank": 4,
     "pos_draft_rank": 6,
-    "pos_value": -1
+    "pos_value": 2
    },
    {
     "round": 3,
@@ -12634,8 +13148,8 @@
     "pos": "TE",
     "owner": "RUSSO",
     "overall": 25,
-    "points": 90.8,
-    "gp": 5.0,
+    "points": 103.1,
+    "gp": 6.0,
     "rostered_by": [
      "RUSSO"
     ],
@@ -12654,17 +13168,17 @@
     "pos": "RB",
     "owner": "KARDIAN",
     "overall": 26,
-    "points": 109.3,
-    "gp": 5.0,
+    "points": 119.0,
+    "gp": 6.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 11,
-    "value": 15,
-    "pos_points_rank": 5,
+    "points_rank": 7,
+    "value": 19,
+    "pos_points_rank": 4,
     "pos_draft_rank": 12,
-    "pos_value": 7
+    "pos_value": 8
    },
    {
     "round": 3,
@@ -12674,14 +13188,14 @@
     "pos": "WR",
     "owner": "MARZ",
     "overall": 27,
-    "points": 5.6,
-    "gp": 1.0,
+    "points": 11.3,
+    "gp": 2.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 129,
-    "value": -102,
+    "points_rank": 127,
+    "value": -100,
     "pos_points_rank": 40,
     "pos_draft_rank": 8,
     "pos_value": -32
@@ -12694,17 +13208,17 @@
     "pos": "TE",
     "owner": "KEV",
     "overall": 28,
-    "points": 71.2,
-    "gp": 3.0,
+    "points": 82.2,
+    "gp": 4.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
-    "points_rank": 43,
-    "value": -15,
-    "pos_points_rank": 2,
+    "points_rank": 41,
+    "value": -13,
+    "pos_points_rank": 3,
     "pos_draft_rank": 2,
-    "pos_value": 0
+    "pos_value": -1
    },
    {
     "round": 3,
@@ -12714,17 +13228,17 @@
     "pos": "WR",
     "owner": "DREXELLO",
     "overall": 29,
-    "points": 66.3,
-    "gp": 4.0,
+    "points": 94.8,
+    "gp": 5.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 48,
-    "value": -19,
-    "pos_points_rank": 17,
+    "points_rank": 29,
+    "value": 0,
+    "pos_points_rank": 7,
     "pos_draft_rank": 9,
-    "pos_value": -8
+    "pos_value": 2
    },
    {
     "round": 3,
@@ -12740,11 +13254,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 81,
-    "value": -51,
-    "pos_points_rank": 21,
+    "points_rank": 85,
+    "value": -55,
+    "pos_points_rank": 22,
     "pos_draft_rank": 13,
-    "pos_value": -8
+    "pos_value": -9
    },
    {
     "round": 4,
@@ -12754,14 +13268,14 @@
     "pos": "WR",
     "owner": "FREEMAN",
     "overall": 31,
-    "points": 62.6,
-    "gp": 3.0,
+    "points": 73.5,
+    "gp": 4.0,
     "rostered_by": [
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 53,
-    "value": -22,
+    "points_rank": 48,
+    "value": -17,
     "pos_points_rank": 19,
     "pos_draft_rank": 10,
     "pos_value": -9
@@ -12774,17 +13288,17 @@
     "pos": "WR",
     "owner": "DREXELLO",
     "overall": 32,
-    "points": 48.5,
-    "gp": 3.0,
+    "points": 69.0,
+    "gp": 4.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 70,
-    "value": -38,
-    "pos_points_rank": 25,
+    "points_rank": 53,
+    "value": -21,
+    "pos_points_rank": 21,
     "pos_draft_rank": 11,
-    "pos_value": -14
+    "pos_value": -10
    },
    {
     "round": 4,
@@ -12800,11 +13314,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 50,
-    "value": -17,
-    "pos_points_rank": 14,
+    "points_rank": 57,
+    "value": -24,
+    "pos_points_rank": 15,
     "pos_draft_rank": 7,
-    "pos_value": -7
+    "pos_value": -8
    },
    {
     "round": 4,
@@ -12814,14 +13328,14 @@
     "pos": "RB",
     "owner": "MARZ",
     "overall": 34,
-    "points": 84.6,
-    "gp": 5.0,
+    "points": 100.4,
+    "gp": 6.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 29,
-    "value": 5,
+    "points_rank": 27,
+    "value": 7,
     "pos_points_rank": 11,
     "pos_draft_rank": 14,
     "pos_value": 3
@@ -12834,14 +13348,14 @@
     "pos": "WR",
     "owner": "KARDIAN",
     "overall": 35,
-    "points": 76.2,
-    "gp": 5.0,
+    "points": 88.4,
+    "gp": 6.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 39,
-    "value": -4,
+    "points_rank": 37,
+    "value": -2,
     "pos_points_rank": 13,
     "pos_draft_rank": 12,
     "pos_value": -1
@@ -12854,17 +13368,17 @@
     "pos": "QB",
     "owner": "RUSSO",
     "overall": 36,
-    "points": 49.44,
-    "gp": 4.0,
+    "points": 59.2,
+    "gp": 5.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 69,
-    "value": -33,
-    "pos_points_rank": 16,
+    "points_rank": 64,
+    "value": -28,
+    "pos_points_rank": 18,
     "pos_draft_rank": 8,
-    "pos_value": -8
+    "pos_value": -10
    },
    {
     "round": 4,
@@ -12874,17 +13388,17 @@
     "pos": "WR",
     "owner": "MCFADDEN",
     "overall": 37,
-    "points": 68.5,
-    "gp": 5.0,
+    "points": 81.8,
+    "gp": 6.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 46,
-    "value": -9,
-    "pos_points_rank": 16,
+    "points_rank": 42,
+    "value": -5,
+    "pos_points_rank": 14,
     "pos_draft_rank": 13,
-    "pos_value": -3
+    "pos_value": -1
    },
    {
     "round": 4,
@@ -12894,17 +13408,17 @@
     "pos": "WR",
     "owner": "FIG",
     "overall": 38,
-    "points": 98.7,
-    "gp": 5.0,
+    "points": 113.0,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 14,
-    "value": 24,
-    "pos_points_rank": 5,
+    "points_rank": 17,
+    "value": 21,
+    "pos_points_rank": 4,
     "pos_draft_rank": 14,
-    "pos_value": 9
+    "pos_value": 10
    },
    {
     "round": 4,
@@ -12914,17 +13428,17 @@
     "pos": "WR",
     "owner": "MEANY",
     "overall": 39,
-    "points": 74.5,
-    "gp": 4.0,
+    "points": 89.1,
+    "gp": 5.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 41,
-    "value": -2,
-    "pos_points_rank": 15,
+    "points_rank": 36,
+    "value": 3,
+    "pos_points_rank": 12,
     "pos_draft_rank": 15,
-    "pos_value": 0
+    "pos_value": 3
    },
    {
     "round": 4,
@@ -12934,17 +13448,17 @@
     "pos": "QB",
     "owner": "GENTILE",
     "overall": 40,
-    "points": 45.98,
-    "gp": 2.0,
+    "points": 62.48,
+    "gp": 3.0,
     "rostered_by": [
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 75,
-    "value": -35,
-    "pos_points_rank": 18,
+    "points_rank": 60,
+    "value": -20,
+    "pos_points_rank": 17,
     "pos_draft_rank": 9,
-    "pos_value": -9
+    "pos_value": -8
    },
    {
     "round": 5,
@@ -12954,17 +13468,17 @@
     "pos": "QB",
     "owner": "GENTILE",
     "overall": 41,
-    "points": 89.86,
-    "gp": 5.0,
+    "points": 118.2,
+    "gp": 6.0,
     "rostered_by": [
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 25,
-    "value": 16,
-    "pos_points_rank": 9,
+    "points_rank": 11,
+    "value": 30,
+    "pos_points_rank": 3,
     "pos_draft_rank": 10,
-    "pos_value": 1
+    "pos_value": 7
    },
    {
     "round": 5,
@@ -12974,8 +13488,8 @@
     "pos": "QB",
     "owner": "MEANY",
     "overall": 42,
-    "points": 85.58,
-    "gp": 4.0,
+    "points": 97.06,
+    "gp": 5.0,
     "rostered_by": [
      "MEANY"
     ],
@@ -12994,17 +13508,17 @@
     "pos": "RB",
     "owner": "FIG",
     "overall": 43,
-    "points": 96.0,
-    "gp": 5.0,
+    "points": 109.0,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 17,
-    "value": 26,
-    "pos_points_rank": 7,
+    "points_rank": 20,
+    "value": 23,
+    "pos_points_rank": 8,
     "pos_draft_rank": 15,
-    "pos_value": 8
+    "pos_value": 7
    },
    {
     "round": 5,
@@ -13020,8 +13534,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 5,
-    "value": 39,
+    "points_rank": 9,
+    "value": 35,
     "pos_points_rank": 2,
     "pos_draft_rank": 12,
     "pos_value": 10
@@ -13034,17 +13548,17 @@
     "pos": "QB",
     "owner": "RUSSO",
     "overall": 45,
-    "points": 94.98,
-    "gp": 5.0,
+    "points": 111.86,
+    "gp": 6.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 19,
-    "value": 26,
-    "pos_points_rank": 6,
+    "points_rank": 18,
+    "value": 27,
+    "pos_points_rank": 7,
     "pos_draft_rank": 13,
-    "pos_value": 7
+    "pos_value": 6
    },
    {
     "round": 5,
@@ -13054,14 +13568,14 @@
     "pos": "WR",
     "owner": "KARDIAN",
     "overall": 46,
-    "points": 86.4,
-    "gp": 5.0,
+    "points": 94.8,
+    "gp": 6.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 27,
-    "value": 19,
+    "points_rank": 29,
+    "value": 17,
     "pos_points_rank": 7,
     "pos_draft_rank": 16,
     "pos_value": 9
@@ -13080,8 +13594,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 95,
-    "value": -48,
+    "points_rank": 101,
+    "value": -54,
     "pos_points_rank": 23,
     "pos_draft_rank": 14,
     "pos_value": -9
@@ -13094,17 +13608,17 @@
     "pos": "WR",
     "owner": "KEV",
     "overall": 48,
-    "points": 81.8,
-    "gp": 4.0,
+    "points": 94.5,
+    "gp": 5.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
     "points_rank": 31,
     "value": 17,
-    "pos_points_rank": 8,
+    "pos_points_rank": 9,
     "pos_draft_rank": 17,
-    "pos_value": 9
+    "pos_value": 8
    },
    {
     "round": 5,
@@ -13120,8 +13634,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 42,
-    "value": 7,
+    "points_rank": 49,
+    "value": 0,
     "pos_points_rank": 13,
     "pos_draft_rank": 15,
     "pos_value": 2
@@ -13140,11 +13654,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 7,
-    "value": 43,
-    "pos_points_rank": 3,
+    "points_rank": 14,
+    "value": 36,
+    "pos_points_rank": 5,
     "pos_draft_rank": 16,
-    "pos_value": 13
+    "pos_value": 11
    },
    {
     "round": 6,
@@ -13154,17 +13668,17 @@
     "pos": "QB",
     "owner": "FREEMAN",
     "overall": 51,
-    "points": 93.12,
-    "gp": 5.0,
+    "points": 114.36,
+    "gp": 6.0,
     "rostered_by": [
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 21,
-    "value": 30,
-    "pos_points_rank": 8,
+    "points_rank": 15,
+    "value": 36,
+    "pos_points_rank": 6,
     "pos_draft_rank": 17,
-    "pos_value": 9
+    "pos_value": 11
    },
    {
     "round": 6,
@@ -13180,11 +13694,11 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 40,
-    "value": 12,
-    "pos_points_rank": 14,
+    "points_rank": 47,
+    "value": 5,
+    "pos_points_rank": 18,
     "pos_draft_rank": 18,
-    "pos_value": 4
+    "pos_value": 0
    },
    {
     "round": 6,
@@ -13200,11 +13714,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 58,
-    "value": -5,
-    "pos_points_rank": 21,
+    "points_rank": 71,
+    "value": -18,
+    "pos_points_rank": 25,
     "pos_draft_rank": 19,
-    "pos_value": -2
+    "pos_value": -6
    },
    {
     "round": 6,
@@ -13220,11 +13734,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 85,
-    "value": -31,
-    "pos_points_rank": 27,
+    "points_rank": 90,
+    "value": -36,
+    "pos_points_rank": 31,
     "pos_draft_rank": 20,
-    "pos_value": -7
+    "pos_value": -11
    },
    {
     "round": 6,
@@ -13240,8 +13754,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 83,
-    "value": -28,
+    "points_rank": 87,
+    "value": -32,
     "pos_points_rank": 21,
     "pos_draft_rank": 18,
     "pos_value": -3
@@ -13260,11 +13774,11 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 104,
-    "value": -48,
-    "pos_points_rank": 26,
+    "points_rank": 109,
+    "value": -53,
+    "pos_points_rank": 27,
     "pos_draft_rank": 16,
-    "pos_value": -10
+    "pos_value": -11
    },
    {
     "round": 6,
@@ -13280,11 +13794,11 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 65,
-    "value": -8,
-    "pos_points_rank": 18,
+    "points_rank": 76,
+    "value": -19,
+    "pos_points_rank": 19,
     "pos_draft_rank": 17,
-    "pos_value": -1
+    "pos_value": -2
    },
    {
     "round": 6,
@@ -13294,17 +13808,17 @@
     "pos": "WR",
     "owner": "FIG",
     "overall": 58,
-    "points": 53.3,
-    "gp": 5.0,
+    "points": 71.1,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 61,
-    "value": -3,
-    "pos_points_rank": 22,
+    "points_rank": 50,
+    "value": 8,
+    "pos_points_rank": 20,
     "pos_draft_rank": 21,
-    "pos_value": -1
+    "pos_value": 1
    },
    {
     "round": 6,
@@ -13314,17 +13828,17 @@
     "pos": "RB",
     "owner": "MEANY",
     "overall": 59,
-    "points": 78.7,
-    "gp": 5.0,
+    "points": 85.6,
+    "gp": 6.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 36,
-    "value": 23,
-    "pos_points_rank": 13,
+    "points_rank": 39,
+    "value": 20,
+    "pos_points_rank": 14,
     "pos_draft_rank": 18,
-    "pos_value": 5
+    "pos_value": 4
    },
    {
     "round": 6,
@@ -13340,11 +13854,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 112,
-    "value": -52,
-    "pos_points_rank": 12,
+    "points_rank": 118,
+    "value": -58,
+    "pos_points_rank": 14,
     "pos_draft_rank": 3,
-    "pos_value": -9
+    "pos_value": -11
    },
    {
     "round": 7,
@@ -13354,14 +13868,14 @@
     "pos": "WR",
     "owner": "GENTILE",
     "overall": 61,
-    "points": 95.1,
-    "gp": 5.0,
+    "points": 102.0,
+    "gp": 6.0,
     "rostered_by": [
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 18,
-    "value": 43,
+    "points_rank": 26,
+    "value": 35,
     "pos_points_rank": 6,
     "pos_draft_rank": 22,
     "pos_value": 16
@@ -13380,11 +13894,11 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 44,
-    "value": 18,
-    "pos_points_rank": 3,
+    "points_rank": 51,
+    "value": 11,
+    "pos_points_rank": 4,
     "pos_draft_rank": 4,
-    "pos_value": 1
+    "pos_value": 0
    },
    {
     "round": 7,
@@ -13400,11 +13914,11 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 99,
-    "value": -36,
-    "pos_points_rank": 33,
+    "points_rank": 104,
+    "value": -41,
+    "pos_points_rank": 34,
     "pos_draft_rank": 23,
-    "pos_value": -10
+    "pos_value": -11
    },
    {
     "round": 7,
@@ -13420,11 +13934,11 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 82,
-    "value": -18,
-    "pos_points_rank": 26,
+    "points_rank": 86,
+    "value": -22,
+    "pos_points_rank": 28,
     "pos_draft_rank": 24,
-    "pos_value": -2
+    "pos_value": -4
    },
    {
     "round": 7,
@@ -13434,17 +13948,17 @@
     "pos": "WR",
     "owner": "RUSSO",
     "overall": 65,
-    "points": 36.0,
-    "gp": 4.0,
+    "points": 53.5,
+    "gp": 5.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 89,
-    "value": -24,
-    "pos_points_rank": 29,
+    "points_rank": 73,
+    "value": -8,
+    "pos_points_rank": 26,
     "pos_draft_rank": 25,
-    "pos_value": -4
+    "pos_value": -1
    },
    {
     "round": 7,
@@ -13460,11 +13974,11 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 56,
-    "value": 10,
-    "pos_points_rank": 16,
+    "points_rank": 68,
+    "value": -2,
+    "pos_points_rank": 17,
     "pos_draft_rank": 19,
-    "pos_value": 3
+    "pos_value": 2
    },
    {
     "round": 7,
@@ -13474,17 +13988,17 @@
     "pos": "RB",
     "owner": "MARZ",
     "overall": 67,
-    "points": 80.8,
-    "gp": 5.0,
+    "points": 103.8,
+    "gp": 6.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 33,
-    "value": 34,
-    "pos_points_rank": 12,
+    "points_rank": 23,
+    "value": 44,
+    "pos_points_rank": 9,
     "pos_draft_rank": 20,
-    "pos_value": 8
+    "pos_value": 11
    },
    {
     "round": 7,
@@ -13518,8 +14032,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 67,
-    "value": 2,
+    "points_rank": 77,
+    "value": -8,
     "pos_points_rank": 7,
     "pos_draft_rank": 5,
     "pos_value": -2
@@ -13538,11 +14052,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 77,
-    "value": -7,
-    "pos_points_rank": 20,
+    "points_rank": 83,
+    "value": -13,
+    "pos_points_rank": 21,
     "pos_draft_rank": 22,
-    "pos_value": 2
+    "pos_value": 1
    },
    {
     "round": 8,
@@ -13558,11 +14072,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 64,
-    "value": 7,
-    "pos_points_rank": 17,
+    "points_rank": 75,
+    "value": -4,
+    "pos_points_rank": 18,
     "pos_draft_rank": 23,
-    "pos_value": 6
+    "pos_value": 5
    },
    {
     "round": 8,
@@ -13578,8 +14092,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 87,
-    "value": -15,
+    "points_rank": 92,
+    "value": -20,
     "pos_points_rank": 22,
     "pos_draft_rank": 19,
     "pos_value": -3
@@ -13592,17 +14106,17 @@
     "pos": "RB",
     "owner": "KEV",
     "overall": 73,
-    "points": 63.7,
-    "gp": 5.0,
+    "points": 88.4,
+    "gp": 6.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
-    "points_rank": 51,
-    "value": 22,
-    "pos_points_rank": 15,
+    "points_rank": 37,
+    "value": 36,
+    "pos_points_rank": 13,
     "pos_draft_rank": 24,
-    "pos_value": 9
+    "pos_value": 11
    },
    {
     "round": 8,
@@ -13612,17 +14126,17 @@
     "pos": "TE",
     "owner": "MARZ",
     "overall": 74,
-    "points": 19.6,
-    "gp": 3.0,
+    "points": 28.3,
+    "gp": 4.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 107,
-    "value": -33,
-    "pos_points_rank": 10,
+    "points_rank": 99,
+    "value": -25,
+    "pos_points_rank": 11,
     "pos_draft_rank": 6,
-    "pos_value": -4
+    "pos_value": -5
    },
    {
     "round": 8,
@@ -13638,8 +14152,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 119,
-    "value": -44,
+    "points_rank": 124,
+    "value": -49,
     "pos_points_rank": 30,
     "pos_draft_rank": 25,
     "pos_value": -5
@@ -13658,11 +14172,11 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 55,
-    "value": 21,
-    "pos_points_rank": 20,
+    "points_rank": 65,
+    "value": 11,
+    "pos_points_rank": 23,
     "pos_draft_rank": 26,
-    "pos_value": 6
+    "pos_value": 3
    },
    {
     "round": 8,
@@ -13678,11 +14192,11 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 114,
-    "value": -37,
-    "pos_points_rank": 13,
+    "points_rank": 119,
+    "value": -42,
+    "pos_points_rank": 15,
     "pos_draft_rank": 7,
-    "pos_value": -6
+    "pos_value": -8
    },
    {
     "round": 8,
@@ -13698,11 +14212,11 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 126,
-    "value": -48,
-    "pos_points_rank": 31,
+    "points_rank": 131,
+    "value": -53,
+    "pos_points_rank": 32,
     "pos_draft_rank": 26,
-    "pos_value": -5
+    "pos_value": -6
    },
    {
     "round": 8,
@@ -13712,17 +14226,17 @@
     "pos": "WR",
     "owner": "MEANY",
     "overall": 79,
-    "points": 81.5,
-    "gp": 5.0,
+    "points": 91.9,
+    "gp": 6.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 32,
-    "value": 47,
-    "pos_points_rank": 9,
+    "points_rank": 33,
+    "value": 46,
+    "pos_points_rank": 10,
     "pos_draft_rank": 27,
-    "pos_value": 18
+    "pos_value": 17
    },
    {
     "round": 8,
@@ -13732,14 +14246,14 @@
     "pos": "WR",
     "owner": "GENTILE",
     "overall": 80,
-    "points": 109.4,
-    "gp": 5.0,
+    "points": 118.8,
+    "gp": 6.0,
     "rostered_by": [
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 10,
-    "value": 70,
+    "points_rank": 8,
+    "value": 72,
     "pos_points_rank": 3,
     "pos_draft_rank": 28,
     "pos_value": 25
@@ -13758,11 +14272,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 38,
-    "value": 43,
-    "pos_points_rank": 12,
+    "points_rank": 45,
+    "value": 36,
+    "pos_points_rank": 16,
     "pos_draft_rank": 29,
-    "pos_value": 17
+    "pos_value": 13
    },
    {
     "round": 9,
@@ -13778,11 +14292,11 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 131,
-    "value": -49,
-    "pos_points_rank": 41,
+    "points_rank": 137,
+    "value": -55,
+    "pos_points_rank": 43,
     "pos_draft_rank": 30,
-    "pos_value": -11
+    "pos_value": -13
    },
    {
     "round": 9,
@@ -13792,17 +14306,17 @@
     "pos": "DEF",
     "owner": "FIG",
     "overall": 83,
-    "points": 18.0,
-    "gp": 5.0,
+    "points": 20.0,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 110,
-    "value": -27,
-    "pos_points_rank": 4,
+    "points_rank": 113,
+    "value": -30,
+    "pos_points_rank": 5,
     "pos_draft_rank": 1,
-    "pos_value": -3
+    "pos_value": -4
    },
    {
     "round": 9,
@@ -13812,17 +14326,17 @@
     "pos": "RB",
     "owner": "MCFADDEN",
     "overall": 84,
-    "points": 93.0,
-    "gp": 5.0,
+    "points": 102.8,
+    "gp": 6.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 22,
-    "value": 62,
-    "pos_points_rank": 8,
+    "points_rank": 25,
+    "value": 59,
+    "pos_points_rank": 10,
     "pos_draft_rank": 27,
-    "pos_value": 19
+    "pos_value": 17
    },
    {
     "round": 9,
@@ -13832,14 +14346,14 @@
     "pos": "RB",
     "owner": "RUSSO",
     "overall": 85,
-    "points": 26.6,
-    "gp": 2.0,
+    "points": 34.2,
+    "gp": 3.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 96,
-    "value": -11,
+    "points_rank": 95,
+    "value": -10,
     "pos_points_rank": 23,
     "pos_draft_rank": 28,
     "pos_value": 5
@@ -13852,15 +14366,17 @@
     "pos": "WR",
     "owner": "KARDIAN",
     "overall": 86,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -94,
-    "pos_points_rank": 64,
+    "points": 6.9,
+    "gp": 1.0,
+    "rostered_by": [
+     "KARDIAN"
+    ],
+    "kept": true,
+    "points_rank": 133,
+    "value": -47,
+    "pos_points_rank": 42,
     "pos_draft_rank": 31,
-    "pos_value": -33
+    "pos_value": -11
    },
    {
     "round": 9,
@@ -13870,17 +14386,17 @@
     "pos": "WR",
     "owner": "MARZ",
     "overall": 87,
-    "points": 9.4,
-    "gp": 2.0,
+    "points": 28.4,
+    "gp": 3.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 123,
-    "value": -36,
-    "pos_points_rank": 38,
+    "points_rank": 98,
+    "value": -11,
+    "pos_points_rank": 32,
     "pos_draft_rank": 32,
-    "pos_value": -6
+    "pos_value": 0
    },
    {
     "round": 9,
@@ -13896,11 +14412,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 120,
-    "value": -32,
-    "pos_points_rank": 37,
+    "points_rank": 125,
+    "value": -37,
+    "pos_points_rank": 39,
     "pos_draft_rank": 33,
-    "pos_value": -4
+    "pos_value": -6
    },
    {
     "round": 9,
@@ -13916,8 +14432,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 115,
-    "value": -26,
+    "points_rank": 121,
+    "value": -32,
     "pos_points_rank": 29,
     "pos_draft_rank": 29,
     "pos_value": 0
@@ -13930,17 +14446,17 @@
     "pos": "TE",
     "owner": "FREEMAN",
     "overall": 90,
-    "points": 11.7,
-    "gp": 4.0,
+    "points": 34.7,
+    "gp": 5.0,
     "rostered_by": [
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 121,
-    "value": -31,
-    "pos_points_rank": 15,
+    "points_rank": 94,
+    "value": -4,
+    "pos_points_rank": 10,
     "pos_draft_rank": 8,
-    "pos_value": -7
+    "pos_value": -2
    },
    {
     "round": 10,
@@ -13987,16 +14503,16 @@
     "owner": "KEV",
     "overall": 93,
     "points": 25.5,
-    "gp": 5.0,
+    "gp": 6.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
-    "points_rank": 97,
-    "value": -4,
-    "pos_points_rank": 32,
+    "points_rank": 102,
+    "value": -9,
+    "pos_points_rank": 33,
     "pos_draft_rank": 36,
-    "pos_value": 4
+    "pos_value": 3
    },
    {
     "round": 10,
@@ -14006,15 +14522,17 @@
     "pos": "RB",
     "owner": "MARZ",
     "overall": 94,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
+    "points": 1.0,
+    "gp": 1.0,
+    "rostered_by": [
+     "FIG"
+    ],
     "kept": false,
-    "points_rank": 180,
-    "value": -86,
-    "pos_points_rank": 50,
+    "points_rank": 140,
+    "value": -46,
+    "pos_points_rank": 35,
     "pos_draft_rank": 30,
-    "pos_value": -20
+    "pos_value": -5
    },
    {
     "round": 10,
@@ -14042,14 +14560,14 @@
     "pos": "WR",
     "owner": "RUSSO",
     "overall": 96,
-    "points": 49.68,
-    "gp": 3.0,
+    "points": 56.88,
+    "gp": 4.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 66,
-    "value": 30,
+    "points_rank": 67,
+    "value": 29,
     "pos_points_rank": 24,
     "pos_draft_rank": 37,
     "pos_value": 13
@@ -14068,11 +14586,11 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 45,
-    "value": 52,
-    "pos_points_rank": 4,
+    "points_rank": 54,
+    "value": 43,
+    "pos_points_rank": 5,
     "pos_draft_rank": 9,
-    "pos_value": 5
+    "pos_value": 4
    },
    {
     "round": 10,
@@ -14088,8 +14606,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 130,
-    "value": -32,
+    "points_rank": 136,
+    "value": -38,
     "pos_points_rank": 16,
     "pos_draft_rank": 10,
     "pos_value": -6
@@ -14120,15 +14638,17 @@
     "pos": "RB",
     "owner": "GENTILE",
     "overall": 100,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -80,
-    "pos_points_rank": 50,
+    "points": 3.6,
+    "gp": 1.0,
+    "rostered_by": [
+     "GENTILE"
+    ],
+    "kept": true,
+    "points_rank": 138,
+    "value": -38,
+    "pos_points_rank": 34,
     "pos_draft_rank": 33,
-    "pos_value": -17
+    "pos_value": -1
    },
    {
     "round": 11,
@@ -14162,8 +14682,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 100,
-    "value": 2,
+    "points_rank": 105,
+    "value": -3,
     "pos_points_rank": 24,
     "pos_draft_rank": 20,
     "pos_value": -4
@@ -14182,8 +14702,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 103,
-    "value": 0,
+    "points_rank": 108,
+    "value": -5,
     "pos_points_rank": 25,
     "pos_draft_rank": 21,
     "pos_value": -4
@@ -14214,17 +14734,17 @@
     "pos": "WR",
     "owner": "RUSSO",
     "overall": 105,
-    "points": 32.1,
-    "gp": 4.0,
+    "points": 52.4,
+    "gp": 5.0,
     "rostered_by": [
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 92,
-    "value": 13,
-    "pos_points_rank": 30,
+    "points_rank": 74,
+    "value": 31,
+    "pos_points_rank": 27,
     "pos_draft_rank": 40,
-    "pos_value": 10
+    "pos_value": 13
    },
    {
     "round": 11,
@@ -14234,15 +14754,17 @@
     "pos": "TE",
     "owner": "KARDIAN",
     "overall": 106,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
+    "points": 3.3,
+    "gp": 1.0,
+    "rostered_by": [
+     "MEANY"
+    ],
     "kept": false,
-    "points_rank": 180,
-    "value": -74,
-    "pos_points_rank": 18,
+    "points_rank": 139,
+    "value": -33,
+    "pos_points_rank": 17,
     "pos_draft_rank": 11,
-    "pos_value": -7
+    "pos_value": -6
    },
    {
     "round": 11,
@@ -14252,17 +14774,17 @@
     "pos": "QB",
     "owner": "MARZ",
     "overall": 107,
-    "points": 42.58,
-    "gp": 3.0,
+    "points": 69.54,
+    "gp": 4.0,
     "rostered_by": [
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 80,
-    "value": 27,
-    "pos_points_rank": 20,
+    "points_rank": 52,
+    "value": 55,
+    "pos_points_rank": 14,
     "pos_draft_rank": 22,
-    "pos_value": 2
+    "pos_value": 8
    },
    {
     "round": 11,
@@ -14278,11 +14800,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 57,
-    "value": 51,
-    "pos_points_rank": 15,
+    "points_rank": 69,
+    "value": 39,
+    "pos_points_rank": 19,
     "pos_draft_rank": 23,
-    "pos_value": 8
+    "pos_value": 4
    },
    {
     "round": 11,
@@ -14292,17 +14814,17 @@
     "pos": "TE",
     "owner": "DREXELLO",
     "overall": 109,
-    "points": 34.9,
-    "gp": 3.0,
+    "points": 47.0,
+    "gp": 4.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 91,
-    "value": 18,
-    "pos_points_rank": 9,
+    "points_rank": 79,
+    "value": 30,
+    "pos_points_rank": 8,
     "pos_draft_rank": 12,
-    "pos_value": 3
+    "pos_value": 4
    },
    {
     "round": 11,
@@ -14312,15 +14834,17 @@
     "pos": "WR",
     "owner": "FREEMAN",
     "overall": 110,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -70,
-    "pos_points_rank": 64,
+    "points": 13.4,
+    "gp": 1.0,
+    "rostered_by": [
+     "FREEMAN"
+    ],
+    "kept": true,
+    "points_rank": 123,
+    "value": -13,
+    "pos_points_rank": 38,
     "pos_draft_rank": 41,
-    "pos_value": -23
+    "pos_value": 3
    },
    {
     "round": 12,
@@ -14336,11 +14860,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 108,
-    "value": 3,
-    "pos_points_rank": 27,
+    "points_rank": 116,
+    "value": -5,
+    "pos_points_rank": 28,
     "pos_draft_rank": 34,
-    "pos_value": 7
+    "pos_value": 6
    },
    {
     "round": 12,
@@ -14350,17 +14874,17 @@
     "pos": "RB",
     "owner": "DREXELLO",
     "overall": 112,
-    "points": 40.9,
-    "gp": 2.0,
+    "points": 60.0,
+    "gp": 3.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 84,
-    "value": 28,
-    "pos_points_rank": 22,
+    "points_rank": 62,
+    "value": 50,
+    "pos_points_rank": 16,
     "pos_draft_rank": 35,
-    "pos_value": 13
+    "pos_value": 19
    },
    {
     "round": 12,
@@ -14370,14 +14894,14 @@
     "pos": "TE",
     "owner": "KEV",
     "overall": 113,
-    "points": 52.6,
-    "gp": 4.0,
+    "points": 61.9,
+    "gp": 5.0,
     "rostered_by": [
      "KEV"
     ],
     "kept": true,
-    "points_rank": 63,
-    "value": 50,
+    "points_rank": 61,
+    "value": 52,
     "pos_points_rank": 6,
     "pos_draft_rank": 13,
     "pos_value": 7
@@ -14408,15 +14932,17 @@
     "pos": "QB",
     "owner": "KARDIAN",
     "overall": 115,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -65,
-    "pos_points_rank": 29,
+    "points": 15.76,
+    "gp": 1.0,
+    "rostered_by": [
+     "KARDIAN"
+    ],
+    "kept": true,
+    "points_rank": 120,
+    "value": -5,
+    "pos_points_rank": 27,
     "pos_draft_rank": 24,
-    "pos_value": -5
+    "pos_value": -3
    },
    {
     "round": 12,
@@ -14480,14 +15006,14 @@
     "pos": "K",
     "owner": "MEANY",
     "overall": 119,
-    "points": 46.0,
-    "gp": 5.0,
+    "points": 47.0,
+    "gp": 6.0,
     "rostered_by": [
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 74,
-    "value": 45,
+    "points_rank": 79,
+    "value": 40,
     "pos_points_rank": 5,
     "pos_draft_rank": 1,
     "pos_value": -4
@@ -14506,11 +15032,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 122,
-    "value": -2,
-    "pos_points_rank": 26,
+    "points_rank": 128,
+    "value": -8,
+    "pos_points_rank": 28,
     "pos_draft_rank": 25,
-    "pos_value": -1
+    "pos_value": -3
    },
    {
     "round": 13,
@@ -14556,17 +15082,17 @@
     "pos": "TE",
     "owner": "FIG",
     "overall": 123,
-    "points": 68.5,
-    "gp": 3.0,
+    "points": 92.4,
+    "gp": 4.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 46,
-    "value": 77,
-    "pos_points_rank": 5,
+    "points_rank": 32,
+    "value": 91,
+    "pos_points_rank": 2,
     "pos_draft_rank": 14,
-    "pos_value": 9
+    "pos_value": 12
    },
    {
     "round": 13,
@@ -14576,14 +15102,14 @@
     "pos": "DEF",
     "owner": "MCFADDEN",
     "overall": 124,
-    "points": 32.0,
-    "gp": 5.0,
+    "points": 34.0,
+    "gp": 6.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 93,
-    "value": 31,
+    "points_rank": 96,
+    "value": 28,
     "pos_points_rank": 3,
     "pos_draft_rank": 3,
     "pos_value": 0
@@ -14602,8 +15128,8 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 85,
-    "value": 40,
+    "points_rank": 90,
+    "value": 35,
     "pos_points_rank": 2,
     "pos_draft_rank": 4,
     "pos_value": 2
@@ -14658,8 +15184,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 127,
-    "value": 1,
+    "points_rank": 132,
+    "value": -4,
     "pos_points_rank": 8,
     "pos_draft_rank": 5,
     "pos_value": -3
@@ -14672,17 +15198,17 @@
     "pos": "WR",
     "owner": "DREXELLO",
     "overall": 129,
-    "points": 30.7,
-    "gp": 4.0,
+    "points": 39.4,
+    "gp": 5.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 94,
-    "value": 35,
-    "pos_points_rank": 31,
+    "points_rank": 88,
+    "value": 41,
+    "pos_points_rank": 29,
     "pos_draft_rank": 45,
-    "pos_value": 14
+    "pos_value": 16
    },
    {
     "round": 13,
@@ -14698,11 +15224,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": 6,
-    "pos_points_rank": 39,
+    "points_rank": 130,
+    "value": 0,
+    "pos_points_rank": 41,
     "pos_draft_rank": 46,
-    "pos_value": 7
+    "pos_value": 5
    },
    {
     "round": 14,
@@ -14712,15 +15238,17 @@
     "pos": "QB",
     "owner": "FREEMAN",
     "overall": 131,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -49,
-    "pos_points_rank": 29,
+    "points": 19.84,
+    "gp": 1.0,
+    "rostered_by": [
+     "FREEMAN"
+    ],
+    "kept": true,
+    "points_rank": 114,
+    "value": 17,
+    "pos_points_rank": 26,
     "pos_draft_rank": 26,
-    "pos_value": -3
+    "pos_value": 0
    },
    {
     "round": 14,
@@ -14736,11 +15264,11 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 106,
-    "value": 26,
-    "pos_points_rank": 36,
+    "points_rank": 111,
+    "value": 21,
+    "pos_points_rank": 37,
     "pos_draft_rank": 47,
-    "pos_value": 11
+    "pos_value": 10
    },
    {
     "round": 14,
@@ -14756,11 +15284,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 132,
-    "value": 1,
-    "pos_points_rank": 32,
+    "points_rank": 141,
+    "value": -8,
+    "pos_points_rank": 36,
     "pos_draft_rank": 40,
-    "pos_value": 8
+    "pos_value": 4
    },
    {
     "round": 14,
@@ -14776,11 +15304,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 111,
-    "value": 23,
-    "pos_points_rank": 11,
+    "points_rank": 117,
+    "value": 17,
+    "pos_points_rank": 13,
     "pos_draft_rank": 15,
-    "pos_value": 4
+    "pos_value": 2
    },
    {
     "round": 14,
@@ -14790,17 +15318,17 @@
     "pos": "WR",
     "owner": "KARDIAN",
     "overall": 135,
-    "points": 53.0,
-    "gp": 3.0,
+    "points": 75.4,
+    "gp": 4.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 62,
-    "value": 73,
-    "pos_points_rank": 23,
+    "points_rank": 46,
+    "value": 89,
+    "pos_points_rank": 17,
     "pos_draft_rank": 48,
-    "pos_value": 25
+    "pos_value": 31
    },
    {
     "round": 14,
@@ -14846,17 +15374,17 @@
     "pos": "QB",
     "owner": "FIG",
     "overall": 138,
-    "points": 47.22,
-    "gp": 3.0,
+    "points": 55.14,
+    "gp": 4.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 72,
-    "value": 66,
-    "pos_points_rank": 17,
+    "points_rank": 70,
+    "value": 68,
+    "pos_points_rank": 20,
     "pos_draft_rank": 27,
-    "pos_value": 10
+    "pos_value": 7
    },
    {
     "round": 14,
@@ -14998,11 +15526,11 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 79,
-    "value": 67,
-    "pos_points_rank": 8,
+    "points_rank": 84,
+    "value": 62,
+    "pos_points_rank": 9,
     "pos_draft_rank": 17,
-    "pos_value": 9
+    "pos_value": 8
    },
    {
     "round": 15,
@@ -15036,11 +15564,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 54,
-    "value": 94,
-    "pos_points_rank": 1,
+    "points_rank": 62,
+    "value": 86,
+    "pos_points_rank": 2,
     "pos_draft_rank": 2,
-    "pos_value": 1
+    "pos_value": 0
    },
    {
     "round": 15,
@@ -15068,17 +15596,17 @@
     "pos": "TE",
     "owner": "FREEMAN",
     "overall": 150,
-    "points": 13.4,
-    "gp": 1.0,
+    "points": 28.2,
+    "gp": 2.0,
     "rostered_by": [
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 118,
-    "value": 32,
-    "pos_points_rank": 14,
+    "points_rank": 100,
+    "value": 50,
+    "pos_points_rank": 12,
     "pos_draft_rank": 18,
-    "pos_value": 4
+    "pos_value": 6
    },
    {
     "round": 16,
@@ -15094,11 +15622,11 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 104,
-    "value": 47,
-    "pos_points_rank": 35,
+    "points_rank": 109,
+    "value": 42,
+    "pos_points_rank": 36,
     "pos_draft_rank": 55,
-    "pos_value": 20
+    "pos_value": 19
    },
    {
     "round": 16,
@@ -15108,17 +15636,17 @@
     "pos": "DEF",
     "owner": "DREXELLO",
     "overall": 152,
-    "points": 16.0,
-    "gp": 2.0,
+    "points": 21.0,
+    "gp": 3.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 113,
-    "value": 39,
-    "pos_points_rank": 5,
+    "points_rank": 112,
+    "value": 40,
+    "pos_points_rank": 4,
     "pos_draft_rank": 6,
-    "pos_value": 1
+    "pos_value": 2
    },
    {
     "round": 16,
@@ -15146,14 +15674,15 @@
     "pos": "DEF",
     "owner": "MARZ",
     "overall": 154,
-    "points": 9.0,
-    "gp": 1.0,
+    "points": 12.0,
+    "gp": 2.0,
     "rostered_by": [
+     "KARDIAN",
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 125,
-    "value": 29,
+    "points_rank": 126,
+    "value": 28,
     "pos_points_rank": 7,
     "pos_draft_rank": 7,
     "pos_value": 0
@@ -15172,8 +15701,8 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 128,
-    "value": 27,
+    "points_rank": 134,
+    "value": 21,
     "pos_points_rank": 9,
     "pos_draft_rank": 8,
     "pos_value": -1
@@ -15210,8 +15739,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 116,
-    "value": 41,
+    "points_rank": 122,
+    "value": 35,
     "pos_points_rank": 8,
     "pos_draft_rank": 3,
     "pos_value": -5
@@ -15224,17 +15753,17 @@
     "pos": "K",
     "owner": "FIG",
     "overall": 158,
-    "points": 54.0,
-    "gp": 5.0,
+    "points": 65.0,
+    "gp": 6.0,
     "rostered_by": [
      "FIG"
     ],
     "kept": true,
-    "points_rank": 59,
-    "value": 99,
-    "pos_points_rank": 2,
+    "points_rank": 55,
+    "value": 103,
+    "pos_points_rank": 1,
     "pos_draft_rank": 4,
-    "pos_value": 2
+    "pos_value": 3
    },
    {
     "round": 16,
@@ -15244,15 +15773,17 @@
     "pos": "RB",
     "owner": "MEANY",
     "overall": 159,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
+    "points": 5.8,
+    "gp": 1.0,
+    "rostered_by": [
+     "GENTILE"
+    ],
     "kept": false,
-    "points_rank": 180,
-    "value": -21,
-    "pos_points_rank": 50,
+    "points_rank": 135,
+    "value": 24,
+    "pos_points_rank": 33,
     "pos_draft_rank": 45,
-    "pos_value": -5
+    "pos_value": 12
    },
    {
     "round": 16,
@@ -15370,17 +15901,17 @@
     "pos": "K",
     "owner": "KARDIAN",
     "overall": 166,
-    "points": 48.0,
-    "gp": 5.0,
+    "points": 57.0,
+    "gp": 6.0,
     "rostered_by": [
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 71,
-    "value": 95,
-    "pos_points_rank": 4,
+    "points_rank": 66,
+    "value": 100,
+    "pos_points_rank": 3,
     "pos_draft_rank": 5,
-    "pos_value": 1
+    "pos_value": 2
    },
    {
     "round": 17,
@@ -15396,11 +15927,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 101,
-    "value": 66,
-    "pos_points_rank": 34,
+    "points_rank": 106,
+    "value": 61,
+    "pos_points_rank": 35,
     "pos_draft_rank": 61,
-    "pos_value": 27
+    "pos_value": 26
    },
    {
     "round": 17,
@@ -15428,14 +15959,14 @@
     "pos": "K",
     "owner": "DREXELLO",
     "overall": 169,
-    "points": 45.0,
-    "gp": 5.0,
+    "points": 46.0,
+    "gp": 6.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 78,
-    "value": 91,
+    "points_rank": 82,
+    "value": 87,
     "pos_points_rank": 6,
     "pos_draft_rank": 6,
     "pos_value": 0
@@ -15448,15 +15979,15 @@
     "pos": "DEF",
     "owner": "FREEMAN",
     "overall": 170,
-    "points": 14.0,
-    "gp": 2.0,
+    "points": 19.0,
+    "gp": 3.0,
     "rostered_by": [
      "FREEMAN",
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 116,
-    "value": 54,
+    "points_rank": 115,
+    "value": 55,
     "pos_points_rank": 6,
     "pos_draft_rank": 10,
     "pos_value": 4
@@ -15475,8 +16006,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 89,
-    "value": 82,
+    "points_rank": 93,
+    "value": 78,
     "pos_points_rank": 7,
     "pos_draft_rank": 7,
     "pos_value": 0
@@ -15489,17 +16020,17 @@
     "pos": "QB",
     "owner": "DREXELLO",
     "overall": 172,
-    "points": 45.96,
-    "gp": 2.0,
+    "points": 62.98,
+    "gp": 3.0,
     "rostered_by": [
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 76,
-    "value": 96,
-    "pos_points_rank": 19,
+    "points_rank": 59,
+    "value": 113,
+    "pos_points_rank": 16,
     "pos_draft_rank": 29,
-    "pos_value": 10
+    "pos_value": 13
    },
    {
     "round": 18,
@@ -15533,11 +16064,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 59,
-    "value": 115,
-    "pos_points_rank": 2,
+    "points_rank": 72,
+    "value": 102,
+    "pos_points_rank": 4,
     "pos_draft_rank": 8,
-    "pos_value": 6
+    "pos_value": 4
    },
    {
     "round": 18,
@@ -15565,15 +16096,17 @@
     "pos": "RB",
     "owner": "RUSSO",
     "overall": 176,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
+    "points": 10.1,
+    "gp": 1.0,
+    "rostered_by": [
+     "FIG"
+    ],
     "kept": false,
-    "points_rank": 180,
-    "value": -4,
-    "pos_points_rank": 50,
+    "points_rank": 129,
+    "value": 47,
+    "pos_points_rank": 31,
     "pos_draft_rank": 48,
-    "pos_value": -2
+    "pos_value": 17
    },
    {
     "round": 18,
@@ -15583,17 +16116,17 @@
     "pos": "RB",
     "owner": "MCFADDEN",
     "overall": 177,
-    "points": 18.6,
-    "gp": 1.0,
+    "points": 31.0,
+    "gp": 2.0,
     "rostered_by": [
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 109,
-    "value": 68,
-    "pos_points_rank": 28,
+    "points_rank": 97,
+    "value": 80,
+    "pos_points_rank": 24,
     "pos_draft_rank": 49,
-    "pos_value": 21
+    "pos_value": 25
    },
    {
     "round": 18,
@@ -15627,8 +16160,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 73,
-    "value": 106,
+    "points_rank": 79,
+    "value": 100,
     "pos_points_rank": 1,
     "pos_draft_rank": 11,
     "pos_value": 10
@@ -15656,112 +16189,112 @@
    {
     "team": "RUSSO",
     "picks": 18,
-    "draft_points": 773.76,
-    "points_from_own_picks": 773.76,
-    "points_from_adds": 56.6,
-    "hits": 8,
-    "misses": 10,
+    "draft_points": 880.4,
+    "points_from_own_picks": 870.3,
+    "points_from_adds": 60.6,
+    "hits": 9,
+    "misses": 9,
     "still_rostered": 12,
-    "avg_value": -8.8
-   },
-   {
-    "team": "GENTILE",
-    "picks": 18,
-    "draft_points": 773.64,
-    "points_from_own_picks": 773.64,
-    "points_from_adds": 112.34,
-    "hits": 5,
-    "misses": 12,
-    "still_rostered": 10,
-    "avg_value": -15.1
+    "avg_value": -5.2
    },
    {
     "team": "FREEMAN",
     "picks": 18,
-    "draft_points": 754.12,
-    "points_from_own_picks": 754.12,
-    "points_from_adds": 22.0,
-    "hits": 10,
-    "misses": 8,
-    "still_rostered": 15,
-    "avg_value": -0.7
+    "draft_points": 878.3,
+    "points_from_own_picks": 878.3,
+    "points_from_adds": 31.0,
+    "hits": 8,
+    "misses": 9,
+    "still_rostered": 17,
+    "avg_value": 6.0
    },
    {
-    "team": "MEANY",
+    "team": "GENTILE",
     "picks": 18,
-    "draft_points": 751.32,
-    "points_from_own_picks": 751.32,
-    "points_from_adds": 48.2,
-    "hits": 7,
-    "misses": 11,
-    "still_rostered": 12,
-    "avg_value": -7.3
+    "draft_points": 866.28,
+    "points_from_own_picks": 866.28,
+    "points_from_adds": 147.54,
+    "hits": 5,
+    "misses": 12,
+    "still_rostered": 11,
+    "avg_value": -12.6
    },
    {
     "team": "KARDIAN",
     "picks": 18,
-    "draft_points": 744.14,
-    "points_from_own_picks": 738.14,
-    "points_from_adds": 37.32,
-    "hits": 8,
-    "misses": 10,
-    "still_rostered": 11,
-    "avg_value": -10.0
-   },
-   {
-    "team": "KEV",
-    "picks": 18,
-    "draft_points": 727.64,
-    "points_from_own_picks": 727.64,
-    "points_from_adds": 26.8,
-    "hits": 7,
-    "misses": 11,
-    "still_rostered": 14,
-    "avg_value": -1.3
-   },
-   {
-    "team": "FIG",
-    "picks": 18,
-    "draft_points": 722.0,
-    "points_from_own_picks": 722.0,
-    "points_from_adds": 0.0,
-    "hits": 6,
-    "misses": 11,
-    "still_rostered": 14,
-    "avg_value": -2.6
-   },
-   {
-    "team": "MCFADDEN",
-    "picks": 18,
-    "draft_points": 719.16,
-    "points_from_own_picks": 719.16,
-    "points_from_adds": 55.4,
+    "draft_points": 850.1,
+    "points_from_own_picks": 840.8,
+    "points_from_adds": 57.42,
     "hits": 7,
     "misses": 11,
     "still_rostered": 13,
-    "avg_value": -6.8
+    "avg_value": -2.4
    },
    {
     "team": "DREXELLO",
     "picks": 18,
-    "draft_points": 712.32,
-    "points_from_own_picks": 712.32,
+    "draft_points": 848.54,
+    "points_from_own_picks": 848.54,
     "points_from_adds": 15.0,
-    "hits": 10,
+    "hits": 8,
     "misses": 8,
     "still_rostered": 16,
-    "avg_value": 1.7
+    "avg_value": 4.7
+   },
+   {
+    "team": "FIG",
+    "picks": 18,
+    "draft_points": 824.94,
+    "points_from_own_picks": 824.94,
+    "points_from_adds": 37.8,
+    "hits": 7,
+    "misses": 11,
+    "still_rostered": 14,
+    "avg_value": -3.7
+   },
+   {
+    "team": "MEANY",
+    "picks": 18,
+    "draft_points": 811.5,
+    "points_from_own_picks": 805.7,
+    "points_from_adds": 56.0,
+    "hits": 8,
+    "misses": 10,
+    "still_rostered": 12,
+    "avg_value": -7.1
+   },
+   {
+    "team": "KEV",
+    "picks": 18,
+    "draft_points": 806.44,
+    "points_from_own_picks": 806.44,
+    "points_from_adds": 57.32,
+    "hits": 5,
+    "misses": 13,
+    "still_rostered": 14,
+    "avg_value": -4.1
+   },
+   {
+    "team": "MCFADDEN",
+    "picks": 18,
+    "draft_points": 794.46,
+    "points_from_own_picks": 794.46,
+    "points_from_adds": 80.1,
+    "hits": 7,
+    "misses": 11,
+    "still_rostered": 13,
+    "avg_value": -8.1
    },
    {
     "team": "MARZ",
     "picks": 18,
-    "draft_points": 607.12,
-    "points_from_own_picks": 607.12,
-    "points_from_adds": 58.4,
-    "hits": 8,
-    "misses": 10,
+    "draft_points": 710.28,
+    "points_from_own_picks": 709.28,
+    "points_from_adds": 88.08,
+    "hits": 7,
+    "misses": 11,
     "still_rostered": 14,
-    "avg_value": -11.3
+    "avg_value": -8.1
    }
   ],
   "pos_counts": {
