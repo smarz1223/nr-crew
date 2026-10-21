@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-21 13:48 UTC",
+ "updated": "2026-10-21 16:01 UTC",
  "weeks_entered": 6,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5423,7 +5423,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Steelers",
+   "player": "Pittsburgh",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 2,
@@ -6619,7 +6619,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Bills",
+   "player": "Buffalo",
    "nfl": "BUF",
    "pos": "DEF",
    "gp": 1,
@@ -6688,7 +6688,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Bengals",
+   "player": "Cincinnati",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -6829,7 +6829,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Jaguars",
+   "player": "Jacksonville",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 2,
@@ -14707,8 +14707,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 140,
-    "value": -46,
+    "points_rank": 139,
+    "value": -45,
     "pos_points_rank": 36,
     "pos_draft_rank": 30,
     "pos_value": -6
@@ -15461,8 +15461,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 141,
-    "value": -8,
+    "points_rank": 140,
+    "value": -7,
     "pos_points_rank": 37,
     "pos_draft_rank": 40,
     "pos_value": 3
@@ -15853,17 +15853,15 @@
     "pos": "DEF",
     "owner": "MARZ",
     "overall": 154,
-    "points": 3.0,
-    "gp": 2.0,
-    "rostered_by": [
-     "KARDIAN"
-    ],
+    "points": 0.0,
+    "gp": 0,
+    "rostered_by": [],
     "kept": false,
-    "points_rank": 139,
-    "value": 15,
-    "pos_points_rank": 8,
+    "points_rank": 180,
+    "value": -26,
+    "pos_points_rank": 11,
     "pos_draft_rank": 7,
-    "pos_value": -1
+    "pos_value": -4
    },
    {
     "round": 16,
@@ -16439,7 +16437,7 @@
     "hits": 5,
     "misses": 13,
     "still_rostered": 14,
-    "avg_value": -3.6
+    "avg_value": -3.5
    },
    {
     "team": "FIG",
@@ -16466,13 +16464,13 @@
    {
     "team": "MARZ",
     "picks": 18,
-    "draft_points": 731.98,
+    "draft_points": 728.98,
     "points_from_own_picks": 727.98,
     "points_from_adds": 100.08,
-    "hits": 7,
-    "misses": 11,
+    "hits": 6,
+    "misses": 12,
     "still_rostered": 13,
-    "avg_value": -7.2
+    "avg_value": -9.4
    }
   ],
   "pos_counts": {
