@@ -1,18 +1,18 @@
-# NR Crew Reconciliation: LIVE
-Updated 2026-10-26 17:30 UTC | Weeks entered: 6
+# NR Crew Reconciliation: PASS
+Updated 2026-10-27 13:28 UTC | Weeks entered: 7
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
-| MARZ | 825.06 | 993.26 | -168 | 7 | PENDING |
-| FREEMAN | 924.30 | 1005.98 | -82 | 7 | PENDING |
-| DREXELLO | 898.24 | 995.10 | -97 | 7 | PENDING |
-| FIG | 871.74 | 954.62 | -83 | 7 | PENDING |
-| KEV | 890.76 | 1035.68 | -145 | 7 | PENDING |
-| KARDIAN | 904.22 | 1037.60 | -133 | 7 | PENDING |
-| MCFADDEN | 920.52 | 1043.88 | -123 | 7 | PENDING |
-| MEANY | 882.70 | 956.28 | -74 | 7 | PENDING |
-| GENTILE | 1047.22 | 1163.36 | -116 | 7 | PENDING |
-| RUSSO | 942.90 | 1136.82 | -194 | 7 | PENDING |
+| MARZ | 990.26 | 993.26 | -3 | 7 | PASS |
+| FREEMAN | 1039.38 | 1030.38 | 9 | 7 | PASS |
+| DREXELLO | 1044.00 | 1020.00 | 24 | 7 | PASS |
+| FIG | 1008.40 | 999.40 | 9 | 7 | PASS |
+| KEV | 1041.68 | 1035.68 | 6 | 7 | PASS |
+| KARDIAN | 1042.60 | 1037.60 | 5 | 7 | PASS |
+| MCFADDEN | 1066.58 | 1059.58 | 7 | 7 | PASS |
+| MEANY | 996.28 | 970.28 | 26 | 7 | PASS |
+| GENTILE | 1186.36 | 1163.36 | 23 | 7 | PASS |
+| RUSSO | 1158.82 | 1136.82 | 22 | 7 | PASS |
 
 ## Flags
-- Game log shows 7 games but Weekly Scores has 6 weeks. Week in progress; reconciliation will settle once scores are entered.
+- None
