@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-27 16:46 UTC",
+ "updated": "2026-10-28 17:14 UTC",
  "weeks_entered": 7,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -20,7 +20,7 @@
   "GENTILE",
   "RUSSO"
  ],
- "recon_status": "PASS",
+ "recon_status": "FAIL",
  "recon": [
   {
    "team": "MARZ",
@@ -41,10 +41,10 @@
   {
    "team": "DREXELLO",
    "weekly_total": 1044.0,
-   "calculated": 1020.0,
+   "calculated": 1019.9,
    "dst_pts_allowed": 24,
    "dst_games": 7,
-   "check": "PASS"
+   "check": "FAIL"
   },
   {
    "team": "FIG",
@@ -103,7 +103,9 @@
    "check": "PASS"
   }
  ],
- "flags": [],
+ "flags": [
+  "DREXELLO: residual 24.10 is not a valid DST points-allowed total for 7 DST games"
+ ],
  "standings": [
   {
    "team": "GENTILE",
@@ -1376,14 +1378,14 @@
    },
    "DREXELLO": {
     "raw": {
-     "Rush Yds": 1517.0,
+     "Rush Yds": 1516.0,
      "Rush TD": 14.0
     },
     "pts": {
-     "Rush Yds": 151.7,
+     "Rush Yds": 151.6,
      "Rush TD": 84.0
     },
-    "total": 235.7
+    "total": 235.6
    },
    "FIG": {
     "raw": {
@@ -2220,7 +2222,7 @@
    "DEF": 40.0
   },
   "DREXELLO": {
-   "QB": 212.1,
+   "QB": 212.0,
    "RB": 252.8,
    "WR": 348.9,
    "TE": 109.2,
@@ -3324,13 +3326,13 @@
    "nfl": "DEN",
    "pos": "QB",
    "gp": 7,
-   "points": 98.94,
+   "points": 98.84,
    "stats": {
     "2-Pt Conv": 2.0,
     "Pass Yds": 1271.0,
     "Pass TD": 7.0,
     "Pass INT": 3.0,
-    "Rush Yds": 111.0,
+    "Rush Yds": 110.0,
     "Rush TD": 2.0,
     "Receptions": 0.0,
     "Rec Yds": 0.0,
@@ -3342,7 +3344,7 @@
     "Pass Yds": 50.84,
     "Pass TD": 28.0,
     "Pass INT": -3.0,
-    "Rush Yds": 11.1,
+    "Rush Yds": 11.0,
     "Rush TD": 12.0,
     "2-Pt Conv": 4.0,
     "Fumbles Lost": -4.0
@@ -5180,7 +5182,7 @@
   },
   {
    "owner": "MCFADDEN",
-   "player": "Houston",
+   "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 7,
@@ -5567,7 +5569,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Los Angeles",
+   "player": "Rams",
    "nfl": "LAR",
    "pos": "DEF",
    "gp": 7,
@@ -5695,7 +5697,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "New England",
+   "player": "Patriots",
    "nfl": "NE",
    "pos": "DEF",
    "gp": 3,
@@ -6684,7 +6686,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "Detroit",
+   "player": "Lions",
    "nfl": "DET",
    "pos": "DEF",
    "gp": 1,
@@ -6705,7 +6707,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "Green Bay",
+   "player": "Packers",
    "nfl": "GB",
    "pos": "DEF",
    "gp": 1,
@@ -7111,7 +7113,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 1,
@@ -7423,7 +7425,7 @@
   },
   {
    "owner": "DREXELLO",
-   "player": "Dallas",
+   "player": "Cowboys",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 1,
@@ -13630,8 +13632,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 105,
-    "value": -88,
+    "points_rank": 106,
+    "value": -89,
     "pos_points_rank": 26,
     "pos_draft_rank": 8,
     "pos_value": -18
@@ -13830,8 +13832,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 116,
-    "value": -89,
+    "points_rank": 119,
+    "value": -92,
     "pos_points_rank": 38,
     "pos_draft_rank": 8,
     "pos_value": -30
@@ -14230,8 +14232,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 103,
-    "value": -56,
+    "points_rank": 104,
+    "value": -57,
     "pos_points_rank": 24,
     "pos_draft_rank": 14,
     "pos_value": -10
@@ -14264,7 +14266,7 @@
     "pos": "QB",
     "owner": "DREXELLO",
     "overall": 49,
-    "points": 98.94,
+    "points": 98.84,
     "gp": 7.0,
     "rostered_by": [
      "DREXELLO"
@@ -14410,8 +14412,8 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 110,
-    "value": -54,
+    "points_rank": 112,
+    "value": -56,
     "pos_points_rank": 28,
     "pos_draft_rank": 16,
     "pos_value": -12
@@ -14490,8 +14492,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 100,
-    "value": -40,
+    "points_rank": 101,
+    "value": -41,
     "pos_points_rank": 12,
     "pos_draft_rank": 3,
     "pos_value": -9
@@ -14550,8 +14552,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 106,
-    "value": -43,
+    "points_rank": 107,
+    "value": -44,
     "pos_points_rank": 34,
     "pos_draft_rank": 23,
     "pos_value": -11
@@ -14650,8 +14652,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 113,
-    "value": -45,
+    "points_rank": 116,
+    "value": -48,
     "pos_points_rank": 29,
     "pos_draft_rank": 21,
     "pos_value": -8
@@ -14790,8 +14792,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 126,
-    "value": -51,
+    "points_rank": 129,
+    "value": -54,
     "pos_points_rank": 33,
     "pos_draft_rank": 25,
     "pos_value": -8
@@ -14830,8 +14832,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 119,
-    "value": -42,
+    "points_rank": 122,
+    "value": -45,
     "pos_points_rank": 15,
     "pos_draft_rank": 7,
     "pos_value": -8
@@ -14850,8 +14852,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 131,
-    "value": -53,
+    "points_rank": 134,
+    "value": -56,
     "pos_points_rank": 34,
     "pos_draft_rank": 26,
     "pos_value": -8
@@ -14930,8 +14932,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 129,
-    "value": -47,
+    "points_rank": 132,
+    "value": -50,
     "pos_points_rank": 42,
     "pos_draft_rank": 30,
     "pos_value": -12
@@ -14944,15 +14946,17 @@
     "pos": "DEF",
     "owner": "FIG",
     "overall": 83,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -97,
-    "pos_points_rank": 11,
+    "points": 22.0,
+    "gp": 7.0,
+    "rostered_by": [
+     "FIG"
+    ],
+    "kept": true,
+    "points_rank": 111,
+    "value": -28,
+    "pos_points_rank": 4,
     "pos_draft_rank": 1,
-    "pos_value": -10
+    "pos_value": -3
    },
    {
     "round": 9,
@@ -15008,8 +15012,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 133,
-    "value": -47,
+    "points_rank": 136,
+    "value": -50,
     "pos_points_rank": 43,
     "pos_draft_rank": 31,
     "pos_value": -12
@@ -15048,8 +15052,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 127,
-    "value": -39,
+    "points_rank": 130,
+    "value": -42,
     "pos_points_rank": 41,
     "pos_draft_rank": 33,
     "pos_value": -8
@@ -15068,8 +15072,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 122,
-    "value": -33,
+    "points_rank": 125,
+    "value": -36,
     "pos_points_rank": 32,
     "pos_draft_rank": 29,
     "pos_value": -3
@@ -15144,8 +15148,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 104,
-    "value": -11,
+    "points_rank": 105,
+    "value": -12,
     "pos_points_rank": 33,
     "pos_draft_rank": 36,
     "pos_value": 3
@@ -15164,8 +15168,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 141,
-    "value": -47,
+    "points_rank": 144,
+    "value": -50,
     "pos_points_rank": 37,
     "pos_draft_rank": 30,
     "pos_value": -7
@@ -15242,8 +15246,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 136,
-    "value": -38,
+    "points_rank": 139,
+    "value": -41,
     "pos_points_rank": 16,
     "pos_draft_rank": 10,
     "pos_value": -6
@@ -15280,8 +15284,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 139,
-    "value": -39,
+    "points_rank": 142,
+    "value": -42,
     "pos_points_rank": 36,
     "pos_draft_rank": 33,
     "pos_value": -3
@@ -15338,8 +15342,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 109,
-    "value": -6,
+    "points_rank": 110,
+    "value": -7,
     "pos_points_rank": 25,
     "pos_draft_rank": 21,
     "pos_value": -4
@@ -15396,8 +15400,8 @@
      "MEANY"
     ],
     "kept": false,
-    "points_rank": 140,
-    "value": -34,
+    "points_rank": 143,
+    "value": -37,
     "pos_points_rank": 17,
     "pos_draft_rank": 11,
     "pos_value": -6
@@ -15476,8 +15480,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": -14,
+    "points_rank": 127,
+    "value": -17,
     "pos_points_rank": 39,
     "pos_draft_rank": 41,
     "pos_value": 2
@@ -15496,8 +15500,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 108,
-    "value": 3,
+    "points_rank": 109,
+    "value": 2,
     "pos_points_rank": 27,
     "pos_draft_rank": 34,
     "pos_value": 7
@@ -15574,8 +15578,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 120,
-    "value": -5,
+    "points_rank": 123,
+    "value": -8,
     "pos_points_rank": 27,
     "pos_draft_rank": 24,
     "pos_value": -3
@@ -15668,8 +15672,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 130,
-    "value": -10,
+    "points_rank": 133,
+    "value": -13,
     "pos_points_rank": 28,
     "pos_draft_rank": 25,
     "pos_value": -3
@@ -15738,15 +15742,17 @@
     "pos": "DEF",
     "owner": "MCFADDEN",
     "overall": 124,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -56,
-    "pos_points_rank": 11,
+    "points": 37.0,
+    "gp": 7.0,
+    "rostered_by": [
+     "MCFADDEN"
+    ],
+    "kept": true,
+    "points_rank": 100,
+    "value": 24,
+    "pos_points_rank": 3,
     "pos_draft_rank": 3,
-    "pos_value": -8
+    "pos_value": 0
    },
    {
     "round": 13,
@@ -15818,11 +15824,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 132,
-    "value": -4,
-    "pos_points_rank": 5,
+    "points_rank": 135,
+    "value": -7,
+    "pos_points_rank": 8,
     "pos_draft_rank": 5,
-    "pos_value": 0
+    "pos_value": -3
    },
    {
     "round": 13,
@@ -15858,8 +15864,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": 6,
+    "points_rank": 127,
+    "value": 3,
     "pos_points_rank": 39,
     "pos_draft_rank": 46,
     "pos_value": 7
@@ -15878,8 +15884,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 114,
-    "value": 17,
+    "points_rank": 117,
+    "value": 14,
     "pos_points_rank": 26,
     "pos_draft_rank": 26,
     "pos_value": 0
@@ -15898,8 +15904,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 112,
-    "value": 20,
+    "points_rank": 114,
+    "value": 18,
     "pos_points_rank": 37,
     "pos_draft_rank": 47,
     "pos_value": 10
@@ -15918,8 +15924,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 142,
-    "value": -9,
+    "points_rank": 145,
+    "value": -12,
     "pos_points_rank": 38,
     "pos_draft_rank": 40,
     "pos_value": 2
@@ -15938,8 +15944,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 118,
-    "value": 16,
+    "points_rank": 121,
+    "value": 13,
     "pos_points_rank": 14,
     "pos_draft_rank": 15,
     "pos_value": 1
@@ -16070,8 +16076,8 @@
      "KEV"
     ],
     "kept": false,
-    "points_rank": 137,
-    "value": 4,
+    "points_rank": 140,
+    "value": 1,
     "pos_points_rank": 44,
     "pos_draft_rank": 51,
     "pos_value": 7
@@ -16090,8 +16096,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 138,
-    "value": 4,
+    "points_rank": 141,
+    "value": 1,
     "pos_points_rank": 45,
     "pos_draft_rank": 52,
     "pos_value": 7
@@ -16222,8 +16228,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 121,
-    "value": 28,
+    "points_rank": 124,
+    "value": 25,
     "pos_points_rank": 31,
     "pos_draft_rank": 44,
     "pos_value": 13
@@ -16242,8 +16248,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 102,
-    "value": 48,
+    "points_rank": 103,
+    "value": 47,
     "pos_points_rank": 13,
     "pos_draft_rank": 18,
     "pos_value": 5
@@ -16262,8 +16268,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 110,
-    "value": 41,
+    "points_rank": 112,
+    "value": 39,
     "pos_points_rank": 36,
     "pos_draft_rank": 55,
     "pos_value": 19
@@ -16276,15 +16282,17 @@
     "pos": "DEF",
     "owner": "DREXELLO",
     "overall": 152,
-    "points": 0.0,
-    "gp": 0,
-    "rostered_by": [],
-    "kept": false,
-    "points_rank": 180,
-    "value": -28,
-    "pos_points_rank": 11,
+    "points": 21.0,
+    "gp": 3.0,
+    "rostered_by": [
+     "DREXELLO"
+    ],
+    "kept": true,
+    "points_rank": 115,
+    "value": 37,
+    "pos_points_rank": 5,
     "pos_draft_rank": 6,
-    "pos_value": -5
+    "pos_value": 1
    },
    {
     "round": 16,
@@ -16319,11 +16327,11 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 128,
-    "value": 26,
-    "pos_points_rank": 4,
+    "points_rank": 131,
+    "value": 23,
+    "pos_points_rank": 7,
     "pos_draft_rank": 7,
-    "pos_value": 3
+    "pos_value": 0
    },
    {
     "round": 16,
@@ -16340,11 +16348,11 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 134,
-    "value": 21,
-    "pos_points_rank": 6,
+    "points_rank": 137,
+    "value": 18,
+    "pos_points_rank": 9,
     "pos_draft_rank": 8,
-    "pos_value": 2
+    "pos_value": -1
    },
    {
     "round": 16,
@@ -16378,8 +16386,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 123,
-    "value": 34,
+    "points_rank": 126,
+    "value": 31,
     "pos_points_rank": 8,
     "pos_draft_rank": 3,
     "pos_value": -5
@@ -16418,8 +16426,8 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 135,
-    "value": 24,
+    "points_rank": 138,
+    "value": 21,
     "pos_points_rank": 35,
     "pos_draft_rank": 45,
     "pos_value": 10
@@ -16566,8 +16574,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 107,
-    "value": 60,
+    "points_rank": 108,
+    "value": 59,
     "pos_points_rank": 35,
     "pos_draft_rank": 61,
     "pos_value": 26
@@ -16625,11 +16633,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 117,
-    "value": 53,
-    "pos_points_rank": 3,
+    "points_rank": 120,
+    "value": 50,
+    "pos_points_rank": 6,
     "pos_draft_rank": 10,
-    "pos_value": 7
+    "pos_value": 4
    },
    {
     "round": 18,
@@ -16645,8 +16653,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 101,
-    "value": 70,
+    "points_rank": 102,
+    "value": 69,
     "pos_points_rank": 7,
     "pos_draft_rank": 7,
     "pos_value": 0
@@ -16741,8 +16749,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 115,
-    "value": 61,
+    "points_rank": 118,
+    "value": 58,
     "pos_points_rank": 30,
     "pos_draft_rank": 48,
     "pos_value": 18
@@ -16834,7 +16842,18 @@
     "hits": 10,
     "misses": 8,
     "still_rostered": 12,
-    "avg_value": -2.2
+    "avg_value": -2.5
+   },
+   {
+    "team": "DREXELLO",
+    "picks": 18,
+    "draft_points": 1000.9,
+    "points_from_own_picks": 1000.9,
+    "points_from_adds": 19.0,
+    "hits": 10,
+    "misses": 8,
+    "still_rostered": 17,
+    "avg_value": 7.2
    },
    {
     "team": "FREEMAN",
@@ -16845,18 +16864,7 @@
     "hits": 11,
     "misses": 7,
     "still_rostered": 17,
-    "avg_value": 5.1
-   },
-   {
-    "team": "DREXELLO",
-    "picks": 18,
-    "draft_points": 980.0,
-    "points_from_own_picks": 980.0,
-    "points_from_adds": 40.0,
-    "hits": 9,
-    "misses": 9,
-    "still_rostered": 16,
-    "avg_value": 4.1
+    "avg_value": 4.2
    },
    {
     "team": "GENTILE",
@@ -16867,7 +16875,18 @@
     "hits": 6,
     "misses": 11,
     "still_rostered": 11,
-    "avg_value": -11.1
+    "avg_value": -11.6
+   },
+   {
+    "team": "MCFADDEN",
+    "picks": 18,
+    "draft_points": 967.28,
+    "points_from_own_picks": 967.28,
+    "points_from_adds": 92.3,
+    "hits": 7,
+    "misses": 11,
+    "still_rostered": 13,
+    "avg_value": -6.7
    },
    {
     "team": "KEV",
@@ -16878,7 +16897,7 @@
     "hits": 5,
     "misses": 13,
     "still_rostered": 15,
-    "avg_value": -0.9
+    "avg_value": -1.6
    },
    {
     "team": "KARDIAN",
@@ -16889,18 +16908,18 @@
     "hits": 9,
     "misses": 9,
     "still_rostered": 13,
-    "avg_value": -2.9
+    "avg_value": -3.8
    },
    {
-    "team": "MCFADDEN",
+    "team": "FIG",
     "picks": 18,
-    "draft_points": 930.28,
-    "points_from_own_picks": 930.28,
-    "points_from_adds": 129.3,
+    "draft_points": 931.2,
+    "points_from_own_picks": 931.2,
+    "points_from_adds": 68.2,
     "hits": 6,
     "misses": 12,
-    "still_rostered": 12,
-    "avg_value": -10.7
+    "still_rostered": 14,
+    "avg_value": -5.1
    },
    {
     "team": "MEANY",
@@ -16911,18 +16930,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 13,
-    "avg_value": -6.0
-   },
-   {
-    "team": "FIG",
-    "picks": 18,
-    "draft_points": 909.2,
-    "points_from_own_picks": 909.2,
-    "points_from_adds": 90.2,
-    "hits": 6,
-    "misses": 12,
-    "still_rostered": 13,
-    "avg_value": -8.4
+    "avg_value": -6.5
    },
    {
     "team": "MARZ",
@@ -16933,7 +16941,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 14,
-    "avg_value": -5.6
+    "avg_value": -6.4
    }
   ],
   "pos_counts": {
