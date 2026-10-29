@@ -1,5 +1,5 @@
 # NR Crew Reconciliation: FAIL
-Updated 2026-10-28 17:14 UTC | Weeks entered: 7
+Updated 2026-10-29 17:29 UTC | Weeks entered: 7
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
