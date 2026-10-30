@@ -15,6 +15,8 @@ import openpyxl
 
 # ----------------------------------------------------------------- CONFIG
 DRAFT_FILE = "NR_Crew_2026_Draft_Results.xlsx"   # committed to the repo; the draft never changes
+FAAB_FILE = "faab_transactions.json"   # committed to the repo; updated from Yahoo's Transactions page
+FAAB_BUDGET = 100                      # per team, per season
 STATS_URL = ("https://docs.google.com/spreadsheets/d/e/2PACX-1vRlXVtPeOs3lyaLyj59sBIw4pBSYHHCzVK9JJZIrrF2uaqYaePptKTP0dapJ1GpJi6Pe_2sj0c3atG8/pub?output=xlsx")
 HISTORY_URL = ("https://docs.google.com/spreadsheets/d/e/2PACX-1vTs3OiPgWspTYZV9kxXFMaYVps0UhoEHs5pXZNe6ZsSW8SDGGkmQq8aXK3jQ1-zFs_5ARv0p-bm3UgC/pub?output=xlsx")
 
@@ -421,6 +423,101 @@ def build_draft(wb, players, owners, flags):
 
 
 # ----------------------------------------------------------------- HISTORY
+# ----------------------------------------------------------------- WAIVERS / FAAB
+def build_waivers(path, players, draft, owners, flags):
+    """Join FAAB adds to season scoring.
+
+    Yahoo's team log only shows a player's points under the owner who STARTED him,
+    so points for an add are credited only when that owner did not draft the player.
+    """
+    with open(path) as f:
+        txns = json.load(f)
+    # de-duplicate on timestamp + player + owner (the source PDFs overlap)
+    seen, rows = set(), []
+    for t in txns:
+        key = (t["date"], t.get("time", ""), t["player"], t["owner"])
+        if key in seen:
+            continue
+        seen.add(key)
+        if t["player"].startswith("--empty"):
+            t["player"] = "Unlisted player"      # Yahoo placeholder for a since-removed player
+        if t["owner"] not in owners:
+            flags.append(f"Waivers: owner '{t['owner']}' not found in Weekly Scores")
+        rows.append(t)
+    rows.sort(key=lambda t: (t["date"], t.get("time", "")), reverse=True)
+
+    drafted_by = {}
+    for pk in (draft or {}).get("picks", []):
+        drafted_by.setdefault(pk["player"].lower(), set()).add(pk["owner"])
+    log = {}
+    for pl in players:
+        log[(pl["player"].lower(), pl["owner"])] = pl
+
+    # one acquisition record per owner+player, so a re-add never counts points twice
+    acq = {}
+    for t in rows:
+        nm, ow = t["player"].lower(), t["owner"]
+        a = acq.get((nm, ow))
+        if not a:
+            drafted = ow in drafted_by.get(nm, set())
+            hit = log.get((nm, ow))
+            a = acq[(nm, ow)] = {
+                "player": t["player"], "pos": t["pos"], "nfl": t["nfl"], "owner": ow,
+                "spent": 0, "adds": 0, "waiver_adds": 0, "first_add": t["date"], "last_add": t["date"],
+                "drafted_by_owner": drafted, "drafted_elsewhere": bool(drafted_by.get(nm)) and not drafted,
+                "points": r2(hit["points"]) if hit and not drafted else 0.0,
+                "gp": int(hit["stats"].get("GP", 0)) if hit and not drafted else 0,
+                "started": bool(hit) and not drafted, "best_bid": 0}
+        a["adds"] += 1
+        a["spent"] += t["amount"]
+        a["best_bid"] = max(a["best_bid"], t["amount"])
+        if t["type"] == "waiver":
+            a["waiver_adds"] += 1
+        a["first_add"] = min(a["first_add"], t["date"])
+        a["last_add"] = max(a["last_add"], t["date"])
+    acqs = sorted(acq.values(), key=lambda a: (-a["points"], -a["spent"]))
+    for a in acqs:
+        a["ppd"] = r2(a["points"] / a["spent"]) if a["spent"] else None
+
+    summary = []
+    for o in owners:
+        w = [t for t in rows if t["owner"] == o and t["type"] == "waiver"]
+        fa = [t for t in rows if t["owner"] == o and t["type"] == "fa"]
+        con = [t for t in w if t["contested"]]
+        unc = [t for t in w if not t["contested"]]
+        mine = [a for a in acqs if a["owner"] == o]
+        lost = [x for t in rows for x in t["losers"] if x["owner"] == o]
+        spent = sum(t["amount"] for t in w)
+        pts = sum(a["points"] for a in mine)
+        summary.append({
+            "team": o, "spent": spent, "remaining": FAAB_BUDGET - spent,
+            "claims": len(w), "fa_adds": len(fa), "moves": len(w) + len(fa),
+            "contested": len(con), "uncontested": len(unc),
+            "uncontested_spend": sum(t["amount"] for t in unc),
+            "overpay": sum(t["overpay"] for t in con),
+            "biggest_bid": max((t["amount"] for t in w), default=0),
+            "avg_bid": r2(spent / len(w)) if w else 0,
+            "claims_lost": len(lost),
+            "win_rate": round(100 * len(con) / (len(con) + len(lost))) if (len(con) + len(lost)) else None,
+            "points": r2(pts), "scorers": sum(1 for a in mine if a["points"] > 0),
+            "pts_per_dollar": r2(pts / spent) if spent else None})
+    summary.sort(key=lambda s: -s["points"])
+
+    totals = {"spent": sum(s["spent"] for s in summary),
+              "budget": FAAB_BUDGET * len(owners),
+              "claims": sum(s["claims"] for s in summary),
+              "fa_adds": sum(s["fa_adds"] for s in summary),
+              "contested": sum(s["contested"] for s in summary),
+              "uncontested": sum(s["uncontested"] for s in summary),
+              "uncontested_spend": sum(s["uncontested_spend"] for s in summary),
+              "overpay": sum(s["overpay"] for s in summary),
+              "points": r2(sum(s["points"] for s in summary)),
+              "run_dates": sorted({t["date"] for t in rows if t["type"] == "waiver"}, reverse=True),
+              "last_txn": rows[0]["date"] if rows else None}
+    return {"transactions": rows, "acquisitions": acqs, "summary": summary,
+            "totals": totals, "budget": FAAB_BUDGET}
+
+
 CURRENT_OWNERS = set()
 
 
@@ -594,6 +691,16 @@ def main():
     else:
         flags.append(f"Draft file '{draft_path}' not found in the repo; the Draft page will be hidden")
 
+    waivers = None
+    faab_path = os.environ.get("FAAB_FILE", FAAB_FILE)
+    if os.path.exists(faab_path):
+        try:
+            waivers = build_waivers(faab_path, players, draft, owners, flags)
+        except Exception as e:
+            flags.append(f"Waiver file could not be read: {e}")
+    else:
+        flags.append(f"Waiver file '{faab_path}' not found in the repo; the Waivers page will be hidden")
+
     player_out = sorted(({"owner": p["owner"], "player": p["player"], "nfl": p["nfl"], "pos": p["pos"],
                           "gp": int(p["stats"].get("GP", 0)), "points": r2(p["points"]),
                           "stats": {k: v for k, v in p["stats"].items() if k != "GP"},
@@ -605,7 +712,7 @@ def main():
            "reg_season_weeks": REG_SEASON_WEEKS, "playoff_weeks": PLAYOFF_WEEKS,
            "owners": owners, "recon_status": status, "recon": recon, "flags": flags,
            "standings": standings, "weekly": weekly_rows, "categories": cats,
-           "positions": positions, "players": player_out, "history": history, "draft": draft,
+           "positions": positions, "players": player_out, "history": history, "draft": draft, "waivers": waivers,
            "scoring": SCORING}
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(os.path.join(OUT_DIR, "nrcrew_data.json"), "w") as f:

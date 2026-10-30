@@ -162,6 +162,15 @@ td.dv small{color:var(--dim);margin-left:5px}
 .rung span{font-size:13px;color:var(--dim)}
 .rung.no{background:transparent;border-style:dashed}.rung.no b{color:var(--signal)}
 .arrow{align-self:center;color:var(--dim);font-size:20px}
+.budget{display:flex;height:22px;border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:var(--shell2);min-width:120px}
+.budget i{display:block;height:100%;background:var(--chrome)}
+.budget.low i{background:var(--signal)}
+@media (max-width:760px){.budget{display:none}}
+.bidrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:baseline}
+.bidrow .lose{font-size:13px;color:var(--dim)}
+.wtag{display:inline-block;font-size:11px;font-weight:700;padding:1px 6px;border-radius:3px;border:1px solid var(--rule);color:var(--dim);background:var(--shell2)}
+.wtag.sole{border-color:#C9A0A0;color:#8E3B34}
+.wtag.fa{border-color:#9CB8A8;color:#2F6A4E}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;align-items:start}
 .two .tbl table{font-size:14px}
 footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:18px 0 30px}
@@ -195,7 +204,7 @@ footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:
 <footer><div class="wrap" id="foot"></div></footer>
 
 <script>
-const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["draft","Draft"],["history","League History"],["rules","Rulebook"]];
+const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["draft","Draft"],["waivers","Waivers"],["history","League History"],["rules","Rulebook"]];
 const POS=["QB","RB","WR","TE","K","DEF"];
 const GROUPS=["Passing","Rushing","Receiving","Misc Offense","Kicking","Defense"];
 const SERIES=["#D4101A","#FF7A3D","#3A3F49","#A3A9B3","#E0A43A","#7A0E14"];
@@ -230,7 +239,7 @@ function sortVal(td){
   if(t==="")return null; if(t==="✓")return 1; if(t==="·")return 0;
   const rec=t.match(/^(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/);
   if(rec){const w=+rec[1],l=+rec[2],tt=+rec[3],g=w+l+tt;return g?(w+tt/2)/g+g*1e-6:0}
-  const c=t.replace(/[,#%+]/g,"");
+  const c=t.replace(/[,#%+$]/g,"");
   if(/^-?\d*\.?\d/.test(c)&&!isNaN(parseFloat(c)))return parseFloat(c);
   return t.toLowerCase();
 }
@@ -267,7 +276,7 @@ function boot(){
   const st={PASS:["","Scores reconciled"],LIVE:["warn","Week in progress"],STALE:["warn","Game log behind"],FAIL:["fail","Data check failed"]}[D.recon_status]||["warn",D.recon_status];
   $("#status").className="status "+st[0];$("#statusTxt").textContent=st[1];
   $("#status").title=D.flags.length?D.flags.join("\n"):"Every team's player points tie back to its weekly scores.";
-  const pages=PAGES.filter(([k])=>k!="draft"||D.draft);
+  const pages=PAGES.filter(([k])=>(k!="draft"||D.draft)&&(k!="waivers"||D.waivers));
   $("#nav").innerHTML=pages.map(([k,l])=>`<button role="tab" data-p="${k}">${l}</button>`).join("");
   $("#main").innerHTML=pages.map(([k])=>`<section class="page" id="p-${k}"></section>`).join("");
   $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b)show(b.dataset.p)});
@@ -279,7 +288,7 @@ function show(p){
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.p==p));
   document.querySelectorAll("section.page").forEach(s=>s.classList.toggle("on",s.id=="p-"+p));
   history.replaceState(null,"","#"+p);
-  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory,rules:rRules,draft:rDraft})[p]()}
+  if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory,rules:rRules,draft:rDraft,waivers:rWaivers})[p]()}
 }
 const regWeeks=()=>[...new Set(D.weekly.map(w=>w.week))].sort((a,b)=>a-b);
 
@@ -497,6 +506,94 @@ function rDraft(){
   };
   draw();
   bindPicker("drView",v=>{view=v;document.querySelectorAll("#drView button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==v));draw()});
+}
+
+/* ---------------- Waivers ---------------- */
+function rWaivers(){
+  const W=D.waivers, T=W.totals, teams=D.standings.map(s=>s.team);
+  const money=v=>"$"+(+v).toLocaleString();
+  const maxSpent=Math.max(...W.summary.map(s=>s.spent),1);
+  const acqOf=t=>W.acquisitions.filter(a=>a.owner==t);
+  const scorers=W.acquisitions.filter(a=>a.points>0);
+  const perDollar=W.acquisitions.filter(a=>a.spent>0&&a.points>0).sort((a,b)=>b.ppd-a.ppd);
+  const overpays=W.transactions.filter(t=>t.contested&&t.overpay>0).sort((a,b)=>b.overpay-a.overpay);
+  const uncontested=W.transactions.filter(t=>t.type=="waiver"&&!t.contested&&t.amount>0).sort((a,b)=>b.amount-a.amount);
+  const nm=a=>`${esc(a.player)} <span class="muted">${esc(a.nfl||"")}</span>`;
+  const dt=s=>{const [y,m,d]=s.split("-");return `${+m}/${+d}`};
+  $("#p-waivers").innerHTML=`<h2>Waivers</h2><p class="lede">Every add since the draft, what it cost, and what it has produced. Each team gets ${money(W.budget)} of FAAB for the season; free-agent adds are free.</p>
+   <div class="kpis"><div class="kpi"><b>${money(T.spent)}</b><span>Spent of ${money(T.budget)} league-wide</span></div>
+    <div class="kpi"><b>${T.claims}</b><span>Paid claims</span></div>
+    <div class="kpi"><b>${T.fa_adds}</b><span>Free-agent adds</span></div>
+    <div class="kpi"><b>${money(T.uncontested_spend)}</b><span>Spent on claims nobody else bid</span></div>
+    <div class="kpi"><b>${money(T.overpay)}</b><span>Spent above what it took to win</span></div></div>
+   ${picker("wvView",[["team","By team"],["value","Value & overpays"],["log","Transaction log"]],"team")}<div id="wvBox"></div>`;
+  let view="team", team=W.summary[0].team, logF="all";
+  const draw=()=>{
+    const B=$("#wvBox");
+    if(view=="team"){
+      const s=W.summary.find(x=>x.team==team), mine=acqOf(team).sort((a,b)=>b.points-a.points||b.spent-a.spent);
+      const myTx=W.transactions.filter(t=>t.owner==team);
+      const myLost=W.transactions.filter(t=>t.losers.some(l=>l.owner==team));
+      B.innerHTML=`<h3>League summary</h3><div class="tbl"><table><thead><tr><th class="l">Team</th><th>Budget left</th><th>Spent</th><th>Claims</th><th>FA adds</th><th title="Points scored for this team by players it added, not drafted">Points added</th><th title="Fantasy points per dollar spent">Pts / $</th><th title="Paid claims nobody else bid on">Sole bids</th><th title="Dollars spent above the runner-up bid plus one">Overpay</th><th title="Contested claims won, of contested claims entered">Win %</th></tr></thead><tbody>
+        ${W.summary.map(x=>`<tr><td class="team l">${esc(x.team)}</td>
+          <td data-s="${x.remaining}"><div class="bidrow"><div class="budget ${x.remaining<=25?"low":""}" title="${money(x.remaining)} of ${money(W.budget)} left, ${money(x.spent)} spent"><i style="width:${100-x.spent/W.budget*100}%"></i></div><span>${money(x.remaining)}</span></div></td>
+          <td>${money(x.spent)}</td><td>${x.claims}</td><td>${x.fa_adds}</td>
+          <td style="${colHeat(W.summary,"points")(x)}"><b>${f2(x.points)}</b></td><td>${x.pts_per_dollar==null?'<span class="muted">—</span>':f2(x.pts_per_dollar)}</td>
+          <td>${x.uncontested} <span class="muted">(${money(x.uncontested_spend)})</span></td>
+          <td style="${colHeat(W.summary,"overpay",1)(x)}">${money(x.overpay)}</td>
+          <td>${x.win_rate==null?'<span class="muted">no bids</span>':x.win_rate+"%"}</td></tr>`).join("")}</tbody></table></div>
+       <h3>Team detail</h3>${picker("wvTeam",teams.map(t=>[t,t]),team)}
+       <div class="kpis"><div class="kpi"><b>${money(s.remaining)}</b><span>Budget left</span></div><div class="kpi"><b>${s.moves}</b><span>Total adds</span></div>
+        <div class="kpi"><b>${f2(s.points)}</b><span>Points from adds</span></div><div class="kpi"><b>${s.scorers}</b><span>Adds that have scored</span></div>
+        <div class="kpi"><b>${money(s.overpay)}</b><span>Overpay</span></div><div class="kpi"><b>${s.claims_lost}</b><span>Claims lost to others</span></div></div>
+       <div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th>Added</th><th>Cost</th><th>GP</th><th title="Points this player has scored as a starter for this team since being added">Points</th><th>Pts / $</th><th class="l">Note</th></tr></thead><tbody>
+        ${mine.map(a=>`<tr><td class="team l">${nm(a)}</td><td class="l">${a.pos}</td><td>${dt(a.first_add)}${a.adds>1?` <span class="muted">(${a.adds}x)</span>`:""}</td>
+          <td>${a.spent?money(a.spent):'<span class="muted">free</span>'}</td><td>${a.gp||""}</td>
+          <td style="${a.points>0?heat(a.points,0,Math.max(...mine.map(x=>x.points),1)):""}">${a.points>0?"<b>"+f2(a.points)+"</b>":'<span class="muted">—</span>'}</td>
+          <td>${a.ppd==null?'<span class="muted">—</span>':f2(a.ppd)}</td>
+          <td class="l muted">${a.drafted_by_owner?'<span class="wtag">re-added his own pick</span>':a.points>0?"":a.drafted_elsewhere?'<span class="wtag">drafted by someone else</span>':'<span class="wtag">no starts yet</span>'}</td></tr>`).join("")}</tbody></table></div>
+       ${myLost.length?`<h3>Claims ${esc(team)} lost</h3><div class="tbl"><table><thead><tr><th class="l">Date</th><th class="l">Player</th><th>Their bid</th><th>Winning bid</th><th class="l">Won by</th><th class="l">Why</th></tr></thead><tbody>
+         ${myLost.map(t=>{const l=t.losers.find(x=>x.owner==team);return `<tr><td class="l">${dt(t.date)}</td><td class="team l">${esc(t.player)}</td><td>${money(l.amount)}</td><td>${money(t.amount)}</td><td class="l">${esc(t.owner)}</td><td class="l muted">${esc(l.note||"outbid")}</td></tr>`}).join("")}</tbody></table></div>`:""}
+       <p class="note">Points come from Yahoo's team log, which only records starters. A player this team drafted and later re-added shows no points here, because those points belong to the draft, not the add.</p>`;
+      bindPicker("wvTeam",t=>{team=t;draw()});
+    } else if(view=="value"){
+      B.innerHTML=`<h3>Best adds of the season</h3><p class="lede">Points scored for the team that added them, highest first.</p>
+       <div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th class="l">Team</th><th>Added</th><th>Cost</th><th>GP</th><th>Points</th><th>Pts / $</th></tr></thead><tbody>
+        ${scorers.slice(0,20).map(a=>`<tr><td class="team l">${nm(a)}</td><td class="l">${a.pos}</td><td class="l">${esc(a.owner)}</td><td>${dt(a.first_add)}</td>
+          <td>${a.spent?money(a.spent):'<span class="wtag fa">free</span>'}</td><td>${a.gp||""}</td><td style="${heat(a.points,0,Math.max(...scorers.map(x=>x.points),1))}"><b>${f2(a.points)}</b></td>
+          <td>${a.ppd==null?'<span class="muted">—</span>':f2(a.ppd)}</td></tr>`).join("")}</tbody></table></div>
+       ${perDollar.length?`<h3>Best value per dollar</h3><div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Team</th><th>Cost</th><th>Points</th><th>Pts / $</th></tr></thead><tbody>
+         ${perDollar.slice(0,10).map(a=>`<tr><td class="team l">${nm(a)}</td><td class="l">${esc(a.owner)}</td><td>${money(a.spent)}</td><td>${f2(a.points)}</td><td><b>${f2(a.ppd)}</b></td></tr>`).join("")}</tbody></table></div>`:""}
+       <h3>Biggest overpays</h3><p class="lede">How much the winning bid beat what it actually took to win, the runner-up bid plus a dollar.</p>
+       <div class="tbl"><table><thead><tr><th class="l">Date</th><th class="l">Player</th><th class="l">Won by</th><th>Bid</th><th>Next bid</th><th>Wasted</th><th>Points since</th></tr></thead><tbody>
+        ${overpays.map(t=>{const a=W.acquisitions.find(x=>x.player==t.player&&x.owner==t.owner);
+          return `<tr><td class="l">${dt(t.date)}</td><td class="team l">${esc(t.player)} <span class="muted">${esc(t.pos)}</span></td><td class="l">${esc(t.owner)}</td>
+          <td>${money(t.amount)}</td><td>${money(t.runner_up)}</td><td style="${heat(t.overpay,0,Math.max(...overpays.map(x=>x.overpay),1),1)}"><b>${money(t.overpay)}</b></td>
+          <td>${a&&a.points>0?f2(a.points):'<span class="muted">—</span>'}</td></tr>`}).join("")}</tbody></table></div>
+       <h3>Paid, but nobody else bid</h3><p class="lede">${T.uncontested} of ${T.claims} paid claims drew no rival bid, ${money(T.uncontested_spend)} that a $0 bid would have won just as well.</p>
+       <div class="tbl"><table><thead><tr><th class="l">Date</th><th class="l">Player</th><th class="l">Team</th><th>Paid</th><th>Points since</th></tr></thead><tbody>
+        ${uncontested.map(t=>{const a=W.acquisitions.find(x=>x.player==t.player&&x.owner==t.owner);
+          return `<tr><td class="l">${dt(t.date)}</td><td class="team l">${esc(t.player)} <span class="muted">${esc(t.pos)}</span></td><td class="l">${esc(t.owner)}</td>
+          <td style="${heat(t.amount,0,Math.max(...uncontested.map(x=>x.amount),1),1)}"><b>${money(t.amount)}</b></td>
+          <td>${a&&a.points>0?f2(a.points):'<span class="muted">—</span>'}</td></tr>`}).join("")}</tbody></table></div>`;
+    } else {
+      const rows=W.transactions.filter(t=>logF=="all"||(logF=="waiver"&&t.type=="waiver")||(logF=="contested"&&t.contested));
+      B.innerHTML=`<p class="lede">All ${rows.length} adds since the draft, newest first. Losing bids are shown under each contested claim.</p>
+       ${picker("wvLogF",[["all","All adds"],["waiver","Paid claims only"],["contested","Contested only"]],logF)}
+       <div class="tbl"><table><thead><tr><th class="l">Date</th><th class="l">Player</th><th class="l">Pos</th><th class="l">Team</th><th>Cost</th><th class="l">Type</th><th>Points since</th></tr></thead><tbody>
+        ${rows.map(t=>{const a=W.acquisitions.find(x=>x.player==t.player&&x.owner==t.owner);
+          return `<tr><td class="l">${dt(t.date)}</td>
+          <td class="team l"><div class="bidrow"><span>${esc(t.player)} <span class="muted">${esc(t.nfl||"")}</span></span></div>
+           ${t.losers.length?`<div class="lose">beat ${t.losers.map(l=>esc(l.owner)+" "+money(l.amount)+(l.note?" ("+esc(l.note)+")":"")).join(", ")}</div>`:""}</td>
+          <td class="l">${esc(t.pos)}</td><td class="l">${esc(t.owner)}</td>
+          <td data-s="${t.amount}">${t.type=="waiver"?money(t.amount):'<span class="muted">—</span>'}</td>
+          <td class="l">${t.type=="fa"?'<span class="wtag fa">free agent</span>':t.contested?'<span class="wtag">contested</span>':'<span class="wtag sole">sole bid</span>'}</td>
+          <td>${a&&a.points>0?f2(a.points):'<span class="muted">—</span>'}</td></tr>`}).join("")}</tbody></table></div>`;
+      bindPicker("wvLogF",v=>{logF=v;draw()});
+    }
+  };
+  draw();
+  bindPicker("wvView",v=>{view=v;document.querySelectorAll("#wvView button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==v));draw()});
 }
 
 /* ---------------- Rulebook ---------------- */
