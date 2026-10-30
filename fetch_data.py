@@ -427,8 +427,8 @@ def build_draft(wb, players, owners, flags):
 def build_waivers(path, players, draft, owners, flags):
     """Join FAAB adds to season scoring.
 
-    Yahoo's team log only shows a player's points under the owner who STARTED him,
-    so points for an add are credited only when that owner did not draft the player.
+    If an owner added a player and that player appears in that owner's game log,
+    all of his logged points are credited to the add.
     """
     with open(path) as f:
         txns = json.load(f)
@@ -459,15 +459,15 @@ def build_waivers(path, players, draft, owners, flags):
         nm, ow = t["player"].lower(), t["owner"]
         a = acq.get((nm, ow))
         if not a:
-            drafted = ow in drafted_by.get(nm, set())
             hit = log.get((nm, ow))
             a = acq[(nm, ow)] = {
                 "player": t["player"], "pos": t["pos"], "nfl": t["nfl"], "owner": ow,
                 "spent": 0, "adds": 0, "waiver_adds": 0, "first_add": t["date"], "last_add": t["date"],
-                "drafted_by_owner": drafted, "drafted_elsewhere": bool(drafted_by.get(nm)) and not drafted,
-                "points": r2(hit["points"]) if hit and not drafted else 0.0,
-                "gp": int(hit["stats"].get("GP", 0)) if hit and not drafted else 0,
-                "started": bool(hit) and not drafted, "best_bid": 0}
+                "drafted_by_owner": ow in drafted_by.get(nm, set()),
+                "drafted_elsewhere": bool(drafted_by.get(nm) - {ow}) if drafted_by.get(nm) else False,
+                "points": r2(hit["points"]) if hit else 0.0,
+                "gp": int(hit["stats"].get("GP", 0)) if hit else 0,
+                "started": bool(hit), "best_bid": 0}
         a["adds"] += 1
         a["spent"] += t["amount"]
         a["best_bid"] = max(a["best_bid"], t["amount"])

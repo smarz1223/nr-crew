@@ -534,7 +534,7 @@ function rWaivers(){
       const s=W.summary.find(x=>x.team==team), mine=acqOf(team).sort((a,b)=>b.points-a.points||b.spent-a.spent);
       const myTx=W.transactions.filter(t=>t.owner==team);
       const myLost=W.transactions.filter(t=>t.losers.some(l=>l.owner==team));
-      B.innerHTML=`<h3>League summary</h3><div class="tbl"><table><thead><tr><th class="l">Team</th><th>Budget left</th><th>Spent</th><th>Claims</th><th>FA adds</th><th title="Points scored for this team by players it added, not drafted">Points added</th><th title="Fantasy points per dollar spent">Pts / $</th><th title="Paid claims nobody else bid on">Sole bids</th><th title="Dollars spent above the runner-up bid plus one">Overpay</th><th title="Contested claims won, of contested claims entered">Win %</th></tr></thead><tbody>
+      B.innerHTML=`<h3>League summary</h3><div class="tbl"><table><thead><tr><th class="l">Team</th><th>Budget left</th><th>Spent</th><th>Claims</th><th>FA adds</th><th title="Points scored for this team by players it added">Points added</th><th title="Fantasy points per dollar spent">Pts / $</th><th title="Paid claims nobody else bid on">Sole bids</th><th title="Dollars spent above the runner-up bid plus one">Overpay</th><th title="Contested claims won, of contested claims entered">Win %</th></tr></thead><tbody>
         ${W.summary.map(x=>`<tr><td class="team l">${esc(x.team)}</td>
           <td data-s="${x.remaining}"><div class="bidrow"><div class="budget ${x.remaining<=25?"low":""}" title="${money(x.remaining)} of ${money(W.budget)} left, ${money(x.spent)} spent"><i style="width:${100-x.spent/W.budget*100}%"></i></div><span>${money(x.remaining)}</span></div></td>
           <td>${money(x.spent)}</td><td>${x.claims}</td><td>${x.fa_adds}</td>
@@ -546,15 +546,15 @@ function rWaivers(){
        <div class="kpis"><div class="kpi"><b>${money(s.remaining)}</b><span>Budget left</span></div><div class="kpi"><b>${s.moves}</b><span>Total adds</span></div>
         <div class="kpi"><b>${f2(s.points)}</b><span>Points from adds</span></div><div class="kpi"><b>${s.scorers}</b><span>Adds that have scored</span></div>
         <div class="kpi"><b>${money(s.overpay)}</b><span>Overpay</span></div><div class="kpi"><b>${s.claims_lost}</b><span>Claims lost to others</span></div></div>
-       <div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th>Added</th><th>Cost</th><th>GP</th><th title="Points this player has scored as a starter for this team since being added">Points</th><th>Pts / $</th><th class="l">Note</th></tr></thead><tbody>
+       <div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th>Added</th><th>Cost</th><th>GP</th><th title="Points this player has scored as a starter for this team">Points</th><th>Pts / $</th><th class="l">Note</th></tr></thead><tbody>
         ${mine.map(a=>`<tr><td class="team l">${nm(a)}</td><td class="l">${a.pos}</td><td>${dt(a.first_add)}${a.adds>1?` <span class="muted">(${a.adds}x)</span>`:""}</td>
           <td>${a.spent?money(a.spent):'<span class="muted">free</span>'}</td><td>${a.gp||""}</td>
           <td style="${a.points>0?heat(a.points,0,Math.max(...mine.map(x=>x.points),1)):""}">${a.points>0?"<b>"+f2(a.points)+"</b>":'<span class="muted">—</span>'}</td>
           <td>${a.ppd==null?'<span class="muted">—</span>':f2(a.ppd)}</td>
-          <td class="l muted">${a.drafted_by_owner?'<span class="wtag">re-added his own pick</span>':a.points>0?"":a.drafted_elsewhere?'<span class="wtag">drafted by someone else</span>':'<span class="wtag">no starts yet</span>'}</td></tr>`).join("")}</tbody></table></div>
+          <td class="l muted">${a.drafted_by_owner?'<span class="wtag">also drafted him</span>':a.points>0?"":'<span class="wtag">no starts yet</span>'}</td></tr>`).join("")}</tbody></table></div>
        ${myLost.length?`<h3>Claims ${esc(team)} lost</h3><div class="tbl"><table><thead><tr><th class="l">Date</th><th class="l">Player</th><th>Their bid</th><th>Winning bid</th><th class="l">Won by</th><th class="l">Why</th></tr></thead><tbody>
          ${myLost.map(t=>{const l=t.losers.find(x=>x.owner==team);return `<tr><td class="l">${dt(t.date)}</td><td class="team l">${esc(t.player)}</td><td>${money(l.amount)}</td><td>${money(t.amount)}</td><td class="l">${esc(t.owner)}</td><td class="l muted">${esc(l.note||"outbid")}</td></tr>`}).join("")}</tbody></table></div>`:""}
-       <p class="note">Points come from Yahoo's team log, which only records starters. A player this team drafted and later re-added shows no points here, because those points belong to the draft, not the add.</p>`;
+       <p class="note">Points come from Yahoo's team log, which only records starters, and are that player's full season total for this team. A player this team also drafted earlier in the year is tagged, since some of those points may predate the add.</p>`;
       bindPicker("wvTeam",t=>{team=t;draw()});
     } else if(view=="value"){
       B.innerHTML=`<h3>Best adds of the season</h3><p class="lede">Points scored for the team that added them, highest first.</p>
