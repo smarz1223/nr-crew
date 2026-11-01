@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-31 16:13 UTC",
+ "updated": "2026-11-01 17:12 UTC",
  "weeks_entered": 7,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5774,7 +5774,7 @@
   },
   {
    "owner": "KEV",
-   "player": "Bears",
+   "player": "Chicago",
    "nfl": "CHI",
    "pos": "DEF",
    "gp": 4,
@@ -6306,7 +6306,7 @@
   },
   {
    "owner": "GENTILE",
-   "player": "Jets",
+   "player": "New York",
    "nfl": "NYJ",
    "pos": "DEF",
    "gp": 1,
@@ -6475,7 +6475,7 @@
   },
   {
    "owner": "GENTILE",
-   "player": "Chiefs",
+   "player": "Kansas City",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 2,
@@ -6754,7 +6754,7 @@
   },
   {
    "owner": "KEV",
-   "player": "Eagles",
+   "player": "Philadelphia",
    "nfl": "PHI",
    "pos": "DEF",
    "gp": 3,
@@ -6876,7 +6876,7 @@
   },
   {
    "owner": "GENTILE",
-   "player": "49ers",
+   "player": "San Francisco",
    "nfl": "SF",
    "pos": "DEF",
    "gp": 2,
@@ -7067,7 +7067,7 @@
   },
   {
    "owner": "GENTILE",
-   "player": "Ravens",
+   "player": "Baltimore",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 1,
@@ -7471,7 +7471,7 @@
   },
   {
    "owner": "GENTILE",
-   "player": "Chargers",
+   "player": "Los Angeles",
    "nfl": "LAC",
    "pos": "DEF",
    "gp": 1,
@@ -14858,8 +14858,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 122,
-    "value": -45,
+    "points_rank": 121,
+    "value": -44,
     "pos_points_rank": 15,
     "pos_draft_rank": 7,
     "pos_value": -8
@@ -15038,8 +15038,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 136,
-    "value": -50,
+    "points_rank": 135,
+    "value": -49,
     "pos_points_rank": 43,
     "pos_draft_rank": 31,
     "pos_value": -12
@@ -15098,8 +15098,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 125,
-    "value": -36,
+    "points_rank": 124,
+    "value": -35,
     "pos_points_rank": 32,
     "pos_draft_rank": 29,
     "pos_value": -3
@@ -15194,8 +15194,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 144,
-    "value": -50,
+    "points_rank": 142,
+    "value": -48,
     "pos_points_rank": 37,
     "pos_draft_rank": 30,
     "pos_value": -7
@@ -15272,8 +15272,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 139,
-    "value": -41,
+    "points_rank": 137,
+    "value": -39,
     "pos_points_rank": 16,
     "pos_draft_rank": 10,
     "pos_value": -6
@@ -15310,8 +15310,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 142,
-    "value": -42,
+    "points_rank": 140,
+    "value": -40,
     "pos_points_rank": 36,
     "pos_draft_rank": 33,
     "pos_value": -3
@@ -15426,8 +15426,8 @@
      "MEANY"
     ],
     "kept": false,
-    "points_rank": 143,
-    "value": -37,
+    "points_rank": 141,
+    "value": -35,
     "pos_points_rank": 17,
     "pos_draft_rank": 11,
     "pos_value": -6
@@ -15604,8 +15604,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 123,
-    "value": -8,
+    "points_rank": 122,
+    "value": -7,
     "pos_points_rank": 27,
     "pos_draft_rank": 24,
     "pos_value": -3
@@ -15844,17 +15844,15 @@
     "pos": "DEF",
     "owner": "KEV",
     "overall": 128,
-    "points": 7.0,
-    "gp": 3.0,
-    "rostered_by": [
-     "KEV"
-    ],
-    "kept": true,
-    "points_rank": 135,
-    "value": -7,
-    "pos_points_rank": 8,
+    "points": 0.0,
+    "gp": 0,
+    "rostered_by": [],
+    "kept": false,
+    "points_rank": 180,
+    "value": -52,
+    "pos_points_rank": 11,
     "pos_draft_rank": 5,
-    "pos_value": -3
+    "pos_value": -6
    },
    {
     "round": 13,
@@ -15950,8 +15948,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 145,
-    "value": -12,
+    "points_rank": 143,
+    "value": -10,
     "pos_points_rank": 38,
     "pos_draft_rank": 40,
     "pos_value": 2
@@ -15970,8 +15968,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 121,
-    "value": 13,
+    "points_rank": 120,
+    "value": 14,
     "pos_points_rank": 14,
     "pos_draft_rank": 15,
     "pos_value": 1
@@ -16102,8 +16100,8 @@
      "KEV"
     ],
     "kept": false,
-    "points_rank": 140,
-    "value": 1,
+    "points_rank": 138,
+    "value": 3,
     "pos_points_rank": 44,
     "pos_draft_rank": 51,
     "pos_value": 7
@@ -16122,8 +16120,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 141,
-    "value": 1,
+    "points_rank": 139,
+    "value": 3,
     "pos_points_rank": 45,
     "pos_draft_rank": 52,
     "pos_value": 7
@@ -16254,8 +16252,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": 25,
+    "points_rank": 123,
+    "value": 26,
     "pos_points_rank": 31,
     "pos_draft_rank": 44,
     "pos_value": 13
@@ -16367,18 +16365,17 @@
     "pos": "DEF",
     "owner": "KARDIAN",
     "overall": 155,
-    "points": 6.0,
-    "gp": 2.0,
+    "points": 0.0,
+    "gp": 1.0,
     "rostered_by": [
-     "FREEMAN",
-     "GENTILE"
+     "FREEMAN"
     ],
     "kept": false,
-    "points_rank": 137,
-    "value": 18,
-    "pos_points_rank": 9,
+    "points_rank": 144,
+    "value": 11,
+    "pos_points_rank": 8,
     "pos_draft_rank": 8,
-    "pos_value": -1
+    "pos_value": 0
    },
    {
     "round": 16,
@@ -16412,8 +16409,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 126,
-    "value": 31,
+    "points_rank": 125,
+    "value": 32,
     "pos_points_rank": 8,
     "pos_draft_rank": 3,
     "pos_value": -5
@@ -16452,8 +16449,8 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 138,
-    "value": 21,
+    "points_rank": 136,
+    "value": 23,
     "pos_points_rank": 35,
     "pos_draft_rank": 45,
     "pos_value": 10
@@ -16652,15 +16649,14 @@
     "pos": "DEF",
     "owner": "FREEMAN",
     "overall": 170,
-    "points": 19.0,
+    "points": 14.0,
     "gp": 3.0,
     "rostered_by": [
-     "FREEMAN",
-     "GENTILE"
+     "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 120,
-    "value": 50,
+    "points_rank": 125,
+    "value": 45,
     "pos_points_rank": 6,
     "pos_draft_rank": 10,
     "pos_value": 4
@@ -16879,18 +16875,18 @@
     "hits": 10,
     "misses": 8,
     "still_rostered": 17,
-    "avg_value": 7.6
+    "avg_value": 7.7
    },
    {
     "team": "FREEMAN",
     "picks": 18,
-    "draft_points": 1009.1,
-    "points_from_own_picks": 1009.1,
-    "points_from_adds": 53.8,
+    "draft_points": 1004.1,
+    "points_from_own_picks": 1004.1,
+    "points_from_adds": 58.8,
     "hits": 11,
     "misses": 7,
     "still_rostered": 17,
-    "avg_value": 4.1
+    "avg_value": 3.8
    },
    {
     "team": "GENTILE",
@@ -16901,29 +16897,7 @@
     "hits": 6,
     "misses": 11,
     "still_rostered": 11,
-    "avg_value": -11.4
-   },
-   {
-    "team": "KEV",
-    "picks": 18,
-    "draft_points": 972.46,
-    "points_from_own_picks": 972.46,
-    "points_from_adds": 86.42,
-    "hits": 5,
-    "misses": 13,
-    "still_rostered": 15,
-    "avg_value": -0.8
-   },
-   {
-    "team": "KARDIAN",
-    "picks": 18,
-    "draft_points": 968.9,
-    "points_from_own_picks": 959.6,
-    "points_from_adds": 98.9,
-    "hits": 9,
-    "misses": 9,
-    "still_rostered": 13,
-    "avg_value": -3.6
+    "avg_value": -11.2
    },
    {
     "team": "MCFADDEN",
@@ -16934,7 +16908,29 @@
     "hits": 7,
     "misses": 11,
     "still_rostered": 13,
-    "avg_value": -7.3
+    "avg_value": -7.2
+   },
+   {
+    "team": "KEV",
+    "picks": 18,
+    "draft_points": 965.46,
+    "points_from_own_picks": 965.46,
+    "points_from_adds": 93.42,
+    "hits": 5,
+    "misses": 13,
+    "still_rostered": 14,
+    "avg_value": -3.2
+   },
+   {
+    "team": "KARDIAN",
+    "picks": 18,
+    "draft_points": 962.9,
+    "points_from_own_picks": 959.6,
+    "points_from_adds": 98.9,
+    "hits": 9,
+    "misses": 9,
+    "still_rostered": 13,
+    "avg_value": -3.7
    },
    {
     "team": "FIG",
@@ -16945,7 +16941,7 @@
     "hits": 6,
     "misses": 12,
     "still_rostered": 14,
-    "avg_value": -5.8
+    "avg_value": -5.7
    },
    {
     "team": "MEANY",
@@ -16956,7 +16952,7 @@
     "hits": 9,
     "misses": 9,
     "still_rostered": 13,
-    "avg_value": -6.6
+    "avg_value": -6.4
    },
    {
     "team": "MARZ",
@@ -16967,7 +16963,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 14,
-    "avg_value": -5.9
+    "avg_value": -5.7
    }
   ],
   "pos_counts": {
@@ -19120,6 +19116,24 @@
     "ppd": null
    },
    {
+    "player": "Chicago",
+    "pos": "DEF",
+    "nfl": "CHI",
+    "owner": "KEV",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-10-04",
+    "last_add": "2026-10-04",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 20.0,
+    "gp": 4,
+    "started": true,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Deshaun Watson",
     "pos": "QB",
     "nfl": "CLE",
@@ -19264,24 +19278,6 @@
     "ppd": null
    },
    {
-    "player": "Jets",
-    "pos": "DEF",
-    "nfl": "NYJ",
-    "owner": "GENTILE",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-10-07",
-    "last_add": "2026-10-07",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 12.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
     "player": "Chris Boswell",
     "pos": "K",
     "nfl": "PIT",
@@ -19316,24 +19312,6 @@
     "started": true,
     "best_bid": 11,
     "ppd": 0.91
-   },
-   {
-    "player": "Chiefs",
-    "pos": "DEF",
-    "nfl": "KC",
-    "owner": "GENTILE",
-    "spent": 1,
-    "adds": 1,
-    "waiver_adds": 1,
-    "first_add": "2026-10-14",
-    "last_add": "2026-10-14",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 10.0,
-    "gp": 2,
-    "started": true,
-    "best_bid": 1,
-    "ppd": 10.0
    },
    {
     "player": "Jake Bates",
@@ -19588,6 +19566,24 @@
     "ppd": 0.38
    },
    {
+    "player": "San Francisco",
+    "pos": "DEF",
+    "nfl": "SF",
+    "owner": "GENTILE",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-09-17",
+    "last_add": "2026-09-17",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 6.0,
+    "gp": 2,
+    "started": true,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Tyler Allgeier",
     "pos": "RB",
     "nfl": "ARI",
@@ -19658,24 +19654,6 @@
     "started": true,
     "best_bid": 4,
     "ppd": 1.32
-   },
-   {
-    "player": "Ravens",
-    "pos": "DEF",
-    "nfl": "BAL",
-    "owner": "GENTILE",
-    "spent": 3,
-    "adds": 1,
-    "waiver_adds": 1,
-    "first_add": "2026-09-30",
-    "last_add": "2026-09-30",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": true,
-    "points": 5.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 3,
-    "ppd": 1.67
    },
    {
     "player": "Bills",
@@ -19858,24 +19836,6 @@
     "ppd": 0.1
    },
    {
-    "player": "Chargers",
-    "pos": "DEF",
-    "nfl": "LAC",
-    "owner": "GENTILE",
-    "spent": 1,
-    "adds": 1,
-    "waiver_adds": 1,
-    "first_add": "2026-09-03",
-    "last_add": "2026-09-03",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 1.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 1,
-    "ppd": 1.0
-   },
-   {
     "player": "Kaelon Black",
     "pos": "RB",
     "nfl": "SF",
@@ -20056,6 +20016,24 @@
     "ppd": 0.0
    },
    {
+    "player": "Ravens",
+    "pos": "DEF",
+    "nfl": "BAL",
+    "owner": "GENTILE",
+    "spent": 3,
+    "adds": 1,
+    "waiver_adds": 1,
+    "first_add": "2026-09-30",
+    "last_add": "2026-09-30",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": true,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 3,
+    "ppd": 0.0
+   },
+   {
     "player": "Cincinnati",
     "pos": "DEF",
     "nfl": "CIN",
@@ -20107,6 +20085,42 @@
     "gp": 0,
     "started": false,
     "best_bid": 2,
+    "ppd": 0.0
+   },
+   {
+    "player": "Chiefs",
+    "pos": "DEF",
+    "nfl": "KC",
+    "owner": "GENTILE",
+    "spent": 1,
+    "adds": 1,
+    "waiver_adds": 1,
+    "first_add": "2026-10-14",
+    "last_add": "2026-10-14",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 1,
+    "ppd": 0.0
+   },
+   {
+    "player": "Chargers",
+    "pos": "DEF",
+    "nfl": "LAC",
+    "owner": "GENTILE",
+    "spent": 1,
+    "adds": 1,
+    "waiver_adds": 1,
+    "first_add": "2026-09-03",
+    "last_add": "2026-09-03",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 1,
     "ppd": 0.0
    },
    {
@@ -20614,6 +20628,24 @@
     "ppd": null
    },
    {
+    "player": "Jets",
+    "pos": "DEF",
+    "nfl": "NYJ",
+    "owner": "GENTILE",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-10-07",
+    "last_add": "2026-10-07",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "T.J. Hockenson",
     "pos": "TE",
     "nfl": "MIN",
@@ -20641,24 +20673,6 @@
     "waiver_adds": 1,
     "first_add": "2026-10-07",
     "last_add": "2026-10-07",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 0.0,
-    "gp": 0,
-    "started": false,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
-    "player": "Chicago",
-    "pos": "DEF",
-    "nfl": "CHI",
-    "owner": "KEV",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-10-04",
-    "last_add": "2026-10-04",
     "drafted_by_owner": false,
     "drafted_elsewhere": false,
     "points": 0.0,
@@ -20884,24 +20898,6 @@
     "ppd": null
    },
    {
-    "player": "San Francisco",
-    "pos": "DEF",
-    "nfl": "SF",
-    "owner": "GENTILE",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-09-17",
-    "last_add": "2026-09-17",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 0.0,
-    "gp": 0,
-    "started": false,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
     "player": "Emmett Johnson",
     "pos": "RB",
     "nfl": "KC",
@@ -20994,25 +20990,6 @@
   ],
   "summary": [
    {
-    "team": "GENTILE",
-    "spent": 70,
-    "remaining": 30,
-    "claims": 12,
-    "fa_adds": 20,
-    "moves": 32,
-    "contested": 3,
-    "uncontested": 9,
-    "uncontested_spend": 48,
-    "overpay": 7,
-    "biggest_bid": 18,
-    "avg_bid": 5.83,
-    "claims_lost": 4,
-    "win_rate": 43,
-    "points": 189.16,
-    "scorers": 15,
-    "pts_per_dollar": 2.7
-   },
-   {
     "team": "MARZ",
     "spent": 39,
     "remaining": 61,
@@ -21030,6 +21007,25 @@
     "points": 168.48,
     "scorers": 7,
     "pts_per_dollar": 4.32
+   },
+   {
+    "team": "GENTILE",
+    "spent": 70,
+    "remaining": 30,
+    "claims": 12,
+    "fa_adds": 20,
+    "moves": 32,
+    "contested": 3,
+    "uncontested": 9,
+    "uncontested_spend": 48,
+    "overpay": 7,
+    "biggest_bid": 18,
+    "avg_bid": 5.83,
+    "claims_lost": 4,
+    "win_rate": 43,
+    "points": 167.16,
+    "scorers": 12,
+    "pts_per_dollar": 2.39
    },
    {
     "team": "MCFADDEN",
@@ -21089,6 +21085,25 @@
     "pts_per_dollar": 1.77
    },
    {
+    "team": "KEV",
+    "spent": 0,
+    "remaining": 100,
+    "claims": 1,
+    "fa_adds": 4,
+    "moves": 5,
+    "contested": 0,
+    "uncontested": 1,
+    "uncontested_spend": 0,
+    "overpay": 0,
+    "biggest_bid": 0,
+    "avg_bid": 0.0,
+    "claims_lost": 0,
+    "win_rate": null,
+    "points": 86.42,
+    "scorers": 4,
+    "pts_per_dollar": null
+   },
+   {
     "team": "FIG",
     "spent": 20,
     "remaining": 80,
@@ -21106,25 +21121,6 @@
     "points": 68.2,
     "scorers": 3,
     "pts_per_dollar": 3.41
-   },
-   {
-    "team": "KEV",
-    "spent": 0,
-    "remaining": 100,
-    "claims": 1,
-    "fa_adds": 4,
-    "moves": 5,
-    "contested": 0,
-    "uncontested": 1,
-    "uncontested_spend": 0,
-    "overpay": 0,
-    "biggest_bid": 0,
-    "avg_bid": 0.0,
-    "claims_lost": 0,
-    "win_rate": null,
-    "points": 66.42,
-    "scorers": 3,
-    "pts_per_dollar": null
    },
    {
     "team": "FREEMAN",
@@ -21193,7 +21189,7 @@
    "uncontested": 26,
    "uncontested_spend": 134,
    "overpay": 47,
-   "points": 987.78,
+   "points": 985.78,
    "run_dates": [
     "2026-10-28",
     "2026-10-22",
