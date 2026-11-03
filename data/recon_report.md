@@ -1,18 +1,18 @@
-# NR Crew Reconciliation: PASS
-Updated 2026-11-02 20:51 UTC | Weeks entered: 7
+# NR Crew Reconciliation: FAIL
+Updated 2026-11-03 13:58 UTC | Weeks entered: 8
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
-| MARZ | 990.26 | 993.26 | -3 | 7 | PASS |
-| FREEMAN | 1039.38 | 1030.38 | 9 | 7 | PASS |
-| DREXELLO | 1044.00 | 1020.00 | 24 | 7 | PASS |
-| FIG | 1008.40 | 999.40 | 9 | 7 | PASS |
-| KEV | 1041.68 | 1035.68 | 6 | 7 | PASS |
-| KARDIAN | 1042.60 | 1037.60 | 5 | 7 | PASS |
-| MCFADDEN | 1066.58 | 1059.58 | 7 | 7 | PASS |
-| MEANY | 996.28 | 970.28 | 26 | 7 | PASS |
-| GENTILE | 1186.36 | 1163.36 | 23 | 7 | PASS |
-| RUSSO | 1158.82 | 1136.82 | 22 | 7 | PASS |
+| MARZ | 1157.82 | 1155.82 | 2 | 8 | PASS |
+| FREEMAN | 1165.34 | 1154.34 | 11 | 8 | PASS |
+| DREXELLO | 1205.58 | 1171.48 | 34 | 8 | FAIL |
+| FIG | 1140.06 | 1126.06 | 14 | 8 | PASS |
+| KEV | 1186.26 | 1178.26 | 8 | 8 | PASS |
+| KARDIAN | 1175.56 | 1170.56 | 5 | 8 | PASS |
+| MCFADDEN | 1232.78 | 1210.78 | 22 | 8 | PASS |
+| MEANY | 1133.34 | 1105.34 | 28 | 8 | PASS |
+| GENTILE | 1326.64 | 1308.64 | 18 | 8 | PASS |
+| RUSSO | 1333.36 | 1312.36 | 21 | 8 | PASS |
 
 ## Flags
-- None
+- DREXELLO: residual 34.10 is not a valid DST points-allowed total for 8 DST games
