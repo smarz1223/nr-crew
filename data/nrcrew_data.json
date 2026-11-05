@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-04 18:44 UTC",
+ "updated": "2026-11-05 17:09 UTC",
  "weeks_entered": 8,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -20,7 +20,7 @@
   "GENTILE",
   "RUSSO"
  ],
- "recon_status": "FAIL",
+ "recon_status": "PASS",
  "recon": [
   {
    "team": "MARZ",
@@ -40,11 +40,11 @@
   },
   {
    "team": "DREXELLO",
-   "weekly_total": 1205.58,
+   "weekly_total": 1205.48,
    "calculated": 1171.48,
    "dst_pts_allowed": 34,
    "dst_games": 8,
-   "check": "FAIL"
+   "check": "PASS"
   },
   {
    "team": "FIG",
@@ -103,9 +103,7 @@
    "check": "PASS"
   }
  ],
- "flags": [
-  "DREXELLO: residual 34.10 is not a valid DST points-allowed total for 8 DST games"
- ],
+ "flags": [],
  "standings": [
   {
    "team": "GENTILE",
@@ -141,7 +139,7 @@
    "luck": 53.5,
    "perf_rating": 50.0,
    "PF": 1186.26,
-   "PA": 1132.3,
+   "PA": 1132.2,
    "PPG": 148.28,
    "G": 8,
    "seed": 2,
@@ -220,9 +218,9 @@
    "exp_h2h_wins": 4.33,
    "luck": 47.9,
    "perf_rating": 56.0,
-   "PF": 1205.58,
+   "PF": 1205.48,
    "PA": 1252.66,
-   "PPG": 150.7,
+   "PPG": 150.69,
    "G": 8,
    "seed": 6,
    "status": "playoff"
@@ -1096,7 +1094,7 @@
    "pf": 165.2,
    "pa": 146.06,
    "h2h": "W",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "W",
    "rank": 2,
    "allplay": "8-1-0",
@@ -1109,7 +1107,7 @@
    "pf": 115.08,
    "pa": 139.14,
    "h2h": "L",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "L",
    "rank": 9,
    "allplay": "1-8-0",
@@ -1119,10 +1117,10 @@
    "week": 7,
    "team": "DREXELLO",
    "opp": "KEV",
-   "pf": 145.76,
+   "pf": 145.66,
    "pa": 150.92,
    "h2h": "L",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "W",
    "rank": 5,
    "allplay": "5-4-0",
@@ -1135,7 +1133,7 @@
    "pf": 136.66,
    "pa": 113.58,
    "h2h": "W",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "L",
    "rank": 8,
    "allplay": "2-7-0",
@@ -1146,9 +1144,9 @@
    "team": "KEV",
    "opp": "DREXELLO",
    "pf": 150.92,
-   "pa": 145.76,
+   "pa": 145.66,
    "h2h": "W",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "W",
    "rank": 3,
    "allplay": "7-2-0",
@@ -1161,7 +1159,7 @@
    "pf": 138.38,
    "pa": 215.92,
    "h2h": "L",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "L",
    "rank": 7,
    "allplay": "3-6-0",
@@ -1174,7 +1172,7 @@
    "pf": 146.06,
    "pa": 165.2,
    "h2h": "L",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "W",
    "rank": 4,
    "allplay": "6-3-0",
@@ -1187,7 +1185,7 @@
    "pf": 113.58,
    "pa": 136.66,
    "h2h": "L",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "L",
    "rank": 10,
    "allplay": "0-9-0",
@@ -1200,7 +1198,7 @@
    "pf": 139.14,
    "pa": 115.08,
    "h2h": "W",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "L",
    "rank": 6,
    "allplay": "4-5-0",
@@ -1213,7 +1211,7 @@
    "pf": 215.92,
    "pa": 138.38,
    "h2h": "W",
-   "median": 142.45,
+   "median": 142.4,
    "vs_median": "W",
    "rank": 1,
    "allplay": "9-0-0",
