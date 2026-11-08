@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-07 16:56 UTC",
+ "updated": "2026-11-08 17:09 UTC",
  "weeks_entered": 8,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5533,7 +5533,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Jacksonville",
+   "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 3,
@@ -6432,7 +6432,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 2,
@@ -7562,7 +7562,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Cleveland",
+   "player": "Browns",
    "nfl": "CLE",
    "pos": "DEF",
    "gp": 1,
@@ -7748,7 +7748,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Las Vegas",
+   "player": "Raiders",
    "nfl": "LV",
    "pos": "DEF",
    "gp": 1,
@@ -7837,7 +7837,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tampa Bay",
+   "player": "Buccaneers",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
@@ -7857,7 +7857,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Green Bay",
+   "player": "Packers",
    "nfl": "GB",
    "pos": "DEF",
    "gp": 1,
@@ -14172,8 +14172,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 115,
-    "value": -98,
+    "points_rank": 116,
+    "value": -99,
     "pos_points_rank": 28,
     "pos_draft_rank": 8,
     "pos_value": -20
@@ -14372,8 +14372,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 124,
-    "value": -97,
+    "points_rank": 125,
+    "value": -98,
     "pos_points_rank": 41,
     "pos_draft_rank": 8,
     "pos_value": -33
@@ -14772,8 +14772,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 110,
-    "value": -63,
+    "points_rank": 111,
+    "value": -64,
     "pos_points_rank": 24,
     "pos_draft_rank": 14,
     "pos_value": -10
@@ -14952,8 +14952,8 @@
      "RUSSO"
     ],
     "kept": true,
-    "points_rank": 119,
-    "value": -63,
+    "points_rank": 120,
+    "value": -64,
     "pos_points_rank": 29,
     "pos_draft_rank": 16,
     "pos_value": -13
@@ -15332,8 +15332,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 134,
-    "value": -59,
+    "points_rank": 135,
+    "value": -60,
     "pos_points_rank": 35,
     "pos_draft_rank": 25,
     "pos_value": -10
@@ -15372,8 +15372,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 127,
-    "value": -50,
+    "points_rank": 128,
+    "value": -51,
     "pos_points_rank": 16,
     "pos_draft_rank": 7,
     "pos_value": -9
@@ -15392,8 +15392,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 138,
-    "value": -60,
+    "points_rank": 139,
+    "value": -61,
     "pos_points_rank": 36,
     "pos_draft_rank": 26,
     "pos_value": -10
@@ -15472,8 +15472,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 136,
-    "value": -54,
+    "points_rank": 137,
+    "value": -55,
     "pos_points_rank": 43,
     "pos_draft_rank": 30,
     "pos_value": -13
@@ -15492,11 +15492,11 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 108,
-    "value": -25,
-    "pos_points_rank": 4,
+    "points_rank": 109,
+    "value": -26,
+    "pos_points_rank": 5,
     "pos_draft_rank": 1,
-    "pos_value": -3
+    "pos_value": -4
    },
    {
     "round": 9,
@@ -15552,8 +15552,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 140,
-    "value": -54,
+    "points_rank": 141,
+    "value": -55,
     "pos_points_rank": 45,
     "pos_draft_rank": 31,
     "pos_value": -14
@@ -15592,8 +15592,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 135,
-    "value": -47,
+    "points_rank": 136,
+    "value": -48,
     "pos_points_rank": 42,
     "pos_draft_rank": 33,
     "pos_value": -9
@@ -15612,8 +15612,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 131,
-    "value": -42,
+    "points_rank": 132,
+    "value": -43,
     "pos_points_rank": 33,
     "pos_draft_rank": 29,
     "pos_value": -4
@@ -15670,8 +15670,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 137,
-    "value": -45,
+    "points_rank": 138,
+    "value": -46,
     "pos_points_rank": 44,
     "pos_draft_rank": 35,
     "pos_value": -9
@@ -15690,8 +15690,8 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 112,
-    "value": -19,
+    "points_rank": 113,
+    "value": -20,
     "pos_points_rank": 35,
     "pos_draft_rank": 36,
     "pos_value": 1
@@ -15788,8 +15788,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 116,
-    "value": -18,
+    "points_rank": 117,
+    "value": -19,
     "pos_points_rank": 14,
     "pos_draft_rank": 10,
     "pos_value": -4
@@ -15827,8 +15827,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 130,
-    "value": -30,
+    "points_rank": 131,
+    "value": -31,
     "pos_points_rank": 32,
     "pos_draft_rank": 33,
     "pos_value": 1
@@ -15885,8 +15885,8 @@
      "FIG"
     ],
     "kept": true,
-    "points_rank": 118,
-    "value": -15,
+    "points_rank": 119,
+    "value": -16,
     "pos_points_rank": 26,
     "pos_draft_rank": 21,
     "pos_value": -5
@@ -15943,8 +15943,8 @@
      "MEANY"
     ],
     "kept": false,
-    "points_rank": 145,
-    "value": -39,
+    "points_rank": 146,
+    "value": -40,
     "pos_points_rank": 17,
     "pos_draft_rank": 11,
     "pos_value": -6
@@ -16023,8 +16023,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 114,
-    "value": -4,
+    "points_rank": 115,
+    "value": -5,
     "pos_points_rank": 37,
     "pos_draft_rank": 41,
     "pos_value": 4
@@ -16043,8 +16043,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 107,
-    "value": 4,
+    "points_rank": 108,
+    "value": 3,
     "pos_points_rank": 27,
     "pos_draft_rank": 34,
     "pos_value": 7
@@ -16121,8 +16121,8 @@
      "KARDIAN"
     ],
     "kept": true,
-    "points_rank": 128,
-    "value": -13,
+    "points_rank": 129,
+    "value": -14,
     "pos_points_rank": 28,
     "pos_draft_rank": 24,
     "pos_value": -4
@@ -16216,8 +16216,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 111,
-    "value": 9,
+    "points_rank": 112,
+    "value": 8,
     "pos_points_rank": 25,
     "pos_draft_rank": 25,
     "pos_value": 0
@@ -16368,11 +16368,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 139,
-    "value": -11,
-    "pos_points_rank": 7,
+    "points_rank": 140,
+    "value": -12,
+    "pos_points_rank": 8,
     "pos_draft_rank": 5,
-    "pos_value": -2
+    "pos_value": -3
    },
    {
     "round": 13,
@@ -16408,8 +16408,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 113,
-    "value": 17,
+    "points_rank": 114,
+    "value": 16,
     "pos_points_rank": 36,
     "pos_draft_rank": 46,
     "pos_value": 10
@@ -16428,8 +16428,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 122,
-    "value": 9,
+    "points_rank": 123,
+    "value": 8,
     "pos_points_rank": 27,
     "pos_draft_rank": 26,
     "pos_value": -1
@@ -16449,8 +16449,8 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 105,
-    "value": 27,
+    "points_rank": 106,
+    "value": 26,
     "pos_points_rank": 34,
     "pos_draft_rank": 47,
     "pos_value": 13
@@ -16489,8 +16489,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 126,
-    "value": 8,
+    "points_rank": 127,
+    "value": 7,
     "pos_points_rank": 15,
     "pos_draft_rank": 15,
     "pos_value": 0
@@ -16547,8 +16547,8 @@
      "FREEMAN"
     ],
     "kept": false,
-    "points_rank": 132,
-    "value": 5,
+    "points_rank": 133,
+    "value": 4,
     "pos_points_rank": 34,
     "pos_draft_rank": 41,
     "pos_value": 7
@@ -16623,8 +16623,8 @@
      "KEV"
     ],
     "kept": false,
-    "points_rank": 121,
-    "value": 20,
+    "points_rank": 122,
+    "value": 19,
     "pos_points_rank": 40,
     "pos_draft_rank": 51,
     "pos_value": 11
@@ -16643,8 +16643,8 @@
      "MEANY"
     ],
     "kept": true,
-    "points_rank": 144,
-    "value": -2,
+    "points_rank": 145,
+    "value": -3,
     "pos_points_rank": 47,
     "pos_draft_rank": 52,
     "pos_value": 5
@@ -16775,8 +16775,8 @@
      "DREXELLO"
     ],
     "kept": true,
-    "points_rank": 129,
-    "value": 20,
+    "points_rank": 130,
+    "value": 19,
     "pos_points_rank": 31,
     "pos_draft_rank": 44,
     "pos_value": 13
@@ -16795,8 +16795,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 106,
-    "value": 44,
+    "points_rank": 107,
+    "value": 43,
     "pos_points_rank": 13,
     "pos_draft_rank": 18,
     "pos_value": 5
@@ -16815,8 +16815,8 @@
      "FREEMAN"
     ],
     "kept": true,
-    "points_rank": 119,
-    "value": 32,
+    "points_rank": 120,
+    "value": 31,
     "pos_points_rank": 39,
     "pos_draft_rank": 55,
     "pos_value": 16
@@ -16836,11 +16836,11 @@
      "KEV"
     ],
     "kept": true,
-    "points_rank": 108,
-    "value": 44,
-    "pos_points_rank": 4,
+    "points_rank": 109,
+    "value": 43,
+    "pos_points_rank": 5,
     "pos_draft_rank": 6,
-    "pos_value": 2
+    "pos_value": 1
    },
    {
     "round": 16,
@@ -16868,17 +16868,18 @@
     "pos": "DEF",
     "owner": "MARZ",
     "overall": 154,
-    "points": 3.0,
-    "gp": 2.0,
+    "points": 35.0,
+    "gp": 3.0,
     "rostered_by": [
-     "KARDIAN"
+     "KARDIAN",
+     "MARZ"
     ],
-    "kept": false,
-    "points_rank": 146,
-    "value": 8,
-    "pos_points_rank": 9,
+    "kept": true,
+    "points_rank": 105,
+    "value": 49,
+    "pos_points_rank": 4,
     "pos_draft_rank": 7,
-    "pos_value": -2
+    "pos_value": 3
    },
    {
     "round": 16,
@@ -16895,11 +16896,11 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 142,
-    "value": 13,
-    "pos_points_rank": 8,
+    "points_rank": 143,
+    "value": 12,
+    "pos_points_rank": 9,
     "pos_draft_rank": 8,
-    "pos_value": 0
+    "pos_value": -1
    },
    {
     "round": 16,
@@ -16933,8 +16934,8 @@
      "MCFADDEN"
     ],
     "kept": true,
-    "points_rank": 132,
-    "value": 25,
+    "points_rank": 133,
+    "value": 24,
     "pos_points_rank": 8,
     "pos_draft_rank": 3,
     "pos_value": -5
@@ -16973,8 +16974,8 @@
      "GENTILE"
     ],
     "kept": false,
-    "points_rank": 143,
-    "value": 16,
+    "points_rank": 144,
+    "value": 15,
     "pos_points_rank": 37,
     "pos_draft_rank": 45,
     "pos_value": 8
@@ -16993,8 +16994,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 141,
-    "value": 19,
+    "points_rank": 142,
+    "value": 18,
     "pos_points_rank": 46,
     "pos_draft_rank": 58,
     "pos_value": 12
@@ -17123,8 +17124,8 @@
      "MARZ"
     ],
     "kept": true,
-    "points_rank": 117,
-    "value": 50,
+    "points_rank": 118,
+    "value": 49,
     "pos_points_rank": 38,
     "pos_draft_rank": 61,
     "pos_value": 23
@@ -17182,11 +17183,11 @@
      "GENTILE"
     ],
     "kept": true,
-    "points_rank": 125,
-    "value": 45,
-    "pos_points_rank": 6,
+    "points_rank": 126,
+    "value": 44,
+    "pos_points_rank": 7,
     "pos_draft_rank": 10,
-    "pos_value": 4
+    "pos_value": 3
    },
    {
     "round": 18,
@@ -17298,8 +17299,8 @@
      "FIG"
     ],
     "kept": false,
-    "points_rank": 123,
-    "value": 53,
+    "points_rank": 124,
+    "value": 52,
     "pos_points_rank": 30,
     "pos_draft_rank": 48,
     "pos_value": 18
@@ -17391,7 +17392,7 @@
     "hits": 10,
     "misses": 8,
     "still_rostered": 12,
-    "avg_value": -1.4
+    "avg_value": -1.6
    },
    {
     "team": "GENTILE",
@@ -17402,7 +17403,7 @@
     "hits": 8,
     "misses": 9,
     "still_rostered": 11,
-    "avg_value": -5.6
+    "avg_value": -5.8
    },
    {
     "team": "DREXELLO",
@@ -17413,7 +17414,7 @@
     "hits": 10,
     "misses": 8,
     "still_rostered": 18,
-    "avg_value": 9.5
+    "avg_value": 9.2
    },
    {
     "team": "KARDIAN",
@@ -17424,7 +17425,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 13,
-    "avg_value": -3.5
+    "avg_value": -3.8
    },
    {
     "team": "KEV",
@@ -17435,7 +17436,7 @@
     "hits": 5,
     "misses": 13,
     "still_rostered": 15,
-    "avg_value": -2.7
+    "avg_value": -2.8
    },
    {
     "team": "MCFADDEN",
@@ -17446,7 +17447,7 @@
     "hits": 8,
     "misses": 10,
     "still_rostered": 13,
-    "avg_value": -5.8
+    "avg_value": -6.0
    },
    {
     "team": "FREEMAN",
@@ -17457,7 +17458,7 @@
     "hits": 10,
     "misses": 8,
     "still_rostered": 17,
-    "avg_value": 2.3
+    "avg_value": 1.9
    },
    {
     "team": "MEANY",
@@ -17468,7 +17469,7 @@
     "hits": 7,
     "misses": 11,
     "still_rostered": 13,
-    "avg_value": -6.1
+    "avg_value": -6.3
    },
    {
     "team": "FIG",
@@ -17479,18 +17480,18 @@
     "hits": 6,
     "misses": 12,
     "still_rostered": 14,
-    "avg_value": -6.3
+    "avg_value": -6.6
    },
    {
     "team": "MARZ",
     "picks": 18,
-    "draft_points": 997.06,
-    "points_from_own_picks": 993.06,
-    "points_from_adds": 169.76,
+    "draft_points": 1029.06,
+    "points_from_own_picks": 1028.06,
+    "points_from_adds": 134.76,
     "hits": 8,
     "misses": 10,
-    "still_rostered": 13,
-    "avg_value": -7.7
+    "still_rostered": 14,
+    "avg_value": -5.6
    }
   ],
   "pos_counts": {
@@ -19553,6 +19554,24 @@
     "ppd": null
    },
    {
+    "player": "Jaguars",
+    "pos": "DEF",
+    "nfl": "JAX",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 1,
+    "first_add": "2026-10-28",
+    "last_add": "2026-10-28",
+    "drafted_by_owner": true,
+    "drafted_elsewhere": false,
+    "points": 32.0,
+    "gp": 3,
+    "started": true,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Deshaun Watson",
     "pos": "QB",
     "nfl": "CLE",
@@ -19767,6 +19786,24 @@
     "started": true,
     "best_bid": 4,
     "ppd": 3.75
+   },
+   {
+    "player": "Steelers",
+    "pos": "DEF",
+    "nfl": "PIT",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 2,
+    "waiver_adds": 0,
+    "first_add": "2026-09-25",
+    "last_add": "2026-10-11",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 15.0,
+    "gp": 2,
+    "started": true,
+    "best_bid": 0,
+    "ppd": null
    },
    {
     "player": "Kendre Miller",
@@ -20363,24 +20400,6 @@
     "ppd": 1.67
    },
    {
-    "player": "Cleveland",
-    "pos": "DEF",
-    "nfl": "CLE",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-10-16",
-    "last_add": "2026-10-16",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 5.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
     "player": "Bills",
     "pos": "DEF",
     "nfl": "BUF",
@@ -20453,24 +20472,6 @@
     "ppd": 1.5
    },
    {
-    "player": "Las Vegas",
-    "pos": "DEF",
-    "nfl": "LV",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 1,
-    "first_add": "2026-10-07",
-    "last_add": "2026-10-07",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 3.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
     "player": "Alvin Kamara",
     "pos": "RB",
     "nfl": "NO",
@@ -20516,42 +20517,6 @@
     "waiver_adds": 0,
     "first_add": "2026-10-14",
     "last_add": "2026-10-14",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 2.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
-    "player": "Green Bay",
-    "pos": "DEF",
-    "nfl": "GB",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-09-23",
-    "last_add": "2026-09-23",
-    "drafted_by_owner": false,
-    "drafted_elsewhere": false,
-    "points": 2.0,
-    "gp": 1,
-    "started": true,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
-    "player": "Tampa Bay",
-    "pos": "DEF",
-    "nfl": "TB",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 0,
-    "first_add": "2026-09-16",
-    "last_add": "2026-09-16",
     "drafted_by_owner": false,
     "drafted_elsewhere": false,
     "points": 2.0,
@@ -20867,24 +20832,6 @@
     "ppd": null
    },
    {
-    "player": "Jaguars",
-    "pos": "DEF",
-    "nfl": "JAX",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 1,
-    "waiver_adds": 1,
-    "first_add": "2026-10-28",
-    "last_add": "2026-10-28",
-    "drafted_by_owner": true,
-    "drafted_elsewhere": false,
-    "points": 0.0,
-    "gp": 0,
-    "started": false,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
     "player": "Ryan Flournoy",
     "pos": "WR",
     "nfl": "DAL",
@@ -21065,6 +21012,24 @@
     "ppd": null
    },
    {
+    "player": "Cleveland",
+    "pos": "DEF",
+    "nfl": "CLE",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-10-16",
+    "last_add": "2026-10-16",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Keon Coleman",
     "pos": "WR",
     "nfl": "BUF",
@@ -21093,24 +21058,6 @@
     "first_add": "2026-10-11",
     "last_add": "2026-10-11",
     "drafted_by_owner": true,
-    "drafted_elsewhere": false,
-    "points": 0.0,
-    "gp": 0,
-    "started": false,
-    "best_bid": 0,
-    "ppd": null
-   },
-   {
-    "player": "Steelers",
-    "pos": "DEF",
-    "nfl": "PIT",
-    "owner": "MARZ",
-    "spent": 0,
-    "adds": 2,
-    "waiver_adds": 0,
-    "first_add": "2026-09-25",
-    "last_add": "2026-10-11",
-    "drafted_by_owner": false,
     "drafted_elsewhere": false,
     "points": 0.0,
     "gp": 0,
@@ -21234,6 +21181,24 @@
     "spent": 0,
     "adds": 1,
     "waiver_adds": 0,
+    "first_add": "2026-10-07",
+    "last_add": "2026-10-07",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
+    "player": "Las Vegas",
+    "pos": "DEF",
+    "nfl": "LV",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 1,
     "first_add": "2026-10-07",
     "last_add": "2026-10-07",
     "drafted_by_owner": false,
@@ -21407,6 +21372,24 @@
     "ppd": null
    },
    {
+    "player": "Green Bay",
+    "pos": "DEF",
+    "nfl": "GB",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-09-23",
+    "last_add": "2026-09-23",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Xavier Hutchinson",
     "pos": "WR",
     "nfl": "HOU",
@@ -21479,6 +21462,24 @@
     "ppd": null
    },
    {
+    "player": "Tampa Bay",
+    "pos": "DEF",
+    "nfl": "TB",
+    "owner": "MARZ",
+    "spent": 0,
+    "adds": 1,
+    "waiver_adds": 0,
+    "first_add": "2026-09-16",
+    "last_add": "2026-09-16",
+    "drafted_by_owner": false,
+    "drafted_elsewhere": false,
+    "points": 0.0,
+    "gp": 0,
+    "started": false,
+    "best_bid": 0,
+    "ppd": null
+   },
+   {
     "player": "Tre Tucker",
     "pos": "WR",
     "nfl": "LV",
@@ -21517,6 +21518,25 @@
   ],
   "summary": [
    {
+    "team": "MARZ",
+    "spent": 39,
+    "remaining": 61,
+    "claims": 6,
+    "fa_adds": 14,
+    "moves": 20,
+    "contested": 4,
+    "uncontested": 2,
+    "uncontested_spend": 0,
+    "overpay": 1,
+    "biggest_bid": 25,
+    "avg_bid": 6.5,
+    "claims_lost": 4,
+    "win_rate": 50,
+    "points": 221.76,
+    "scorers": 10,
+    "pts_per_dollar": 5.69
+   },
+   {
     "team": "MCFADDEN",
     "spent": 42,
     "remaining": 58,
@@ -21553,25 +21573,6 @@
     "points": 206.16,
     "scorers": 16,
     "pts_per_dollar": 2.95
-   },
-   {
-    "team": "MARZ",
-    "spent": 39,
-    "remaining": 61,
-    "claims": 6,
-    "fa_adds": 14,
-    "moves": 20,
-    "contested": 4,
-    "uncontested": 2,
-    "uncontested_spend": 0,
-    "overpay": 1,
-    "biggest_bid": 25,
-    "avg_bid": 6.5,
-    "claims_lost": 4,
-    "win_rate": 50,
-    "points": 186.76,
-    "scorers": 12,
-    "pts_per_dollar": 4.79
    },
    {
     "team": "RUSSO",
@@ -21716,7 +21717,7 @@
    "uncontested": 26,
    "uncontested_spend": 134,
    "overpay": 47,
-   "points": 1159.06,
+   "points": 1194.06,
    "run_dates": [
     "2026-10-28",
     "2026-10-22",
