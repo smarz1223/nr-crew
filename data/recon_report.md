@@ -1,5 +1,5 @@
-# NR Crew Reconciliation: FAIL
-Updated 2026-11-17 14:45 UTC | Weeks entered: 10
+# NR Crew Reconciliation: PASS
+Updated 2026-11-17 14:54 UTC | Weeks entered: 10
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
@@ -7,7 +7,7 @@ Updated 2026-11-17 14:45 UTC | Weeks entered: 10
 | FREEMAN | 1484.24 | 1474.24 | 10 | 10 | PASS |
 | DREXELLO | 1476.48 | 1432.48 | 44 | 10 | PASS |
 | FIG | 1500.00 | 1471.00 | 29 | 10 | PASS |
-| KEV | 1428.98 | 1291.98 | 137 | 0 | FAIL |
+| KEV | 1428.98 | 1423.98 | 5 | 10 | PASS |
 | KARDIAN | 1464.82 | 1459.82 | 5 | 10 | PASS |
 | MCFADDEN | 1540.50 | 1503.50 | 37 | 10 | PASS |
 | MEANY | 1421.40 | 1388.40 | 33 | 10 | PASS |
@@ -15,4 +15,4 @@ Updated 2026-11-17 14:45 UTC | Weeks entered: 10
 | RUSSO | 1626.72 | 1590.72 | 36 | 10 | PASS |
 
 ## Flags
-- KEV: residual 137.00 is not a valid DST points-allowed total for 0 DST games
+- None
